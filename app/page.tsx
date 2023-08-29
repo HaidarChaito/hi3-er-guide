@@ -1,10 +1,7 @@
 import Card from '@/components/Card';
-import argentKnightArtemis from '@/data/valks/ArgentKnightArtemis/valk';
+import { valks } from '@/data/visibleValks';
 
 export default function Home() {
-  // Add valkeries here
-  const valks = [argentKnightArtemis];
-
   return (
     <main>
       {valks.map((valk) => {
