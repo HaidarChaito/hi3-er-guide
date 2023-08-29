@@ -1,5 +1,7 @@
 const nextConfig = {
-    output: 'export'
-}
+  output: 'export',
+  reactStrictMode: true,
+  basePath: '/hi3-er-guide',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
