@@ -1,7 +1,7 @@
-import { Build } from "./Build"
+import { Build } from './Build';
 
 export type Valkery = {
-    label: string,
-    image: string,
-    build: Build,
-}
+  label: string;
+  image: string;
+  build: Build[];
+};

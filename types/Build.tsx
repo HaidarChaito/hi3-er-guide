@@ -1,8 +1,8 @@
-import { SignetCollection } from "./SignetCollection"
+import { SignetCollection } from './SignetCollection';
 
 export type Build = {
-    label: string,
-    tier: number,
-    isNew: boolean,
-    build: SignetCollection[],
-}
+  label: string;
+  tier: number;
+  isNew: boolean;
+  signets: SignetCollection[];
+};

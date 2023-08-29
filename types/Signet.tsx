@@ -1,5 +1,6 @@
 export type Signet = {
-    label: string,
-    tier: number,
-    level: number,
-}
+  label: string;
+  description: string;
+  tier?: number;
+  level?: number;
+};
