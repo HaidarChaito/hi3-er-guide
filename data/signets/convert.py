@@ -35,7 +35,13 @@ def parse_markdown(data):
             if description_start < description_end:
                 description = line[description_start:description_end].replace(":", "").strip()
                 current_signet["description"] = description
-            current_signet = None
+        if current_signet and line.strip().startswith("**"):
+            priority_start = line.find("|", 2)
+            priority_end = line.rfind("\n", description_start)
+            if priority_start > priority_end:
+                priority = line[priority_start:].replace("|", "").replace(":", "").replace(" ", "").strip()
+                current_signet["priority"] = priority
+        current_signet = None
     return signet_data
 
 
@@ -44,14 +50,6 @@ md_files = [file for file in os.listdir() if file.endswith(".md")]
 for input_file_path in md_files:
     with open(input_file_path, "r") as f:
         markdown_data = f.read()
-
-    interface_name = extract_interface_name(markdown_data)
-    signets = parse_markdown(markdown_data)
-    output_file_path = extract_file_name(markdown_data) + '.g.tsx'
-
-    with open(input_file_path, "r") as f:
-        markdown_data = f.read()
-
     interface_name = extract_interface_name(markdown_data)
     signets = parse_markdown(markdown_data)
     output_file_path = extract_file_name(markdown_data) + '.g.tsx'
@@ -68,8 +66,9 @@ for input_file_path in md_files:
         
         for label, signet in signets.items():
             description = signet.get("description", "")
+            priority = signet.get("priority", "")
             camel_case_label = label.replace(" ", "").replace("-", "").replace(":", "").lower()
-            f.write(f'const var{camel_case_label}: Signet = {{ label: "{signet["label"]}", description: "{description}" }};\n')
+            f.write(f'const var{camel_case_label}: Signet = {{ label: "{signet["label"]}", description: "{description}", priority: "{priority}" }};\n')
         f.write('\n\n')
 
         f.write(f"const {interface_name}: SignetOf{interface_name} = " + "{\n")
