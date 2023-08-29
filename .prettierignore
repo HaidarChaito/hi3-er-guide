@@ -4,3 +4,6 @@
 **/node_modules
 **/.svg
 *.svg
+data/signets/*.md
+data/builds/*.md
+data/valks/*.md
