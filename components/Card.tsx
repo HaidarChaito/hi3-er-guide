@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '@/styles/Card.module.css';
 import { Valkery } from '@/types/Valkery';
 import { useState } from 'react';
+import Build from './Build';
 
 type props = {
   valkery: Valkery;
@@ -46,7 +47,7 @@ export default function Card({ valkery }: props) {
               </div>
               <div className='mx-auto'>
                 {valkery.build.map((build) => {
-                  return <div key={build.label}>{build.label}</div>;
+                  return <Build key={build.label} build={build.signets} />;
                 })}
               </div>
             </div>
