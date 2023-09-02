@@ -60,21 +60,21 @@ for input_file_path in md_files:
         f.write("\n\n")
         f.write(f"interface SignetOf{interface_name} " + "{\n")
         for label, signet in signets.items():
-            camel_case_label = label.replace(" ", "").replace("-", "").replace(":", "").lower()
+            camel_case_label = label.replace(" ", "").replace("-", "").replace(":", "").replace("[","").replace("]","").lower()
             f.write(f'    {camel_case_label}: Signet;\n')
         f.write("}\n\n")
         
         for label, signet in signets.items():
             description = signet.get("description", "")
             priority = signet.get("priority", "")
-            camel_case_label = label.replace(" ", "").replace("-", "").replace(":", "").lower()
+            camel_case_label = label.replace(" ", "").replace("-", "").replace(":", "").replace("[","").replace("]","").lower()
             f.write(f'const var{camel_case_label}: Signet = {{ label: "{signet["label"]}", description: "{description}", priority: "{priority}" }};\n')
         f.write('\n\n')
 
         f.write(f"const {interface_name}: SignetOf{interface_name} = " + "{\n")
         for label, signet in signets.items():
             description = signet.get("description", "")
-            camel_case_label = label.replace(" ", "").replace("-", "").replace(":", "").lower()
+            camel_case_label = label.replace(" ", "").replace("-", "").replace(":", "").replace("[","").replace("]","").lower()
             f.write(f'    {camel_case_label}: var{camel_case_label},\n')
         f.write("};\n\n")
         
