@@ -1,0 +1,7 @@
+.hr {
+  width: 100%;
+  background: black;
+  color: black;
+  height: 3px;
+  opacity: 0.2;
+}

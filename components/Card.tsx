@@ -45,7 +45,7 @@ export default function Card({ valkery }: props) {
                   </svg>
                 </div>
               </div>
-              <div className='mx-auto'>
+              <div className='flex justify-between content-around relative'>
                 {valkery.build.map((build) => {
                   return <Build key={build.label} build={build} />;
                 })}
