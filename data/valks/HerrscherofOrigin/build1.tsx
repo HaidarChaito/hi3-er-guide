@@ -1,7 +1,7 @@
 import { Build } from '@/types/Build';
 
 const build1: Build = {
-  label: 'build 1',
+  label: 'Combo Build',
   tier: 1,
   isNew: true,
   signets: [],

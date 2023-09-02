@@ -1,9 +1,11 @@
 import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
+import build2 from './build2';
+import build3 from './build3';
 
 const HerrscherofOrigin: Valkery = {
   label: 'HerrscherofOrigin',
-  image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
-  build: [build1],
+  image: 'https://i.pximg.net/img-original/img/2023/01/06/05/54/17/104276135_p0.png',
+  build: [build1, build2, build3],
 };
 export default HerrscherofOrigin;
