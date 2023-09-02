@@ -47,7 +47,7 @@ export default function Card({ valkery }: props) {
               </div>
               <div className='mx-auto'>
                 {valkery.build.map((build) => {
-                  return <Build key={build.label} build={build.signets} />;
+                  return <Build key={build.label} build={build} />;
                 })}
               </div>
             </div>

@@ -1,24 +1,27 @@
 'use client';
-import { Signet } from '@/types/Signet';
+import { Build } from '@/types/Build';
 
 type props = {
-    build: Signet[][];
+    build: Build;
 };
 
 export default function Build({ build }: props) {
 
     return (
-        <div className='mx-auto'>
-            {build.map((signetClass, i) => (
-                <div key={i}>
-                    {signetClass.map((signet, j) => (
-                        <div key={j}>
-                            {signet.label}
-                        </div>
-                    ))}
-                </div>
-            ))}
-            <hr />
-        </div>
+        <>
+            <div>{build.label}</div>
+            <div className='mx-auto'>
+                {build.signets.map((signetClass, i) => (
+                    <div key={i}>
+                        {signetClass.map((signet, j) => (
+                            <div key={j}>
+                                {signet.label}
+                            </div>
+                        ))}
+                    </div>
+                ))}
+                <hr />
+            </div>
+        </>
     );
 }
