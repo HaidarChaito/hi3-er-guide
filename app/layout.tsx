@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar';
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
 
@@ -13,7 +14,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en'>
-      <body className={`${nunito.className} bg-slate-200`}>{children}</body>
+      <body className={`${nunito.className} bg-secondary`}>
+        <Navbar />
+        <div className='mt-20'>
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

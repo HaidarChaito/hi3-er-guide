@@ -47,8 +47,8 @@ export default function Card({ valkery }: props) {
               <div className='flex flex-col z-30 relative'>
                 <div className='flex h-auto w-full items-center justify-center my-2'>
                   <div className='flex h-auto w-full items-center justify-center text-lg font-bold sm:text-2xl'>{valkery.label}</div>
-                  <div onClick={closeModal} className='m-2 inline cursor-pointer'>
-                    <IconContext.Provider value={{ className: "text-2xl" }}>
+                  <div onClick={closeModal} className='m-2 inline cursor-pointer '>
+                    <IconContext.Provider value={{ className: "text-2xl text-" + switchColor(valkery.type) }}>
                       <AiOutlineClose />
                     </IconContext.Provider>
                   </div>
