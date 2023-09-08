@@ -1,6 +1,6 @@
 import AponiaSignetOfDiscipline1stCore from '@/data/signets/tsx/AponiaSignetofDiscipline1stCore.g';
-import HooSignetOfEgo from '@/data/signets/HoOSignetofEgo.g';
-import PardofelisSignetOfReverie from '@/data/signets/PardofelisSignetofReverie.g';
+import HooSignetOfEgo from '@/data/signets/tsx/HoOSignetofEgo.g';
+import PardofelisSignetOfReverie from '@/data/signets/tsx/PardofelisSignetofReverie.g';
 import { Build } from '@/types/Build';
 
 const build1: Build = {
