@@ -1,4 +1,4 @@
-import AponiaSignetOfDiscipline1stCore from '@/data/signets/AponiaSignetofDiscipline1stCore.g';
+import AponiaSignetOfDiscipline1stCore from '@/data/signets/tsx/AponiaSignetofDiscipline1stCore.g';
 import HooSignetOfEgo from '@/data/signets/HoOSignetofEgo.g';
 import PardofelisSignetOfReverie from '@/data/signets/PardofelisSignetofReverie.g';
 import { Build } from '@/types/Build';

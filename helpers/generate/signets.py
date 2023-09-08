@@ -45,14 +45,14 @@ def parse_markdown(data):
     return signet_data
 
 
-md_files = [file for file in os.listdir() if file.endswith(".md")]
+md_files = [f"../../data/signets/md/{file}" for file in os.listdir("../../data/signets/md") if file.endswith(".md")]
 
 for input_file_path in md_files:
     with open(input_file_path, "r") as f:
         markdown_data = f.read()
     interface_name = extract_interface_name(markdown_data)
     signets = parse_markdown(markdown_data)
-    output_file_path = extract_file_name(markdown_data) + '.g.tsx'
+    output_file_path = '../../data/signets/tsx/'+ extract_file_name(markdown_data) + '.g.tsx'
 
 
     with open(output_file_path, "w") as f:
@@ -79,3 +79,4 @@ for input_file_path in md_files:
         f.write("};\n\n")
         
         f.write(f"export default {interface_name};\n")
+    print(f"TypeScript file '{output_file_path}'")

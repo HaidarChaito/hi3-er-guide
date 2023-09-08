@@ -5,4 +5,8 @@ export type Build = {
   tier: number;
   isNew: boolean;
   signets: Signet[][];
+  support1?: string;
+  support2?: string;
+  emblem1?: string;
+  emblem2?: string;
 };
