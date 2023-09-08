@@ -1,4 +1,3 @@
-import KevinSignetOfDeliverance2ndCore from '@/data/signets/KevinSignetofDeliverance2ndCore.g';
 import { Build } from '@/types/Build';
 
 const build3: Build = {
