@@ -43,7 +43,7 @@ export default function Card({ valkery }: props) {
         {isModalOpen && (
           <div className='fixed left-0	top-0 z-20 flex h-full w-full items-center justify-center overflow-auto backdrop-blur-sm backdrop-brightness-75 backdrop-saturate-50'>
             <dialog open id='myModal' className={`absolute z-10 block  h-4/5 w-4/5 rounded-md opacity-90 bg-primary text-secondary border-2 border-${switchColor(valkery.type)}`}>
-              <Image className="opacity-25 z-0" objectPosition="center" objectFit="cover" layout="fill" src={'/images/valks/' + valkery.label + '.png'} alt={valkery.label} />
+              <Image className="opacity-25 z-0" objectPosition="center" objectFit="cover" layout="fill" src={'/images/valks/' + valkery.label + '.webp'} alt={valkery.label} />
               <div className='flex flex-col z-30 relative'>
                 <div className='flex h-auto w-full items-center justify-center my-2'>
                   <div className='flex h-auto w-full items-center justify-center text-lg font-bold sm:text-2xl'>{valkery.label}</div>
