@@ -30,7 +30,7 @@ export default function Card({ valkery }: props) {
         }}
       >      <div className={`${styles.card} w-full pb-1 sm:w-64`}>
           <div className='z-10 w-full text-white'>
-            <Image objectFit="cover" className='h-48 w-full rounded-t-3xl	p-2' width={200} height={100} src={'/images/valks/' + valkery.label + '.png'} alt={valkery.label} />
+            <Image objectFit="cover" className='h-48 w-full rounded-t-3xl	p-2' width={200} height={100} src={'/images/valks/' + valkery.label + '.webp'} alt={valkery.label} />
             <div className='py-1 text-center'>
               <span className='text-lg font-semibold'>{valkery.label}</span>
               <hr className={`border-1 border-${switchColor(valkery.type)} my-2`} />

@@ -5,6 +5,7 @@ const nextConfig = {
     path: '/hi3-er-guide',
     loader: 'akamai',
   },
+  output:'export'
 };
 
 module.exports = nextConfig;
