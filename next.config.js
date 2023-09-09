@@ -1,8 +1,8 @@
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/',
+  basePath: '',
   images: {
-    path: '/',
+    path: '',
   },
 };
 
