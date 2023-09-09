@@ -2,7 +2,7 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: '',
   images: {
-    path: '',
+    path: '/public/images/',
     domains: ["hi3er.tech"],
   },
 };
