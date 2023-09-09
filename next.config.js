@@ -3,6 +3,7 @@ const nextConfig = {
   basePath: '',
   images: {
     path: '',
+    domains: ["hi3er.tech"],
   },
 };
 
