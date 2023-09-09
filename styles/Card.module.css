@@ -8,6 +8,18 @@
   border-radius: 20px;
   margin: 5px;
 }
+.dialogBackground {
+  position: fixed;
+  width: 79.5%;
+  height: 79.5%;
+  overflow: hidden;
+  opacity: 20%;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Image will cover the entire container, potentially cropping */
+  background-color: rgba(0, 0, 0, 0.2); /* 20% opacity (adjust the '0.2' as needed) */
+}
 
 .card:hover::before {
   content: '';

@@ -1,19 +1,8 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
-  important:true,
-  safelist: [
-    'border-elight',
-    'border-eice',
-    'border-ephys',
-    'border-efire',
-    'border-redprimary',
-    'text-elight',
-    'text-eice',
-    'text-ephys',
-    'text-efire',
-    'text-redprimary',
-  ],
+  important: true,
+  safelist: ['border-elight', 'border-eice', 'border-ephys', 'border-efire', 'border-redprimary', 'border-b-elight', 'border-b-eice', 'border-b-ephys', 'border-b-efire', 'border-b-redprimary', 'text-elight', 'text-eice', 'text-ephys', 'text-efire', 'text-redprimary'],
   content: ['./pages/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}', './app/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
@@ -29,7 +18,7 @@ const config: Config = {
         ephys: '#EFB495',
         eice: '#97FFF4',
         efire: '#ED2B2A',
-        elight: "#F2BE22"
+        elight: '#F2BE22',
       },
     },
   },
