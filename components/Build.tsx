@@ -18,31 +18,29 @@ export default function Build({ build, valkery }: props) {
       <div className='mx-2 my-1 flex-1'>
         <div className='mx-auto '>
           <Rank tier={build.tier ?? 1} />
-          <div className='font-bold'>
-            <LuSwords /> {build.label} <LuSwords />
+          <div className='font-bold '>
+            <LuSwords className='mr-1 inline-block' />
+            <span className='inline-block'>{build.label}</span>
+            <LuSwords className='ml-1 inline-block' />
           </div>
           <hr className={`border-b border-${switchColor(valkery.type)}`} />
           {/* Notes */}
           {build.notes != undefined && (
             <section className='mt-1 w-full'>
-              <div className={`w-fit border-b border-b-${switchColor(valkery.type)}`}>Notes:</div>
+              <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
+                Notes:
+              </div>
               <div className='w-fit text-gray-300'>{build.notes}</div>
             </section>
           )}
           {/* Support */}
           {build.supports != undefined && (
             <section className='mt-1 w-full'>
-              <div className={`w-fit border-b border-b-${switchColor(valkery.type)}`}>
+              <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
                 Supports:
               </div>
-              <div className='flex justify-center'>
-                <span
-                  className={`my-auto text-${switchColor(
-                    valkery.type
-                  )} border-b border-b-secondary`}
-                >
-                  Early:
-                </span>
+              <div className='flex'>
+                <span className={`my-auto border-b border-b-secondary`}>Early:</span>
                 {build.supports[0].map((support, i) => (
                   <div key={i} className='inline-block'>
                     <Image
@@ -57,14 +55,8 @@ export default function Build({ build, valkery }: props) {
                 ))}
               </div>
 
-              <div className='flex justify-center'>
-                <span
-                  className={`my-auto text-${switchColor(
-                    valkery.type
-                  )} border-b border-b-secondary`}
-                >
-                  Mid:
-                </span>
+              <div className='flex'>
+                <span className={`my-auto border-b border-b-secondary`}>Mid:</span>
                 {build.supports[1].map((support, i) => (
                   <div key={i} className='inline-block'>
                     <Image
@@ -79,14 +71,8 @@ export default function Build({ build, valkery }: props) {
                 ))}
               </div>
 
-              <div className='flex justify-center'>
-                <span
-                  className={`my-auto text-${switchColor(
-                    valkery.type
-                  )} border-b border-b-secondary`}
-                >
-                  Late:
-                </span>
+              <div className='flex '>
+                <span className={`my-auto border-b border-b-secondary`}>Late:</span>
                 {build.supports[2].map((support, i) => (
                   <div key={i} className='inline-block'>
                     <Image
@@ -105,15 +91,11 @@ export default function Build({ build, valkery }: props) {
           {/* Emblem */}
           {build.emblems != undefined && (
             <section className='mt-1 w-full'>
-              <div className={`w-fit border-b border-b-${switchColor(valkery.type)}`}>Emblems:</div>
-              <div className='flex justify-center'>
-                <span
-                  className={`my-auto text-${switchColor(
-                    valkery.type
-                  )} border-b border-b-secondary`}
-                >
-                  Early:
-                </span>
+              <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
+                Emblems:
+              </div>
+              <div className='flex'>
+                <span className={`my-auto border-b border-b-secondary`}>Early:</span>
                 {build.emblems[0].map((emblem, i) => (
                   <div key={i} className='inline-block'>
                     <Image
@@ -128,14 +110,8 @@ export default function Build({ build, valkery }: props) {
                 ))}
               </div>
 
-              <div className='flex justify-center'>
-                <span
-                  className={`my-auto text-${switchColor(
-                    valkery.type
-                  )} border-b border-b-secondary`}
-                >
-                  Mid:
-                </span>
+              <div className='flex'>
+                <span className={`my-auto border-b border-b-secondary`}>Mid:</span>
                 {build.emblems[1].map((emblem, i) => (
                   <div key={i} className='inline-block'>
                     <Image
@@ -150,14 +126,8 @@ export default function Build({ build, valkery }: props) {
                 ))}
               </div>
 
-              <div className='flex justify-center'>
-                <span
-                  className={`my-auto text-${switchColor(
-                    valkery.type
-                  )} border-b border-b-secondary`}
-                >
-                  Late:
-                </span>
+              <div className='flex'>
+                <span className={`my-auto border-b border-b-secondary`}>Late:</span>
                 {build.emblems[2].map((emblem, i) => (
                   <div key={i} className='inline-block'>
                     <Image
@@ -175,13 +145,19 @@ export default function Build({ build, valkery }: props) {
           )}
           {/* Signets */}
           <section>
-            <div className={`w-fit border-b border-b-${switchColor(valkery.type)}`}>Signets:</div>
+            <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
+              Signets:
+            </div>
             {build.signets.map((signetClass, i) => (
               <div key={i}>
                 {signetClass.map((signet, j) => (
-                  <div key={j} className='flex justify-between '>
+                  <div key={j} className='flex'>
                     <div>{signet.label}</div>
-                    <div className={`text-${switchColor(valkery.type)}`}>{signet.priority}</div>
+                    {signet.priority != undefined && (
+                      <div className={`text-${switchColor(valkery.type)} italic`}>
+                        ({signet.priority})
+                      </div>
+                    )}
                   </div>
                 ))}
                 {build.signets.length - 1 > i && <hr className={styles.hr} />}
@@ -190,6 +166,7 @@ export default function Build({ build, valkery }: props) {
           </section>
         </div>
       </div>
+      <hr className={`my-2 border-b border-${switchColor(valkery.type)}`} />
     </>
   );
 }

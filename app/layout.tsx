@@ -14,10 +14,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang='en'>
-      <body className={`${nunito.className} bg-secondary`}>
+    <html lang='en' data-theme='dracula'>
+      <body className={`${nunito.className} `}>
         <Navbar />
-        <div className='my-20'>{children}</div>
+        <div className='py-28'>{children}</div>
         <Footer />
       </body>
     </html>

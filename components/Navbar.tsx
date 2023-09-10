@@ -12,18 +12,24 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='fixed top-0 z-50 w-screen bg-primary text-white'>
+      <div className='navbar bg-neutral fixed top-0 z-50'>
         <div className='relative mx-auto'>
           <div className='flex w-full items-center justify-between px-5 py-6 xl:px-12'>
             <ul className='font-heading mx-auto flex space-x-12 px-4 font-semibold'>
-              <li className={`hover:text-redprimary ${isLinkActive('/')}`}>
-                <Link href='/'>Home</Link>
+              <li className={` ${isLinkActive('/')}`}>
+                <Link className='btn btn-ghost text-xl normal-case' href='/'>
+                  Home
+                </Link>
               </li>
-              <li className={`hover:text-redprimary ${isLinkActive('/info')}`}>
-                <Link href='/info'>Info</Link>
+              <li className={` ${isLinkActive('/info')}`}>
+                <Link className='btn btn-ghost text-xl normal-case' href='/info'>
+                  Info
+                </Link>
               </li>
-              <li className={`hover:text-redprimary ${isLinkActive('/faq')}`}>
-                <Link href='/faq'>FAQ</Link>
+              <li className={` ${isLinkActive('/faq')}`}>
+                <Link className='btn btn-ghost text-xl normal-case' href='/faq'>
+                  FAQ
+                </Link>
               </li>
             </ul>
           </div>
