@@ -15,13 +15,20 @@ type props = {
 export default function Build({ build, valkery }: props) {
   return (
     <>
-      <div className='mx-2 my-1 inline-flex'>
+      <div className='mx-2 my-1 flex-1'>
         <div className='mx-auto '>
           <Rank tier={build.tier} />
           <div className='font-bold'>
             <LuSwords /> {build.label} <LuSwords />
           </div>
           <hr className={`border-b border-${switchColor(valkery.type)}`} />
+          {/* Notes */}
+          {build.notes != undefined && (
+            <section className='mt-1 w-full'>
+              <div className={`w-fit border-b border-b-${switchColor(valkery.type)}`}>Notes:</div>
+              <div className='w-fit text-gray-300'>{build.notes}</div>
+            </section>
+          )}
           {/* Support */}
           {build.supports != undefined && (
             <section className='mt-1 w-full'>
