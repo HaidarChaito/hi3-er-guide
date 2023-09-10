@@ -14,10 +14,14 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You, EmblemsImages.Falling_in_Past_Light],
+    [
+      EmblemsImages.Light_as_a_Bodhi_Leaf,
+      EmblemsImages.Because_of_You,
+      EmblemsImages.Falling_in_Past_Light,
+    ],
     [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
-  ]
+  ],
 };
 
 export default build1;

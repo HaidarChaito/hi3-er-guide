@@ -30,14 +30,15 @@ def cleantext(text):
 
 valk = None
 data = None
-with open("output.ts", 'w+', encoding='utf-8') as file:
+# export interface
+with open("output.tsx", 'w+', encoding='utf-8') as file:
     for element in elements:
         if element.name == 'h3':
             # Handle h3 elements
             valk = element.get_text()
         elif element.name == 'div':
             if valk:
-                data = f"export const {cleantext(valk)}_Ego:Signet[] = [\n"
+                data = f"interface {cleantext(valk)}_Interface {{\n"
                 for signet in element:
                     if signet.text.strip() != '':
                         for index, signetInfo in enumerate(signet):
@@ -49,16 +50,58 @@ with open("output.ts", 'w+', encoding='utf-8') as file:
                                 # signet title
                                 if isinstance(signetInfo, NavigableString) or isinstance(signetInfo, Tag):
                                     signetInfo = signetInfo.text
-                                signetTitle = signetInfo
+                                split_string = signetInfo.split("Exclusive")
+                                result_string = split_string[0]
+                                signetTitle = result_string
                             if index == 2:
                                 # signet description
                                 if isinstance(signetInfo, NavigableString) or isinstance(signetInfo, Tag):
                                     signetInfo = signetInfo.text
                                 if len(signetInfo) > 5:
-                                    data += '{' + 'label: "' + signetTitle + '",' + \
-                                        'description: "' + signetInfo + '",' + '\n' + '},'
-                if data != f"export const {cleantext(valk)}_Ego:Signet[] = [\n":
-                    data += '\n]\n'
+                                    data += f"{cleantext(signetTitle)}:Signet,\n"
+                if data != f"interface {cleantext(valk)}_Interface {{\n":
+                    data += '\n}\n'
+                    file.write(data)
+                continue
+            file.write(data)
+
+
+valk = None
+data = None
+# export objects
+with open("output.tsx", 'a', encoding='utf-8') as file:
+    for element in elements:
+        if element.name == 'h3':
+            # Handle h3 elements
+            valk = element.get_text()
+        elif element.name == 'div':
+            if valk:
+                data = f"export const {cleantext(valk)}_Ego:{cleantext(valk)}_Interface = {{\n"
+                for signet in element:
+                    if signet.text.strip() != '':
+                        for index, signetInfo in enumerate(signet):
+                            if isinstance(signetInfo, str):
+                                continue
+                            if index == 0:
+                                continue
+                            if index == 1:
+                                # signet title
+                                if isinstance(signetInfo, NavigableString) or isinstance(signetInfo, Tag):
+                                    signetInfo = signetInfo.text
+                                split_string = signetInfo.split("Exclusive")
+                                result_string = split_string[0]
+                                signetTitle = result_string.replace(
+                                    "'", '').replace('"', '')
+                            if index == 2:
+                                # signet description
+                                if isinstance(signetInfo, NavigableString) or isinstance(signetInfo, Tag):
+                                    signetInfo = signetInfo.text
+                                if len(signetInfo) > 5:
+                                    signetInfo = signetInfo.replace(
+                                        "'", '').replace('"', '')
+                                    data += f"{cleantext(signetTitle)} : {{ label:'{signetTitle}',description: \"{signetInfo}\" " + '},\n'
+                if data != f"export const {cleantext(valk)}_Ego:{cleantext(valk)}_Interface = {{\n":
+                    data += '\n}\n'
                     file.write(data)
                 continue
             file.write(data)

@@ -6,6 +6,6 @@
   "jsxSingleQuote": true,
   "plugins": ["prettier-plugin-tailwindcss"],
   "htmlWhitespaceSensitivity": "css",
-  "printWidth": 1000,
+  "printWidth": 100,
   "useTabs": false
 }
