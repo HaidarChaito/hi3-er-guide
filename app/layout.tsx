@@ -17,9 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang='en'>
       <body className={`${nunito.className} bg-secondary`}>
         <Navbar />
-        <div className='mt-20'>
-          {children}
-        </div>
+        <div className='my-20'>{children}</div>
         <Footer />
       </body>
     </html>
