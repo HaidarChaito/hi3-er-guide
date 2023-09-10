@@ -36,4 +36,5 @@ export class EmblemsImages {
   static Empty_Like_Shala: string = 'images/emblems/Empty_Like_Shala.png';
   static Tin_Flask: string = 'images/emblems/Tin_Flask.png';
   static Falling_in_Past_Light: string = 'images/emblems/Falling_in_Past_Light.png';
+  static Awakening: string = 'images/emblems/Awakening.png';
 }
