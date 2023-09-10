@@ -2,8 +2,9 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const GoushinnsoMemento: Valkery = {
-  label: 'GoushinnsoMemento',
-  image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
+  label: 'Goushinnso Memento',
+  image: 'hhttps://i.pximg.net/img-original/img/2022/08/26/13/39/05/100769212_p0.png',
   build: [build1],
+  type: 2,
 };
 export default GoushinnsoMemento;

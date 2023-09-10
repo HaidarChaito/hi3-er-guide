@@ -2,8 +2,9 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const BrightKnightExcelsis: Valkery = {
-  label: 'BrightKnightExcelsis',
-  image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
+  label: 'Bright Knight Excelsis',
+  image: 'https://i.pximg.net/img-original/img/2022/02/19/12/40/34/96360935_p0.png',
   build: [build1],
+  type: 1,
 };
 export default BrightKnightExcelsis;

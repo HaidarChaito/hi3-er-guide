@@ -8,6 +8,9 @@ import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
 import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import MissPinkElf from './valks/MissPinkElf/valk';
 import PalatinusEquinox from './valks/PalatinusEquinox/valk';
+import HerrscherOfFinality from './valks/HerrscherOfFinality/valk';
+import MiracleMagicGirl from './valks/MiracleMagicGirl/valk';
+import Dreamweaver from './valks/Dreamweaver/valk';
 
 // Add valkeries here
 export const valks: Valkery[] = [
@@ -20,4 +23,7 @@ export const valks: Valkery[] = [
   ValkyrieQuicksand,
   MissPinkElf,
   PalatinusEquinox,
+  HerrscherOfFinality,
+  MiracleMagicGirl,
+  Dreamweaver,
 ];

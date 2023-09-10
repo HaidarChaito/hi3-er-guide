@@ -2,8 +2,9 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const HelicalContraption: Valkery = {
-  label: 'HelicalContraption',
-  image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
+  label: 'Helical Contraption',
+  image: 'https://upload-bbs.miyoushe.com/upload/2022/08/12/73565430/350232467ac2d283c5a01bbfec1e14a2_3223603059634259341.png?x-oss-process=image//resize,s_600/quality,q_80/auto-orient,0/interlace,1/format,png',
   build: [build1],
+  type: 4,
 };
 export default HelicalContraption;
