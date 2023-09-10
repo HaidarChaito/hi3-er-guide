@@ -17,6 +17,7 @@ export default function AnimatedCard({ valkery, setSelected }: props) {
           className='relative h-52 w-full cursor-pointer rounded-lg object-top shadow-xl'
           src={'/images/valks/' + valkery.label + '.png'}
           objectFit='cover'
+          loading='eager'
           alt={valkery.label}
           onClick={() => setSelected(valkery)}
           fill
