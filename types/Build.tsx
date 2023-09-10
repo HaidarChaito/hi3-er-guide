@@ -2,7 +2,7 @@ import { Signet } from './Signet';
 
 export type Build = {
   label: string;
-  tier: number;
+  tier?: number;
   isNew: boolean;
   signets: Signet[][];
   supports?: string[][];

@@ -1,107 +1,70 @@
 import requests
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup
+import re
 
-# URL of the webpage
 url = "https://honkaiimpact3.fandom.com/wiki/Elysian_Realm/Signets"
 
-# Send a GET request to the URL
 response = requests.get(url)
 
-# Check if the request was successful
 if response.status_code == 200:
     page_content = response.content
 else:
     print("Failed to fetch the webpage.")
     exit()
 
-# Parse the HTML content
 soup = BeautifulSoup(page_content, 'html.parser')
 
-# Find the div with class mw-collapsible-content
-collapsible_div = soup.find('div', {'class': 'mw-collapsible-content'})
+# find all the headers
+incontent_player_div = soup.find_all('h2')
 
-# Find all the h3 and div elements within the collapsible div
-elements = collapsible_div.find_all(['h3', 'div'])
+# Find all the Titles elements that come after the third header which is the start of General Signets
+elements = incontent_player_div[2].find_all_next('h3')
 
 
 def cleantext(text):
-    return text.replace(' ', '_').replace(':', '').replace('-', '').replace('&', '').replace('♪', '').replace('!', '').replace('\'', '').strip()
+    return text.replace(' ', '_').replace(',', '').replace('.', '').replace(']', '').replace('[', '').replace(':', '').replace(')', '').replace('(', '').replace(':', '').replace('-', '').replace('&', '').replace('♪', '').replace('!', '').replace('\'', '').strip()
 
 
-valk = None
-data = None
-# export interface
-with open("output.tsx", 'w+', encoding='utf-8') as file:
-    for element in elements:
-        if element.name == 'h3':
-            # Handle h3 elements
-            valk = element.get_text()
-        elif element.name == 'div':
-            if valk:
-                data = f"interface {cleantext(valk)}_Interface {{\n"
-                for signet in element:
-                    if signet.text.strip() != '':
-                        for index, signetInfo in enumerate(signet):
-                            if isinstance(signetInfo, str):
-                                continue
-                            if index == 0:
-                                continue
-                            if index == 1:
-                                # signet title
-                                if isinstance(signetInfo, NavigableString) or isinstance(signetInfo, Tag):
-                                    signetInfo = signetInfo.text
-                                split_string = signetInfo.split("Exclusive")
-                                result_string = split_string[0]
-                                signetTitle = result_string
-                            if index == 2:
-                                # signet description
-                                if isinstance(signetInfo, NavigableString) or isinstance(signetInfo, Tag):
-                                    signetInfo = signetInfo.text
-                                if len(signetInfo) > 5:
-                                    data += f"{cleantext(signetTitle)}:Signet,\n"
-                if data != f"interface {cleantext(valk)}_Interface {{\n":
-                    data += '\n}\n'
-                    file.write(data)
+for text in elements:
+    if (text.text == 'Explore properties'):
+        break
+    f = open('../../data/signets/tsx/' + cleantext(text.text) + '.tsx', "w+")
+    signets = text.find_next('div')
+    data = 'import { Signet } from "@/types/Signet";\n'
+    data += "interface " + cleantext(text.text) + "_interface {\n"
+    for index, signet in enumerate(signets):
+        for j, signetInfo in enumerate(signet):
+            if j == 0 or signet.text.strip() == 'Detailed Archive':
                 continue
-            file.write(data)
+            if j == 1:
+                # signet title
+                data += cleantext(signetInfo.text) + ": Signet," + '\n'
+    data += "}\n"
+    f.write(data)
+    f.close()
 
+for text in elements:
+    if (text.text == 'Explore properties'):
+        break
+    f = open('../../data/signets/tsx/' + cleantext(text.text) + '.tsx', "a+")
+    signets = text.find_next('div')
+    data = "export const " + \
+        cleantext(text.text) + ":" + cleantext(text.text) + "_interface = {\n"
 
-valk = None
-data = None
-# export objects
-with open("output.tsx", 'a', encoding='utf-8') as file:
-    for element in elements:
-        if element.name == 'h3':
-            # Handle h3 elements
-            valk = element.get_text()
-        elif element.name == 'div':
-            if valk:
-                data = f"export const {cleantext(valk)}_Ego:{cleantext(valk)}_Interface = {{\n"
-                for signet in element:
-                    if signet.text.strip() != '':
-                        for index, signetInfo in enumerate(signet):
-                            if isinstance(signetInfo, str):
-                                continue
-                            if index == 0:
-                                continue
-                            if index == 1:
-                                # signet title
-                                if isinstance(signetInfo, NavigableString) or isinstance(signetInfo, Tag):
-                                    signetInfo = signetInfo.text
-                                split_string = signetInfo.split("Exclusive")
-                                result_string = split_string[0]
-                                signetTitle = result_string.replace(
-                                    "'", '').replace('"', '')
-                            if index == 2:
-                                # signet description
-                                if isinstance(signetInfo, NavigableString) or isinstance(signetInfo, Tag):
-                                    signetInfo = signetInfo.text
-                                if len(signetInfo) > 5:
-                                    signetInfo = signetInfo.replace(
-                                        "'", '').replace('"', '')
-                                    data += f"{cleantext(signetTitle)} : {{ label:'{signetTitle}',description: \"{signetInfo}\" " + '},\n'
-                if data != f"export const {cleantext(valk)}_Ego:{cleantext(valk)}_Interface = {{\n":
-                    data += '\n}\n'
-                    file.write(data)
+    for index, signet in enumerate(signets):
+        for j, signetInfo in enumerate(signet):
+            if j == 0 or signet.text.strip() == 'Detailed Archive':
                 continue
-            file.write(data)
+            if j == 1:
+                # signet title
+                if not isinstance(signetInfo, str):
+                    signetTitle = signetInfo.text.replace("'", '')
+            if j == 2 and signetTitle:
+                # signet description + remove any additonal Note added
+                signetData = signetInfo.find_next(
+                    'div').text.replace("'", '').split('\n')[0]
+                data += f"{cleantext(signetTitle)} : {{ label:'{signetTitle}',description: \"{signetData}\" " + '},\n'
+
+    data += "}\n"
+    f.write(data)
+    f.close()

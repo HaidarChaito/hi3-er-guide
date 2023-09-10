@@ -1,23 +1,19 @@
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-# URL of the webpage
 url = "https://honkaiimpact3.fandom.com/wiki/Elysian_Realm/Signets"
 
-# Send a GET request to the URL
 response = requests.get(url)
 
-# Check if the request was successful
 if response.status_code == 200:
     page_content = response.content
 else:
     print("Failed to fetch the webpage.")
     exit()
 
-# Parse the HTML content
 soup = BeautifulSoup(page_content, 'html.parser')
 
-# Find the div with class mw-collapsible-content
+# Find the div with Ego signets in
 collapsible_div = soup.find('div', {'class': 'mw-collapsible-content'})
 
 # Find all the h3 and div elements within the collapsible div
@@ -31,10 +27,9 @@ def cleantext(text):
 valk = None
 data = None
 # export interface
-with open("output.tsx", 'w+', encoding='utf-8') as file:
+with open("../../data/signets/tsx/EgoSignets.ts", 'w+', encoding='utf-8') as file:
     for element in elements:
         if element.name == 'h3':
-            # Handle h3 elements
             valk = element.get_text()
         elif element.name == 'div':
             if valk:
@@ -69,10 +64,9 @@ with open("output.tsx", 'w+', encoding='utf-8') as file:
 valk = None
 data = None
 # export objects
-with open("output.tsx", 'a', encoding='utf-8') as file:
+with open("../../data/signets/tsx/EgoSignets.ts", 'a', encoding='utf-8') as file:
     for element in elements:
         if element.name == 'h3':
-            # Handle h3 elements
             valk = element.get_text()
         elif element.name == 'div':
             if valk:
