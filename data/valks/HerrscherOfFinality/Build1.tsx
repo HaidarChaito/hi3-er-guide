@@ -6,7 +6,9 @@ const build1: Build = {
     label: 'Combo Build',
     tier: 1,
     isNew: true,
-    signets: [],
+    signets: [Sixth_No_DecadenceNormal: Signet;
+
+],
     supports: [
         [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
         [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
