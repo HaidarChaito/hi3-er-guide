@@ -150,6 +150,12 @@ export default function Build({ build, valkery }: props) {
             </div>
             {build.signets.map((signetClass, i) => (
               <div key={i}>
+                {i == build.signets.length - 1 && (
+                  <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
+                    Optional signets from the Shop:
+                    <hr className={styles.hr} />
+                  </div>
+                )}
                 {signetClass.map((signet, j) => (
                   <div key={j} className='flex'>
                     <div>{signet.label}</div>

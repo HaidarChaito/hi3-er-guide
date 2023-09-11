@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='navbar bg-neutral fixed top-0 z-50'>
+      <div className='navbar fixed top-0 z-50 h-16 bg-neutral p-0'>
         <div className='relative mx-auto'>
           <div className='flex w-full items-center justify-between px-5 py-6 xl:px-12'>
             <ul className='font-heading mx-auto flex space-x-12 px-4 font-semibold'>

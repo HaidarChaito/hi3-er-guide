@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang='en' data-theme='dracula'>
       <body className={`${nunito.className} `}>
         <Navbar />
-        <div className='py-28'>{children}</div>
+        <div className='py-16'>{children}</div>
         <Footer />
       </body>
     </html>
