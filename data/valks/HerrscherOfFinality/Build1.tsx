@@ -46,7 +46,7 @@ const build1: Build = {
         ],
 
         [Signets_of_Stars_Griseo.Red__HotNormal,
-        ]
+        ],
     supports: [
         [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
         [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
