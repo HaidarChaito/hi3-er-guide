@@ -21,19 +21,19 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Helix_VillV.Act_II_PendulumNormal,
-      Signets_of_Helix_VillV.Act_III_ConflictNormal,
-      Signets_of_Helix_VillV.Act_IV_SpoonNormal,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
       Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,
-      Signets_of_Helix_VillV.Drama_Origin_of_SlumberEnhanced,
+      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
     ],
 
     [
       Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-      Signets_of_Bodhi_Su.Motto_of_BodhiCoreNexus_Signet_of_Bodhi,
-      Signets_of_Bodhi_Su.Maxim_of_AnatmanEnhancedNormal_Signet_of_Bodhi,
+      Signets_of_Bodhi_Su.Motto_of_Bodhi,
+      Signets_of_Bodhi_Su.Maxim_of_Anatman,
     ],
 
     [
@@ -45,13 +45,13 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Reverie_Pardofelis.Motto_of_MeowNormal,
-      Signets_of_Reverie_Pardofelis.BackCurled_TailNormal,
-      Signets_of_Reverie_Pardofelis.Neighborhood_ChattersNormal,
+      Signets_of_Reverie_Pardofelis.Motto_of_Meow,
+      Signets_of_Reverie_Pardofelis.BackCurled_Tail,
+      Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
       Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
     ],
 
-    [Signets_of_Stars_Griseo.Red__HotNormal],
+    [Signets_of_Stars_Griseo.Red__Hot],
   ],
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],

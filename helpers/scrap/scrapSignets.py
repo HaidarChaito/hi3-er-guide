@@ -25,7 +25,9 @@ def cleantext(text):
     return text.replace(' ', '_').replace(',', '').replace('.', '').replace(']', '').replace('[', '').replace(':', '').replace(')', '').replace('(', '').replace(':', '').replace('-', '').replace('&', '').replace('♪', '').replace('!', '').replace('\'', '').strip()
 
 
-def cleanSignet(text):
+def cleanSignet(text, isTitle):
+    if isTitle:
+        return text.split('NormalNormal')[0].split('EnhancedNormal')[0].split('CoreNexus')[0].split('Normal Signet')[0].split('Normal')[0].split('Enhanced')[0]
     return text.split('NormalNormal')[0].split('EnhancedNormal')[0].split('CoreNexus')[0]
 
 
@@ -42,7 +44,7 @@ for text in elements:
                 continue
             if j == 1:
                 # signet title
-                data += cleantext(cleanSignet(signetInfo.text)
+                data += cleantext(cleanSignet(signetInfo.text, True)
                                   ) + ": Signet," + '\n'
     data += "}\n"
     f.write(data)
@@ -68,8 +70,8 @@ for text in elements:
                 # signet description + remove any additonal Note added
                 signetData = signetInfo.find_next(
                     'div').text.replace("'", '').split('\n')[0]
-                signetData = cleanSignet(signetData)
-                signetTitle = cleanSignet(signetTitle)
+                signetData = cleanSignet(signetData, False)
+                signetTitle = cleanSignet(signetTitle, True)
                 data += f"{cleantext(signetTitle)} : {{ label:'{signetTitle}',description: \"{signetData}\" " + '},\n'
 
     data += "}\n"
