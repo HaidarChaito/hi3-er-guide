@@ -25,6 +25,10 @@ def cleantext(text):
     return text.replace(' ', '_').replace(',', '').replace('.', '').replace(']', '').replace('[', '').replace(':', '').replace(')', '').replace('(', '').replace(':', '').replace('-', '').replace('&', '').replace('♪', '').replace('!', '').replace('\'', '').strip()
 
 
+def cleanSignet(text):
+    return text.split('NormalNormal')[0].split('EnhancedNormal')[0].split('CoreNexus')[0]
+
+
 for text in elements:
     if (text.text == 'Explore properties'):
         break
@@ -38,7 +42,8 @@ for text in elements:
                 continue
             if j == 1:
                 # signet title
-                data += cleantext(signetInfo.text) + ": Signet," + '\n'
+                data += cleantext(cleanSignet(signetInfo.text)
+                                  ) + ": Signet," + '\n'
     data += "}\n"
     f.write(data)
     f.close()
@@ -63,6 +68,8 @@ for text in elements:
                 # signet description + remove any additonal Note added
                 signetData = signetInfo.find_next(
                     'div').text.replace("'", '').split('\n')[0]
+                signetData = cleanSignet(signetData)
+                signetTitle = cleanSignet(signetTitle)
                 data += f"{cleantext(signetTitle)} : {{ label:'{signetTitle}',description: \"{signetData}\" " + '},\n'
 
     data += "}\n"
