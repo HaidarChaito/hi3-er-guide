@@ -1,5 +1,13 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
+import { Jade_Knight_Ego } from '@/data/signets/tsx/EgoSignets';
+import { Signets_of_Bodhi_Su } from '@/data/signets/tsx/Signets_of_Bodhi_Su';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
+import { Signets_of_Gold_Eden } from '@/data/signets/tsx/Signets_of_Gold_Eden';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
+import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna_Sakura';
+import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
+import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
 
 const build1: Build = {
@@ -7,17 +15,73 @@ const build1: Build = {
   tier: 5,
   isNew: true,
   notes: 'Starting signet is whichever is +2. Bodhi +2 = Su start. Gold +2 = Eden start, then for Mid you go with whichever of these 2 wasnt started with. You can opt for swapping BR for BK by F9/F10 Shop to have an easier time against Heimdall.',
-  signets: [],
+  signets: [
+    [
+      withPriority(Jade_Knight_Ego.Blessing_of_Great_Blade, 'Start'),
+      withPriority(Jade_Knight_Ego.Blessing_of_Cloudwalker, '1st'),
+    ],
+
+    [
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      Signets_of_Bodhi_Su.Motto_of_Bodhi,
+      Signets_of_Bodhi_Su.Maxim_of_Anitya,
+      Signets_of_Bodhi_Su.Maxim_of_Santam,
+      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
+    ],
+
+    [
+      Signets_of_Gold_Eden.Recitatif_of_Eden,
+      Signets_of_Gold_Eden.Recitatif_of_Creeks,
+      Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
+      Signets_of_Gold_Eden.Echo_of_Gold,
+      withPriority(Signets_of_Gold_Eden.Echo_of_Withered_Soil, 'Optional'),
+    ],
+
+    [
+      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
+      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
+      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
+      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
+      Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation,
+      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
+      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
+    ],
+
+    [
+      Signets_of_Reverie_Pardofelis.Motto_of_Meow,
+      Signets_of_Reverie_Pardofelis.BackCurled_Tail,
+      Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
+      Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
+    ],
+
+    [
+      Signets_of_Stars_Griseo.Red__Hot,
+      Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
+      Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
+    ],
+  ],
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
-    [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
+    [
+      AvatarImages.Azure_Empyrea_Avatar,
+      AvatarImages.Blood_Rose_Avatar,
+      AvatarImages.Bright_Knight_Excelsis_Avatar
+    ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Gold_Goblet, EmblemsImages.Empty_Like_Shala, EmblemsImages.Dreamful_Gold],
+    [
+      EmblemsImages.Light_as_a_Bodhi_Leaf,
+      EmblemsImages.Gold_Goblet,
+      EmblemsImages.Empty_Like_Shala,
+      EmblemsImages.Dreamful_Gold
+    ],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
-  ]
+  ],
 };
 
 export default build1;
