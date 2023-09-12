@@ -1,4 +1,3 @@
-'use client';
 import { Faq } from '@/types/Faq';
 import React, { useState, useEffect, useRef } from 'react';
 
@@ -43,7 +42,7 @@ export default function FaqCard({ faq }: props) {
                 version='1.1'
                 xmlns='http://www.w3.org/2000/svg'
               >
-                <g stroke='currentColor' stroke-width='1' fill='currentColor' fill-rule='evenodd'>
+                <g stroke='currentColor' strokeWidth='1' fill='currentColor' fillRule='evenodd'>
                   <g>
                     <polygon points='9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8'></polygon>
                   </g>
@@ -62,7 +61,7 @@ export default function FaqCard({ faq }: props) {
             <video
               loop
               autoPlay
-              src={`/gifs/${faq.gif}`}
+              src={`/static/gifs/${faq.gif}`}
               ref={videoRef} // Set the ref to the video element
             />
           </div>

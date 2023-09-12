@@ -1,5 +1,3 @@
-'use client';
-
 export default function Footer() {
   return (
     <footer className='items-cente footer fixed bottom-0 z-50 h-16 justify-center bg-neutral text-neutral-content'>

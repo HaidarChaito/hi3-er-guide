@@ -1,4 +1,3 @@
-'use client';
 import { Valkery } from '@/types/Valkery';
 import Build from './Build';
 import { motion } from 'framer-motion';

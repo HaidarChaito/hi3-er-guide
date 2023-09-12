@@ -1,4 +1,3 @@
-'use client';
 import { Valkery } from '@/types/Valkery';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -22,11 +21,12 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
         )}
         <Image
           className='relative h-52 w-full cursor-pointer rounded-lg object-cover object-top shadow-xl'
-          src={'/images/valks/' + valkery.label + '.png'}
+          src={'/static/images/valks/' + valkery.label + '.png'}
           loading='eager'
           alt={valkery.label}
           onClick={() => setSelected(valkery)}
           fill
+          sizes='(max-width: 768px) 100vw, 300px'
         />
       </motion.div>
     </div>

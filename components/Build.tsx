@@ -1,6 +1,5 @@
-'use client';
 import { Build } from '@/types/Build';
-import styles from '@/styles/Build.module.css';
+import styles from '@/public/static/styles/Build.module.css';
 import { LuSwords } from 'react-icons/lu';
 import Rank from './Rank';
 import { Valkery } from '@/types/Valkery';

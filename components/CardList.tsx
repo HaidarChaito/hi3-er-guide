@@ -1,4 +1,3 @@
-'use client';
 import { Valkery } from '@/types/Valkery';
 import AnimatedCard from './AnimatedCard';
 type props = {
