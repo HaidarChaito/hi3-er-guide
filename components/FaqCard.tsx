@@ -1,3 +1,4 @@
+'use client';
 import { Faq } from '@/types/Faq';
 import React, { useState, useEffect, useRef } from 'react';
 

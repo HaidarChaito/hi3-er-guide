@@ -4,5 +4,5 @@ export type Signet = {
   priority?: string;
   tier?: number;
   level?: number;
-  family: string;
+  family?: string;
 };
