@@ -38,6 +38,7 @@ for text in elements:
     signets = text.find_next('div')
     data = 'import { Signet } from "@/types/Signet";\n'
     data += "interface " + cleantext(text.text) + "_interface {\n"
+    data += "family: string,\n"
     for index, signet in enumerate(signets):
         for j, signetInfo in enumerate(signet):
             if j == 0 or signet.text.strip() == 'Detailed Archive':
@@ -57,6 +58,7 @@ for text in elements:
     signets = text.find_next('div')
     data = "export const " + \
         cleantext(text.text) + ":" + cleantext(text.text) + "_interface = {\n"
+    data += "family: '"+(text.text)+"',"
 
     for index, signet in enumerate(signets):
         for j, signetInfo in enumerate(signet):
@@ -72,7 +74,8 @@ for text in elements:
                     'div').text.replace("'", '').split('\n')[0]
                 signetData = cleanSignet(signetData, False)
                 signetTitle = cleanSignet(signetTitle, True)
-                data += f"{cleantext(signetTitle)} : {{ label:'{signetTitle}',description: \"{signetData}\" " + '},\n'
+                data += f"{cleantext(signetTitle)} : {{ label:'{signetTitle}',description: \"{signetData}\" " + \
+                    ",family: '"+(text.text)+"'," + '},\n'
 
     data += "}\n"
     f.write(data)

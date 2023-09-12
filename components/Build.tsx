@@ -42,9 +42,8 @@ export default function Build({ build, valkery }: props) {
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-secondary`}>Early:</span>
                 {build.supports[0].map((support, i) => (
-                  <div key={i} className='inline-block'>
+                  <div key={i} className='inline-block object-fill'>
                     <Image
-                      objectFit='fill'
                       className='w-24 rounded-t-3xl p-2'
                       width={75}
                       height={75}
@@ -58,9 +57,8 @@ export default function Build({ build, valkery }: props) {
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-secondary`}>Mid:</span>
                 {build.supports[1].map((support, i) => (
-                  <div key={i} className='inline-block'>
+                  <div key={i} className='inline-block object-fill'>
                     <Image
-                      objectFit='fill'
                       className='w-24 rounded-t-3xl p-2'
                       width={75}
                       height={75}
@@ -74,9 +72,8 @@ export default function Build({ build, valkery }: props) {
               <div className='flex '>
                 <span className={`my-auto w-14 border-b border-b-secondary`}>Late:</span>
                 {build.supports[2].map((support, i) => (
-                  <div key={i} className='inline-block'>
+                  <div key={i} className='inline-block object-fill'>
                     <Image
-                      objectFit='fill'
                       className=' w-24 rounded-t-3xl p-2 '
                       width={75}
                       height={75}
@@ -97,9 +94,8 @@ export default function Build({ build, valkery }: props) {
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-secondary`}>Early:</span>
                 {build.emblems[0].map((emblem, i) => (
-                  <div key={i} className='inline-block'>
+                  <div key={i} className='inline-block object-fill'>
                     <Image
-                      objectFit='fill'
                       className='w-24 rounded-t-3xl p-2'
                       width={75}
                       height={75}
@@ -113,9 +109,8 @@ export default function Build({ build, valkery }: props) {
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-secondary`}>Mid:</span>
                 {build.emblems[1].map((emblem, i) => (
-                  <div key={i} className='inline-block'>
+                  <div key={i} className='inline-block object-fill'>
                     <Image
-                      objectFit='fill'
                       className='w-24 rounded-t-3xl p-2'
                       width={75}
                       height={75}
@@ -129,9 +124,8 @@ export default function Build({ build, valkery }: props) {
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-secondary`}>Late:</span>
                 {build.emblems[2].map((emblem, i) => (
-                  <div key={i} className='inline-block'>
+                  <div key={i} className='inline-block object-fill'>
                     <Image
-                      objectFit='fill'
                       className='w-24 rounded-t-3xl p-2'
                       width={75}
                       height={75}
@@ -153,6 +147,12 @@ export default function Build({ build, valkery }: props) {
                 {i == build.signets.length - 1 && (
                   <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
                     Optional signets from the Shop:
+                    <hr className={styles.hr} />
+                  </div>
+                )}
+                {i != build.signets.length - 1 && (
+                  <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
+                    {signetClass[0].family}
                     <hr className={styles.hr} />
                   </div>
                 )}
