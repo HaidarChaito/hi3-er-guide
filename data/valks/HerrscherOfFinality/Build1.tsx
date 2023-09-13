@@ -11,7 +11,7 @@ import { withPriority } from '@/helpers/functions';
 
 const build1: Build = {
   label: 'Combo Build',
-  tier: 1,
+  tier: 3.2,
   notes: 'Build that focus on damage through Combo attacks with high invulnerability frames, combo build gains massive performance increase from SS rank ability, which increase both ATF damage AND Combo damage as a whole. ATF Finisher is considered a combo, gaining massive spikes from SS and Ego signet "Condescension" synergy',
   isNew: true,
   signets: [

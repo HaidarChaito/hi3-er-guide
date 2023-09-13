@@ -14,7 +14,7 @@ import { Signets_of_Deliverance_Kevin } from '@/data/signets/tsx/Signets_of_Deli
 
 const build3: Build = {
     label: 'Hybrid Build',
-    tier: 1,
+    tier: 5,
     notes: 'This build is twice the efforts compared to the other builds and combines their strengths and makes full use of every ego signet, thanks to the use of cancels and low frame animation to stack rift stacks, performance will be greater at SS+ for the same reason mentioned in combo build, while it is stronger, it is designed for people with mastery over these mechanics and the higher variety of signets viability, is recommended for expert players that want to mald the perfect ego signet run. ',
     isNew: true,
     signets: [
