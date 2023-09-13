@@ -20,6 +20,7 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
           </div>
         )}
         <Image
+          priority
           className='relative h-52 w-full cursor-pointer rounded-lg object-cover object-top shadow-xl'
           src={'/static/images/valks/' + valkery.label + '.png'}
           loading='eager'

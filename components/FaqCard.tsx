@@ -71,6 +71,7 @@ export default function FaqCard({ faq }: props) {
         {faq.image && (
           <div className={`answer ${isAnswerVisible ? 'block' : 'hidden'} mt-2 leading-snug `}>
             <Image
+              priority
               className='block'
               width={300}
               height={350}
