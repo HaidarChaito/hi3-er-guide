@@ -19,7 +19,7 @@ const build3: Build = {
       [
          withPriority(Herrscher_of_Finality_Ego.Blessing_of_Condescension,'Start'),
          withPriority(Herrscher_of_Finality_Ego.Blessing_of_High_Flames,'Start'),
-         withPriority(Herrscher_of_Finality_Ego.Blessing_of_Final_Moon,'2F'),
+         withPriority(Herrscher_of_Finality_Ego.Blessing_of_Final_Moon,'F2 Ego'),
          withPriority(Herrscher_of_Finality_Ego.Blessing_of_Rift,'1st'),
          withPriority(Herrscher_of_Finality_Ego.Blessing_of_Clarity,'Optional'),
       ],

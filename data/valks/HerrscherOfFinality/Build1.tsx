@@ -12,13 +12,13 @@ import { withPriority } from '@/helpers/functions';
 const build1: Build = {
   label: 'Combo Build',
   tier: 1,
-  notes: 'Combo builds gains massive performance increase from SS rank ability, which increase both ATF damage AND Combo damage as a whole. ATF is considered a combo for the game',
+  notes: 'Build that focus on damage through Combo attacks with high invulnerability frames, combo build gains massive performance increase from SS rank ability, which increase both ATF damage AND Combo damage as a whole. ATF Finisher is considered a combo, gaining massive spikes from SS and Ego signet "Condescension" synergy',
   isNew: true,
   signets: [
     [
       withPriority(Herrscher_of_Finality_Ego.Blessing_of_Condescension,'Start'),
       withPriority(Herrscher_of_Finality_Ego.Blessing_of_High_Flames,'Start'),
-      withPriority(Herrscher_of_Finality_Ego.Blessing_of_Clarity,'1st'),
+      withPriority(Herrscher_of_Finality_Ego.Blessing_of_Clarity,'F2 Ego'),
       withPriority(Herrscher_of_Finality_Ego.Blessing_of_Final_Moon, 'Optional'),
     ],
 
