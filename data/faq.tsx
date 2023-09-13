@@ -11,6 +11,10 @@ export const faqs: Faq[] = [
     gif: 'monkey-skill-issue.mp4',
   },
   {
+    question: 'For real, I did follow the build X but i lost',
+    image: 'hofi-skillisue.png',
+  },
+  {
     question: 'Is Adorilao a cutiepie?',
     answer: 'Yes',
   },

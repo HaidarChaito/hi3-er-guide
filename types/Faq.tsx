@@ -1,5 +1,6 @@
 export type Faq = {
-    question: string;
-    answer?: string;
-    gif?: string;
+  question: string;
+  answer?: string;
+  gif?: string;
+  image?: string;
 };

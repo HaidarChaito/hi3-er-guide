@@ -1,6 +1,7 @@
 'use client';
 import { Faq } from '@/types/Faq';
 import React, { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 
 type props = {
   faq: Faq;
@@ -64,6 +65,17 @@ export default function FaqCard({ faq }: props) {
               autoPlay
               src={`/static/gifs/${faq.gif}`}
               ref={videoRef} // Set the ref to the video element
+            />
+          </div>
+        )}
+        {faq.image && (
+          <div className={`answer ${isAnswerVisible ? 'block' : 'hidden'} mt-2 leading-snug `}>
+            <Image
+              className='block'
+              width={300}
+              height={350}
+              alt={faq.question}
+              src={`/static/images/faq/${faq.image}`}
             />
           </div>
         )}
