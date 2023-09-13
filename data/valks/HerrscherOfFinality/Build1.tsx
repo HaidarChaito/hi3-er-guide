@@ -7,17 +7,19 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Rev
 import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { Build } from '@/types/Build';
+import { withPriority } from '@/helpers/functions';
 
 const build1: Build = {
   label: 'Combo Build',
   tier: 1,
+  notes: 'Combo builds gains massive performance increase from SS rank ability, which increase both ATF damage AND Combo damage as a whole. ATF is considered a combo for the game',
   isNew: true,
   signets: [
     [
       Herrscher_of_Finality_Ego.Blessing_of_Condescension,
       Herrscher_of_Finality_Ego.Blessing_of_High_Flames,
       Herrscher_of_Finality_Ego.Blessing_of_Clarity,
-      Herrscher_of_Finality_Ego.Blessing_of_Final_Moon,
+     withPriority(Herrscher_of_Finality_Ego.Blessing_of_Final_Moon, 'Optional'),
     ],
 
     [
@@ -68,7 +70,7 @@ const build1: Build = {
       EmblemsImages.Because_of_You,
       EmblemsImages.Falling_in_Past_Light,
     ],
-    [EmblemsImages.Veil_of_Tears, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };
