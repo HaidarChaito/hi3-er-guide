@@ -58,7 +58,7 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Stars_Griseo.Red__Hot,
+      withPriority(Signets_of_Stars_Griseo.Red__Hot, 'Must Get'),
       withPriority(Signets_of_Stars_Griseo.Yellow__Warm, 'Optional'),
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
