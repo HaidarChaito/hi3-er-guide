@@ -1,4 +1,5 @@
 import { Signet } from '@/types/Signet';
+import { Cute_Font } from 'next/font/google';
 
 interface Herrscher_of_Thunder_Interface {
   Blessing_of_Divine_Penalty: Signet;
@@ -314,6 +315,17 @@ interface Herrscher_of_Rebirth_Interface {
   Blessing_of_Decay: Signet;
   Blessing_of_Spirits: Signet;
   Blessing_of_Rising_Sun: Signet;
+}
+
+interface MiracleMagicGirl_Interface {
+  Blessing_of_Tailor: Signet;
+  Blessing_of_Dreamstitch: Signet;
+  Blessing_of_Stellar_Breach: Signet;
+  Blessing_of_Resplendence: Signet;
+  Blessing_of_Inner_Blaze: Signet;
+
+
+ 
 }
 export const Herrscher_of_Thunder_Ego: Herrscher_of_Thunder_Interface = {
   Blessing_of_Divine_Penalty: {
@@ -1530,3 +1542,35 @@ export const Herrscher_of_Rebirth_Ego: Herrscher_of_Rebirth_Interface = {
       'When SP is above 40 in Soul Shaper Form, Soul Shaper Forms Joint Combo is unleashed by consuming 40 SP, and its Total DMG increases by 35%. While Dewy Twilight is active, every blow of the last hit of the Basic ATK sequence restores 450 HP and 50 SP, and grants 50 bonus combo hits for the character, while gathering enemies briefly (CD: 1s).Blessing of Rising Sun +:When SP is above 40 in Soul Shaper Form, Soul Shaper Forms Joint Combo is unleashed by consuming 40 SP, and its Total DMG increases by 45%. While Dewy Twilight is active, every blow of the last hit of the Basic ATK sequence restores 900 HP and 50 SP, and grants 50 bonus combo hits for the character, while gathering enemies briefly (CD: 1s).',
   },
 };
+export const MiracleMagicGirl : MiracleMagicGirl_Interface = { 
+  Blessing_of_Tailor: { 
+    label: 'Blessing of Tailor',
+    description: 'Basic ATK SEQ 5 can also inflict Magic Sigil and trigger Cut. After performing Cut, tap [ATK] to consume 300 Starry Faith and directly perform Basic ATK SEQ 5. Basic ATK SEQ 5 and Cut deal 100% more Fire DMG.',
+  },
+
+  Blessing_of_Dreamstitch: { 
+    label: 'Blessing of Dreamstitch',
+    description: 'Basic ATK SEQ 5s each hit deals an additional 100% ATK of Fire DMG as Ignite DMG. When Basic ATK SEQ 1 to 4 hits, reduces Ultimate Evasion Skill CD by 1s (CD: 0.5s). After triggering Ultimate Evasion Skill, Total DMG increases by 20% for 8s (retriggering refreshes duration). ',
+  },
+
+  Blessing_of_Stellar_Breach: { 
+    label: 'Blessing of Stellar Breach',
+    description: 'Increases Total DMG by 20%. Releasing Ultimate resets weapon active CD, restores 2 Ultimate Evasion Skill charges and 600 Starry Faith, and gives 3 stacks of Glitter.',
+  },
+
+  Blessing_of_Resplendence: { 
+    label: 'Blessing of Resplendence',
+    description: ' Each stack of Glitter increases the characters max Ignite stacks and max HP by 1 and 30 respectively. When her HP is under 30%, her HP recovery  increases by 75%; otherwise, it decreases by 75% and she loses 300 HP per second. While charging, the Ignite stacks on enemies continue increasing until hitting the cap. Join deals an additional Ignite stack count x 100% ATK of Fire DMG as Ignite DMG. ',
+  },
+
+  Blessing_of_Inner_Blaze: { 
+    label: 'Blessing of Inner Blaze',
+    description: ' Performing Join instantly triggers Ultimate Evasion Skill to restore 600 Starry Faith. On hit, Charged ATK deals an additional 70% ATK of Fire DMG as Ignite DMG, and the enemies will take 10% more Total DMG for 8s (retriggering refreshes duration). When Join hits, it reduces Ultimate CD by 0.4s and restores 1 SP for each stack of Glitter on the character.',
+  },
+
+
+
+
+
+
+}
