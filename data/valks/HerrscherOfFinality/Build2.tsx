@@ -16,9 +16,9 @@ const build2: Build = {
     signets:
     [
         [
-            Herrscher_of_Finality_Ego.Blessing_of_Final_Moon,
-            Herrscher_of_Finality_Ego.Blessing_of_Rift,
-            withPriority(Herrscher_of_Finality_Ego.Blessing_of_Clarity,'Optional')
+            withPriority(Herrscher_of_Finality_Ego.Blessing_of_Final_Moon,'Start'),
+            withPriority(Herrscher_of_Finality_Ego.Blessing_of_Rift,'Start'),
+            withPriority(Herrscher_of_Finality_Ego.Blessing_of_Clarity,'Optional'),
         ],
       [
        Signets_of_Discipline_Aponia.Fourth_No_Insolence,

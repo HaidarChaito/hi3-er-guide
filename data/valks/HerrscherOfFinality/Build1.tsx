@@ -16,10 +16,10 @@ const build1: Build = {
   isNew: true,
   signets: [
     [
-      Herrscher_of_Finality_Ego.Blessing_of_Condescension,
-      Herrscher_of_Finality_Ego.Blessing_of_High_Flames,
-      Herrscher_of_Finality_Ego.Blessing_of_Clarity,
-     withPriority(Herrscher_of_Finality_Ego.Blessing_of_Final_Moon, 'Optional'),
+      withPriority(Herrscher_of_Finality_Ego.Blessing_of_Condescension,'Start'),
+      withPriority(Herrscher_of_Finality_Ego.Blessing_of_High_Flames,'Start'),
+      withPriority(Herrscher_of_Finality_Ego.Blessing_of_Clarity,'1st'),
+      withPriority(Herrscher_of_Finality_Ego.Blessing_of_Final_Moon, 'Optional'),
     ],
 
     [

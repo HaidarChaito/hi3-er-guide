@@ -17,23 +17,65 @@ const build3: Build = {
     isNew: true,
     signets: [
       [
-         withPriority(Herrscher_of_Finality_Ego.Blessing_of_Condescension,'1st'),
-         withPriority(Herrscher_of_Finality_Ego.Blessing_of_Final_Moon,'2nd'),
-         withPriority(Herrscher_of_Finality_Ego.Blessing_of_High_Flames,'3rd'),
-         withPriority(Herrscher_of_Finality_Ego.Blessing_of_Rift,'4th'),
+         withPriority(Herrscher_of_Finality_Ego.Blessing_of_Condescension,'Start'),
+         withPriority(Herrscher_of_Finality_Ego.Blessing_of_High_Flames,'Start'),
+         withPriority(Herrscher_of_Finality_Ego.Blessing_of_Final_Moon,'2F'),
+         withPriority(Herrscher_of_Finality_Ego.Blessing_of_Rift,'1st'),
          withPriority(Herrscher_of_Finality_Ego.Blessing_of_Clarity,'Optional'),
       ],
 
+      [
+        Signets_of_Helix_VillV.Act_II_Pendulum,
+        Signets_of_Helix_VillV.Act_III_Conflict,
+        Signets_of_Helix_VillV.Act_IV_Spoon,
+        Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,
+        Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
+      ],
+
+      [
+        Signets_of_Discipline_Aponia.Fourth_No_Insolence,
+        Signets_of_Discipline_Aponia.Sixth_No_Decadence,
+        Signets_of_Discipline_Aponia.Third_No_Brutality,
+        Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
+        Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Numerous_DisciplinesCore,
+        withPriority(Signets_of_Discipline_Aponia.You_Shall_Be_Witnessed_by_Thy_Heart,'Optional'),
     ],
+
+   
+
+    [
+        Signets_of_Reverie_Pardofelis.Motto_of_Meow,
+        Signets_of_Reverie_Pardofelis.BackCurled_Tail,
+        Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
+        Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
+         ],
+
+         [
+            Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
+            Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
+            Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
+            Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
+            Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter,
+          ],
+          [
+            Signets_of_Stars_Griseo.Red__Hot,
+            Signets_of_Stars_Griseo.Yellow__Warm,
+            Signets_of_Stars_Griseo.Black__Dark,
+            Signets_of_Stars_Griseo.Shining_Like_StarsCore
+        ],
+
+
+        ],
+
     supports: [
         [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
         [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
         [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     ],
     emblems: [
-        [EmblemsImages.Veil_of_Tears, EmblemsImages.Out_of_Reach],
-        [EmblemsImages.Fragile_Friend, EmblemsImages.Out_of_Reach],
-        [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
+        [EmblemsImages.Pseudo_Miracle, EmblemsImages.Because_of_You],
+        [EmblemsImages.Veil_of_Tears, EmblemsImages.Falling_in_Past_Light],
+        [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
     ],
 };
 
