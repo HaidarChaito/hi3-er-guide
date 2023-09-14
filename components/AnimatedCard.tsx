@@ -30,6 +30,7 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
           fill
           sizes='(max-width: 768px) 100vw, 300px'
         />
+        <div className='text-center text-redprimary'>{valkery.label}</div>
       </motion.div>
     </div>
   );
