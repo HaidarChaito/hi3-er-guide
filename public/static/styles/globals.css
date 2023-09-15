@@ -5,3 +5,13 @@
 body {
   font-size: 1.15em;
 }
+.noscrollbars {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.noscrollbars::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}

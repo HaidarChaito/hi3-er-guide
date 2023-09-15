@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en' data-theme='dracula'>
-      <body className={`${nunito.className} `}>
+      <body className={`${nunito.className} noscrollbars `}>
         <Navbar />
         <TransitionAnimation>
           <div className='py-16'>{children}</div>
