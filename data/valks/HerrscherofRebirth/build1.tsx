@@ -36,7 +36,7 @@ const build1: Build = {
     Signets_of_Infinity_Mobius.Lip_Poison_E,
     Signets_of_Infinity_Mobius.Entwined_P,
     Signets_of_Infinity_Mobius.Rodent_V,
-    withPriority(Signets_of_Infinity_Mobius.Infinite_M,'CORE'),
+    withPriority(Signets_of_Infinity_Mobius.Infinite_X,'CORE'),
     Signets_of_Infinity_Mobius.Dead_X,
   ],
 
