@@ -2,12 +2,20 @@ import { shimmerElement, toBase64 } from '@/helpers/functions';
 import { Valkery } from '@/types/Valkery';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Rank from './Rank';
+import TierBadge from './TierBadge';
 type props = {
   valkery: Valkery;
   setSelected: CallableFunction;
   isRecommended?: boolean;
 };
 export default function AnimatedCard({ valkery, setSelected, isRecommended }: props) {
+  let valkBorderTier = '';
+  if (valkery.tier != undefined) {
+    if (valkery.tier >= 4) valkBorderTier += 'rounded-lg border border-error';
+    else if (valkery.tier >= 3) valkBorderTier += 'rounded-lg border border-success';
+    else valkBorderTier += 'rounded-lg border border-info';
+  }
   return (
     <div className='w-full'>
       <motion.div
@@ -16,11 +24,20 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
         whileHover={{ scale: 1.015, transition: { duration: 0.3 } }}
         whileTap={{ scale: 0.975, transition: { duration: 0.3 } }}
       >
-        <div className={`relative ${isRecommended ? 'rounded-lg border border-primary' : ''}`}>
+        <div
+          className={`relative ${
+            isRecommended ? 'rounded-lg border border-primary' : valkBorderTier
+          }`}
+        >
           {isRecommended && (
             <div className='badge badge-primary absolute bottom-0 left-1/2 z-20 -translate-x-1/2  transform '>
               Recommended
             </div>
+          )}
+          {!isRecommended && valkery.tier != undefined && (
+            <TierBadge tier={valkery.tier}>
+              <Rank tier={valkery.tier} />
+            </TierBadge>
           )}
           <Image
             priority

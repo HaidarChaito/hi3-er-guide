@@ -7,5 +7,6 @@ const FallenRosemary: Valkery = {
   image: 'https://i.pximg.net/img-original/img/2020/09/04/16/37/48/84147101_p0.png',
   build: [build1, build2],
   type: 3,
+  tier: 5,
 };
 export default FallenRosemary;
