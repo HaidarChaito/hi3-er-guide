@@ -1,4 +1,5 @@
 import { Valkery } from '@/types/Valkery';
+import Build from './Build';
 import { motion } from 'framer-motion';
 import LoadoutBuffs from './LoadoutBuffs';
 type props = {
@@ -46,6 +47,9 @@ export default function ValkModal({ selectedValk, setSelected }: props) {
               </div>
             </div>
           ))}
+        {selectedValk.build.map((build, index) => {
+          return <Build key={index} build={build} valkery={selectedValk} />;
+        })}
       </section>
     </motion.div>
   );
