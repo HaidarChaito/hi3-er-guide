@@ -16,11 +16,11 @@ export default function GenericLoadAnimation({ children }: props) {
     hidden: { opacity: 0 },
   };
   return (
-    <div>
+    <>
       {children.map((child, index) => {
         return (
           <motion.div
-            key={index}
+            key={child?.toString()}
             variants={variants}
             custom={index}
             animate='visible'
@@ -30,6 +30,6 @@ export default function GenericLoadAnimation({ children }: props) {
           </motion.div>
         );
       })}
-    </div>
+    </>
   );
 }
