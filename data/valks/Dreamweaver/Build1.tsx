@@ -14,7 +14,7 @@ const build1: Build = {
   label: 'Flag Build',
   tier: 5,
   isNew: true,
-  notes: 'This build uses the strong synergy between Kevin signets and Thousand thoughts ego signet to create a strong build based on Dreamweaver ideas, this build is considered the most braindead of the two',
+  notes: 'This build uses the strong synergy between Kevin signets and Thousand thoughts ego signet to deal consistent high damage through Dreamweaver ideas, this build is considered the easiest and the strongest of the two.',
   signets: [
    [ withPriority(Dreamweaver_Ego.Blessing_of_Thousand_Thoughts,'Start'),
     withPriority(Dreamweaver_Ego.Blessing_of_Forms,'Start'),
@@ -26,7 +26,7 @@ const build1: Build = {
     Signets_of_Infinity_Mobius.Lip_Poison_E,
     Signets_of_Infinity_Mobius.Entwined_P,
     Signets_of_Infinity_Mobius.Rodent_V,
-    Signets_of_Infinity_Mobius.Infinite_M,
+    withPriority(Signets_of_Infinity_Mobius.Infinite_M,'CORE'),
     Signets_of_Infinity_Mobius.Immortal_M,
     Signets_of_Infinity_Mobius.Collapsed_M,
     Signets_of_Infinity_Mobius.Sacrificial_M,
@@ -38,7 +38,7 @@ const build1: Build = {
     Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
     Signets_of_Deliverance_Kevin.Mask_of_the_Predator,
     Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
-    Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer,
+    withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer,'CORE'),
     Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
 
   ],
@@ -47,13 +47,14 @@ const build1: Build = {
   Signets_of_Helix_VillV.Act_II_Pendulum,
   Signets_of_Helix_VillV.Act_III_Conflict,
   Signets_of_Helix_VillV.Act_V_Spider_Web,
+  withPriority(Signets_of_Helix_VillV.Interlude_Reversed_SpiralCore,'CORE'),
 ],
 
 [
   Signets_of_Gold_Eden.Recitatif_of_Eden,
   Signets_of_Gold_Eden.Recitatif_of_Creeks,
   Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
-  Signets_of_Gold_Eden.Aria_of_Gold,
+  withPriority(Signets_of_Gold_Eden.Aria_of_Gold,'CORE'),
 ],
 
 [

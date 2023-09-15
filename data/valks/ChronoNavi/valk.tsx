@@ -11,6 +11,7 @@ const ChronoNavi: Valkery = {
     { title: 5, selected: 'no' },
     { title: 5, selected: 'no' },
     { title: 10, selected: 'no' },
+    { title: 10, selected: 'no' },
     { title: 15, selected: 'yes' },
     { title: 15, selected: 'yes' },
   ],

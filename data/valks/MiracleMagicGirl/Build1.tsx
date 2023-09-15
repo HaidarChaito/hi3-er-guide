@@ -14,7 +14,7 @@ const build1: Build = {
     label: 'Weapon Spam Build',
     tier: 5,
     isNew: true,
-    notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall. This build focus interely on using your weapon active as much as possible chaining it through the SEQ 5 unlocked via ego signet Blessing of the tailor for fast and consistent damage!',
+    notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall. This build focus interely on using your weapon active as much as possible chaining it through the SEQ 5 unlocked via ego signet Blessing of the tailor for fast and consistent damage, possible by exchanging your absolute evasions for glitter stacks.',
     signets: [
 
      [ 
@@ -31,14 +31,14 @@ const build1: Build = {
         Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
         Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
         Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-        Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter,
+        withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter,'CORE'),
       ],
 
       [
         Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
         Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
         Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-        Signets_of_Bodhi_Su.Motto_of_Bodhi,
+        withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi,'CORE'),
         Signets_of_Bodhi_Su.Maxim_of_Anitya,
       ],
 
@@ -46,14 +46,14 @@ const build1: Build = {
         Signets_of_Helix_VillV.Act_II_Pendulum,
         Signets_of_Helix_VillV.Act_III_Conflict,
         Signets_of_Helix_VillV.Act_IV_Spoon,
-        Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,
+        withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,'CORE'),
         Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
       ],
       [
         Signets_of_Stars_Griseo.Red__Hot,
         Signets_of_Stars_Griseo.Yellow__Warm,
         Signets_of_Stars_Griseo.Black__Dark,
-        Signets_of_Stars_Griseo.Shining_Like_StarsCore
+        withPriority(Signets_of_Stars_Griseo.Shining_Like_StarsCore,'CORE'),
     ],
 
     [  

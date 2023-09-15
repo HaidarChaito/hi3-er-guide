@@ -15,7 +15,7 @@ import { Signets_of_Deliverance_Kevin } from '@/data/signets/tsx/Signets_of_Deli
 const build3: Build = {
     label: 'Hybrid Build',
     tier: 5,
-    notes: 'This build is twice the efforts compared to the other builds and combines their strengths and makes full use of every ego signet, thanks to the use of cancels and low frame animation to stack rift stacks, performance will be greater at SS+ for the same reason mentioned in combo build, while it is stronger, it is designed for people with mastery over these mechanics and the higher variety of signets viability, is recommended for expert players that want to mald the perfect ego signet run. ',
+    notes: 'Less known build for the Herrscherr of Finality, gains massive spikes at higher ranks, combines the strength of the combo build and the explosive power of the ultimate build through lower frames attacks in between combos, the gain doesnt justify the efforts and the general player will not do better with this build compared to the other two, this build is designed for people who enjoy challenges, have some ranks and have mastered HoFi mechanics.',
     isNew: true,
     signets: [
       [
@@ -30,7 +30,7 @@ const build3: Build = {
         Signets_of_Helix_VillV.Act_II_Pendulum,
         Signets_of_Helix_VillV.Act_III_Conflict,
         Signets_of_Helix_VillV.Act_IV_Spoon,
-        Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,
+        withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,'CORE'),
         Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
       ],
 
@@ -39,7 +39,7 @@ const build3: Build = {
         Signets_of_Discipline_Aponia.Sixth_No_Decadence,
         Signets_of_Discipline_Aponia.Third_No_Brutality,
         Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-        Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Numerous_DisciplinesCore,
+        withPriority( Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Numerous_DisciplinesCore,'CORE'),
         withPriority(Signets_of_Discipline_Aponia.You_Shall_Be_Witnessed_by_Thy_Heart,'Optional'),
     ],
 
@@ -49,7 +49,7 @@ const build3: Build = {
         Signets_of_Reverie_Pardofelis.Motto_of_Meow,
         Signets_of_Reverie_Pardofelis.BackCurled_Tail,
         Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-        Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
+        withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,'CORE'),
          ],
 
          [
@@ -57,7 +57,7 @@ const build3: Build = {
             Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
             Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
             Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-            Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter,
+            withPriority( Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter,'CORE'),
           ],
           [
             Signets_of_Stars_Griseo.Red__Hot,

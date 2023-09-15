@@ -12,7 +12,7 @@ import { withPriority } from '@/helpers/functions';
 const build2: Build = {
     label: 'Ult Build',
     tier: 4.3,
-    notes:'Strong HoFinality build for general usages',
+    notes:'Strong HoFinality build for general usages, capable of dealing benchmark numbers easily',
     isNew: true,
     signets:
     [
@@ -26,14 +26,14 @@ const build2: Build = {
        Signets_of_Discipline_Aponia.Sixth_No_Decadence,
        Signets_of_Discipline_Aponia.Third_No_Brutality,
        Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-       Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Numerous_DisciplinesCore,
+       withPriority(Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Numerous_DisciplinesCore,'CORE'),
        Signets_of_Discipline_Aponia.You_Shall_Be_Witnessed_by_Thy_Heart,],
 
       [
         Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
         Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
         Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
-        Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer,
+        withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer,'CORE'),
         Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
 
       ],
@@ -41,13 +41,13 @@ const build2: Build = {
         Signets_of_Stars_Griseo.Red__Hot,
         Signets_of_Stars_Griseo.Yellow__Warm,
         Signets_of_Stars_Griseo.Black__Dark,
-        Signets_of_Stars_Griseo.Shining_Like_StarsCore
+        withPriority(Signets_of_Stars_Griseo.Shining_Like_StarsCore,'CORE'),
     ],
     [
         Signets_of_Reverie_Pardofelis.Motto_of_Meow,
         Signets_of_Reverie_Pardofelis.BackCurled_Tail,
         Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-        Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
+        withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,'CORE'),
          ],
     [
         Signets_of_Helix_VillV.Act_II_Pendulum,
