@@ -28,7 +28,7 @@ const build1: Build = {
       Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
       Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
       Signets_of_Deliverance_Kevin.Mask_of_the_Predator,
-      Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer,
+      withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
       Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
       withPriority(Signets_of_Deliverance_Kevin.Flock_of_the_Deliverer, 'Optional'),
     ],
@@ -38,7 +38,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_I_Magic,
       withPriority(Signets_of_Helix_VillV.Act_IV_Spoon, 'Optional'),
-      Signets_of_Helix_VillV.Interlude_Reversed_SpiralCore,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_SpiralCore, 'CORE'),
       Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
       withPriority(Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber, 'Dont get if already have Kevins Breach'),
     ],
@@ -48,7 +48,7 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation,
+      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
       Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
       Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
     ],
@@ -57,7 +57,7 @@ const build1: Build = {
       Signets_of_Gold_Eden.Recitatif_of_Eden,
       Signets_of_Gold_Eden.Recitatif_of_Creeks,
       Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
-      Signets_of_Gold_Eden.Echo_of_Gold,
+      withPriority(Signets_of_Gold_Eden.Echo_of_Gold, 'CORE'),
       Signets_of_Gold_Eden.Echo_of_Withered_Soil,
     ],
 
@@ -65,14 +65,14 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
     ],
 
     [
       Signets_of_Stars_Griseo.Red__Hot,
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
-      Signets_of_Stars_Griseo.Faded_StarsCore,
+      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE'),
     ],
 
     [
