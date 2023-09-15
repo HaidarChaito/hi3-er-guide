@@ -7,7 +7,7 @@ export default function Navbar() {
 
   // Define a function to determine if a link is active
   const isLinkActive = (href: string) => {
-    return pathname === href ? 'text-redprimary' : '';
+    return pathname === href ? 'text-primary' : '';
   };
 
   return (

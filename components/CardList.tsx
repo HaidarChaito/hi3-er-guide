@@ -1,5 +1,6 @@
 import { Valkery } from '@/types/Valkery';
 import AnimatedCard from './AnimatedCard';
+import { motion } from 'framer-motion';
 type props = {
   valkeries: Valkery[];
   recValks: Valkery[];
@@ -13,30 +14,51 @@ export default function CardList({ valkeries, recValks, setSelected }: props) {
       cleanValks.push(valk);
     }
   });
-
+  const variants = {
+    visible: (i: number) => ({
+      opacity: 1,
+      transition: {
+        delay: i * 0.2,
+      },
+    }),
+    hidden: { opacity: 0 },
+  };
   return (
     <>
-      <div className='columns-1 gap-4 p-4 md:columns-4 lg:columns-6'>
-        {recValks.map((valk) => {
+      <div className='flex w-full flex-row flex-wrap gap-4 gap-y-4'>
+        {recValks.map((valk, index) => {
           return (
-            <AnimatedCard
-              isRecommended={true}
-              setSelected={setSelected}
-              key={valk.label}
-              valkery={valk}
-            />
+            <motion.div
+              className='flex w-full sm:w-1/6 '
+              key={index}
+              variants={variants}
+              custom={index}
+              animate='visible'
+              initial='hidden'
+            >
+              <AnimatedCard isRecommended={true} setSelected={setSelected} valkery={valk} />
+            </motion.div>
           );
         })}
       </div>
-      <div className='columns-1 gap-4 p-4 md:columns-4 lg:columns-6'>
-        {cleanValks.map((valk) => {
+      <div className='mt-4 flex flex-row flex-wrap gap-4 gap-y-4'>
+        {cleanValks.map((valk, index) => {
           return (
-            <AnimatedCard
-              isRecommended={false}
-              setSelected={setSelected}
-              key={valk.label}
-              valkery={valk}
-            />
+            <motion.div
+              className='flex w-full sm:w-1/6 '
+              key={index}
+              variants={variants}
+              custom={index}
+              animate='visible'
+              initial='hidden'
+            >
+              <AnimatedCard
+                isRecommended={false}
+                setSelected={setSelected}
+                key={valk.label}
+                valkery={valk}
+              />{' '}
+            </motion.div>
           );
         })}
       </div>

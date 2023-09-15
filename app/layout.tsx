@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
+import TransitionAnimation from '@/components/TransitionAnimation';
 import '@/public/static/styles/globals.css';
 import type { Metadata } from 'next';
 
@@ -17,7 +18,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang='en' data-theme='dracula'>
       <body className={`${nunito.className} `}>
         <Navbar />
-        <div className='py-16'>{children}</div>
+        <TransitionAnimation>
+          <div className='py-16'>{children}</div>
+        </TransitionAnimation>
         <Footer />
       </body>
     </html>

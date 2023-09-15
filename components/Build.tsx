@@ -39,7 +39,7 @@ export default function Build({ build, valkery }: props) {
                 Supports:
               </div>
               <div className='flex'>
-                <span className={`my-auto w-14 border-b border-b-secondary`}>Early:</span>
+                <span className={`my-auto w-14 border-b border-b-primary`}>Early:</span>
                 {build.supports[0].map((support, i) => (
                   <div key={i} className='inline-block object-fill'>
                     <Image
@@ -54,7 +54,7 @@ export default function Build({ build, valkery }: props) {
               </div>
 
               <div className='flex'>
-                <span className={`my-auto w-14 border-b border-b-secondary`}>Mid:</span>
+                <span className={`my-auto w-14 border-b border-b-primary`}>Mid:</span>
                 {build.supports[1].map((support, i) => (
                   <div key={i} className='inline-block object-fill'>
                     <Image
@@ -69,7 +69,7 @@ export default function Build({ build, valkery }: props) {
               </div>
 
               <div className='flex '>
-                <span className={`my-auto w-14 border-b border-b-secondary`}>Late:</span>
+                <span className={`my-auto w-14 border-b border-b-primary`}>Late:</span>
                 {build.supports[2].map((support, i) => (
                   <div key={i} className='inline-block object-fill'>
                     <Image
@@ -91,7 +91,7 @@ export default function Build({ build, valkery }: props) {
                 Emblems:
               </div>
               <div className='flex'>
-                <span className={`my-auto w-14 border-b border-b-secondary`}>Early:</span>
+                <span className={`my-auto w-14 border-b border-b-primary`}>Early:</span>
                 {build.emblems[0].map((emblem, i) => (
                   <div key={i} className='inline-block object-fill'>
                     <Image
@@ -106,7 +106,7 @@ export default function Build({ build, valkery }: props) {
               </div>
 
               <div className='flex'>
-                <span className={`my-auto w-14 border-b border-b-secondary`}>Mid:</span>
+                <span className={`my-auto w-14 border-b border-b-primary`}>Mid:</span>
                 {build.emblems[1].map((emblem, i) => (
                   <div key={i} className='inline-block object-fill'>
                     <Image
@@ -121,7 +121,7 @@ export default function Build({ build, valkery }: props) {
               </div>
 
               <div className='flex'>
-                <span className={`my-auto w-14 border-b border-b-secondary`}>Late:</span>
+                <span className={`my-auto w-14 border-b border-b-primary`}>Late:</span>
                 {build.emblems[2].map((emblem, i) => (
                   <div key={i} className='inline-block object-fill'>
                     <Image

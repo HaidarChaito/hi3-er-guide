@@ -28,16 +28,16 @@ export default function FaqCard({ faq }: props) {
   return (
     <div className='mx-auto lg:w-3/4'>
       <div
-        className='question-and-answer group mx-8 my-3 cursor-pointer select-none rounded-lg border border-redprimary px-6 py-4 text-sm'
+        className='question-and-answer group mx-8 my-3 cursor-pointer select-none rounded-lg border border-primary px-6 py-4 text-sm'
         onClick={toggleAnswerVisibility}
       >
         <div className='question'>
           <div className='flex justify-between'>
-            <div className='font-semibold text-redprimary'>{faq.question}</div>
+            <div className='font-semibold text-primary'>{faq.question}</div>
             <div>
               <svg
                 fill='currentColor'
-                className={`question-chevron block h-5 rounded-full  bg-gray-400 p-1 group-hover:bg-gray-500 ${
+                className={`question-chevron group-hover:bg-primary0 block h-5  rounded-full bg-secondary p-1 ${
                   isAnswerVisible ? 'rotate-180' : ''
                 }`}
                 viewBox='0 0 20 20'
