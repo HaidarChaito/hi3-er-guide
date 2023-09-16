@@ -33,7 +33,7 @@ const config: Config = {
       colors: {
         ephys: '#EFB495',
         eice: '#97FFF4',
-        efire: '#ED2B2A',
+        efire: '#FF6969',
         elight: '#F2BE22',
       },
     },

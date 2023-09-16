@@ -27,7 +27,7 @@ def cleantext(text):
 
 def cleanSignet(text, isTitle):
     if isTitle:
-        return text.split('NormalNormal')[0].split('EnhancedNormal')[0].split('CoreNexus')[0].split('Normal Signet')[0].split('Normal')[0].split('Enhanced')[0].split('Core')[0]
+        return text.split('NormalNormal')[0].split('EnhancedNormal')[0].split('CoreNexus')[0].split('Normal Signet')[0].split('Normal')[0].split('Enhanced')[0]
     return text.split('NormalNormal')[0].split('EnhancedNormal')[0].split('CoreNexus')[0].split('Core')[0]
 
 
