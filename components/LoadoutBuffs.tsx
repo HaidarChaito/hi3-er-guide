@@ -12,7 +12,7 @@ export default function LoadoutBuffs({ buffs }: props) {
         <table className='table text-lg'>
           {/* head */}
           <thead className='text-lg text-primary-focus'>
-            <tr>
+            <tr className='border-secondary'>
               <th className='text-center'>Buff cost</th>
               <th className='text-center'>Yes / No</th>
             </tr>
@@ -22,7 +22,7 @@ export default function LoadoutBuffs({ buffs }: props) {
             {buffs.map((buff, index) => {
               return (
                 buff.selected != undefined && (
-                  <tr key={index}>
+                  <tr key={index} className='border-secondary'>
                     <th className='text-center'>{buff.title}</th>
                     <td className='text-center'>{buff.selected}</td>
                   </tr>

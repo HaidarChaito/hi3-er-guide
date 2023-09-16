@@ -29,8 +29,8 @@ const useGlobalStore = create<store & actions>()(
 );
 function swapThemes(theme?: string) {
   if (theme === undefined) return 'night';
-  else if (theme === 'night') return 'garden';
-  else if (theme === 'garden') return 'dracula';
+  else if (theme === 'night') return 'winter';
+  else if (theme === 'winter') return 'dracula';
   else if (theme === 'dracula') return 'night';
 }
 

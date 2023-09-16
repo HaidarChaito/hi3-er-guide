@@ -29,7 +29,7 @@ export default function Build({ build, valkery }: props) {
               <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
                 Notes:
               </div>
-              <div className='w-fit text-gray-300'>{build.notes}</div>
+              <div className='w-fit'>{build.notes}</div>
             </section>
           )}
           {/* Support */}

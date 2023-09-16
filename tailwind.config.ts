@@ -54,7 +54,12 @@ const config: Config = {
           'neutral-focus': 'white',
         },
       },
-      'garden',
+      {
+        winter: {
+          ...require('daisyui/src/theming/themes')['[data-theme=winter]'],
+          'neutral-focus': 'white',
+        },
+      },
     ],
   },
 };
