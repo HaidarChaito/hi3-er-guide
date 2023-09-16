@@ -1,15 +1,16 @@
-'use client';
+type props = {
+  onChange: (() => void) | undefined;
+  checked: boolean | undefined;
+  swapOn: string;
+  swapOff: string;
+};
 
-import useGlobalStore, { useStore } from '@/store/mode';
-
-export default function Toggle() {
-  const store = useStore(useGlobalStore, (state) => state);
-
+export default function Toggle({ onChange, checked, swapOn, swapOff }: props) {
   return (
-    <label className='swap swap-flip h-full'>
-      <input onChange={store?.toggleMode} checked={store?.gamerMode} type='checkbox' />
-      <div className='swap-on '>😈Gamer mode</div>
-      <div className='swap-off'>😇 Casual mode</div>
+    <label className='swap swap-flip h-full border-b-2 border-b-primary'>
+      <input onChange={onChange} checked={checked} type='checkbox' />
+      <div className='swap-on '>{swapOn}</div>
+      <div className='swap-off'>{swapOff}</div>
     </label>
   );
 }

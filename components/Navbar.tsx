@@ -26,7 +26,12 @@ export default function Navbar() {
                 </div>
               </li>
               <li>
-                <Toggle />
+                <Toggle
+                  onChange={store?.toggleMode}
+                  checked={store?.gamerMode}
+                  swapOn='4-4 valk mode'
+                  swapOff='0-4 valk mode'
+                />
               </li>
             </ul>
           </div>
