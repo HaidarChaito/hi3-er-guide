@@ -1,4 +1,6 @@
 'use client';
+import { IoIosColorPalette } from 'react-icons/io';
+
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Toggle from './Toggle';
@@ -32,6 +34,12 @@ export default function Navbar() {
                   swapOn='4-4 valk mode'
                   swapOff='0-4 valk mode'
                 />
+              </li>
+              <li>
+                <Toggle onChange={store?.toggleTheme}>
+                  <IoIosColorPalette className='swap-on h-10 w-10 fill-primary' />
+                  <IoIosColorPalette className='swap-off h-10 w-10  fill-primary' />
+                </Toggle>
               </li>
             </ul>
           </div>

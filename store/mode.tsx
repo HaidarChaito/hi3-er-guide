@@ -3,26 +3,36 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
 type store = {
-  gamerMode: boolean;
+  gamerMode?: boolean;
   isFaqOpen: boolean;
+  theme: string;
 };
 type actions = {
   toggleMode: () => void;
   toggleFaq: () => void;
+  toggleTheme: () => void;
 };
 const useGlobalStore = create<store & actions>()(
   persist(
     (set) => ({
-      gamerMode: false,
+      gamerMode: undefined,
       isFaqOpen: false,
+      theme: 'night',
+      toggleTheme: () => set((state) => ({ theme: swapThemes(state.theme) })),
       toggleFaq: () => set((state) => ({ isFaqOpen: !state.isFaqOpen })),
       toggleMode: () => set((state) => ({ gamerMode: !state.gamerMode })),
     }),
     {
-      name: 'mode',
+      name: 'globals',
     }
   )
 );
+function swapThemes(theme?: string) {
+  if (theme === undefined) return 'night';
+  else if (theme === 'night') return 'garden';
+  else if (theme === 'garden') return 'dracula';
+  else if (theme === 'dracula') return 'night';
+}
 
 export default useGlobalStore;
 
@@ -39,3 +49,4 @@ export const useStore = <T, F>(
 
   return data;
 };
+export const useTheme = () => useGlobalStore((state) => state.theme);

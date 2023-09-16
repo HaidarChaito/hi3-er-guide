@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer';
+import HandleThemeChange from '@/components/HandleThemeChange';
 import Navbar from '@/components/Navbar';
 import TransitionAnimation from '@/components/TransitionAnimation';
 import '@/public/static/styles/globals.css';
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang='en' data-theme='night'>
+    <HandleThemeChange>
       <body className={`${nunito.className} noscrollbars `}>
         <Navbar />
         <TransitionAnimation>
@@ -23,6 +24,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </TransitionAnimation>
         <Footer />
       </body>
-    </html>
+    </HandleThemeChange>
   );
 }
