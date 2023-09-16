@@ -55,7 +55,9 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
             src={'/static/images/valks/' + valkery.label + '.png'}
             loading='eager'
             alt={valkery.label}
-            placeholder={`data:image/svg+xml;base64,${toBase64(shimmerElement(700, 475))}`}
+            placeholder={`data:image/svg+xml;base64,${toBase64(
+              shimmerElement(700, 475, 'fill-primary', 'fill-neutral')
+            )}`}
             onClick={() => setSelected(valkery)}
             fill
             sizes='(max-width: 768px) 100vw, 300px'

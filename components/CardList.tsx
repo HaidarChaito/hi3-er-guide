@@ -21,7 +21,7 @@ export default function CardList({ valkeries, recValks, setSelected }: props) {
     visible: (i: number) => ({
       opacity: 1,
       transition: {
-        delay: i * 0.2,
+        delay: i * 0.15,
       },
     }),
     hidden: { opacity: 0 },
