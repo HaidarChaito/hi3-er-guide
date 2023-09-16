@@ -6,5 +6,6 @@ const ArgentKnightArtemis: Valkery = {
   image: 'https://i.pximg.net/img-original/img/2022/02/16/05/11/16/96290976_p5.jpg',
   build: [build1],
   type: 2,
+  minRank: 3.1,
 };
 export default ArgentKnightArtemis;

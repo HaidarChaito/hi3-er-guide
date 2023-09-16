@@ -12,9 +12,9 @@ type props = {
 export default function AnimatedCard({ valkery, setSelected, isRecommended }: props) {
   let valkBorderTier = '';
   if (valkery.tier != undefined) {
-    if (valkery.tier >= 4) valkBorderTier += 'rounded-lg border border-error';
-    else if (valkery.tier >= 3) valkBorderTier += 'rounded-lg border border-success';
-    else valkBorderTier += 'rounded-lg border border-info';
+    if (valkery.tier >= 4) valkBorderTier += 'rounded-lg border-2 border-error';
+    else if (valkery.tier >= 3) valkBorderTier += 'rounded-lg border-2 border-success';
+    else valkBorderTier += 'rounded-lg border-2 border-secondary';
   }
   return (
     <div className='w-full'>
@@ -26,7 +26,7 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
       >
         <div
           className={`relative ${
-            isRecommended ? 'rounded-lg border border-primary' : valkBorderTier
+            isRecommended ? 'rounded-lg  border-2 border-primary' : valkBorderTier
           }`}
         >
           {valkery.minRank != undefined && (
@@ -62,7 +62,7 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
           />
         </div>
 
-        <div className='text-center text-primary'>{valkery.label}</div>
+        <div className='mt-1 text-center text-neutral-focus'>{valkery.label}</div>
       </motion.div>
     </div>
   );

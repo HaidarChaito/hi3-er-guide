@@ -19,7 +19,7 @@ export default function TierBadge({ tier, children }: Props) {
       </div>
     );
   return (
-    <div className='badge badge-info absolute bottom-0 left-1/2 z-20 -translate-x-1/2  transform '>
+    <div className='badge badge-secondary absolute bottom-0 left-1/2 z-20 -translate-x-1/2  transform '>
       {children}
     </div>
   );

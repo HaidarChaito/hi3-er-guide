@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
@@ -40,7 +41,21 @@ const config: Config = {
   },
   plugins: [require('daisyui')],
   daisyui: {
-    themes: ['night', 'dracula', 'halloween'],
+    themes: [
+      {
+        night: {
+          ...require('daisyui/src/theming/themes')['[data-theme=night]'],
+          'neutral-focus': 'white',
+        },
+      },
+      {
+        dracula: {
+          ...require('daisyui/src/theming/themes')['[data-theme=dracula]'],
+          'neutral-focus': 'white',
+        },
+      },
+      'garden',
+    ],
   },
 };
 export default config;

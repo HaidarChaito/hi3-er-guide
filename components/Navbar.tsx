@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className='navbar fixed top-0 z-50 h-16 bg-neutral p-0'>
         <div className='relative mx-auto'>
           <div className='flex w-full items-center justify-between py-6 xl:px-12'>
-            <ul className='mx-auto flex space-x-4 px-4 font-semibold'>
+            <ul className='mx-auto flex space-x-4 px-4 font-semibold text-neutral-content'>
               <li className={` ${isLinkActive('/')}`}>
                 <Link className='btn btn-ghost text-lg normal-case' href='/'>
                   Home
@@ -27,7 +27,7 @@ export default function Navbar() {
                   FAQ
                 </Link>
               </li>
-              <li className={` ${isLinkActive('/faq')}`}>
+              <li>
                 <Toggle />
               </li>
             </ul>
