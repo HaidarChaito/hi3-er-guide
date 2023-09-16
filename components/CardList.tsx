@@ -1,6 +1,8 @@
 import { Valkery } from '@/types/Valkery';
 import AnimatedCard from './AnimatedCard';
 import { motion } from 'framer-motion';
+import useModeStore, { useStore } from '@/store/mode';
+import { brokeValks } from '@/data/brokeModeValks';
 type props = {
   valkeries: Valkery[];
   recValks: Valkery[];
@@ -8,6 +10,7 @@ type props = {
 };
 
 export default function CardList({ valkeries, recValks, setSelected }: props) {
+  const store = useStore(useModeStore, (state) => state);
   const cleanValks: Valkery[] = [];
   valkeries.map((valk) => {
     if (!recValks.includes(valk)) {
@@ -23,6 +26,30 @@ export default function CardList({ valkeries, recValks, setSelected }: props) {
     }),
     hidden: { opacity: 0 },
   };
+
+  if (store?.gamerMode === false) {
+    return (
+      <>
+        <div className='flex w-full flex-row flex-wrap gap-4 gap-y-4'>
+          {brokeValks.map((valk, index) => {
+            return (
+              <motion.div
+                className='flex w-full sm:w-1/6 '
+                key={valk.label}
+                variants={variants}
+                custom={index}
+                animate='visible'
+                initial='hidden'
+              >
+                <AnimatedCard isRecommended={false} setSelected={setSelected} valkery={valk} />
+              </motion.div>
+            );
+          })}
+        </div>
+      </>
+    );
+  }
+
   return (
     <>
       <div className='flex w-full flex-row flex-wrap gap-4 gap-y-4'>
@@ -30,7 +57,7 @@ export default function CardList({ valkeries, recValks, setSelected }: props) {
           return (
             <motion.div
               className='flex w-full sm:w-1/6 '
-              key={index}
+              key={valk.label}
               variants={variants}
               custom={index}
               animate='visible'
@@ -46,18 +73,13 @@ export default function CardList({ valkeries, recValks, setSelected }: props) {
           return (
             <motion.div
               className='flex w-full sm:w-1/6 '
-              key={index}
+              key={valk.label}
               variants={variants}
               custom={index}
               animate='visible'
               initial='hidden'
             >
-              <AnimatedCard
-                isRecommended={false}
-                setSelected={setSelected}
-                key={valk.label}
-                valkery={valk}
-              />{' '}
+              <AnimatedCard isRecommended={false} setSelected={setSelected} valkery={valk} />{' '}
             </motion.div>
           );
         })}

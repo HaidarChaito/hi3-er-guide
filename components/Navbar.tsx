@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import Toggle from './Toggle';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -21,15 +22,13 @@ export default function Navbar() {
                   Home
                 </Link>
               </li>
-              <li className={` ${isLinkActive('/info')}`}>
-                <Link className='btn btn-ghost text-xl normal-case' href='/info'>
-                  Info
-                </Link>
-              </li>
               <li className={` ${isLinkActive('/faq')}`}>
                 <Link className='btn btn-ghost text-xl normal-case' href='/faq'>
                   FAQ
                 </Link>
+              </li>
+              <li className={` ${isLinkActive('/faq')}`}>
+                <Toggle />
               </li>
             </ul>
           </div>
