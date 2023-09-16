@@ -26,7 +26,7 @@ export default function FaqCard({ faq }: props) {
   }, [isAnswerVisible]);
 
   return (
-    <div className='mx-auto lg:w-3/4' onClick={(e) => e.stopPropagation()}>
+    <div className='mx-auto text-neutral-focus lg:w-3/4' onClick={(e) => e.stopPropagation()}>
       <div
         className='question-and-answer group mx-8 my-3 cursor-pointer select-none rounded-lg border border-primary px-6 py-4 text-sm'
         onClick={toggleAnswerVisibility}
@@ -37,7 +37,7 @@ export default function FaqCard({ faq }: props) {
             <div>
               <svg
                 fill='currentColor'
-                className={`question-chevron group-hover:bg-primary0 block h-5  rounded-full bg-secondary p-1 ${
+                className={`question-chevron block h-5 rounded-full  bg-primary p-1 group-hover:bg-secondary ${
                   isAnswerVisible ? 'rotate-180' : ''
                 }`}
                 viewBox='0 0 20 20'
