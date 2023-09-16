@@ -1,9 +1,9 @@
 'use client';
 
-import useModeStore, { useStore } from '@/store/mode';
+import useGlobalStore, { useStore } from '@/store/mode';
 
 export default function Toggle() {
-  const store = useStore(useModeStore, (state) => state);
+  const store = useStore(useGlobalStore, (state) => state);
 
   return (
     <label className='swap swap-flip h-full'>

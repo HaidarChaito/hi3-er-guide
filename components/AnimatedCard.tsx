@@ -32,8 +32,8 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
           {valkery.minRank != undefined && (
             <Image
               className=' absolute left-1/2 top-0 z-20 -translate-x-1/2  transform'
-              width={40}
-              height={40}
+              width={60}
+              height={60}
               loading='eager'
               alt={`${valkery.minRank}`}
               src={'/static/images/ranks/' + valkery.minRank + '.png'}

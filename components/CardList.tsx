@@ -1,7 +1,7 @@
 import { Valkery } from '@/types/Valkery';
 import AnimatedCard from './AnimatedCard';
 import { motion } from 'framer-motion';
-import useModeStore, { useStore } from '@/store/mode';
+import useGlobalStore, { useStore } from '@/store/mode';
 import { brokeValks } from '@/data/brokeModeValks';
 type props = {
   valkeries: Valkery[];
@@ -10,7 +10,7 @@ type props = {
 };
 
 export default function CardList({ valkeries, recValks, setSelected }: props) {
-  const store = useStore(useModeStore, (state) => state);
+  const store = useStore(useGlobalStore, (state) => state);
   const cleanValks: Valkery[] = [];
   valkeries.map((valk) => {
     if (!recValks.includes(valk)) {

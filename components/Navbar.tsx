@@ -2,14 +2,12 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Toggle from './Toggle';
+import useGlobalStore, { useStore } from '@/store/mode';
 
 export default function Navbar() {
-  const pathname = usePathname();
+  const store = useStore(useGlobalStore, (state) => state);
 
-  // Define a function to determine if a link is active
-  const isLinkActive = (href: string) => {
-    return pathname === href ? 'text-primary' : '';
-  };
+  const pathname = usePathname();
 
   return (
     <>
@@ -17,15 +15,15 @@ export default function Navbar() {
         <div className='relative mx-auto'>
           <div className='flex w-full items-center justify-between py-6 xl:px-12'>
             <ul className='mx-auto flex space-x-4 px-4 font-semibold text-neutral-content'>
-              <li className={` ${isLinkActive('/')}`}>
+              <li className={pathname === '/' && store?.isFaqOpen === false ? 'text-primary' : ''}>
                 <Link className='btn btn-ghost text-lg normal-case' href='/'>
                   Home
                 </Link>
               </li>
-              <li className={` ${isLinkActive('/faq')}`}>
-                <Link className='btn btn-ghost text-lg normal-case' href='/faq'>
+              <li className={store?.isFaqOpen ? 'text-primary' : ''}>
+                <div onClick={store?.toggleFaq} className='btn btn-ghost text-lg normal-case'>
                   FAQ
-                </Link>
+                </div>
               </li>
               <li>
                 <Toggle />

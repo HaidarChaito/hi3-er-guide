@@ -26,7 +26,7 @@ export default function FaqCard({ faq }: props) {
   }, [isAnswerVisible]);
 
   return (
-    <div className='mx-auto lg:w-3/4'>
+    <div className='mx-auto lg:w-3/4' onClick={(e) => e.stopPropagation()}>
       <div
         className='question-and-answer group mx-8 my-3 cursor-pointer select-none rounded-lg border border-primary px-6 py-4 text-sm'
         onClick={toggleAnswerVisibility}
@@ -56,6 +56,15 @@ export default function FaqCard({ faq }: props) {
         {faq.answer && (
           <div className={`answer ${isAnswerVisible ? 'block' : 'hidden'} mt-2 leading-snug `}>
             {faq.answer}
+          </div>
+        )}
+        {faq.multiLines && (
+          <div className={`answer ${isAnswerVisible ? 'block' : 'hidden'} mt-2 leading-snug `}>
+            {faq.multiLines.map((line) => (
+              <>
+                {line} <br />
+              </>
+            ))}
           </div>
         )}
         {faq.gif && (

@@ -4,14 +4,18 @@ import { persist } from 'zustand/middleware';
 
 type store = {
   gamerMode: boolean;
+  isFaqOpen: boolean;
 };
 type actions = {
   toggleMode: () => void;
+  toggleFaq: () => void;
 };
-const useModeStore = create<store & actions>()(
+const useGlobalStore = create<store & actions>()(
   persist(
     (set) => ({
       gamerMode: false,
+      isFaqOpen: false,
+      toggleFaq: () => set((state) => ({ isFaqOpen: !state.isFaqOpen })),
       toggleMode: () => set((state) => ({ gamerMode: !state.gamerMode })),
     }),
     {
@@ -20,7 +24,7 @@ const useModeStore = create<store & actions>()(
   )
 );
 
-export default useModeStore;
+export default useGlobalStore;
 
 export const useStore = <T, F>(
   store: (callback: (state: T) => unknown) => unknown,
