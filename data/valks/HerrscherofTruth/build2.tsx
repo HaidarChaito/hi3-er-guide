@@ -9,6 +9,7 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Rev
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna_Sakura';
 import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
+import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
 
 const build1: Build = {
@@ -18,9 +19,9 @@ const build1: Build = {
     notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
     signets: [
         [
-            Herrscher_of_Truth_Ego.Blessing_of_Genuine_Solution,
-            Herrscher_of_Truth_Ego.Blessing_of_Intellect_Core,
-            Herrscher_of_Truth_Ego.Blessing_of_Vector,
+            withPriority(Herrscher_of_Truth_Ego.Blessing_of_Genuine_Solution, 'Start'),
+            withPriority(Herrscher_of_Truth_Ego.Blessing_of_Intellect_Core, 'Start'),
+            withPriority(Herrscher_of_Truth_Ego.Blessing_of_Vector, 'F2 Ego'),
         ],
 
         [
@@ -28,7 +29,7 @@ const build1: Build = {
             Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
             Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
             Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
-            Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer,
+            withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
             Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
         ],
 
@@ -37,7 +38,7 @@ const build1: Build = {
             Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
             Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
             Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-            Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation,
+            withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
             Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
             Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
         ],
@@ -46,16 +47,16 @@ const build1: Build = {
             Signets_of_Infinity_Mobius.Entwined_P,
             Signets_of_Infinity_Mobius.Rodent_V,
             Signets_of_Infinity_Mobius.Lip_Poison_E,
-            Signets_of_Infinity_Mobius.Infinite_X,
+            withPriority(Signets_of_Infinity_Mobius.Infinite_X, 'CORE'),
             Signets_of_Infinity_Mobius.Dead_X,
-            Signets_of_Infinity_Mobius.Unknown_X,
+            withPriority(Signets_of_Infinity_Mobius.Unknown_X, 'CORE'),
         ],
 
         [
             Signets_of_Reverie_Pardofelis.Motto_of_Meow,
             Signets_of_Reverie_Pardofelis.BackCurled_Tail,
             Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-            Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
+            withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
         ],
 
         [
@@ -63,7 +64,7 @@ const build1: Build = {
             Signets_of_Helix_VillV.Act_II_Pendulum,
             Signets_of_Helix_VillV.Act_III_Conflict,
             Signets_of_Helix_VillV.Act_IV_Spoon,
-            Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,
+            withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore, 'CORE'),
             Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
         ],
 

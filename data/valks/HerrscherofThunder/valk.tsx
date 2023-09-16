@@ -8,5 +8,16 @@ const HerrscherofThunder: Valkery = {
   image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
   build: [build1, build2, build3],
   type: 3,
+  tier: 3,
+  minRank: 3.2,
+  loadoutBuffs: [
+    { title: 0, selected: 'no' },
+    { title: 5, selected: 'yes' },
+    { title: 5, selected: 'yes' },
+    { title: 10, selected: 'yes' },
+    { title: 10, selected: 'no' },
+    { title: 15, selected: 'no' },
+    { title: 15, selected: 'no' },
+  ],
 };
 export default HerrscherofThunder;

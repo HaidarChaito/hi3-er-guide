@@ -7,6 +7,7 @@ const ChronoNavi: Valkery = {
   build: [build1],
   minRank: 2,
   type: 4,
+  tier: 5,
   loadoutBuffs: [
     { title: 0, selected: 'yes' },
     { title: 5, selected: 'no' },

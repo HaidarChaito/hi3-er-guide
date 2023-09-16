@@ -12,7 +12,7 @@ import { Build } from '@/types/Build';
 
 const build1: Build = {
   label: 'Charged Spam Build',
-  tier: 4.2,
+  tier: 5,
   isNew: true,
   signets: [
     [

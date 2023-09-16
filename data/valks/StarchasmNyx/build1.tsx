@@ -2,7 +2,6 @@ import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
-import StarchasmNyx from './valk';
 import { Starchasm_Nyx_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Helix_VillV } from '@/data/signets/tsx/Signets_of_Helix_VillV';
 import { Signets_of_Deliverance_Kevin } from '@/data/signets/tsx/Signets_of_Deliverance_Kevin';

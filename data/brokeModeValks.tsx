@@ -1,13 +1,19 @@
 import { Valkery } from '@/types/Valkery';
-import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
-import HerrscherofRebirth from './valks/HerrscherofRebirth/valk';
+import Dreamweaver from './valks/Dreamweaver/valk';
 import HerrscherofHumanity from './valks/HerrscherofHumanity/valk';
-import GoldenDiva from './valks/GoldenDiva/valk';
+import HerrscherofOrigin from './valks/HerrscherofOrigin/valk';
+import HerrscherofRebirth from './valks/HerrscherofRebirth/valk';
+import JadeKnight from './valks/JadeKnight/valk';
+import InfiniteOuroboros from './valks/InfiniteOuroboros/valk';
+import ReveristCalico from './valks/ReveristCalico/valk';
 
 // Add Broke mode valks here
 export const brokeValks: Valkery[] = [
-  ValkyrieQuicksand,
-  HerrscherofRebirth,
+  Dreamweaver,
   HerrscherofHumanity,
-  GoldenDiva,
+  HerrscherofOrigin,
+  HerrscherofRebirth,
+  JadeKnight,
+  InfiniteOuroboros,
+  ReveristCalico,
 ];

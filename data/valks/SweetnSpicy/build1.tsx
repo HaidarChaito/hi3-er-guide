@@ -11,7 +11,7 @@ import { Build } from '@/types/Build';
 
 const build1: Build = {
   label: 'General Build',
-  tier: 3,
+  tier: 2.5,
   isNew: true,
   notes: 'You can bring BK by F9/F10 Shop to deal with Heimdall faster.',
   signets: [

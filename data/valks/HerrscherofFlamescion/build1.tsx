@@ -1,5 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Flamescion_Ego } from '@/data/signets/tsx/EgoSignets';
+import { Signets_of_Bodhi_Su } from '@/data/signets/tsx/Signets_of_Bodhi_Su';
 import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna_Sakura';
@@ -40,11 +41,13 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Vicissitude_Hua.Long_Trip,
-      Signets_of_Vicissitude_Hua.Dark_Garb_No_More,
-      Signets_of_Vicissitude_Hua.Old_Dreams_Again,
-      withPriority(Signets_of_Vicissitude_Hua.Suffering_Mass, 'CORE'),
-      withPriority(Signets_of_Vicissitude_Hua.Broken_Dream, 'Optional'),
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Dictum_of_Santam,
+      Signets_of_Bodhi_Su.Dictum_of_Anatman,
     ],
 
     [

@@ -13,7 +13,7 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna
 
 const build2: Build = {
     label: 'Ultimate Build',
-    tier: 4.3,
+    tier: 5,
     isNew: true,
     signets: [
         [

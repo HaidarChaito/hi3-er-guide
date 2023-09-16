@@ -12,7 +12,7 @@ import { Build } from '@/types/Build';
 
 const build1: Build = {
   label: 'Combo Spam Build',
-  tier: 4.3,
+  tier: 4.5,
   isNew: true,
   notes: 'The Starter depends on whether Helix is +2 or not. If yes = start with Vill-V. If no = start with Kosma. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

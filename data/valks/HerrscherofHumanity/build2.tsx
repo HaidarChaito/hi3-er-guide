@@ -12,7 +12,7 @@ import { Build } from '@/types/Build';
 
 const build2: Build = {
     label: 'Ballista Build',
-    tier: 4.3,
+    tier: 4.5,
     isNew: true,
     signets: [
         [
@@ -24,7 +24,7 @@ const build2: Build = {
             Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
             Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
             Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
-            Signets_of_Deliverance_Kevin.Shadow_of_the_Deliverer,
+            withPriority(Signets_of_Deliverance_Kevin.Shadow_of_the_Deliverer, 'CORE'),
             Signets_of_Deliverance_Kevin.Dream_of_the_Deliverer,
             withPriority(Signets_of_Deliverance_Kevin.Triumph_of_the_Deliverer, 'Optional'),
         ],
@@ -34,7 +34,7 @@ const build2: Build = {
             Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
             Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
             Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-            Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation,
+            withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
             Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
             Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
         ],
@@ -43,7 +43,7 @@ const build2: Build = {
             Signets_of_Reverie_Pardofelis.Motto_of_Meow,
             Signets_of_Reverie_Pardofelis.BackCurled_Tail,
             Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-            Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
+            withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
         ],
 
         [
@@ -51,12 +51,12 @@ const build2: Build = {
             Signets_of_Helix_VillV.Act_II_Pendulum,
             Signets_of_Helix_VillV.Act_III_Conflict,
             Signets_of_Helix_VillV.Act_IV_Spoon,
-            Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,
+            withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore, 'CORE'),
             Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
         ],
 
         [
-            Signets_of_Stars_Griseo.Red__Hot,
+            withPriority(Signets_of_Stars_Griseo.Red__Hot, 'Must Get'),
             Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
             Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
         ],

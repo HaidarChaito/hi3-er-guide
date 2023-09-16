@@ -12,7 +12,7 @@ import { Build } from '@/types/Build';
 
 const build1: Build = {
   label: 'Combo Build',
-  tier: 3.3,
+  tier: 3,
   isNew: true,
   notes:
     'An Old Pals Legacy for the +1 on Kalpas Signets. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
@@ -27,7 +27,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
-      Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
       Signets_of_Helix_VillV.Puppetry_Interlacing_Cells,
     ],
@@ -37,7 +37,7 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation,
+      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
       Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
       Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
     ],
@@ -46,7 +46,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
     ],
 
     [
@@ -54,7 +54,7 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      Signets_of_Bodhi_Su.Motto_of_Bodhi,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
       Signets_of_Bodhi_Su.Maxim_of_Anatman,
     ],
 
@@ -63,7 +63,7 @@ const build1: Build = {
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
       withPriority(Signets_of_Stars_Griseo.Blue__Cold, 'Filler'),
-      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'Filler'),
+      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE, filler'),
     ],
 
     [

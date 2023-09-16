@@ -11,14 +11,14 @@ import { Sugary_Starburst_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Gold_Eden } from '@/data/signets/tsx/Signets_of_Gold_Eden';
 const build1: Build = {
   label: 'Charged Spam Build',
-  tier: 4.2,
+  tier: 4.5,
   isNew: true,
   notes: 'Starter signet depends on whether Helix is +2 or not. If yes = Start with Vill-V. If no = Start with Aponia. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
-      withPriority(Sugary_Starburst_Ego.Blessing_of_Acoustic_Spectrum,'Start'),
-      withPriority(Sugary_Starburst_Ego.Blessing_of_Astral_Path,'Start'),
-      withPriority(Sugary_Starburst_Ego.Blessing_of_Rhythm,'Optional'),
+      withPriority(Sugary_Starburst_Ego.Blessing_of_Acoustic_Spectrum, 'Start'),
+      withPriority(Sugary_Starburst_Ego.Blessing_of_Astral_Path, 'Start'),
+      withPriority(Sugary_Starburst_Ego.Blessing_of_Rhythm, 'Optional'),
     ],
 
     [
@@ -26,7 +26,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_V_Spider_Web,
       Signets_of_Helix_VillV.Act_IV_Spoon,
       Signets_of_Helix_VillV.Act_III_Conflict,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,'CORE'),
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
     ],
 
@@ -43,14 +43,14 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter,'CORE'),
+      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
     ],
 
     [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,'CORE')
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE')
     ],
 
     [
