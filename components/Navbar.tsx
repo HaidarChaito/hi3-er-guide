@@ -15,15 +15,15 @@ export default function Navbar() {
     <>
       <div className='navbar fixed top-0 z-50 h-16 bg-neutral p-0'>
         <div className='relative mx-auto'>
-          <div className='flex w-full items-center justify-between px-5 py-6 xl:px-12'>
-            <ul className='font-heading mx-auto flex space-x-12 px-4 font-semibold'>
+          <div className='flex w-full items-center justify-between py-6 xl:px-12'>
+            <ul className='mx-auto flex space-x-4 px-4 font-semibold'>
               <li className={` ${isLinkActive('/')}`}>
-                <Link className='btn btn-ghost text-xl normal-case' href='/'>
+                <Link className='btn btn-ghost text-lg normal-case' href='/'>
                   Home
                 </Link>
               </li>
               <li className={` ${isLinkActive('/faq')}`}>
-                <Link className='btn btn-ghost text-xl normal-case' href='/faq'>
+                <Link className='btn btn-ghost text-lg normal-case' href='/faq'>
                   FAQ
                 </Link>
               </li>

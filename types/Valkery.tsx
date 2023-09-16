@@ -8,4 +8,5 @@ export type Valkery = {
   tier?: number;
   build: Build[];
   loadoutBuffs?: Buff[];
+  minRank?: number;
 };

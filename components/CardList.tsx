@@ -30,11 +30,11 @@ export default function CardList({ valkeries, recValks, setSelected }: props) {
   if (store?.gamerMode === false) {
     return (
       <>
-        <div className='flex w-full flex-row flex-wrap gap-4 gap-y-4'>
+        <div className='ml-2 flex w-full flex-row flex-wrap gap-4'>
           {brokeValks.map((valk, index) => {
             return (
               <motion.div
-                className='flex w-full sm:w-1/6 '
+                className='flex w-full sm:w-72 '
                 key={valk.label}
                 variants={variants}
                 custom={index}
@@ -52,11 +52,11 @@ export default function CardList({ valkeries, recValks, setSelected }: props) {
 
   return (
     <>
-      <div className='flex w-full flex-row flex-wrap gap-4 gap-y-4'>
+      <div className='mb-3 ml-2 flex w-full flex-row flex-wrap gap-4'>
         {recValks.map((valk, index) => {
           return (
             <motion.div
-              className='flex w-full sm:w-1/6 '
+              className='flex w-full sm:w-72 '
               key={valk.label}
               variants={variants}
               custom={index}
@@ -68,11 +68,11 @@ export default function CardList({ valkeries, recValks, setSelected }: props) {
           );
         })}
       </div>
-      <div className='mt-4 flex flex-row flex-wrap gap-4 gap-y-4'>
+      <div className='ml-2 flex w-full flex-row flex-wrap gap-4'>
         {cleanValks.map((valk, index) => {
           return (
             <motion.div
-              className='flex w-full sm:w-1/6 '
+              className='flex w-full sm:w-72 '
               key={valk.label}
               variants={variants}
               custom={index}
