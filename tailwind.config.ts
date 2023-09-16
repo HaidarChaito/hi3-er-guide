@@ -46,18 +46,21 @@ const config: Config = {
         night: {
           ...require('daisyui/src/theming/themes')['[data-theme=night]'],
           'neutral-focus': 'white',
+          'base-300': 'white',
         },
       },
       {
         dracula: {
           ...require('daisyui/src/theming/themes')['[data-theme=dracula]'],
           'neutral-focus': 'white',
+          'base-300': 'white',
         },
       },
       {
         winter: {
           ...require('daisyui/src/theming/themes')['[data-theme=winter]'],
           'neutral-focus': 'white',
+          'base-300': 'black',
         },
       },
     ],

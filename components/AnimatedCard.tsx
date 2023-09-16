@@ -62,7 +62,7 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
           />
         </div>
 
-        <div className='mt-1 text-center text-neutral-focus'>{valkery.label}</div>
+        <div className='mt-1 text-center text-base-300'>{valkery.label}</div>
       </motion.div>
     </div>
   );
