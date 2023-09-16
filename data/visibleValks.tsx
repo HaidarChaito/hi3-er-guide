@@ -27,17 +27,36 @@ import SugaryStarburst from './valks/SugaryStarburst/valk';
 import TerminalAide0017 from './valks/TerminalAide0017/valk';
 import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
+import BrightKnightExcelsis from './valks/BrightKnightExcelsis/valk';
+import DeaAnchora from './valks/DeaAnchora/valk';
+import FerventTempoDeltaValkery from './valks/FerventTempoDelta/valk';
+import GoushinnsoMemento from './valks/GoushinnsoMemento/valk';
+import LunaKindred from './valks/LunaKindred/valk';
+import MidnightAbsinthe from './valks/MidnightAbsinthe/valk';
+import PrinzessinderVerurteilung from './valks/PrinzessinderVerurteilung/valk';
+import SilverwingNEX from './valks/SilverwingNEX/valk';
+import SixthSerenade from './valks/SixthSerenade/valk';
+import StarchasmNyx from './valks/StarchasmNyx/valk';
+import StrikerFulminata from './valks/StrikerFulminata/valk';
+import StygianNymph from './valks/StygianNymph/valk';
+import SweetnSpicy from './valks/SweetnSpicy/valk';
+import TwilightPaladin from './valks/TwilightPaladin/valk';
+import ValkyrieGloria from './valks/ValkyrieGloria/valk';
 
 // Add valkeries here
 export const valks: Valkery[] = [
+  BrightKnightExcelsis,
   ChronoNavi,
+  DeaAnchora,
   DisciplinaryPerdition,
   Dreamweaver,
   FallenRosemary,
+  FerventTempoDeltaValkery,
   GoldenDiva,
+  GoushinnsoMemento,
   HelicalContraption,
-  HerrscherofFlamescion,
   HerrscherOfFinality,
+  HerrscherofFlamescion,
   HerrscherofHumanity,
   HerrscherofOrigin,
   HerrscherofReason,
@@ -48,14 +67,25 @@ export const valks: Valkery[] = [
   HerrscherofVoid,
   InfiniteOuroboros,
   JadeKnight,
+  LunaKindred,
+  MidnightAbsinthe,
   MiracleMagicGirl,
   MissPinkElf,
   PalatinusEquinox,
+  PrinzessinderVerurteilung,
   ReveristCalico,
+  SilverwingNEX,
+  SixthSerenade,
   SpinaAstera,
+  StarchasmNyx,
   StarryImpression,
+  StrikerFulminata,
+  StygianNymph,
   SugaryStarburst,
+  SweetnSpicy,
   TerminalAide0017,
+  TwilightPaladin,
+  ValkyrieGloria,
   ValkyrieQuicksand,
   VermilionKnightEclipse,
 ]

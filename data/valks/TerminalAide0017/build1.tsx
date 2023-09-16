@@ -13,7 +13,7 @@ import { Build } from '@/types/Build';
 
 const build1: Build = {
   label: 'General Build',
-  tier: 4.3,
+  tier: 4.5,
   isNew: true,
   notes: 'Starter Signet changes based on whether Helix is +2 or not. If yes = Vill-V start. If not = Deliverance Start. Kalpas is also skippable by choice, shifting the focus to Kevin, Vill-V, Pardo and going with Eden2 instead. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

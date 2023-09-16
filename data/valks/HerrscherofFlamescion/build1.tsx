@@ -26,23 +26,24 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation,'CORE'),
+      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
       Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
       Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
+      Signets_of_Decimation_Kalpas.Inhuman_Unevil_and_Ungodly,
     ],
 
     [
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Fuji,
-      withPriority(Signets_of_Setsuna_Sakura.Setsuna_Blade_Sakura_ni_Maku,'CORE'),
+      withPriority(Signets_of_Setsuna_Sakura.Setsuna_Blade_Sakura_ni_Maku, 'CORE'),
     ],
 
     [
       Signets_of_Vicissitude_Hua.Long_Trip,
       Signets_of_Vicissitude_Hua.Dark_Garb_No_More,
       Signets_of_Vicissitude_Hua.Old_Dreams_Again,
-      withPriority(Signets_of_Vicissitude_Hua.Suffering_Mass,'CORE'),
+      withPriority(Signets_of_Vicissitude_Hua.Suffering_Mass, 'CORE'),
       withPriority(Signets_of_Vicissitude_Hua.Broken_Dream, 'Optional'),
     ],
 
@@ -50,7 +51,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
     ],
 
     [
@@ -58,7 +59,7 @@ const build1: Build = {
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
       Signets_of_Stars_Griseo.Blue__Cold,
-      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore,'CORE'),
+      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE'),
     ],
   ],
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',

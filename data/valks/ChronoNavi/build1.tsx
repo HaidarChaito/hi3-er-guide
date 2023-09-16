@@ -17,9 +17,10 @@ const build1: Build = {
   signets: [
     [
       withPriority(Chrono_Navi_Ego.Blessing_of_Succession, 'Start'),
-      withPriority(Chrono_Navi_Ego.Blessing_of_Time_Crystal, 'F2 Ego'),
-      withPriority(Chrono_Navi_Ego.Blessing_of_Constant, '1st'),
-      withPriority(Chrono_Navi_Ego.Blessing_of_Final_Dream, '2nd'),
+      withPriority(Chrono_Navi_Ego.Blessing_of_Time_Crystal, 'Start'),
+      withPriority(Chrono_Navi_Ego.Blessing_of_Constant, 'F2 Ego'),
+      withPriority(Chrono_Navi_Ego.Blessing_of_Final_Dream, '1st'),
+      withPriority(Chrono_Navi_Ego.Blessing_of_Bladepiece, '2nd'),
     ],
 
     [
@@ -27,7 +28,7 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      Signets_of_Bodhi_Su.Motto_of_Bodhi,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
       Signets_of_Bodhi_Su.Maxim_of_Anitya,
       Signets_of_Bodhi_Su.Maxim_of_Santam,
       withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
@@ -38,7 +39,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_V_Spider_Web,
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore,
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
     ],
 
@@ -46,7 +47,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
     ],
 
     [
@@ -54,7 +55,7 @@ const build1: Build = {
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
       Signets_of_Stars_Griseo.Blue__Cold,
-      Signets_of_Stars_Griseo.Faded_StarsCore,
+      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE'),
       Signets_of_Stars_Griseo.Petals_in_the_Wind,
     ],
 
@@ -62,7 +63,7 @@ const build1: Build = {
       Signets_of_Gold_Eden.Recitatif_of_Eden,
       Signets_of_Gold_Eden.Recitatif_of_Creeks,
       Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
-      Signets_of_Gold_Eden.Echo_of_Gold,
+      withPriority(Signets_of_Gold_Eden.Echo_of_Gold, 'CORE'),
     ],
   ],
   supports: [
