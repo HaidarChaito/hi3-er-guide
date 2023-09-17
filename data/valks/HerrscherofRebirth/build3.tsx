@@ -7,6 +7,7 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna
 import { Build } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/tsx/Signets_of_Infinity_Mobius';
+import { Signets_of_Discipline_Aponia } from '@/data/signets/tsx/Signets_of_Discipline_Aponia';
 
 const build3: Build = {
     label: 'Decay Build',
@@ -48,6 +49,11 @@ const build3: Build = {
         withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,'CORE')
       ],
 
+      [
+        Signets_of_Discipline_Aponia.First_No_Betrayal,
+        Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
+
+      ],
   
 
 
