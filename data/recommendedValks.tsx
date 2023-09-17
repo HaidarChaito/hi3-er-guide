@@ -5,9 +5,10 @@ import HerrscherofRebirth from './valks/HerrscherofRebirth/valk';
 import MiracleMagicGirl from './valks/MiracleMagicGirl/valk';
 import Dreamweaver from './valks/Dreamweaver/valk';
 import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
+import { compareValkeriesTier } from '@/helpers/functions';
 
 // Add Recommended here
-export const recValks: Valkery[] = [
+const recommendedValks: Valkery[] = [
   ChronoNavi,
   HerrscherOfFinality,
   HerrscherofRebirth,
@@ -15,3 +16,7 @@ export const recValks: Valkery[] = [
   Dreamweaver,
   VermilionKnightEclipse,
 ];
+
+recommendedValks.sort(compareValkeriesTier);
+
+export const recValks = recommendedValks;

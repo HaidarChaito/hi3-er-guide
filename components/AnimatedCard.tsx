@@ -1,4 +1,3 @@
-import { shimmerElement, toBase64 } from '@/helpers/functions';
 import { Valkery } from '@/types/Valkery';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -31,7 +30,7 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
         >
           {valkery.minRank != undefined && (
             <Image
-              className=' absolute left-1/2 top-0 z-20 -translate-x-1/2  transform'
+              className='absolute left-1/2 top-0 z-20 h-auto w-auto -translate-x-1/2  transform'
               width={60}
               height={60}
               loading='eager'
@@ -55,9 +54,6 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
             src={'/static/images/valks/' + valkery.label + '.png'}
             loading='eager'
             alt={valkery.label}
-            placeholder={`data:image/svg+xml;base64,${toBase64(
-              shimmerElement(700, 475, 'fill-primary', 'fill-neutral')
-            )}`}
             onClick={() => setSelected(valkery)}
             fill
             sizes='(max-width: 768px) 100vw, 300px'

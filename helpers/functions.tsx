@@ -1,4 +1,5 @@
 import { Signet } from '@/types/Signet';
+import { Valkery } from '@/types/Valkery';
 
 export function switchColor(element?: number) {
   switch (element) {
@@ -41,3 +42,16 @@ export const shimmerElement = (
     <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
     <animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="1s" repeatCount="indefinite" />
   </svg>`;
+
+export const compareValkeriesTier = (b: Valkery, a: Valkery): number => {
+  const minRankA = a.tier || 1; // If minRank is not present, consider it as 1
+  const minRankB = b.tier || 1; // If minRank is not present, consider it as 1
+
+  if (minRankA < minRankB) {
+    return -1;
+  } else if (minRankA > minRankB) {
+    return 1;
+  } else {
+    return 0;
+  }
+};

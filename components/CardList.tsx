@@ -2,14 +2,14 @@ import { Valkery } from '@/types/Valkery';
 import AnimatedCard from './AnimatedCard';
 import { motion } from 'framer-motion';
 import useGlobalStore, { useStore } from '@/store/mode';
-import { brokeValks } from '@/data/brokeModeValks';
 type props = {
   valkeries: Valkery[];
   recValks: Valkery[];
+  brokeValks: Valkery[];
   setSelected: CallableFunction;
 };
 
-export default function CardList({ valkeries, recValks, setSelected }: props) {
+export default function CardList({ valkeries, recValks, setSelected, brokeValks }: props) {
   const store = useStore(useGlobalStore, (state) => state);
   const cleanValks: Valkery[] = [];
   valkeries.map((valk) => {
@@ -21,7 +21,7 @@ export default function CardList({ valkeries, recValks, setSelected }: props) {
     visible: (i: number) => ({
       opacity: 1,
       transition: {
-        delay: i * 0.15,
+        delay: i * 0.08,
       },
     }),
     hidden: { opacity: 0 },
@@ -35,7 +35,7 @@ export default function CardList({ valkeries, recValks, setSelected }: props) {
             return (
               <motion.div
                 className='flex w-full sm:w-72 '
-                key={valk.label}
+                key={index}
                 variants={variants}
                 custom={index}
                 animate='visible'

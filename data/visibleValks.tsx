@@ -45,9 +45,10 @@ import TwilightPaladin from './valks/TwilightPaladin/valk';
 import ValkyrieGloria from './valks/ValkyrieGloria/valk';
 import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
+import { compareValkeriesTier } from '@/helpers/functions';
 
 // Add valkeries here
-export const valks: Valkery[] = [
+const visibleValks: Valkery[] = [
   ArgentKnightArtemis,
   BrightKnightExcelsis,
   ChronoNavi,
@@ -94,4 +95,7 @@ export const valks: Valkery[] = [
   ValkyrieGloria,
   ValkyrieQuicksand,
   VermilionKnightEclipse,
-]
+];
+
+visibleValks.sort(compareValkeriesTier);
+export const valks: Valkery[] = visibleValks;

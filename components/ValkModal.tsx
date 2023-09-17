@@ -29,7 +29,7 @@ export default function ValkModal({ selectedValk, setSelected }: props) {
       <section
         className={`mx-auto mt-2 flex-1 flex-wrap sm:flex ${
           selectedValk.build.length == 1
-            ? 'sm:w-1/3'
+            ? 'sm:w-2/4'
             : selectedValk.build.length == 2
             ? 'sm:w-2/3'
             : ''

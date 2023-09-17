@@ -6,9 +6,10 @@ import HerrscherofRebirth from './valks/HerrscherofRebirth/valk';
 import JadeKnight from './valks/JadeKnight/valk';
 import InfiniteOuroboros from './valks/InfiniteOuroboros/valk';
 import ReveristCalico from './valks/ReveristCalico/valk';
+import { compareValkeriesTier } from '@/helpers/functions';
 
 // Add Broke mode valks here
-export const brokeValks: Valkery[] = [
+const brokValks: Valkery[] = [
   Dreamweaver,
   HerrscherofHumanity,
   HerrscherofOrigin,
@@ -17,3 +18,7 @@ export const brokeValks: Valkery[] = [
   InfiniteOuroboros,
   ReveristCalico,
 ];
+
+brokValks.sort(compareValkeriesTier);
+
+export const brokeValks = brokValks;

@@ -28,14 +28,6 @@ export default function Navbar() {
                 </div>
               </li>
               <li>
-                <Toggle
-                  onChange={store?.toggleMode}
-                  checked={store?.gamerMode}
-                  swapOn='4-4 valk mode'
-                  swapOff='0-4 valk mode'
-                />
-              </li>
-              <li>
                 <Toggle onChange={store?.toggleTheme}>
                   <IoIosColorPalette className='swap-on h-10 w-10 fill-primary' />
                   <IoIosColorPalette className='swap-off h-10 w-10  fill-primary' />
