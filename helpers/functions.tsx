@@ -52,6 +52,7 @@ export const compareValkeriesTier = (b: Valkery, a: Valkery): number => {
   } else if (minRankA > minRankB) {
     return 1;
   } else {
-    return 0;
+    // If tiers are equal, sort by label in alphabetical order
+    return b.label.localeCompare(a.label);
   }
 };
