@@ -10,13 +10,13 @@ const PalatinusEquinox: Valkery = {
   tier: 4,
   minRank: 3,
   loadoutBuffs: [
-    { title: 0, selected: 'no' },
-    { title: 5, selected: 'yes' },
-    { title: 5, selected: 'no' },
-    { title: 10, selected: 'no' },
-    { title: 10, selected: 'yes' },
-    { title: 15, selected: 'no' },
-    { title: 15, selected: 'no' },
+    { title: 0, selected: ' ' },
+    { title: 5, selected: '✓' },
+    { title: 5, selected: ' ' },
+    { title: 10, selected: ' ' },
+    { title: 10, selected: '✓' },
+    { title: 15, selected: ' ' },
+    { title: 15, selected: ' ' },
   ],
 };
 export default PalatinusEquinox;

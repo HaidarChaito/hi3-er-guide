@@ -9,13 +9,13 @@ const PrinzessinderVerurteilung: Valkery = {
   tier: 2.5,
   minRank: 5,
   loadoutBuffs: [
-    { title: 0, selected: 'no' },
-    { title: 5, selected: 'yes' },
-    { title: 5, selected: 'yes' },
-    { title: 10, selected: 'no' },
-    { title: 10, selected: 'yes' },
-    { title: 15, selected: 'no' },
-    { title: 15, selected: 'no' },
+    { title: 0, selected: ' ' },
+    { title: 5, selected: '✓' },
+    { title: 5, selected: '✓' },
+    { title: 10, selected: ' ' },
+    { title: 10, selected: '✓' },
+    { title: 15, selected: ' ' },
+    { title: 15, selected: ' ' },
   ],
 };
 export default PrinzessinderVerurteilung;
