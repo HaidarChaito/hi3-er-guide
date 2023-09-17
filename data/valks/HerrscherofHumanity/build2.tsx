@@ -14,6 +14,10 @@ const build2: Build = {
     label: 'Ballista Build',
     tier: 4.5,
     isNew: true,
+    bottomNotes: [
+        { text:'SEQUENCE:  Dodge > Charged > When stack 3/3 > WA > repeat (Dodge when the absolute evasion is up)',
+        },
+    ],
     signets: [
         [
             withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Encounter, 'Start'),

@@ -15,6 +15,10 @@ const build1: Build = {
   tier: 5,
   isNew: true,
   notes: 'Starting signet is whichever is +2. Bodhi +2 = Su start. Gold +2 = Eden start, then for Mid you go with whichever of these 2 wasnt started with. You can opt for swapping BR for BK by F9/F10 Shop to have an easier time against Heimdall.',
+  bottomNotes: [
+    { text:'SEQUENCE: Ult > Combo attack > Spam attacks till your bar is almost empty > Combo attack > Repeat',
+    },
+  ],
   signets: [
     [
       withPriority(Jade_Knight_Ego.Blessing_of_Great_Blade, 'Start'),

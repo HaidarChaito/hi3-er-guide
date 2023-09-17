@@ -16,6 +16,10 @@ const build1: Build = {
   tier: 5,
   isNew: true,
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  bottomNotes: [
+    { text:'SEQUENCE:At max weapons > Transform > Combo attack > WA > Combo attack > WA Etc.. Alternate, ult when available',
+    },
+  ],
   signets: [
     [
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Konstruktion, 'Start'),

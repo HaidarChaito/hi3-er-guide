@@ -14,6 +14,10 @@ const build2: Build = {
     tier: 5,
     isNew: true,
     notes: 'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Soul Shaper (Deer Support - Long haired) Herrscher of Rebirth build, focusses on dealing consistent high damaging high hit counting damage through holding your attack button.',
+    bottomNotes: [
+      { text:'SEQUENCE: Dodge > Ult > Hold your attack button > Congratulations you have mastered this playstyle',
+      },
+    ],
     signets: [
         [
             withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Spirits,'Start'),

@@ -15,6 +15,13 @@ const build1: Build = {
   tier: 4,
   isNew: true,
   notes: 'Swap LE for BR by F6 Shop. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: SoE Active > Basics & Charged Farm till Ult > Quick Tap Active (Applies Red Paint & V-V Buffs) > Bike Slam > Evade (Truth + Sakura) > Bike Slam > Evade (Truth w/ 2 UE Charges from Sakuras Fuji) > Bike Slam > Active > Bike Slam > Ult ends > Repeat',
+     
+    },
+    
+  ],
   signets: [
     [
       withPriority(Herrscher_of_Reason_Ego.Blessing_of_Wisdom, 'Start'),

@@ -14,6 +14,10 @@ const build1: Build = {
   label: 'Ult Build',
   tier: 5,
   isNew: true,
+  bottomNotes: [
+    { text:'SEQUENCE:Dodge > Charged attack x2 > WA (VV signets) > Ult > Dodge > WA > Charged > WA > Ult > Charged till ult is back > Repeat from step 3',
+    },
+  ],
   signets: [
     [
       withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Bloom, 'Start'),

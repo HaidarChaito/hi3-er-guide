@@ -13,6 +13,10 @@ const build3: Build = {
   label: 'Hybrid Build',
   tier: 4.5,
   isNew: true,
+  bottomNotes: [
+    { text:'SEQUENCE:Dodge > Attack > WA > Charged 2x > Repeat ',
+    },
+  ],
   signets: [[
     withPriority(Sugary_Starburst_Ego.Blessing_of_Roller_Dance, 'Start'),
     withPriority(Sugary_Starburst_Ego.Blessing_of_Acoustic_Spectrum, 'Start'),

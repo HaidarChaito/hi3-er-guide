@@ -17,6 +17,10 @@ const build3: Build = {
     tier: 5,
     notes: 'Less known build for the Herrscherr of Finality, gains massive spikes at higher ranks, combines the strength of the combo build and the explosive power of the ultimate build through lower frames attacks in between combos, the gain doesnt justify the efforts and the general player will not do better with this build compared to the other two, this build is designed for people who enjoy challenges, have some ranks and have mastered HoFi mechanics.',
     isNew: true,
+    bottomNotes: [
+      { text:'SEQUENCE: ATF > QTE 1 x2 SEQ (SEQ3/4 connect) > QTE 2 x2 (SEQ3/4 connect) > ATF end > SEQ1 > WA > SEQ 1 > Combo > Repeat from SEQ 1 till ATF is back up, ult when 9~12 stacks',
+      },
+    ],
     signets: [
       [
          withPriority(Herrscher_of_Finality_Ego.Blessing_of_Condescension,'Start'),

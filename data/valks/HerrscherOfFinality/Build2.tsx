@@ -13,6 +13,10 @@ const build2: Build = {
     label: 'Ult Build',
     tier: 4.3,
     notes:'Strong HoFinality build for general usages, capable of dealing benchmark numbers easily',
+    bottomNotes: [
+        { text:'SEQUENCE:SEQ attacks/Combo/WA till 12 rift stacks then ult, no clear sequence in mind, you can make use of animations skip to speed up the stacking part',
+        },
+      ],
     isNew: true,
     signets:
     [

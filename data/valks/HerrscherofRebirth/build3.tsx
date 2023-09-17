@@ -13,6 +13,10 @@ const build3: Build = {
     label: 'Decay Build',
     tier: 5,
     isNew: true,
+    bottomNotes: [
+      { text:'SEQUENCE:Dodge > Ult > Dodges(Absolute evasion stacks reliant)/Attacks till bar full > Combo attack x2 > Repeat',
+      },
+    ],
     notes: 'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Decay build, focusses on spamming sequence attack and dodges with Setsuna support to use the powerful combo attack as much as possible.',
     signets: [
         [

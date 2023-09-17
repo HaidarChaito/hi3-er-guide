@@ -10,9 +10,13 @@ import { Signets_of_Infinity_Mobius } from '@/data/signets/tsx/Signets_of_Infini
 import { withPriority } from '@/helpers/functions';
 
 const build1: Build = {
-  label: 'Life Binder Build',
+  label: 'Soothingness Build',
   tier: 5,
   isNew: true,
+  bottomNotes: [
+    { text:'SEQUENCE:Dodge>ULT>Swap to lifebinder form> WAx2 > COMBOx2 > Repeat; ult as necessary',
+    },
+  ],
   notes: 'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Life binder (DPS - Short haired) build for the Herrscher of Rebirth, focusses on dealing high damage through chaining weapon active and joint combos. ',
   signets: [
     

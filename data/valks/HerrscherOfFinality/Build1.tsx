@@ -14,6 +14,10 @@ const build1: Build = {
   tier: 3.2,
   notes: ' Combo build that focusses on spamming the combo actions through condescension descent stacks and weapon active to quickly gain 8 stacks and spam combo attack, has high survivability, gains massive power spike from the SS rank and Ego signet "Condescension" synergy',
   isNew: true,
+  bottomNotes: [
+    { text:'SEQUENCE:ATF (Do not use your WA inside)> x5 attacks > WA > Combo > Wa Combo > Repeat when ATF up ',
+    },
+  ],
   signets: [
     [
       withPriority(Herrscher_of_Finality_Ego.Blessing_of_Condescension,'Start'),

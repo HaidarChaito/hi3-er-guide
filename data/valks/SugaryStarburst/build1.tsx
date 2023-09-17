@@ -14,6 +14,10 @@ const build1: Build = {
   tier: 4.5,
   isNew: true,
   notes: 'Starter signet depends on whether Helix is +2 or not. If yes = Start with Vill-V. If no = Start with Aponia. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  bottomNotes: [
+    { text:'SEQUENCE: WA > 2x Charged attacks > Repeat',
+    },
+  ],
   signets: [
     [
       withPriority(Sugary_Starburst_Ego.Blessing_of_Acoustic_Spectrum, 'Start'),

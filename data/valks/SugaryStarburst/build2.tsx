@@ -15,6 +15,10 @@ const build2: Build = {
   tier: 4,
   isNew: true,
   notes: 'Needs SS Rank minimum. Starter Signet depends on if Deliverance is +2 or not. If yes = Start with Kevin. If no = Start with Aponia. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  bottomNotes: [
+    { text:'SEQUENCE: Dodge > Attack > Repeat; Ultimate when up',
+    },
+  ],
   signets: [
 
     [
