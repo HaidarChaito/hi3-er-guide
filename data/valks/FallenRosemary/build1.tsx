@@ -64,7 +64,7 @@ const build1: Build = {
     ],
 
   ],
-  notes: 'If you are having trouble clearing F4 Double in time with BoY start, use Dreamful Gold instead and go shop F5 to put BoY and get your 2 Ego signets by F11. Switch BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes: 'Build meant for FR below SS2 Rank. If you are having trouble clearing F4 Double in time with BoY start, use Dreamful Gold instead and go shop F5 to put BoY and get your 2 Ego signets by F11. Switch BR for BK by F9/F10 Shop to deal with Heimdall.',
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     [

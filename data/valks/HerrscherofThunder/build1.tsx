@@ -65,7 +65,7 @@ const build1: Build = {
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
     ],
   ],
-  notes: 'This build is best used with 7T + Handel. Swap BR for BK by F9/F10 Shop to better deal with Heimdall.',
+  notes: 'Needs S2 Rank in order to minimally work. This build is best used with 7T + Handel. Swap BR for BK by F9/F10 Shop to better deal with Heimdall.',
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     [

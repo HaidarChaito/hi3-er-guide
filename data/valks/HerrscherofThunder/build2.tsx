@@ -13,7 +13,7 @@ const build2: Build = {
     label: 'Bombard Build',
     tier: 4,
     isNew: true,
-    notes: 'On Decimation +2 weathers, Kalpas start is better. If you cannot clear F4 Double with IWBW, go with Dreamful Gold instead.',
+    notes: 'Needs SS0 Rank, otherwise it doesnt work. On Decimation +2 weathers, Kalpas start is better. If you cannot clear F4 Double with IWBW, go with Dreamful Gold instead.',
     signets: [
         [
             Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,

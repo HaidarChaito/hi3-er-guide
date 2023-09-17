@@ -65,7 +65,7 @@ const build2: Build = {
             withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE'),
         ],
     ],
-    notes: 'BR instead of LE once you get Edens Initial/Max SP signet.',
+    notes: 'Build meant for FR above SS2+. BR instead of LE once you get Edens Initial/Max SP signet.',
     supports: [
         [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Lightning_Empress_Avatar],
         [
