@@ -1,3 +1,4 @@
+import { bottomNotes } from './BottomNotes';
 import { Signet } from './Signet';
 
 export type Build = {
@@ -8,4 +9,5 @@ export type Build = {
   supports?: string[][];
   emblems?: string[][];
   notes?: string;
+  bottomNotes?: bottomNotes[];
 };

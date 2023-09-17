@@ -12,8 +12,22 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 5,
+  bottomNotes: [
+    {
+      text: 'test',
+      gif: 'monkey-skill-issue.mp4',
+    },
+    {
+      text: 'test',
+      gif: 'monkey-skill-issue.mp4',
+    },
+    {
+      gif: 'monkey-skill-issue.mp4',
+    },
+  ],
   isNew: true,
-  notes: 'Swap BR for BK by F9/F10 Shop for Heimdall. CN has a hard time against Heimdall without her.',
+  notes:
+    'Swap BR for BK by F9/F10 Shop for Heimdall. CN has a hard time against Heimdall without her.',
   signets: [
     [
       withPriority(Chrono_Navi_Ego.Blessing_of_Succession, 'Start'),

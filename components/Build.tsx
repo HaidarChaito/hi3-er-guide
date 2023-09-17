@@ -5,6 +5,7 @@ import Rank from './Rank';
 import { Valkery } from '@/types/Valkery';
 import { switchColor } from '@/helpers/functions';
 import Image from 'next/image';
+import GifPlayer from './GifPlayer';
 
 type props = {
   build: Build;
@@ -166,6 +167,18 @@ export default function Build({ build, valkery }: props) {
                   </div>
                 ))}
                 {build.signets.length - 1 > i && <hr className={styles.hr} />}
+              </div>
+            ))}
+          </section>
+          {/* Bottom notes */}
+          <section>
+            <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
+              Additional notes:
+            </div>
+            {build.bottomNotes?.map((note, j) => (
+              <div key={j}>
+                {note.text && <div className='block w-full'>{note.text}</div>}
+                {note.gif && <GifPlayer video={note.gif} />}
               </div>
             ))}
           </section>
