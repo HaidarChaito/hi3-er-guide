@@ -18,7 +18,6 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
   return (
     <div className='w-full'>
       <motion.div
-        layoutId={valkery.label}
         layoutRoot
         className='relative'
         whileHover={{ scale: 1.015, transition: { duration: 0.3 } }}

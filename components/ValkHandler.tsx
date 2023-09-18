@@ -56,7 +56,7 @@ export default function ValkHandler() {
             className='input input-bordered w-24 md:w-auto'
           />
         </div>
-        <label className='tabs tabs-boxed h-full bg-neutral'>
+        <label className='tabs-boxed tabs h-full bg-neutral'>
           <div className={`tab h-full ${store?.gamerMode ? 'text-gray-400' : 'tab-active'}`}>
             Budget mode
           </div>
