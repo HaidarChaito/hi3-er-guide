@@ -34,7 +34,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_V_Spider_Web,
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Act_IV_Spoon,'wants Annihilation Ego'),
       withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
       Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
       Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
