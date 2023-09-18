@@ -18,7 +18,7 @@ const build2: Build = {
     'Swap BR for BK by F9/F10 Shop to deal with Heimdall. This build focus on using charged attacks, similiarly to the weapon active build, your absolute evasion stacks will be consumed to refresh your glitter bar for more charged attacks to deal very heavy damage.',
   bottomNotes: [
     {
-      text: 'SEQUENCE:Charged attack > WA > Charged attack > WA > Repeat; Build makes uses of glitter stacks to spam its attacks and ultimate evasions to refresh glitter stacks, ult to refresh resources',
+      text: 'SEQUENCE: Charged attack > WA > Charged attack > WA > Repeat; Build makes uses of glitter stacks to spam its attacks and ultimate evasions to refresh glitter stacks, ult to refresh resources',
     },
   ],
   signets: [

@@ -16,7 +16,7 @@ const build2: Build = {
     isNew: true,
     bottomNotes: [
         {
-            text: 'SEQUENCE:  Dodge > Charged > When stack 3/3 > WA > repeat (Dodge when the Ultimate Evasion is up)',
+            text: 'SEQUENCE: Dodge > Charged > When stack 3/3 > WA > repeat (Dodge when the Ultimate Evasion is up)',
         },
     ],
     signets: [

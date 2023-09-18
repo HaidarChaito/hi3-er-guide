@@ -15,7 +15,8 @@ const build1: Build = {
   tier: 5,
   isNew: true,
   bottomNotes: [
-    { text:'SEQUENCE:Dodge > Charged attack x2 > WA (VV signets) > Ult > Dodge > WA > Charged > WA > Ult > Charged till ult is back > Repeat from step 3',
+    {
+      text: 'SEQUENCE: Dodge > Charged attack x2 > WA (VV signets) > Ult > Dodge > WA > Charged > WA > Ult > Charged till ult is back > Repeat from step 3',
     },
   ],
   signets: [
