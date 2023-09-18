@@ -1,7 +1,7 @@
-import Footer from '@/components/Footer';
-import HandleThemeChange from '@/components/HandleThemeChange';
-import Navbar from '@/components/Navbar';
-import TransitionAnimation from '@/components/TransitionAnimation';
+import Footer from '@/components/shared/Footer';
+import HandleThemeChange from '@/components/shared/HandleThemeChange';
+import Navbar from '@/components/shared/Navbar';
+import TransitionAnimation from '@/components/shared/TransitionAnimation';
 import '@/public/static/styles/globals.css';
 import type { Metadata } from 'next';
 

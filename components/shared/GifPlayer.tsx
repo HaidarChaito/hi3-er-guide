@@ -6,7 +6,7 @@ type props = {
   video: string;
 };
 
-export default function Footer({ video }: props) {
+export default function GifPlayer({ video }: props) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   useEffect(() => {
     const options = {

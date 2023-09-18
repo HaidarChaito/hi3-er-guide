@@ -7,7 +7,7 @@ type props = {
   valkeries: Valkery[];
   recValks: Valkery[];
   brokeValks: Valkery[];
-  setSelected: CallableFunction;
+  setSelected: (valk: Valkery | undefined) => void;
 };
 
 export default function CardList({ valkeries, recValks, setSelected, brokeValks }: props) {

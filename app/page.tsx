@@ -1,5 +1,5 @@
-import FaqModal from '@/components/FaqModal';
-import ValkHandler from '@/components/ValkHandler';
+import ValkHandler from '@/components/valks/ValkHandler';
+import FaqModal from '@/components/faq/FaqModal';
 
 export default function Home() {
   return (

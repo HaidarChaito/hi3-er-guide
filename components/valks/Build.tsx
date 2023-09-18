@@ -5,7 +5,7 @@ import Rank from './Rank';
 import { Valkery } from '@/types/Valkery';
 import { switchColor } from '@/helpers/functions';
 import Image from 'next/image';
-import GifPlayer from './GifPlayer';
+import GifPlayer from '../shared/GifPlayer';
 
 type props = {
   build: Build;

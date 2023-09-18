@@ -1,6 +1,4 @@
 'use client';
-import CardList from '@/components/CardList';
-import ValkModal from '@/components/ValkModal';
 import { recValks } from '@/data/recommendedValks';
 import { valks } from '@/data/visibleValks';
 import { brokeValks } from '@/data/brokeModeValks';
@@ -8,10 +6,13 @@ import { useState } from 'react';
 import { Valkery } from '@/types/Valkery';
 import useGlobalStore from '@/store/mode';
 import { compareValkeriesTier, useStore } from '@/helpers/functions';
+import useNonPersistentStore from '@/store/valk';
+import ValkModal from './ValkModal';
+import CardList from './CardList';
 
 export default function ValkHandler() {
-  const [isSelectedValk, setSelectedValk] = useState<undefined | Valkery>(undefined);
   const store = useStore(useGlobalStore, (state) => state);
+  const nonPersistentStore = useStore(useNonPersistentStore, (state) => state);
   const [query, setQuery] = useState<string | undefined>(undefined);
   const [results, setResults] = useState<Valkery[]>(valks);
   const [recResults, setRecResults] = useState<Valkery[]>(recValks);
@@ -45,7 +46,11 @@ export default function ValkHandler() {
   };
 
   return (
-    <div className='mt-2 flex flex-row flex-wrap '>
+    <div
+      className={`mt-2 flex flex-row flex-wrap ${
+        nonPersistentStore?.selectedValk != undefined ? 'fixed' : ''
+      }`}
+    >
       <div className=' mb-4 w-full flex-row  justify-center align-middle sm:flex'>
         <div className='form-control my-2 block text-center sm:mx-2 sm:my-0'>
           <input
@@ -83,12 +88,12 @@ export default function ValkHandler() {
         brokeValks={brokeResults}
         recValks={recResults}
         valkeries={results}
-        setSelected={setSelectedValk}
+        setSelected={(valk: Valkery | undefined) => nonPersistentStore?.setSelectedValk(valk)}
       />
       <ValkModal
         isBudgetMode={!store?.gamerMode}
-        selectedValk={isSelectedValk}
-        setSelected={setSelectedValk}
+        selectedValk={nonPersistentStore?.selectedValk}
+        setSelected={(valk: Valkery | undefined) => nonPersistentStore?.setSelectedValk(valk)}
       />
     </div>
   );

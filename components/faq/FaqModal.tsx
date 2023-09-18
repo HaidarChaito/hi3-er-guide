@@ -1,9 +1,9 @@
 'use client';
 import { motion } from 'framer-motion';
-import FaqCard from './FaqCard';
 import { faqs } from '@/data/faq';
 import useGlobalStore from '@/store/mode';
 import { useStore } from '@/helpers/functions';
+import FaqBuble from './FaqBuble';
 
 export default function FaqModal() {
   const store = useStore(useGlobalStore, (state) => state);
@@ -26,7 +26,7 @@ export default function FaqModal() {
       className='fixed inset-0 z-40 cursor-pointer overflow-hidden overflow-y-scroll bg-black/75  py-28 backdrop-blur-md'
     >
       {faqs.map((faq) => {
-        return <FaqCard key={faq.question} faq={faq} />;
+        return <FaqBuble key={faq.question} faq={faq} />;
       })}
     </motion.div>
   );
