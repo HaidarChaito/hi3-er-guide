@@ -80,7 +80,7 @@ const build1: Build = {
   ],
   emblems: [
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy, EmblemsImages.Because_of_You],
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };
