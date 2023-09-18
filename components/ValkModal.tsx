@@ -22,9 +22,13 @@ export default function ValkModal({ selectedValk, setSelected }: props) {
           exit={{
             opacity: 0,
             y: 150,
+            transition: {
+              duration: 0.4,
+              ease: [0.33, 1, 0.44, 1],
+            },
           }}
           transition={{
-            duration: 0.8,
+            duration: 0.7,
             ease: [0.33, 1, 0.44, 1],
           }}
           onClick={() => setSelected(null)}

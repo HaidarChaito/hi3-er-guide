@@ -17,7 +17,10 @@ export default function Navbar() {
         <div className='relative mx-auto w-full'>
           <div className='flex w-full items-center justify-around py-6 sm:justify-between xl:px-12'>
             <ul className='flex w-full justify-around space-x-1 font-semibold text-neutral-content sm:justify-center sm:space-x-4'>
-              <li className={pathname === '/' && store?.isFaqOpen === false ? 'text-primary' : ''}>
+              <li
+                onClick={store?.isFaqOpen ? store.toggleFaq : undefined}
+                className={pathname === '/' && store?.isFaqOpen === false ? 'text-primary' : ''}
+              >
                 <Link className='btn btn-ghost text-lg normal-case' href='/'>
                   Home
                 </Link>
