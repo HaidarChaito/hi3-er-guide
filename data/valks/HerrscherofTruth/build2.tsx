@@ -12,7 +12,7 @@ import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
 
-const build1: Build = {
+const build2: Build = {
     label: 'Ult Nuke Build',
     tier: 5,
     isNew: true,
@@ -101,4 +101,4 @@ const build1: Build = {
     ]
 };
 
-export default build1;
+export default build2;

@@ -13,6 +13,7 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'Combo Build',
   tier: 3,
+  notBudget: true,
   bottomNotes: [
     {
       text: 'SEQUENCE: Evade (enters 6s CD) into connect ATK > Active > Evade (Ultimate Evasion Skill) > 3 Twisted Origin Combo > 1st-3rd Basic SEQ into Evade cancel for 4 SEQ and fill 1 Twisted Origin > Repeat and modify as needed based on CDs (Delay the connection of WA, 6s Evade, UE Skill; you want to get 3 Twisted Origin everytime) > Repeat.',

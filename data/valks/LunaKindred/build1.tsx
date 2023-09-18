@@ -13,7 +13,7 @@ const build1: Build = {
   tier: 1,
   bottomNotes: [
     {
-      text: 'SEQUENCE: Deploy Cross > Spam Combo > Use ult on rare ocassion where you have SP for it > Repeat.',
+      text: 'SEQUENCE: Deploy Cross > Spam Charged > Use ult on rare ocassion where you have SP for it > Repeat.',
     },
   ],
   isNew: true,
