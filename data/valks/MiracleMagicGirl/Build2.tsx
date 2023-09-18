@@ -46,7 +46,7 @@ const build2: Build = {
       Signets_of_Helix_VillV.Act_IV_Spoon,
       withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
-      withPriority(Signets_of_Helix_VillV.Puppetry_Interlacing_Cells, 'Optional'),
+      
       
     ],
     [
