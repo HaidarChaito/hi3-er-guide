@@ -73,8 +73,7 @@ for text in elements:
                 signetData = signetInfo.find_next(
                     'div').text.replace("'", '').split('\n')[0]
                 signetData = cleanSignet(signetData, False)
-                signetTitle = cleanSignet(signetTitle, True)
-                data += f"{cleantext(signetTitle)} : {{ label:'{signetTitle}',description: \"{signetData}\" " + \
+                data += f"{cleantext(cleanSignet(signetTitle, True))} : {{ label:'{cleanSignet(signetTitle, False)}',description: \"{signetData}\" " + \
                     ",family: '"+(text.text)+"'," + '},\n'
 
     data += "}\n"
