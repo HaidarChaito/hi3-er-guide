@@ -77,7 +77,11 @@ export default function ValkHandler() {
         valkeries={results}
         setSelected={setSelectedValk}
       />
-      <ValkModal selectedValk={isSelectedValk} setSelected={setSelectedValk} />
+      <ValkModal
+        isBudgetMode={!store?.gamerMode}
+        selectedValk={isSelectedValk}
+        setSelected={setSelectedValk}
+      />
     </div>
   );
 }

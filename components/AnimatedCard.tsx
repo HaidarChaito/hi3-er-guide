@@ -22,6 +22,7 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
         className='relative'
         whileHover={{ scale: 1.015, transition: { duration: 0.3 } }}
         whileTap={{ scale: 0.975, transition: { duration: 0.3 } }}
+        onClick={() => setSelected(valkery)}
       >
         <div
           className={`relative ${
@@ -54,7 +55,6 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
             src={'/static/images/valks/' + valkery.image + '.png'}
             loading='eager'
             alt={valkery.label}
-            onClick={() => setSelected(valkery)}
             fill
             sizes='(max-width: 768px) 100vw, 300px'
           />

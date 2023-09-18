@@ -5,8 +5,9 @@ import LoadoutBuffs from './LoadoutBuffs';
 type props = {
   selectedValk?: Valkery;
   setSelected: CallableFunction;
+  isBudgetMode: boolean;
 };
-export default function ValkModal({ selectedValk, setSelected }: props) {
+export default function ValkModal({ selectedValk, setSelected, isBudgetMode }: props) {
   return (
     <AnimatePresence mode='wait'>
       {selectedValk != undefined && (
@@ -56,6 +57,7 @@ export default function ValkModal({ selectedValk, setSelected }: props) {
                 </div>
               ))}
             {selectedValk.build.map((build, index) => {
+              if (build.notBudget && isBudgetMode) return <></>;
               return (
                 <>
                   <Build key={index} build={build} valkery={selectedValk} />

@@ -8,6 +8,7 @@ export type Build = {
   signets: Signet[][];
   supports?: string[][];
   emblems?: string[][];
+  notBudget?: boolean;
   notes?: string;
   bottomNotes?: bottomNotes[];
 };
