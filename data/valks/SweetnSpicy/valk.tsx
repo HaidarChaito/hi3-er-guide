@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const SweetnSpicy: Valkery = {
-  label: 'Sweet n Spicy',
+  label: 'Sweet n Spicy (SnS)',
   image: 'Sweet n Spicy',
   build: [build1],
   type: 1,

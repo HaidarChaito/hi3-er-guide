@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const BrightKnightExcelsis: Valkery = {
-  label: 'Bright Knight Excelsis',
+  label: 'Bright Knight Excelsis (BKE)',
   image: 'Bright Knight Excelsis',
   build: [build1],
   type: 1,

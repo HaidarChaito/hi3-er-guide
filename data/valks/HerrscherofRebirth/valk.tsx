@@ -4,7 +4,7 @@ import build2 from './build2';
 import build3 from './build3';
 
 const HerrscherofRebirth: Valkery = {
-  label: 'Herrscher of Rebirth',
+  label: 'Herrscher of Rebirth (HoRb)',
   image: 'Herrscher of Rebirth',
   build: [build1, build2, build3,],
   type: 1,

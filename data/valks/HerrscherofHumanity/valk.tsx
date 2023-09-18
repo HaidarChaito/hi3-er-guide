@@ -3,7 +3,7 @@ import build1 from './build1';
 import build2 from './build2';
 
 const HerrscherofHumanity: Valkery = {
-  label: 'Herrscher of Humanity',
+  label: 'Herrscher of Humanity (HoHe)',
   image: 'Herrscher of Humanity',
   build: [build1, build2],
   type: 2,

@@ -3,7 +3,7 @@ import build1 from './Build1';
 import build2 from './Build2';
 
 const Dreamweaver: Valkery = {
-  label: 'Dreamweaver',
+  label: 'Dreamweaver (Hare)',
   image: 'Dreamweaver',
   build: [build1, build2],
   type: 1,

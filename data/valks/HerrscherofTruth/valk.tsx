@@ -3,7 +3,7 @@ import build1 from './build1';
 import build2 from './build2';
 
 const HerrscherofTruth: Valkery = {
-  label: 'Herrscher of Truth',
+  label: 'Herrscher of Truth (HoTr)',
   image: 'Herrscher of Truth',
   build: [build1, build2],
   type: 2,

@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const StarryImpression: Valkery = {
-  label: 'Starry Impression',
+  label: 'Starry Impression (Griseo)',
   image: 'Starry Impression',
   build: [build1],
   type: 1,

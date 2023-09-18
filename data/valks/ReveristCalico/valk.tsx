@@ -3,7 +3,7 @@ import build1 from './build1';
 import build2 from './build2';
 
 const ReveristCalico: Valkery = {
-  label: 'Reverist Calico',
+  label: 'Reverist Calico (RC)',
   image: 'Reverist Calico',
   build: [build1, build2],
   type: 2,

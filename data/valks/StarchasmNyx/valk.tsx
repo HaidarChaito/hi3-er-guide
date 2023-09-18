@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const StarchasmNyx: Valkery = {
-  label: 'Starchasm Nyx',
+  label: 'Starchasm Nyx (Nyx)',
   image: 'Starchasm Nyx',
   build: [build1],
   type: 2,

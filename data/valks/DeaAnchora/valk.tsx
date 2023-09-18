@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const DeaAnchora: Valkery = {
-  label: 'Dea Anchora',
+  label: 'Dea Anchora (DA)',
   image: 'Dea Anchora',
   build: [build1],
   type: 4,

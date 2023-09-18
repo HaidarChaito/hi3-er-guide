@@ -3,7 +3,7 @@ import build1 from './build1';
 import build2 from './build2';
 
 const VermilionKnightEclipse: Valkery = {
-  label: 'Vermilion Knight Eclipse',
+  label: 'Vermilion Knight Eclipse (VKE)',
   image: 'Vermilion Knight Eclipse',
   build: [build1, build2],
   type: 4,

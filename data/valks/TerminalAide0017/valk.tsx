@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const TerminalAide0017: Valkery = {
-  label: 'Terminal Aide 0017',
+  label: 'Terminal Aide 0017 (Prom)',
   image: 'Terminal Aide 0017',
   build: [build1],
   type: 1,

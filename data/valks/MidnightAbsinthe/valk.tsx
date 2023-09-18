@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const MidnightAbsinthe: Valkery = {
-  label: 'Midnight Absinthe',
+  label: 'Midnight Absinthe (Raven)',
   image: 'Midnight Absinthe',
   build: [build1],
   type: 4,

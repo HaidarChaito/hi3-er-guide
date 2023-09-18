@@ -25,7 +25,7 @@ const build1: Build = {
     [
       withPriority(MiracleMagicGirl.Blessing_of_Tailor, 'Start'),
       withPriority(MiracleMagicGirl.Blessing_of_Dreamstitch, 'Start'),
-      withPriority(MiracleMagicGirl.Blessing_of_Stellar_Breach, 'Optional'),
+      withPriority(MiracleMagicGirl.Blessing_of_Stellar_Breach, 'F2 Ego'),
       withPriority(MiracleMagicGirl.Blessing_of_Resplendence, 'Optional'),
     ],
 
@@ -35,15 +35,10 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
       withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
+      Signets_of_Decimation_Kalpas.Homeland_and_Friends,
     ],
 
-    [
-      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
-      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
-      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Maxim_of_Anitya,
-    ],
+    
 
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,
@@ -51,18 +46,24 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_IV_Spoon,
       withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
+      withPriority(Signets_of_Helix_VillV.Puppetry_Interlacing_Cells, 'Optional'),
+      
+    ],
+    [
+      Signets_of_Reverie_Pardofelis.Motto_of_Meow,
+      Signets_of_Reverie_Pardofelis.BackCurled_Tail,
+      Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
     [
       Signets_of_Stars_Griseo.Red__Hot,
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
-      withPriority(Signets_of_Stars_Griseo.Shining_Like_Stars, 'CORE'),
+      withPriority(Signets_of_Stars_Griseo.Faded_Stars, 'CORE'),
     ],
 
     [
-      Signets_of_Reverie_Pardofelis.Motto_of_Meow,
-      Signets_of_Reverie_Pardofelis.BackCurled_Tail,
-      Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
+      
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Fuji,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,

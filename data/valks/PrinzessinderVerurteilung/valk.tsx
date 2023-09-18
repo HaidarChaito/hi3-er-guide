@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const PrinzessinderVerurteilung: Valkery = {
-  label: 'Prinzessin der Verurteilung',
+  label: 'Prinzessin der Verurteilung (PV)',
   image: 'Prinzessin der Verurteilung',
   build: [build1],
   type: 3,

@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const FerventTempoDelta: Valkery = {
-  label: 'Fervent Tempo Delta',
+  label: 'Fervent Tempo Delta (FT)',
   image: 'Fervent Tempo Delta',
   build: [build1],
   type: 1,

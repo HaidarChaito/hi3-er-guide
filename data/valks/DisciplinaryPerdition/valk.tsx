@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const DisciplinaryPerdition: Valkery = {
-  label: 'Disciplinary Perdition',
+  label: 'Disciplinary Perdition (Aponia)',
   image: 'Disciplinary Perdition',
   build: [build1],
   type: 3,

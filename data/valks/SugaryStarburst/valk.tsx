@@ -4,7 +4,7 @@ import build2 from './build2';
 import build3 from './build3';
 
 const SugaryStarburst: Valkery = {
-  label: 'Sugary Starburst',
+  label: 'Sugary Starburst (Kira)',
   image: 'Sugary Starburst',
   build: [build1, build2, build3],
   type: 2,

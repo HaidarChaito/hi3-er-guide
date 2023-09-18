@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const SilverwingNEX: Valkery = {
-  label: 'Silverwing NEX',
+  label: 'Silverwing NEX (SW)',
   image: 'Silverwing NEX',
   build: [build1],
   type: 2,

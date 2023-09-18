@@ -3,7 +3,7 @@ import build1 from './Build1';
 import build2 from './Build2';
 
 const MiracleMagicGirl: Valkery = {
-  label: 'Miracle Magic Girl',
+  label: 'Miracle Magic Girl (Sirin)',
   image: 'Miracle Magic Girl',
   build: [build1, build2],
   type: 4,

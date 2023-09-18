@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const GoushinnsoMemento: Valkery = {
-  label: 'Goushinnso Memento',
+  label: 'Goushinnso Memento (Meme)',
   image: 'Goushinnso Memento',
   build: [build1],
   type: 2,

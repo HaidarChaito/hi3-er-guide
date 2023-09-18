@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const TwilightPaladin: Valkery = {
-  label: 'Twilight Paladin',
+  label: 'Twilight Paladin (TP)',
   image: 'Twilight Paladin',
   build: [build1],
   type: 1,

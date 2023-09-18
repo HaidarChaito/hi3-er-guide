@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const StygianNymph: Valkery = {
-  label: 'Stygian Nymph',
+  label: 'Stygian Nymph (SN)',
   image: 'Stygian Nymph',
   build: [build1],
   type: 1,

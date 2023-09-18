@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const GoldenDiva: Valkery = {
-  label: 'Golden Diva',
+  label: 'Golden Diva (GD)',
   image: 'Golden Diva',
   build: [build1],
   type: 3,

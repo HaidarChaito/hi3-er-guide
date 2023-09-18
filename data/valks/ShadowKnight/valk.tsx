@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const ShadowKnight: Valkery = {
-    label: 'Shadow Knight',
+    label: 'Shadow Knight (SK)',
     image: 'Shadow Knight',
     build: [build1],
     type: 3,

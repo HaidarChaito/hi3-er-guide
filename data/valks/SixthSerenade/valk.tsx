@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const SixthSerenade: Valkery = {
-  label: 'Sixth Serenade',
+  label: 'Sixth Serenade (6S)',
   image: 'Sixth Serenade',
   build: [build1],
   type: 2,

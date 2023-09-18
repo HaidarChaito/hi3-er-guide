@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const HerrscherofSentience: Valkery = {
-  label: 'Herrscher of Sentience',
+  label: 'Herrscher of Sentience (HoS)',
   image: 'Herrscher of Sentience',
   build: [build1],
   type: 1,

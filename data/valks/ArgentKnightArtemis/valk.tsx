@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const ArgentKnightArtemis: Valkery = {
-  label: 'Argent Knight Artemis',
+  label: 'Argent Knight Artemis (AKA)',
   image: 'Argent Knight Artemis',
   build: [build1],
   type: 2,

@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const StrikerFulminata: Valkery = {
-  label: 'Striker Fulminata',
+  label: 'Striker Fulminata (StFu)',
   image: 'Striker Fulminata',
   build: [build1],
   type: 1,

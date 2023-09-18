@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const SpinaAstera: Valkery = {
-  label: 'Spina Astera',
+  label: 'Spina Astera (SpA)',
   image: 'Spina Astera',
   build: [build1],
   type: 4,

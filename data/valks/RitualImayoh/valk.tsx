@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const RitualImayoh: Valkery = {
-  label: 'Ritual Imayoh',
+  label: 'Ritual Imayoh (RI)',
   image: 'Ritual Imayoh',
   build: [build1],
   type: 1,

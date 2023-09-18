@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const MissPinkElf: Valkery = {
-  label: 'Miss Pink Elf',
+  label: 'Miss Pink Elf (MPE)',
   image: 'Miss Pink Elf',
   build: [build1],
   type: 1,

@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const JadeKnight: Valkery = {
-  label: 'Jade Knight',
+  label: 'Jade Knight (JK)',
   image: 'Jade Knight',
   build: [build1],
   type: 2,

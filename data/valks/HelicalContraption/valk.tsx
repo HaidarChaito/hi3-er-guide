@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const HelicalContraption: Valkery = {
-  label: 'Helical Contraption',
+  label: 'Helical Contraption (VV)',
   image: 'Helical Contraption',
   build: [build1],
   type: 4,

@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const InfiniteOuroboros: Valkery = {
-  label: 'Infinite Ouroboros',
+  label: 'Infinite Ouroboros (Mobius)',
   image: 'Infinite Ouroboros',
   build: [build1],
   type: 3,

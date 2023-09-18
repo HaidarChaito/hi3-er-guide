@@ -4,7 +4,7 @@ import build2 from './Build2';
 import build3 from './Build3';
 
 const HerrscherOfFinality: Valkery = {
-  label: 'Herrscher of Finality',
+  label: 'Herrscher of Finality (HoFi)',
   image: 'Herrscher of Finality',
   build: [build1, build2, build3],
   type: 4,

@@ -2,7 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
 const ChronoNavi: Valkery = {
-  label: 'Chrono Navi',
+  label: 'Chrono Navi (CN)',
   image: 'Chrono Navi',
   build: [build1],
   minRank: 3,
