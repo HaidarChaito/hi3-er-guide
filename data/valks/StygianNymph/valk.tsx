@@ -3,7 +3,7 @@ import build1 from './build1';
 
 const StygianNymph: Valkery = {
   label: 'Stygian Nymph',
-  image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
+  image: 'Stygian Nymph',
   build: [build1],
   type: 1,
   tier: 1,

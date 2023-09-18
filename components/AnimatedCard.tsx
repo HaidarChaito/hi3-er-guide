@@ -51,7 +51,7 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
           <Image
             priority
             className='relative h-52 w-full cursor-pointer rounded-lg object-cover object-top shadow-xl'
-            src={'/static/images/valks/' + valkery.label + '.png'}
+            src={'/static/images/valks/' + valkery.image + '.png'}
             loading='eager'
             alt={valkery.label}
             onClick={() => setSelected(valkery)}

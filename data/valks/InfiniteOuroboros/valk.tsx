@@ -3,7 +3,7 @@ import build1 from './build1';
 
 const InfiniteOuroboros: Valkery = {
   label: 'Infinite Ouroboros',
-  image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
+  image: 'Infinite Ouroboros',
   build: [build1],
   type: 3,
   tier: 4.5,

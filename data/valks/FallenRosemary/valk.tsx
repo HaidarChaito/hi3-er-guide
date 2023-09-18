@@ -4,7 +4,7 @@ import build2 from './build2';
 
 const FallenRosemary: Valkery = {
   label: 'Fallen Rosemary',
-  image: 'https://i.pximg.net/img-original/img/2020/09/04/16/37/48/84147101_p0.png',
+  image: 'Fallen Rosemary',
   build: [build1, build2],
   type: 3,
   tier: 4.5,

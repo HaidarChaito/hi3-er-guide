@@ -3,7 +3,7 @@ import build1 from './build1';
 
 const FerventTempoDelta: Valkery = {
   label: 'Fervent Tempo Delta',
-  image: 'https://i.pximg.net/img-original/img/2020/10/21/19/02/17/85151250_p0.jpg',
+  image: 'Fervent Tempo Delta',
   build: [build1],
   type: 1,
   tier: 4,

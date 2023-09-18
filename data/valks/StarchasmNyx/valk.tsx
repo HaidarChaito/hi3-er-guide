@@ -3,7 +3,7 @@ import build1 from './build1';
 
 const StarchasmNyx: Valkery = {
   label: 'Starchasm Nyx',
-  image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
+  image: 'Starchasm Nyx',
   build: [build1],
   type: 2,
   tier: 2.5,

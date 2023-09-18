@@ -4,7 +4,7 @@ import build2 from './build2';
 
 const VermilionKnightEclipse: Valkery = {
   label: 'Vermilion Knight Eclipse',
-  image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
+  image: 'Vermilion Knight Eclipse',
   build: [build1, build2],
   type: 4,
   tier: 5,

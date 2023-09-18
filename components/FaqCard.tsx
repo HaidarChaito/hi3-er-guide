@@ -2,6 +2,7 @@
 import { Faq } from '@/types/Faq';
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 type props = {
   faq: Faq;
@@ -27,11 +28,8 @@ export default function FaqCard({ faq }: props) {
 
   return (
     <div className='mx-auto text-neutral-focus lg:w-3/4' onClick={(e) => e.stopPropagation()}>
-      <div
-        className='question-and-answer group mx-8 my-3 cursor-pointer select-none rounded-lg border border-primary px-6 py-4 text-sm'
-        onClick={toggleAnswerVisibility}
-      >
-        <div className='question'>
+      <div className='question-and-answer group mx-8 my-3 cursor-pointer select-none rounded-lg border border-primary px-6 py-4 text-sm'>
+        <div className='question' onClick={toggleAnswerVisibility}>
           <div className='flex justify-between'>
             <div className='font-semibold text-primary'>{faq.question}</div>
             <div>
@@ -60,11 +58,35 @@ export default function FaqCard({ faq }: props) {
         )}
         {faq.multiLines && (
           <div className={`answer ${isAnswerVisible ? 'block' : 'hidden'} mt-2 leading-snug `}>
-            {faq.multiLines.map((line) => (
-              <>
-                {line} <br />
-              </>
-            ))}
+            {faq.multiLines && (
+              <div className={`answer ${isAnswerVisible ? 'block' : 'hidden'} mt-2 leading-snug `}>
+                {faq.multiLines.map((line, index) => {
+                  const urlRegex = /(https?:\/\/[^\s]+)/g;
+                  const segments = line.split(urlRegex);
+                  const renderedSegments = segments.map((segment, segmentIndex) => {
+                    if (urlRegex.test(segment)) {
+                      return (
+                        <Link
+                          className='link-primary link'
+                          target='_blank'
+                          href={segment}
+                          key={segmentIndex}
+                        >
+                          {segment}
+                        </Link>
+                      );
+                    } else {
+                      return segment;
+                    }
+                  });
+                  return (
+                    <div className='mx-2' key={index}>
+                      {renderedSegments}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </div>
         )}
         {faq.gif && (

@@ -4,7 +4,7 @@ import build2 from '../HerrscherofThunder/build2';
 
 const HerrscherofTruth: Valkery = {
   label: 'Herrscher of Truth',
-  image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
+  image: 'Herrscher of Truth',
   build: [build1, build2],
   type: 2,
   tier: 5,

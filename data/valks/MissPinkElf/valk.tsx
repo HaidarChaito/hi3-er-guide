@@ -3,7 +3,7 @@ import build1 from './build1';
 
 const MissPinkElf: Valkery = {
   label: 'Miss Pink Elf',
-  image: 'https://user-images.githubusercontent.com/114035701/203185665-d64d2dfe-b830-4348-a685-6a1a71cbf644.png',
+  image: 'Miss Pink Elf',
   build: [build1],
   type: 1,
   tier: 3,
