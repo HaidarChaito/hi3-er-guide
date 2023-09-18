@@ -16,7 +16,7 @@ const build1: Build = {
   isNew: true,
   bottomNotes: [
     {
-      text: 'SEQUENCE:Dodge > Charged attack x2 > WA (VV signets) > Ult > Dodge > WA > Charged > WA > Ult > Charged till ult is back > Repeat from step 3',
+      text: 'SEQUENCE: Dodge > Charged attack x2 > WA (VV signets) > Ult > Dodge > WA > Charged > WA > Ult > Charged till ult is back > Repeat from step 3',
     },
   ],
   signets: [
@@ -24,6 +24,14 @@ const build1: Build = {
       withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Bloom, 'Start'),
       withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Journey, 'Start'),
       withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Awakening, 'F2 Ego'),
+    ],
+
+    [
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral,'CORE'),
     ],
 
     [
@@ -52,14 +60,7 @@ const build1: Build = {
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
-    [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
-    ],
+    
 
     [
       Signets_of_Stars_Griseo.Red__Hot,

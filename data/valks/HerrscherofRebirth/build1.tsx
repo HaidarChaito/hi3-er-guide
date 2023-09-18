@@ -15,7 +15,7 @@ const build1: Build = {
   isNew: true,
   bottomNotes: [
     {
-      text: 'SEQUENCE:Dodge>ULT>Swap to lifebinder form> WAx2 > COMBOx2 > Repeat; ult as necessary',
+      text: 'SEQUENCE: Dodge>ULT>Swap to lifebinder form> WAx2 > COMBOx2 > Repeat; ult as necessary',
     },
   ],
   notes:

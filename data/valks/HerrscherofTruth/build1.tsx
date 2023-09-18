@@ -18,7 +18,7 @@ const build1: Build = {
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   bottomNotes: [
     {
-      text: 'SEQUENCE:At max weapons > Transform > Combo attack > WA > Combo attack > WA Etc.. Alternate, ult when available',
+      text: 'SEQUENCE: At max weapons > Transform > Combo attack > WA > Combo attack > WA Etc.. Alternate, ult when available',
     },
   ],
   signets: [
@@ -26,6 +26,12 @@ const build1: Build = {
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Konstruktion, 'Start'),
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Continuation, 'F2 Ego'),
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Vector, 'Optional'),
+    ],
+    [
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral,'CORE'),
     ],
 
     [
@@ -65,13 +71,7 @@ const build1: Build = {
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
-    [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'Optional'),
-      withPriority(Signets_of_Helix_VillV.Drama_Origin_of_Slumber, 'Optional'),
-    ],
+    
 
     [
       Signets_of_Stars_Griseo.Red__Hot,

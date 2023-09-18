@@ -17,7 +17,7 @@ const build1: Build = {
   isNew: true,
   bottomNotes: [
     {
-      text: 'SEQUENCE:ATF (Do not use your WA inside)> x5 attacks > WA > Combo > Wa Combo > Repeat when ATF up ',
+      text: 'SEQUENCE: ATF (Do not use your WA inside)> x5 attacks > WA > Combo > Wa Combo > Repeat when ATF up ',
     },
   ],
   signets: [

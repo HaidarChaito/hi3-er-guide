@@ -28,17 +28,6 @@ const build1: Build = {
       withPriority(Terminal_Aide_0017_Ego.Blessing_of_Recursion, 'F2 Ego'),
       withPriority(Terminal_Aide_0017_Ego.Blessing_of_Stimulus, 'Optional 1st'),
     ],
-
-    [
-      Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
-      Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
-      Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
-      Signets_of_Deliverance_Kevin.Mask_of_the_Predator,
-      withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
-      Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
-      withPriority(Signets_of_Deliverance_Kevin.Flock_of_the_Deliverer, 'Optional'),
-    ],
-
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
@@ -51,6 +40,17 @@ const build1: Build = {
         'Dont get if already have Kevins Breach'
       ),
     ],
+    [
+      Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
+      Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
+      Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
+      Signets_of_Deliverance_Kevin.Mask_of_the_Predator,
+      withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
+      Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
+      withPriority(Signets_of_Deliverance_Kevin.Flock_of_the_Deliverer, 'Optional'),
+    ],
+
+    
 
     [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,

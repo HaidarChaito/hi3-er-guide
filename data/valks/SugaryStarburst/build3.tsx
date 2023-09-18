@@ -21,6 +21,14 @@ const build3: Build = {
       withPriority(Sugary_Starburst_Ego.Blessing_of_Astral_Path, 'F2 Ego'),
       withPriority(Sugary_Starburst_Ego.Blessing_of_Rhythm, 'Optional'),
     ],
+
+    [
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
+    ],
     [
       Signets_of_Gold_Eden.Recitatif_of_Eden,
       Signets_of_Gold_Eden.Recitatif_of_Creeks,
@@ -29,14 +37,7 @@ const build3: Build = {
       Signets_of_Gold_Eden.Aria_of_Soil,
       Signets_of_Gold_Eden.Aria_of_Dawn,
     ],
-    [
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
-    ],
+    
     [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,

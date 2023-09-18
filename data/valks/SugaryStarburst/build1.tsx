@@ -28,8 +28,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_V_Spider_Web,
       Signets_of_Helix_VillV.Act_IV_Spoon,
       Signets_of_Helix_VillV.Act_III_Conflict,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral,'CORE'),
     ],
 
     [

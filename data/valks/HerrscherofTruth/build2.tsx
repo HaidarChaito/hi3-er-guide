@@ -37,6 +37,13 @@ const build1: Build = {
             withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
             Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
         ],
+        [
+            Signets_of_Helix_VillV.Act_V_Spider_Web,
+            Signets_of_Helix_VillV.Act_II_Pendulum,
+            Signets_of_Helix_VillV.Act_III_Conflict,
+            Signets_of_Helix_VillV.Act_IV_Spoon,
+            withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral,'CORE'),
+          ],
 
         [
             Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
@@ -64,15 +71,7 @@ const build1: Build = {
             withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
         ],
 
-        [
-            Signets_of_Helix_VillV.Act_V_Spider_Web,
-            Signets_of_Helix_VillV.Act_II_Pendulum,
-            Signets_of_Helix_VillV.Act_III_Conflict,
-            Signets_of_Helix_VillV.Act_IV_Spoon,
-            withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-            Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
-        ],
-
+        
         [
             Signets_of_Stars_Griseo.Red__Hot,
             Signets_of_Stars_Griseo.Yellow__Warm,

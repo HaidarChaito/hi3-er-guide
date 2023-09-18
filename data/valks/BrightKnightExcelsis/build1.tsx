@@ -14,6 +14,11 @@ const build1: Build = {
   label: 'General Build',
   tier: 2.5,
   isNew: true,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: AF active > spam basic and lance throw till enough SP for Ult (UE as well for extra SP) > Ult > Ultimate Evasion Skill into enemies connect to Charged (Phantom Cleave) and repeat until UE charges are depleted > Spam Basics when no UE charges > When Ult is about to end OR for Finisher damage (to kill off waves quickly), AF Active > Repeat',
+    },
+  ],
   notes: 'If you cannot clear F4 in time with IWBW, use Tsukimi Himiko instead.',
   signets: [
     [

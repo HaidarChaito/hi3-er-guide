@@ -27,7 +27,12 @@ const build1: Build = {
       withPriority(Midnight_Absinthe_Ego.Blessing_of_Arrowhead, 'Start'),
       withPriority(Midnight_Absinthe_Ego.Blessing_of_Suppression, 'F2 Ego'),
     ],
-
+    [
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral,'CORE'),
+    ],
     [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
       Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
@@ -38,14 +43,7 @@ const build1: Build = {
       withPriority(Signets_of_Deliverance_Kevin.Flock_of_the_Deliverer, 'Optional'),
     ],
 
-    [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
-    ],
-
+    
     [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,

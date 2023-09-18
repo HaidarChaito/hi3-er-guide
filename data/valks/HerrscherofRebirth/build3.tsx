@@ -15,7 +15,7 @@ const build3: Build = {
   isNew: true,
   bottomNotes: [
     {
-      text: 'SEQUENCE:Dodge > Ult > Dodges(Absolute evasion stacks reliant)/Attacks till bar full > Combo attack x2 > Repeat',
+      text: 'SEQUENCE: Dodge > Ult > Dodges(Absolute evasion stacks reliant)/Attacks till bar full > Combo attack x2 > Repeat',
     },
   ],
   notes:

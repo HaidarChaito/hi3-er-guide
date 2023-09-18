@@ -16,7 +16,7 @@ const build2: Build = {
   isNew: true,
   bottomNotes: [
     {
-      text: 'SEQUENCE:  Dodge > Charged > When stack 3/3 > WA > repeat (Dodge when the Ultimate Evasion is up)',
+      text: 'SEQUENCE: Dodge > Charged > When stack 3/3 > WA > repeat (Dodge when the Ultimate Evasion is up)',
     },
   ],
   signets: [
@@ -24,7 +24,13 @@ const build2: Build = {
       withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Encounter, 'Start'),
       withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Yearning, 'Start'),
     ],
-
+    [
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral,'CORE'),
+    ],
     [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
       Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
@@ -51,14 +57,7 @@ const build2: Build = {
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
-    [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
-    ],
+    
 
     [
       withPriority(Signets_of_Stars_Griseo.Red__Hot, 'Must Get'),

@@ -18,7 +18,7 @@ const build1: Build = {
     'This build uses the strong synergy between Kevin signets and Thousand thoughts ego signet to deal consistent high damage through Dreamweaver ideas, this build is considered the easiest and the strongest of the two.',
   bottomNotes: [
     {
-      text: 'SEQUENCE:SEQ 4 or WA Sequence, they both produce similar results, make sure to never miss your SEQ 4',
+      text: 'SEQUENCE: SEQ 4 or WA Sequence, they both produce similar results, make sure to never miss your SEQ 4',
     },
   ],
   signets: [

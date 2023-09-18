@@ -30,6 +30,14 @@ const build1: Build = {
     ],
 
     [
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral,'CORE'),
+    ],
+
+    [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
       Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
       Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
@@ -40,14 +48,7 @@ const build1: Build = {
       withPriority(Signets_of_Deliverance_Kevin.Triumph_of_the_Deliverer, 'Optional'),
     ],
 
-    [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
-    ],
+    
 
     [
       Signets_of_Infinity_Mobius.Rodent_V,

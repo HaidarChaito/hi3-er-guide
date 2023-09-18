@@ -14,6 +14,11 @@ const build1: Build = {
   label: 'General Build',
   tier: 3,
   isNew: true,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Spam basic > Farm SP for ult and Watch out for Ice Orb indicator in enemies to use Charged and inflict Ice Cell > During Ult, spam Basics and Charged for Ice Cell whenever they have the indicator, weave Wep Actives in-between (Red Paint, V-V signets, never let it be at full charges), manual end Ult when SP consumption gets too high',
+    },
+  ],
   notes:
     'BoY is preferred start, but if you cannot clear F4 Double with it, use Dreamful Gold or Boundless Logos instead and go shop F5 to put BoY and get your 2 Egos by F11. Swap your 2nd support with BK by F9/F10 to deal with Heimdall.',
   signets: [

@@ -32,9 +32,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_I_Magic,
       withPriority(Signets_of_Helix_VillV.Act_IV_Spoon, 'Optional'),
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
-      Signets_of_Helix_VillV.Puppetry_Interlacing_Cells,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral,'CORE'),
     ],
 
     [

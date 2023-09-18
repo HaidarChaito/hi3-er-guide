@@ -27,7 +27,18 @@ const build1: Build = {
       withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Luster, 'Start'),
       withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Rarities, 'F2 Ego'),
     ],
-
+    [
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_I_Magic,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
+      Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
+      withPriority(
+        Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
+        'Interchangeable w/ Kosma Unbending Hero'
+      ),
+    ],
     [
       Signets_of_Daybreak_Kosma.Wings_that_Mask_the_Sanguine_Moon,
       Signets_of_Daybreak_Kosma.Talons_that_Desecrate_the_Santuary_sic,
@@ -43,18 +54,7 @@ const build1: Build = {
       Signets_of_Daybreak_Kosma.Unwavering_Promise,
     ],
 
-    [
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_I_Magic,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
-      Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
-      withPriority(
-        Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
-        'Interchangeable w/ Kosma Unbending Hero'
-      ),
-    ],
+    
 
     [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
