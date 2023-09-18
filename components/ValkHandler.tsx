@@ -58,18 +58,18 @@ export default function ValkHandler() {
         </div>
         <label className='tabs-boxed tabs mx-auto w-52 bg-neutral sm:mx-0 sm:w-auto '>
           <div
-            className={`tab w-full sm:w-auto ${
-              store?.gamerMode ? 'text-gray-400' : 'tab-active my-auto'
+            className={`tab my-auto w-full sm:w-auto ${
+              store?.gamerMode ? ' text-gray-400' : 'tab-active '
             }`}
           >
             Budget mode
           </div>
           <div
-            className={`tab w-full sm:w-auto ${
-              store?.gamerMode ? 'tab-active my-auto' : 'text-gray-400'
+            className={`tab my-auto w-full sm:w-auto ${
+              store?.gamerMode ? 'tab-active ' : 'text-gray-400'
             }`}
           >
-            full gear mode
+            Full gear mode
           </div>
           <input
             checked={store?.gamerMode}
