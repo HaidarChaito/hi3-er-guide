@@ -23,10 +23,10 @@ const build2: Build = {
   ],
   signets: [
     [
-      withPriority(MiracleMagicGirl.Blessing_of_Tailor, 'Start'),
-      withPriority(MiracleMagicGirl.Blessing_of_Dreamstitch, 'Start'),
+      withPriority(MiracleMagicGirl.Blessing_of_Resplendence, 'Start'),
+      withPriority(MiracleMagicGirl.Blessing_of_Inner_Blaze, 'Start'),
       withPriority(MiracleMagicGirl.Blessing_of_Stellar_Breach, 'F2 Ego'),
-      withPriority(MiracleMagicGirl.Blessing_of_Resplendence, 'Optional'),
+      
     ],
 
     [
