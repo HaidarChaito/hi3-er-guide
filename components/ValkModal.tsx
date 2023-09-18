@@ -60,9 +60,7 @@ export default function ValkModal({ selectedValk, setSelected }: props) {
                 <>
                   <Build key={index} build={build} valkery={selectedValk} />
                   {index < selectedValk.build.length - 1 && (
-                    <div className='divider sm:divider-horizontal before:bg-primary after:bg-primary'>
-                      END
-                    </div>
+                    <div className='divider before:bg-primary after:bg-primary sm:hidden'>END</div>
                   )}
                 </>
               );
