@@ -56,7 +56,7 @@ export default function ValkHandler() {
             className='input input-bordered w-auto'
           />
         </div>
-        <label className='tabs-boxed tabs mx-auto w-52 bg-neutral sm:mx-0 sm:w-auto '>
+        <label className='tabs tabs-boxed mx-auto w-52 bg-neutral sm:mx-0 sm:w-auto '>
           <div
             className={`tab my-auto w-full sm:w-auto ${
               store?.gamerMode ? ' text-gray-400' : 'tab-active '

@@ -35,7 +35,7 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
           {brokeValks.map((valk, index) => {
             return (
               <motion.div
-                className='flex w-full sm:w-72 '
+                className='flex w-full sm:w-[19rem] '
                 key={index}
                 variants={variants}
                 custom={index}
@@ -57,7 +57,7 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
         {recValks.map((valk, index) => {
           return (
             <motion.div
-              className='flex w-full sm:w-72 '
+              className='flex w-full sm:w-[19rem] '
               key={valk.label}
               variants={variants}
               custom={index}
@@ -73,7 +73,7 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
         {cleanValks.map((valk, index) => {
           return (
             <motion.div
-              className='flex w-full sm:w-72 '
+              className='flex w-full sm:w-[19rem] '
               key={valk.label}
               variants={variants}
               custom={index}
