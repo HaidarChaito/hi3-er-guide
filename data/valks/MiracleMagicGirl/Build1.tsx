@@ -18,7 +18,7 @@ const build1: Build = {
     'Swap BR for BK by F9/F10 Shop to deal with Heimdall. This build focus interely on using your weapon active as much as possible chaining it through the SEQ 5 unlocked via ego signet Blessing of the tailor for fast and consistent damage, possible by exchanging your ultimate evasions for glitter stacks.',
   bottomNotes: [
     {
-      text: 'SEQUENCE:Charged attack > WA > Charged attack > WA > Repeat; Build makes uses of glitter stacks to spam its attacks and ultimate evasions to refresh glitter stacks, ult to refresh resources',
+      text: 'SEQUENCE: WA > WA > ATK > Repeat; Ult when available - Build makes uses of glitter stacks to spam its attacks and absolute evasions to refresh glitter stacks, ult to refresh resources',
     },
   ],
   signets: [

@@ -23,7 +23,7 @@ export default function ValkModal({ selectedValk, setSelected }: props) {
             opacity: 0,
             y: 150,
             transition: {
-              duration: 0.4,
+              duration: 0.3,
               ease: [0.33, 1, 0.44, 1],
             },
           }}
@@ -32,7 +32,7 @@ export default function ValkModal({ selectedValk, setSelected }: props) {
             ease: [0.33, 1, 0.44, 1],
           }}
           onClick={() => setSelected(null)}
-          className='fixed inset-0 z-40 cursor-pointer overflow-hidden overflow-y-scroll bg-black/75  py-28 text-neutral-focus backdrop-blur-md'
+          className='fixed inset-0 z-30 cursor-pointer overflow-hidden overflow-y-scroll bg-black/75  py-28 text-neutral-focus backdrop-blur-md'
         >
           <section
             className={`mx-auto mt-2 flex-1 flex-wrap sm:flex ${
@@ -50,13 +50,22 @@ export default function ValkModal({ selectedValk, setSelected }: props) {
                 </div>
               ) : (
                 <div className='w-full'>
-                  <div className='mx-auto w-1/2'>
+                  <div className='mx-auto w-full sm:w-1/2'>
                     <LoadoutBuffs buffs={selectedValk.loadoutBuffs} />
                   </div>
                 </div>
               ))}
             {selectedValk.build.map((build, index) => {
-              return <Build key={index} build={build} valkery={selectedValk} />;
+              return (
+                <>
+                  <Build key={index} build={build} valkery={selectedValk} />
+                  {index < selectedValk.build.length - 1 && (
+                    <div className='divider sm:divider-horizontal before:bg-primary after:bg-primary'>
+                      END
+                    </div>
+                  )}
+                </>
+              );
             })}
           </section>
         </motion.div>
