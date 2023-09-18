@@ -18,7 +18,8 @@ const build1: Build = {
     },
   ],
   isNew: true,
-  notes: 'BoY start is preferred, however, if you cannot clear F4 Double in time, take either IWBW or Dreamful Gold instead (Dreamful Gold has better chances at clearing), but if this is done, then you have to go Shop F5 and swap the Support Sigil for BoY to get the 2 Egos at F11. Bring BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'BoY start is preferred, however, if you cannot clear F4 Double in time, take either IWBW or Dreamful Gold instead (Dreamful Gold has better chances at clearing), but if this is done, then you have to go Shop F5 and swap the Support Sigil for BoY to get the 2 Egos at F11. Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Dea_Anchora_Ego.Blessing_of_Stars, 'Start'),
@@ -42,7 +43,7 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.Fourth_No_Insolence,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore, 'CORE'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
@@ -60,21 +61,20 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
       withPriority(Signets_of_Stars_Griseo.Yellow__Warm, 'Must Get'),
       withPriority(Signets_of_Stars_Griseo.Black__Dark, 'Optional'),
     ],
-
   ],
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Lightning_Empress_Avatar],
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Bright_Knight_Excelsis_Avatar,
-      AvatarImages.Midnight_Absinthe_Avatar
+      AvatarImages.Midnight_Absinthe_Avatar,
     ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Midnight_Absinthe_Avatar],
   ],
@@ -83,11 +83,11 @@ const build1: Build = {
       EmblemsImages.Burden,
       EmblemsImages.Because_of_You,
       EmblemsImages.It_Will_Be_Written,
-      EmblemsImages.Dreamful_Gold
+      EmblemsImages.Dreamful_Gold,
     ],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
-  ]
+  ],
 };
 
 export default build1;

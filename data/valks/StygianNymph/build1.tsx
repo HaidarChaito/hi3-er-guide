@@ -51,7 +51,7 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.Fourth_No_Insolence,
       withPriority(Signets_of_Discipline_Aponia.Third_No_Brutality, 'Optional'),
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore, 'CORE'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
@@ -59,14 +59,14 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
       Signets_of_Stars_Griseo.Blue__Cold,
-      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE'),
+      withPriority(Signets_of_Stars_Griseo.Faded_Stars, 'CORE'),
     ],
 
     [
@@ -81,11 +81,7 @@ const build1: Build = {
   ],
   emblems: [
     [EmblemsImages.Burden, EmblemsImages.Tsukimi_Himiko],
-    [
-      EmblemsImages.Mad_Kings_Mask,
-      EmblemsImages.Because_of_You,
-      EmblemsImages.Tsukimi_Himiko
-    ],
+    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Because_of_You, EmblemsImages.Tsukimi_Himiko],
     [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
   ],
 };

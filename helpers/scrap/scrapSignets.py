@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-url = "https://honkaiimpact3.fandom.com/wiki/Elysian_Realm/Signets"
+url = "url"
 
 response = requests.get(url)
 
@@ -27,8 +27,8 @@ def cleantext(text):
 
 def cleanSignet(text, isTitle):
     if isTitle:
-        return text.split('NormalNormal')[0].split('EnhancedNormal')[0].split('CoreNexus')[0].split('Normal Signet')[0].split('Normal')[0].split('Enhanced')[0]
-    return text.split('NormalNormal')[0].split('EnhancedNormal')[0].split('CoreNexus')[0].split('Core')[0]
+        return text.split('NormalNormal')[0].split('EnhancedNormal')[0].split('CoreNexus')[0].split('Normal Signet')[0].split('Normal')[0].split('Enhanced')[0].split('Core')[0]
+    return text.split('NormalNormal')[0].split('EnhancedNormal')[0].split('CoreNexus')[0]
 
 
 for text in elements:
@@ -73,7 +73,8 @@ for text in elements:
                 signetData = signetInfo.find_next(
                     'div').text.replace("'", '').split('\n')[0]
                 signetData = cleanSignet(signetData, False)
-                data += f"{cleantext(cleanSignet(signetTitle, True))} : {{ label:'{cleanSignet(signetTitle, False)}',description: \"{signetData}\" " + \
+                signetTitle = cleanSignet(signetTitle, True)
+                data += f"{cleantext(signetTitle)} : {{ label:'{signetTitle}',description: \"{signetData}\" " + \
                     ",family: '"+(text.text)+"'," + '},\n'
 
     data += "}\n"

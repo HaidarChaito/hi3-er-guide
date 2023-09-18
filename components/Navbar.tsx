@@ -4,7 +4,8 @@ import { IoIosColorPalette } from 'react-icons/io';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Toggle from './Toggle';
-import useGlobalStore, { useStore } from '@/store/mode';
+import useGlobalStore from '@/store/mode';
+import { useStore } from '@/helpers/functions';
 
 export default function Navbar() {
   const store = useStore(useGlobalStore, (state) => state);

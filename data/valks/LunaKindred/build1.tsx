@@ -30,7 +30,7 @@ const build1: Build = {
       Signets_of_Daybreak_Kosma.Horns_that_Rip_the_Bleak_Sky,
       Signets_of_Daybreak_Kosma.Eyes_that_Overlook_the_Vicious_Abyss,
       withPriority(Signets_of_Daybreak_Kosma.Heart_that_Committed_Seven_Crimes, 'Optional'),
-      withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_LightCore, 'CORE'),
+      withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
       Signets_of_Daybreak_Kosma.Unbending_Hero,
       Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
       Signets_of_Daybreak_Kosma.Unwavering_Promise,
@@ -50,7 +50,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -59,7 +59,7 @@ const build1: Build = {
       Signets_of_Stars_Griseo.Grey__Empty,
       Signets_of_Stars_Griseo.Black__Dark,
       withPriority(Signets_of_Stars_Griseo.Blue__Cold, 'Optional'),
-      Signets_of_Stars_Griseo.Faded_StarsCore,
+      Signets_of_Stars_Griseo.Faded_Stars,
     ],
   ],
   supports: [
@@ -71,7 +71,7 @@ const build1: Build = {
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy, EmblemsImages.Out_of_Reach],
     [EmblemsImages.Fragile_Friend, EmblemsImages.Out_of_Reach],
     [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
-  ]
+  ],
 };
 
 export default build1;

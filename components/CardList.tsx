@@ -1,7 +1,8 @@
 import { Valkery } from '@/types/Valkery';
 import AnimatedCard from './AnimatedCard';
 import { motion } from 'framer-motion';
-import useGlobalStore, { useStore } from '@/store/mode';
+import useGlobalStore from '@/store/mode';
+import { useStore } from '@/helpers/functions';
 type props = {
   valkeries: Valkery[];
   recValks: Valkery[];

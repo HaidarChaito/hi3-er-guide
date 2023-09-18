@@ -53,7 +53,7 @@ const build1: Build = {
       Signets_of_Daybreak_Kosma.Horns_that_Rip_the_Bleak_Sky,
       Signets_of_Daybreak_Kosma.Eyes_that_Overlook_the_Vicious_Abyss,
       withPriority(Signets_of_Daybreak_Kosma.Heart_that_Committed_Seven_Crimes, 'Optional'),
-      withPriority(Signets_of_Daybreak_Kosma.Daybreak_Lone_BeaconCore, 'CORE'),
+      withPriority(Signets_of_Daybreak_Kosma.Daybreak_Lone_Beacon, 'CORE'),
       Signets_of_Daybreak_Kosma.Heart_Unshakable_Character,
       Signets_of_Daybreak_Kosma.Choice_Ensuing_Regret,
     ],
@@ -62,7 +62,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -71,14 +71,13 @@ const build1: Build = {
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
     ],
-
   ],
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
@@ -86,7 +85,7 @@ const build1: Build = {
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Out_of_Reach],
     [EmblemsImages.Fragile_Friend, EmblemsImages.Out_of_Reach],
     [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
-  ]
+  ],
 };
 
 export default build1;

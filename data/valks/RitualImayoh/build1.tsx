@@ -58,20 +58,17 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
-    [
-      Signets_of_Stars_Griseo.Red__Hot,
-      Signets_of_Stars_Griseo.Yellow__Warm,
-    ],
+    [Signets_of_Stars_Griseo.Red__Hot, Signets_of_Stars_Griseo.Yellow__Warm],
   ],
   supports: [
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
     [
       AvatarImages.Starlit_Astrologos_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
@@ -79,7 +76,7 @@ const build1: Build = {
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Burden, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
-  ]
+  ],
 };
 
 export default build1;

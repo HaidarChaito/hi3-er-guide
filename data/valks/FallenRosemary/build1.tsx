@@ -32,7 +32,7 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
       Signets_of_Discipline_Aponia.Fourth_No_Insolence,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore, 'CORE'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Follow_Good,
     ],
 
@@ -50,7 +50,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -67,28 +67,24 @@ const build1: Build = {
       withPriority(Signets_of_Stars_Griseo.Red__Hot, 'Must Get'),
       Signets_of_Stars_Griseo.Yellow__Warm,
     ],
-
   ],
-  notes: 'Build meant for FR below SS2 Rank. If you are having trouble clearing F4 Double in time with BoY start, use Dreamful Gold instead and go shop F5 to put BoY and get your 2 Ego signets by F11. Switch BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'Build meant for FR below SS2 Rank. If you are having trouble clearing F4 Double in time with BoY start, use Dreamful Gold instead and go shop F5 to put BoY and get your 2 Ego signets by F11. Switch BR for BK by F9/F10 Shop to deal with Heimdall.',
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Blood_Rose_Avatar
+      AvatarImages.Blood_Rose_Avatar,
     ],
   ],
   emblems: [
-    [
-      EmblemsImages.Veil_of_Tears,
-      EmblemsImages.Because_of_You,
-      EmblemsImages.Dreamful_Gold
-    ],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Gold_Goblet, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],

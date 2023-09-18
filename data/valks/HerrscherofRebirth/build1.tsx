@@ -15,17 +15,16 @@ const build1: Build = {
   isNew: true,
   bottomNotes: [
     {
-      text: 'SEQUENCE: Dodge > ULT > Swap to Life Binder form > WAx2 > COMBOx2 > Repeat; ult as necessary',
+      text: 'SEQUENCE:Dodge>ULT>Swap to lifebinder form> WAx2 > COMBOx2 > Repeat; ult as necessary',
     },
   ],
-  notes: 'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Life binder (DPS - Short haired) build for the Herrscher of Rebirth, focusses on dealing high damage through chaining weapon active and joint combos. ',
+  notes:
+    'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Life binder (DPS - Short haired) build for the Herrscher of Rebirth, focusses on dealing high damage through chaining weapon active and joint combos. ',
   signets: [
-
     [
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Soothingness, 'Start'),
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Decay, 'Start'),
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Shared_Destiny, 'Optional'),
-
     ],
     [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
@@ -45,8 +44,6 @@ const build1: Build = {
       Signets_of_Infinity_Mobius.Dead_X,
     ],
 
-
-
     [
       Signets_of_Vicissitude_Hua.Long_Trip,
       Signets_of_Vicissitude_Hua.Days_Gone,
@@ -59,28 +56,29 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
-
-
 
     [
       Signets_of_Stars_Griseo.Red__Hot,
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
     ],
-
   ],
   supports: [
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
-    [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
+    [
+      AvatarImages.Starlit_Astrologos_Avatar,
+      AvatarImages.Blood_Rose_Avatar,
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
+    ],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy],
     [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
-  ]
+  ],
 };
 
 export default build1;

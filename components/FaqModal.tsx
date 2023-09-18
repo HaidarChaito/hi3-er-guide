@@ -2,7 +2,8 @@
 import { motion } from 'framer-motion';
 import FaqCard from './FaqCard';
 import { faqs } from '@/data/faq';
-import useGlobalStore, { useStore } from '@/store/mode';
+import useGlobalStore from '@/store/mode';
+import { useStore } from '@/helpers/functions';
 
 export default function FaqModal() {
   const store = useStore(useGlobalStore, (state) => state);

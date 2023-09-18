@@ -51,15 +51,15 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.First_No_Betrayal,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
-      Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore,
-      Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers
+      Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing,
+      Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
     ],
 
     [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore,
+      Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy,
     ],
 
     [
@@ -68,7 +68,6 @@ const build1: Build = {
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
     ],
-
   ],
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
@@ -79,7 +78,7 @@ const build1: Build = {
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy],
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
-  ]
+  ],
 };
 
 export default build1;

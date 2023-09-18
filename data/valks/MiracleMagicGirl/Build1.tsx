@@ -49,14 +49,14 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore, 'CORE'),
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
     ],
     [
       Signets_of_Stars_Griseo.Red__Hot,
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
-      withPriority(Signets_of_Stars_Griseo.Shining_Like_StarsCore, 'CORE'),
+      withPriority(Signets_of_Stars_Griseo.Shining_Like_Stars, 'CORE'),
     ],
 
     [

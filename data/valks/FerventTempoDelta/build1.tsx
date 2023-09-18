@@ -18,7 +18,8 @@ const build1: Build = {
     },
   ],
   isNew: true,
-  notes: 'LE is used in order to help with FTs SP problems during the first 4 floors. If you cannot clear F4 Double in time with IWBW, use Dreamful Gold instead. If a 4th Elysia door appears during your run, grab it for Fervor. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'LE is used in order to help with FTs SP problems during the first 4 floors. If you cannot clear F4 Double in time with IWBW, use Dreamful Gold instead. If a 4th Elysia door appears during your run, grab it for Fervor. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Molotov_Cherry_Ego.Blessing_of_the_Silence, 'Start'),
@@ -42,7 +43,7 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.First_No_Betrayal,
       withPriority(Signets_of_Discipline_Aponia.Third_No_Brutality, 'Optional'),
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore, 'CORE'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
     ],
 
@@ -60,33 +61,28 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
       withPriority(Signets_of_Stars_Griseo.Red__Hot, 'Must Get'),
       withPriority(Signets_of_Stars_Griseo.Yellow__Warm, 'High Priority'),
     ],
-
   ],
   supports: [
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Lightning_Empress_Avatar],
     [
       AvatarImages.Starlit_Astrologos_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [
-      EmblemsImages.Burden,
-      EmblemsImages.It_Will_Be_Written,
-      EmblemsImages.Dreamful_Gold
-    ],
+    [EmblemsImages.Burden, EmblemsImages.It_Will_Be_Written, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Gold_Goblet, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
-  ]
+  ],
 };
 
 export default build1;

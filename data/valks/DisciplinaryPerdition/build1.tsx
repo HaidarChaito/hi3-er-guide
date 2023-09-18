@@ -30,7 +30,7 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.Sixth_No_Decadence,
       Signets_of_Discipline_Aponia.Fourth_No_Insolence,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore, "CORE"),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
@@ -58,7 +58,7 @@ const build1: Build = {
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
       Signets_of_Stars_Griseo.Blue__Cold,
-      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE'),
+      withPriority(Signets_of_Stars_Griseo.Faded_Stars, 'CORE'),
       Signets_of_Stars_Griseo.Petals_in_the_Wind,
     ],
 
@@ -73,7 +73,7 @@ const build1: Build = {
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Bright_Knight_Excelsis_Avatar,
-      AvatarImages.Blood_Rose_Avatar
+      AvatarImages.Blood_Rose_Avatar,
     ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],

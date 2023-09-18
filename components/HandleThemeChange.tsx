@@ -1,6 +1,7 @@
 'use client';
+import { useStore } from '@/helpers/functions';
 import '@/public/static/styles/globals.css';
-import useGlobalStore, { useStore } from '@/store/mode';
+import useGlobalStore from '@/store/mode';
 
 export default function HandleThemeChange({ children }: { children: React.ReactNode }) {
   const store = useStore(useGlobalStore, (state) => state);

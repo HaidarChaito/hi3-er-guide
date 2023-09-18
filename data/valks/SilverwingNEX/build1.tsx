@@ -61,33 +61,26 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.Sixth_No_Decadence,
       Signets_of_Discipline_Aponia.First_No_Betrayal,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore, 'CORE'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
     ],
 
-    [
-      Signets_of_Stars_Griseo.Red__Hot,
-      Signets_of_Stars_Griseo.Yellow__Warm,
-    ],
+    [Signets_of_Stars_Griseo.Red__Hot, Signets_of_Stars_Griseo.Yellow__Warm],
   ],
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
     [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Dreamful_Gold],
-    [
-      EmblemsImages.Veil_of_Tears,
-      EmblemsImages.Because_of_You,
-      EmblemsImages.Dreamful_Gold
-    ],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
-  ]
+  ],
 };
 
 export default build1;

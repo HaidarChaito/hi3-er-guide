@@ -60,7 +60,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -70,13 +70,14 @@ const build1: Build = {
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
     ],
   ],
-  notes: 'Needs S2 Rank in order to minimally work. This build is best used with 7T + Handel. Swap BR for BK by F9/F10 Shop to better deal with Heimdall.',
+  notes:
+    'Needs S2 Rank in order to minimally work. This build is best used with 7T + Handel. Swap BR for BK by F9/F10 Shop to better deal with Heimdall.',
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],

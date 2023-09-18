@@ -19,7 +19,8 @@ const build1: Build = {
     },
   ],
   isNew: true,
-  notes: 'The Starter depends on whether Helix is +2 or not. If yes = start with Vill-V. If no = start with Kosma. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'The Starter depends on whether Helix is +2 or not. If yes = start with Vill-V. If no = start with Kosma. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Dappled_Shade, 'Start'),
@@ -33,8 +34,11 @@ const build1: Build = {
       Signets_of_Daybreak_Kosma.Horns_that_Rip_the_Bleak_Sky,
       Signets_of_Daybreak_Kosma.Eyes_that_Overlook_the_Vicious_Abyss,
       withPriority(Signets_of_Daybreak_Kosma.Heart_that_Committed_Seven_Crimes, 'Optional'),
-      withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_LightCore, 'CORE'),
-      withPriority(Signets_of_Daybreak_Kosma.Unbending_Hero, 'Interchangeable w/ V-V1s Adorned Chamber'),
+      withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
+      withPriority(
+        Signets_of_Daybreak_Kosma.Unbending_Hero,
+        'Interchangeable w/ V-V1s Adorned Chamber'
+      ),
       Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
       Signets_of_Daybreak_Kosma.Unwavering_Promise,
     ],
@@ -44,9 +48,12 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_I_Magic,
       Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_SpiralCore, 'CORE'),
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
       Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
-      withPriority(Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber, 'Interchangeable w/ Kosma Unbending Hero'),
+      withPriority(
+        Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
+        'Interchangeable w/ Kosma Unbending Hero'
+      ),
     ],
 
     [
@@ -63,7 +70,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -75,14 +82,23 @@ const build1: Build = {
   ],
   supports: [
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
-    [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
+    [
+      AvatarImages.Starlit_Astrologos_Avatar,
+      AvatarImages.Blood_Rose_Avatar,
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
+    ],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Fragile_Friend, EmblemsImages.Falling_in_Past_Light, EmblemsImages.Out_of_Reach],
+    [
+      EmblemsImages.Pseudo_Miracle,
+      EmblemsImages.Fragile_Friend,
+      EmblemsImages.Falling_in_Past_Light,
+      EmblemsImages.Out_of_Reach,
+    ],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
-  ]
+  ],
 };
 
 export default build1;

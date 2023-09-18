@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
-url = "https://honkaiimpact3.fandom.com/wiki/Elysian_Realm/Signets"
+url = "url"
 
 response = requests.get(url)
 

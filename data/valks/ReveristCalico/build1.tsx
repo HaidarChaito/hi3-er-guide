@@ -31,7 +31,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore, 'CORE'),
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
       Signets_of_Helix_VillV.Puppetry_Interlacing_Cells,
     ],
@@ -51,14 +51,14 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
       Signets_of_Reverie_Pardofelis.Shiny__Valuable,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
       Signets_of_Discipline_Aponia.Sixth_No_Decadence,
       Signets_of_Discipline_Aponia.First_No_Betrayal,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore, 'CORE'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
@@ -67,16 +67,15 @@ const build1: Build = {
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
       withPriority(Signets_of_Stars_Griseo.Blue__Cold, 'Optional'),
-      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE, Optional'),
+      withPriority(Signets_of_Stars_Griseo.Faded_Stars, 'CORE, Optional'),
     ],
-
   ],
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
@@ -84,7 +83,7 @@ const build1: Build = {
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Feast_of_Emptiness, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
-  ]
+  ],
 };
 
 export default build1;

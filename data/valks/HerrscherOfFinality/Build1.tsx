@@ -11,12 +11,13 @@ import { withPriority } from '@/helpers/functions';
 
 const build1: Build = {
   label: 'Combo Build',
-  tier: 3,
-  notes: ' Combo build that focusses on spamming the combo actions through condescension descent stacks and weapon active to quickly gain 8 stacks and spam combo attack, has high survivability, gains massive power spike from the SS rank and Ego signet "Condescension" synergy',
+  tier: 3.2,
+  notes:
+    ' Combo build that focusses on spamming the combo actions through condescension descent stacks and weapon active to quickly gain 8 stacks and spam combo attack, has high survivability, gains massive power spike from the SS rank and Ego signet "Condescension" synergy',
   isNew: true,
   bottomNotes: [
     {
-      text: 'SEQUENCE: ATF (Do not use your WA inside) > x5 attacks > WA > Combo > Wa Combo > Repeat when ATF up ',
+      text: 'SEQUENCE:ATF (Do not use your WA inside)> x5 attacks > WA > Combo > Wa Combo > Repeat when ATF up ',
     },
   ],
   signets: [
@@ -31,7 +32,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore, 'CORE'),
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
     ],
 
@@ -55,7 +56,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE')
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [Signets_of_Stars_Griseo.Red__Hot],

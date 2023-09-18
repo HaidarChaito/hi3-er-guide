@@ -20,7 +20,8 @@ const build1: Build = {
     },
   ],
   isNew: true,
-  notes: 'Starter Signet changes based on whether Helix is +2 or not. If yes = Vill-V start. If not = Deliverance Start. Kalpas is also skippable by choice, shifting the focus to Kevin, Vill-V, Pardo and going with Eden2 instead. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'Starter Signet changes based on whether Helix is +2 or not. If yes = Vill-V start. If not = Deliverance Start. Kalpas is also skippable by choice, shifting the focus to Kevin, Vill-V, Pardo and going with Eden2 instead. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Terminal_Aide_0017_Ego.Blessing_of_Guilding, 'Start'),
@@ -43,9 +44,12 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_I_Magic,
       withPriority(Signets_of_Helix_VillV.Act_IV_Spoon, 'Optional'),
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_SpiralCore, 'CORE'),
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
       Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
-      withPriority(Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber, 'Dont get if already have Kevins Breach'),
+      withPriority(
+        Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
+        'Dont get if already have Kevins Breach'
+      ),
     ],
 
     [
@@ -70,14 +74,14 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
       Signets_of_Stars_Griseo.Red__Hot,
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
-      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE'),
+      withPriority(Signets_of_Stars_Griseo.Faded_Stars, 'CORE'),
     ],
 
     [
@@ -88,14 +92,18 @@ const build1: Build = {
   ],
   supports: [
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
-    [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
+    [
+      AvatarImages.Starlit_Astrologos_Avatar,
+      AvatarImages.Blood_Rose_Avatar,
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
+    ],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
     [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Burden, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
-  ]
+  ],
 };
 
 export default build1;

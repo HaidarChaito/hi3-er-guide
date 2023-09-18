@@ -14,17 +14,18 @@ const build1: Build = {
   label: 'Flag Build',
   tier: 5,
   isNew: true,
-  notes: 'This build uses the strong synergy between Kevin signets and Thousand thoughts ego signet to deal consistent high damage through Dreamweaver ideas, this build is considered the easiest and the strongest of the two.',
+  notes:
+    'This build uses the strong synergy between Kevin signets and Thousand thoughts ego signet to deal consistent high damage through Dreamweaver ideas, this build is considered the easiest and the strongest of the two.',
   bottomNotes: [
     {
-      text: 'SEQUENCE: SEQ 4 or WA Sequence, they both produce similar results, make sure to never miss your SEQ 4',
+      text: 'SEQUENCE:SEQ 4 or WA Sequence, they both produce similar results, make sure to never miss your SEQ 4',
     },
   ],
   signets: [
-    [withPriority(Dreamweaver_Ego.Blessing_of_Thousand_Thoughts, 'Start'),
-    withPriority(Dreamweaver_Ego.Blessing_of_Forms, 'Start'),
-    withPriority(Dreamweaver_Ego.Blessing_of_Oneiromancy, 'Optional'),
-
+    [
+      withPriority(Dreamweaver_Ego.Blessing_of_Thousand_Thoughts, 'Start'),
+      withPriority(Dreamweaver_Ego.Blessing_of_Forms, 'Start'),
+      withPriority(Dreamweaver_Ego.Blessing_of_Oneiromancy, 'Optional'),
     ],
 
     [
@@ -35,9 +36,7 @@ const build1: Build = {
       Signets_of_Infinity_Mobius.Immortal_M,
       Signets_of_Infinity_Mobius.Collapsed_M,
       Signets_of_Infinity_Mobius.Sacrificial_M,
-
     ],
-
 
     [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
@@ -45,16 +44,21 @@ const build1: Build = {
       Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
       withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
       Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
-
     ],
 
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_V_Spider_Web,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_SpiralCore, 'CORE'),
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
     ],
 
+    [
+      Signets_of_Gold_Eden.Recitatif_of_Eden,
+      Signets_of_Gold_Eden.Recitatif_of_Creeks,
+      Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
+      withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
+    ],
     [
       Signets_of_Gold_Eden.Recitatif_of_Eden,
       Signets_of_Gold_Eden.Recitatif_of_Creeks,
@@ -69,9 +73,6 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
     ],
-
-
-
   ],
   supports: [
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],

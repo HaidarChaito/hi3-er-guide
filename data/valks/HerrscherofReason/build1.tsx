@@ -19,9 +19,7 @@ const build1: Build = {
   bottomNotes: [
     {
       text: 'SEQUENCE: SoE Active > Basics & Charged Farm till Ult > Quick Tap Active (Applies Red Paint & V-V Buffs) > Bike Slam > Evade (Truth + Sakura) > Bike Slam > Evade (Truth w/ 2 UE Charges from Sakuras Fuji) > Bike Slam > Active > Bike Slam > Ult ends > Repeat',
-
     },
-
   ],
   signets: [
     [
@@ -61,7 +59,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -76,7 +74,7 @@ const build1: Build = {
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],

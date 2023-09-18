@@ -6,8 +6,8 @@ import { valks } from '@/data/visibleValks';
 import { brokeValks } from '@/data/brokeModeValks';
 import { useState } from 'react';
 import { Valkery } from '@/types/Valkery';
-import useGlobalStore, { useStore } from '@/store/mode';
-import { compareValkeriesTier } from '@/helpers/functions';
+import useGlobalStore from '@/store/mode';
+import { compareValkeriesTier, useStore } from '@/helpers/functions';
 
 export default function ValkHandler() {
   const [isSelectedValk, setSelectedValk] = useState<undefined | Valkery>(undefined);

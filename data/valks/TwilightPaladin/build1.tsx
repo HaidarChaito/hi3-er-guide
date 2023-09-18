@@ -20,7 +20,8 @@ const build1: Build = {
     },
   ],
   isNew: true,
-  notes: 'If you get an Ego door during your run, take it for Radiance yes or yes. Bring BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'If you get an Ego door during your run, take it for Radiance yes or yes. Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Violet_Executer_Ego.Blessing_of_Banishment, 'Start'),
@@ -46,7 +47,7 @@ const build1: Build = {
       Signets_of_Daybreak_Kosma.Horns_that_Rip_the_Bleak_Sky,
       Signets_of_Daybreak_Kosma.Eyes_that_Overlook_the_Vicious_Abyss,
       withPriority(Signets_of_Daybreak_Kosma.Heart_that_Committed_Seven_Crimes, 'Optional'),
-      withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_LightCore, 'CORE'),
+      withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
       Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
       Signets_of_Daybreak_Kosma.Unwavering_Promise,
     ],
@@ -65,7 +66,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -80,7 +81,7 @@ const build1: Build = {
     [
       AvatarImages.Starlit_Astrologos_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],

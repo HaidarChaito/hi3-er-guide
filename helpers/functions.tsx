@@ -1,5 +1,6 @@
 import { Signet } from '@/types/Signet';
 import { Valkery } from '@/types/Valkery';
+import { useState, useEffect } from 'react';
 
 export function switchColor(element?: number) {
   switch (element) {
@@ -55,4 +56,18 @@ export const compareValkeriesTier = (b: Valkery, a: Valkery): number => {
     // If tiers are equal, sort by label in alphabetical order
     return b.label.localeCompare(a.label);
   }
+};
+
+export const useStore = <T, F>(
+  store: (callback: (state: T) => unknown) => unknown,
+  callback: (state: T) => F
+) => {
+  const result = store(callback) as F;
+  const [data, setData] = useState<F>();
+
+  useEffect(() => {
+    setData(result);
+  }, [result]);
+
+  return data;
 };

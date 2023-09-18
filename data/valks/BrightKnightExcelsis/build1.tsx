@@ -16,7 +16,6 @@ const build1: Build = {
   isNew: true,
   notes: 'If you cannot clear F4 in time with IWBW, use Tsukimi Himiko instead.',
   signets: [
-
     [
       withPriority(Bright_Knight_Excelsis_Ego.Blessing_of_Gambit, 'Start'),
       withPriority(Bright_Knight_Excelsis_Ego.Blessing_of_Paragon, 'Start'),
@@ -45,7 +44,7 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.Fourth_No_Insolence,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore, 'CORE'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
     ],
 
@@ -63,7 +62,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -80,7 +79,7 @@ const build1: Build = {
     [EmblemsImages.Burden, EmblemsImages.It_Will_Be_Written, EmblemsImages.Tsukimi_Himiko],
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Tsukimi_Himiko],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
-  ]
+  ],
 };
 
 export default build1;

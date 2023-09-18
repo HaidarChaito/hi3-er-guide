@@ -20,7 +20,8 @@ const build1: Build = {
     },
   ],
   isNew: true,
-  notes: 'Choose between VC or BR as your 2nd staple support choice. It depends on if you like staying at low HP for Kalpas signets or not. Bring BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'Choose between VC or BR as your 2nd staple support choice. It depends on if you like staying at low HP for Kalpas signets or not. Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Innateness, 'Start'),
@@ -34,7 +35,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_SpiralCore, 'CORE'),
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
       Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
       Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
     ],
@@ -69,7 +70,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -82,12 +83,12 @@ const build1: Build = {
     [
       AvatarImages.Starlit_Astrologos_Avatar,
       AvatarImages.Valkyrie_Chariot_Avatar,
-      AvatarImages.Blood_Rose_Avatar
+      AvatarImages.Blood_Rose_Avatar,
     ],
     [
       AvatarImages.Starlit_Astrologos_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],

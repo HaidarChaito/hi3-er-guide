@@ -19,7 +19,8 @@ const build1: Build = {
     },
   ],
   isNew: true,
-  notes: 'Watch out for Vill-V having almost no I-frames to use. Rely on using Turrets shield block to avoid attacks when low on HP and Evading in Burst Mode, finishing Burst as necessary when you need the I-frames from the Turret shields. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'Watch out for Vill-V having almost no I-frames to use. Rely on using Turrets shield block to avoid attacks when low on HP and Evading in Burst Mode, finishing Burst as necessary when you need the I-frames from the Turret shields. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Helical_Contraption_Ego.Blessing_of_Facade, 'Start'),
@@ -44,7 +45,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_HelixCore, 'CORE'),
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
     ],
 
@@ -76,14 +77,18 @@ const build1: Build = {
   ],
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
-    [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
+    [
+      AvatarImages.Azure_Empyrea_Avatar,
+      AvatarImages.Blood_Rose_Avatar,
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
+    ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
     [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Burden, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
-  ]
+  ],
 };
 
 export default build1;

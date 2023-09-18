@@ -14,7 +14,8 @@ const build1: Build = {
   label: 'General Build',
   tier: 3,
   isNew: true,
-  notes: 'BoY is preferred start, but if you cannot clear F4 Double with it, use Dreamful Gold or Boundless Logos instead and go shop F5 to put BoY and get your 2 Egos by F11. Swap your 2nd support with BK by F9/F10 to deal with Heimdall.',
+  notes:
+    'BoY is preferred start, but if you cannot clear F4 Double with it, use Dreamful Gold or Boundless Logos instead and go shop F5 to put BoY and get your 2 Egos by F11. Swap your 2nd support with BK by F9/F10 to deal with Heimdall.',
   signets: [
     [
       withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Frost_Scythe, 'Start'),
@@ -57,7 +58,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -73,11 +74,7 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Haxxor_Bunny_Avatar],
   ],
   emblems: [
-    [
-      EmblemsImages.Burden,
-      EmblemsImages.Because_of_You,
-      EmblemsImages.Boundless_Logos
-    ],
+    [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],

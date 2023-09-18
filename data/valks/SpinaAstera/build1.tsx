@@ -19,7 +19,8 @@ const build1: Build = {
     },
   ],
   isNew: true,
-  notes: 'BoY start is preferred, if you cannot clear F4 Double in time, use Dreamful Gold instead and go shop F5 to swap BoY in. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'BoY start is preferred, if you cannot clear F4 Double in time, use Dreamful Gold instead and go shop F5 to swap BoY in. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Spina_Astera_Ego.Wild_Flare_Blessing, 'Start'),
@@ -44,7 +45,7 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.First_No_Betrayal,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore, 'CORE'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
     ],
 
@@ -62,7 +63,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -70,7 +71,7 @@ const build1: Build = {
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
       Signets_of_Stars_Griseo.Blue__Cold,
-      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE'),
+      withPriority(Signets_of_Stars_Griseo.Faded_Stars, 'CORE'),
       Signets_of_Stars_Griseo.Petals_in_the_Wind,
     ],
 
@@ -84,7 +85,7 @@ const build1: Build = {
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
@@ -92,15 +93,11 @@ const build1: Build = {
     [
       EmblemsImages.Light_as_a_Bodhi_Leaf,
       EmblemsImages.Because_of_You,
-      EmblemsImages.Dreamful_Gold
+      EmblemsImages.Dreamful_Gold,
     ],
-    [
-      EmblemsImages.Veil_of_Tears,
-      EmblemsImages.Because_of_You,
-      EmblemsImages.Dreamful_Gold
-    ],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
-  ]
+  ],
 };
 
 export default build1;

@@ -42,7 +42,7 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.First_No_Betrayal,
       Signets_of_Discipline_Aponia.Fourth_No_Insolence,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_BlessingCore, 'CORE'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
     ],
 
@@ -60,7 +60,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -69,7 +69,7 @@ const build1: Build = {
       Signets_of_Stars_Griseo.Black__Dark,
       Signets_of_Stars_Griseo.Grey__Empty,
       withPriority(Signets_of_Stars_Griseo.Blue__Cold, 'Optional'),
-      withPriority(Signets_of_Stars_Griseo.Faded_StarsCore, 'CORE, Not necessary'),
+      withPriority(Signets_of_Stars_Griseo.Faded_Stars, 'CORE, Not necessary'),
     ],
   ],
   supports: [
@@ -77,16 +77,12 @@ const build1: Build = {
     [
       AvatarImages.Starlit_Astrologos_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [
-      EmblemsImages.Burden,
-      EmblemsImages.Because_of_You,
-      EmblemsImages.It_Will_Be_Written
-    ],
+    [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.It_Will_Be_Written],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],

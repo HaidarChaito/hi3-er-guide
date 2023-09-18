@@ -15,15 +15,15 @@ const build3: Build = {
   isNew: true,
   bottomNotes: [
     {
-      text: 'SEQUENCE: Dodge > Ult > Dodges (Ultimate Evasion stacks reliant)/Attacks till bar full > Combo attack x2 > Repeat',
+      text: 'SEQUENCE:Dodge > Ult > Dodges(Absolute evasion stacks reliant)/Attacks till bar full > Combo attack x2 > Repeat',
     },
   ],
-  notes: 'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Decay build, focusses on spamming sequence attack and dodges with Setsuna support to use the powerful combo attack as much as possible.',
+  notes:
+    'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Decay build, focusses on spamming sequence attack and dodges with Setsuna support to use the powerful combo attack as much as possible.',
   signets: [
     [
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Decay, 'Start'),
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Shared_Destiny, 'Start'),
-
     ],
     [
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
@@ -51,32 +51,28 @@ const build3: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE')
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
       Signets_of_Discipline_Aponia.First_No_Betrayal,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-
     ],
-
-
-
-
-
-
-
   ],
   supports: [
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
-    [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
+    [
+      AvatarImages.Starlit_Astrologos_Avatar,
+      AvatarImages.Blood_Rose_Avatar,
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
+    ],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
     [EmblemsImages.Forget_Me_Not, EmblemsImages.Tsukimi_Himiko],
     [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
-  ]
+  ],
 };
 
 export default build3;

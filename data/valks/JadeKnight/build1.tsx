@@ -14,9 +14,11 @@ const build1: Build = {
   label: 'UBW Build',
   tier: 5,
   isNew: true,
-  notes: 'Starting signet is whichever is +2. Bodhi +2 = Su start. Gold +2 = Eden start, then for Mid you go with whichever of these 2 wasnt started with. You can opt for swapping BR for BK by F9/F10 Shop to have an easier time against Heimdall.',
+  notes:
+    'Starting signet is whichever is +2. Bodhi +2 = Su start. Gold +2 = Eden start, then for Mid you go with whichever of these 2 wasnt started with. You can opt for swapping BR for BK by F9/F10 Shop to have an easier time against Heimdall.',
   bottomNotes: [
-    { text:'SEQUENCE: Ult > Combo attack > Spam attacks till your bar is almost empty > Combo attack > Repeat',
+    {
+      text: 'SEQUENCE: Ult > Combo attack > Spam attacks till your bar is almost empty > Combo attack > Repeat',
     },
   ],
   signets: [
@@ -57,7 +59,7 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_JoyCore, 'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -71,7 +73,7 @@ const build1: Build = {
     [
       AvatarImages.Azure_Empyrea_Avatar,
       AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Bright_Knight_Excelsis_Avatar
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
@@ -80,7 +82,7 @@ const build1: Build = {
       EmblemsImages.Light_as_a_Bodhi_Leaf,
       EmblemsImages.Gold_Goblet,
       EmblemsImages.Empty_Like_Shala,
-      EmblemsImages.Dreamful_Gold
+      EmblemsImages.Dreamful_Gold,
     ],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
