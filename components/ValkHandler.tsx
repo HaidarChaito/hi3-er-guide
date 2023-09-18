@@ -46,21 +46,29 @@ export default function ValkHandler() {
 
   return (
     <div className='mt-2 flex flex-row flex-wrap '>
-      <div className='w-/ mb-4 flex w-full justify-center align-middle'>
-        <div className='form-control mx-2'>
+      <div className=' mb-4 w-full flex-row  justify-center align-middle sm:flex'>
+        <div className='form-control my-2 block text-center sm:mx-2 sm:my-0'>
           <input
             value={query}
             onChange={handleSearch}
             type='text'
             placeholder='Search'
-            className='input input-bordered w-24 md:w-auto'
+            className='input input-bordered w-auto'
           />
         </div>
-        <label className='tabs-boxed tabs h-full bg-neutral'>
-          <div className={`tab h-full ${store?.gamerMode ? 'text-gray-400' : 'tab-active'}`}>
+        <label className='tabs-boxed tabs mx-auto w-52 bg-neutral sm:mx-0 sm:w-auto '>
+          <div
+            className={`tab w-full sm:w-auto ${
+              store?.gamerMode ? 'text-gray-400' : 'tab-active my-auto'
+            }`}
+          >
             Budget mode
           </div>
-          <div className={`tab h-full ${store?.gamerMode ? 'tab-active' : 'text-gray-400'}`}>
+          <div
+            className={`tab w-full sm:w-auto ${
+              store?.gamerMode ? 'tab-active my-auto' : 'text-gray-400'
+            }`}
+          >
             full gear mode
           </div>
           <input
