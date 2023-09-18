@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 2.5,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Hold ATK to summon Oz > Wep Active into QTE 2x > Weave Basics, Chargeds and Wep Active in (always make sure to keep 1 charge for it, you have to watch out for Retribution stacks) > Use Ult when needed.',
+    },
+  ],
   isNew: true,
   notes: 'You MUST bring BK by F9/F10 Shop. Fischl cannot deal with Heimdall otherwise.',
   signets: [

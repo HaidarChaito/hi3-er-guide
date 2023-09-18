@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'Guardian Form Build',
   tier: 3.5,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Wep Active into Evade (collide against enemy) > Active connect into Equinox Severance > Repeat while you have UE Charges; when you do not, spam Gunlance Active to fill Bar into Equinox Severance.',
+    },
+  ],
   isNew: true,
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

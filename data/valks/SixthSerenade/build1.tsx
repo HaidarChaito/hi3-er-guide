@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 4,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Spam Basic until enough SP for Ult > Wep Active or Ultimate Evasion into Basic and spam it until Ult comes off CD and repeat.',
+    },
+  ],
   isNew: true,
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

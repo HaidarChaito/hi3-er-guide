@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Echo Pri Active > Basics till 6 Notes into Combo > Ult > Spam Basics till Ult comes off CD > Repeat.',
+    },
+  ],
   isNew: true,
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

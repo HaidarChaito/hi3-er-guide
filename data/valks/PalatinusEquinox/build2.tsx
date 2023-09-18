@@ -12,6 +12,11 @@ import { Build } from '@/types/Build';
 const build2: Build = {
     label: 'Knight Form Build',
     tier: 4,
+    bottomNotes: [
+        {
+            text: 'SEQUENCE: Ride Horse > Hold ATK until depleting all bar > Evade and repeat > once out of UE Charges, use Ult to refresh them. If missing SP, swap into Guardian Form for extra 12 SP to Ult and change back again, repeat whole process.',
+        },
+    ],
     isNew: true,
     notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
     signets: [

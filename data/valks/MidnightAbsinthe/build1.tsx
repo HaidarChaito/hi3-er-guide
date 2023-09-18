@@ -13,6 +13,11 @@ import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Gri
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Evade into Basic, repeat until 12+ Stacks > Hold ATK and shoot 3 times, recover SP > Repeat until Ult available > Ult, then use Active against enemy inside mist > Hold ATK for Mist explosion > Farm SP again for Ult and repeat. Always use Wep Active, keeping in mind its 8s CD to recover 30 SP and reduce Ultimate CD through Arrowhead Ego Signet.',
+    },
+  ],
   isNew: true,
   notes: 'FPL over IWBW if you cannot clear F4 Double in time. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

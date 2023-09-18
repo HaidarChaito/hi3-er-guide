@@ -12,6 +12,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'Pardo1 Variation',
   tier: 3,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Yellow Combo > Wep Active > Purple Combo > Breakdance (QTE) > Ult > Keep switching between both Combos and Breakdance till Ult comes off CD > Repeat.',
+    },
+  ],
   isNew: true,
   notes: 'Switch BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build2: Build = {
     label: 'Ultimate Build',
     tier: 4,
+    bottomNotes: [
+        {
+            text: 'SEQUENCE: Hold ATK (Enter Herrscher Form) > Wep Active into Evade > Basic and wait 1 sec for WA CD to come off, use again into Evade > Repeat and keep getting stacks to use Ult (Use based on how many you need to kill depending on your damage) > Repeat.',
+        },
+    ],
     isNew: true,
     notes: 'Choose between VC or BR as your 2nd staple support choice. It depends on if you like staying at low HP for Kalpas signets or not. Bring BK by F9/F10 Shop to deal with Heimdall.',
     signets: [

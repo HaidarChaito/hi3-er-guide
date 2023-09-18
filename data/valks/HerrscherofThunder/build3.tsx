@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build3: Build = {
     label: 'Narukami Finisher Build',
     tier: 4,
+    bottomNotes: [
+        {
+            text: 'SEQUENCE: Evade into 7T Active > Basic ATK and Shinzan until enough SP for Ult and make sure Hit Count is 60-80, ideally always 80+ > Ult into 7T Active and Finisher > Repeat.',
+        },
+    ],
     isNew: true,
     notes: 'On Decimation +2 weathers, Kalpas start is better. If you cannot clear F4 Double with IWBW, go with TLM instead.',
     signets: [

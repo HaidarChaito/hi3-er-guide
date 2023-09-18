@@ -12,6 +12,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 4,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Weave Evades and Basics to fill Juice Meter, when full perform Charged > Sleepri Active into Ult > Spam Basics until Sleepri Active and Ult are both off CD and repeat.',
+    },
+  ],
   isNew: true,
   notes: 'LE is used in order to help with FTs SP problems during the first 4 floors. If you cannot clear F4 Double in time with IWBW, use Dreamful Gold instead. If a 4th Elysia door appears during your run, grab it for Fervor. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

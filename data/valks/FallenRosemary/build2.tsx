@@ -14,6 +14,11 @@ import { Signets_of_Gold_Eden } from '@/data/signets/tsx/Signets_of_Gold_Eden';
 const build2: Build = {
     label: 'SS2+ Build',
     tier: 4,
+    bottomNotes: [
+        {
+            text: 'SEQUENCE: Iris Pri Active > Evade into Charged > Ult (if have enough SP, otherwise do basics till enough) > Evade into Charged anim cancels (watch out for Bird Rune being on CD; it connects into Snake Rune) > Repeat until Ult is available again, then repeat Evade into Charged',
+        },
+    ],
     isNew: true,
     signets: [
         [

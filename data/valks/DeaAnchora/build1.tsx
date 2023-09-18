@@ -12,6 +12,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 2,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Normal DA gameplay. Spam Ultimate till full Bar > Hold ATK to enter Astral Harness > Spam Ult 2-3 times (3 times once Halo + Sheen are gotten) > Repeat.',
+    },
+  ],
   isNew: true,
   notes: 'BoY start is preferred, however, if you cannot clear F4 Double in time, take either IWBW or Dreamful Gold instead (Dreamful Gold has better chances at clearing), but if this is done, then you have to go Shop F5 and swap the Support Sigil for BoY to get the 2 Egos at F11. Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

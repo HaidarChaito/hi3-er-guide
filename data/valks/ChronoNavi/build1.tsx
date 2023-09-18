@@ -14,15 +14,7 @@ const build1: Build = {
   tier: 5,
   bottomNotes: [
     {
-      text: 'test',
-      gif: 'monkey-skill-issue.mp4',
-    },
-    {
-      text: 'test',
-      gif: 'monkey-skill-issue.mp4',
-    },
-    {
-      gif: 'monkey-skill-issue.mp4',
+      text: 'SEQUENCE: Wep Active > Basics & Evade till full bar > Charged into Fire Ring > Ult > Repeat.',
     },
   ],
   isNew: true,

@@ -15,7 +15,8 @@ const build2: Build = {
     tier: 4.5,
     isNew: true,
     bottomNotes: [
-        { text:'SEQUENCE:  Dodge > Charged > When stack 3/3 > WA > repeat (Dodge when the absolute evasion is up)',
+        {
+            text: 'SEQUENCE:  Dodge > Charged > When stack 3/3 > WA > repeat (Dodge when the Ultimate Evasion is up)',
         },
     ],
     signets: [

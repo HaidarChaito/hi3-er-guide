@@ -12,6 +12,11 @@ import { Build } from '@/types/Build';
 const build2: Build = {
     label: 'Bombard Build',
     tier: 4,
+    bottomNotes: [
+        {
+            text: 'SEQUENCE: Evade into 7T Active > Basic ATK till Shinzan > Ult > 7T Active into Bombard > Spam Basics until Tornado to recharge Bar > Bombard till Ult Mode duration almost done > Finisher > Repeat.',
+        },
+    ],
     isNew: true,
     notes: 'Needs SS0 Rank, otherwise it doesnt work. On Decimation +2 weathers, Kalpas start is better. If you cannot clear F4 Double with IWBW, go with Dreamful Gold instead.',
     signets: [

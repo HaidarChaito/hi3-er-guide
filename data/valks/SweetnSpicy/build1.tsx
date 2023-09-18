@@ -12,6 +12,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 2.5,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Charged till 3rd Stage (4th with Rupture) > Ult > Repeat. Can use Aerial Charged if need to gather or for Skyfall purposes.',
+    },
+  ],
   isNew: true,
   notes: 'You can bring BK by F9/F10 Shop to deal with Heimdall faster.',
   signets: [

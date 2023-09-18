@@ -12,6 +12,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 1,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Wep Active, farm SP for Ult > Charged into Wep Active > Repeat. Make sure mobs are gathered and the Throw is on top of every mob to deal damage to all.',
+    },
+  ],
   isNew: true,
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

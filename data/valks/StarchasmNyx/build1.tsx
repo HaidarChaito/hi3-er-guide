@@ -13,6 +13,11 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna
 const build1: Build = {
   label: 'General Build',
   tier: 2.5,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Wep Active connect into ATK SEQ and get 6 Carmine Gash, Hold ATK, repeat until enough SP > Ult > Wep Active into Charged Spam (keep spamming Wep Active during this) > Finisher before Ult ends > Repeat.',
+    },
+  ],
   isNew: true,
   notes: 'Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

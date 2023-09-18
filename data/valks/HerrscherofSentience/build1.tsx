@@ -12,6 +12,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Wep Active > Sword or Spear Combo to gather enemies > Swap to next Weapon into Combo > Repeat until enough SP for Ult > Evade into Ult > Use pillar for gather > Hold ATK, then hold ATK again until Ult Ends > Repeat (Once you have SP regen signets, you immediately ult back again upon exiting Ult)',
+    },
+  ],
   isNew: true,
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

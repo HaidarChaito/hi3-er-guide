@@ -12,6 +12,11 @@ import { Build } from "@/types/Build";
 const build1: Build = {
     label: 'General Build',
     tier: 3,
+    bottomNotes: [
+        {
+            text: 'SEQUENCE: Evade into Hold Ult to enter Burst Mode > Wep Active > Evade into Oraora and repeat whenever Evade comes off CD. When Ult runs out, farm SP again to repeat.',
+        },
+    ],
     isNew: true,
     notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
     signets: [

@@ -13,7 +13,12 @@ import { Build } from '@/types/Build';
 
 const build1: Build = {
   label: 'Thanos Snap Build',
-  tier: 4.2,
+  tier: 4.5,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Hold ATK (Enter Herrscher Form) > KoV/DoV Active > Evade > Basic and wait 1 sec for WA CD > WA into Evade > Repeat. When needed, use Basics into Space Core for the CDs.',
+    },
+  ],
   isNew: true,
   notes: 'Choose between VC or BR as your 2nd staple support choice. It depends on if you like staying at low HP for Kalpas signets or not. Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

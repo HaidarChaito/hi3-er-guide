@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Evade into Basic till 3 full bars and repeat. Use Ult for Kevin & Mobius and for I-frames.',
+    },
+  ],
   isNew: true,
   notes: 'BK is a MUST by F9/F10 Shop, otherwise RI cannot deal with Heimdall.',
   signets: [

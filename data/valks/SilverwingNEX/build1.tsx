@@ -12,6 +12,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Use Support and trigger QTE, deploy Scatter Barrier and spam ATK; once you have Grey Falcon, Hold ATK and spam Shotgun Combo. Use Ult when available.',
+    },
+  ],
   isNew: true,
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: '4-5 Build',
   tier: 3,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Evade into 7T Active > Evade into Basic Atk connect Spam > Ocassional Ult into 7T and Finisher.',
+    },
+  ],
   isNew: true,
   signets: [
     [

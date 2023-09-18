@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Wep Active into Charged cancel to instant Ult > Charged and spam Basic, weave Wep Active in-between to recover meter; always make sure you are not with 2 Wep Active charges remaining. Repeat.',
+    },
+  ],
   isNew: true,
   notes: 'You only swap LE out when you get Edens Initial/Max SP signet. Swap LE/SA for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

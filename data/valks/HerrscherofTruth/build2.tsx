@@ -18,9 +18,10 @@ const build1: Build = {
     isNew: true,
     notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
     bottomNotes: [
-        { text:'SEQUENCE: WA (SP) > Transform > Combo attack > Ult',
+        {
+            text: 'SEQUENCE: WA (SP) > Transform > Combo attack > Ult > Repeat',
         },
-      ],
+    ],
     signets: [
         [
             withPriority(Herrscher_of_Truth_Ego.Blessing_of_Genuine_Solution, 'Start'),

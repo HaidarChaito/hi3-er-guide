@@ -14,12 +14,17 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna
 const build2: Build = {
     label: 'Ultimate Build',
     tier: 5,
+    bottomNotes: [
+        {
+            text: 'SEQUENCE: Spam Ultimate, but use Basics as needed to farm SP and keep using it, as well as make use of Evade connect to Guren Flash for free 20 SP (thanks to Burning Flow) and to regain Ult Charges. Use Uriel Active, always at 4 Stacks.',
+        },
+    ],
     isNew: true,
     signets: [
         [
             withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Fiery_Mind, 'Start'),
-            withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Burning_Flow, 'F2 Ego'),
-            withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Wild_Flare, '1st'),
+            withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Burning_Flow, 'Start'),
+            withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Wild_Flare, 'F2 Ego'),
         ],
 
         [

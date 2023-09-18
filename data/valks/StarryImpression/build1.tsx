@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 5,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Deploy Cross > Ult > Evade (Once Cloud Valley is gotten) into gather and 3 taps of Ult. At 5 Color Markers, Hold ATK for Combo and repeat, use Cross and Ult again accordingly as they come off CD.',
+    },
+  ],
   isNew: true,
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

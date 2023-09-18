@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 0,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Charged ATK connect into Evade through enemy (refill respective bar based on Saule or Veliona), do this twice (no UE Charges left) > Ult > Repeat.',
+    },
+  ],
   isNew: true,
   signets: [
     [

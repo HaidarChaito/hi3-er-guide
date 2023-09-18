@@ -13,13 +13,18 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'Combo Spam Build',
   tier: 4.5,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Wep Active into Combo > Repeat. Reposition as needed.',
+    },
+  ],
   isNew: true,
   notes: 'The Starter depends on whether Helix is +2 or not. If yes = start with Vill-V. If no = start with Kosma. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Dappled_Shade, 'Start'),
-      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Luster, 'F2 Ego'),
-      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Rarities, 'Optional 1st'),
+      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Luster, 'Start'),
+      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Rarities, 'F2 Ego'),
     ],
 
     [

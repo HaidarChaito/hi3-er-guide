@@ -13,12 +13,17 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'Charged Spam Build',
   tier: 5,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Spam Charged ATK, weaving some Basics in if needed to allow Heat bar to go down; if you go to Overheat, make sure you can use Ult to clear it and to gain stacks for Uriel (Also for Griseo Yellow purposes). Use Uriel Weapon Active for Griseo Red Paint and to deal massive damage. Reposition with Evade as the way the Charged gathers can be a bit unreliable.',
+    },
+  ],
   isNew: true,
   signets: [
     [
       withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Blaze, 'Start'),
-      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Sharp_Flames, 'F2 Ego'),
-      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Wild_Flare, '1st'),
+      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Sharp_Flames, 'Start'),
+      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Wild_Flare, 'F2 Ego'),
     ],
 
     [

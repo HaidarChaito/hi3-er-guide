@@ -12,6 +12,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: '<SS2 Build',
   tier: 4,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Iris Pri Active into Evade > Charged > Ultimate (If have enough SP) > Weave Basic ATKs into 1+ bar Charged and combine with Evade for anim cancel or for Bird Rune (important to watch out for its CD) > Repeat.',
+    },
+  ],
   isNew: true,
   signets: [
     [

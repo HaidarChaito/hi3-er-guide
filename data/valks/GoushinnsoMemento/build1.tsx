@@ -13,6 +13,11 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 2,
+  bottomNotes: [
+    {
+      text: 'SEQUENCE: Wep Active > Combo until SP is enough for Ult > Ult into Combo Spam > Repeat. Use Evade to reposition for the Zankeki to hit enemies properly.',
+    },
+  ],
   isNew: true,
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
