@@ -14,7 +14,7 @@ type actions = {
 const useGlobalStore = create<store & actions>()(
   persist(
     (set) => ({
-      gamerMode: false,
+      gamerMode: true,
       isFaqOpen: false,
       theme: 'night',
       toggleTheme: () => set((state) => ({ theme: swapThemes(state.theme) })),
