@@ -25,9 +25,11 @@ export default function FaqModal() {
       onClick={store.toggleFaq}
       className='fixed inset-0 z-40 cursor-pointer overflow-hidden overflow-y-scroll bg-black/75  py-28 backdrop-blur-md'
     >
-      {faqs.map((faq) => {
-        return <FaqBuble key={faq.question} faq={faq} />;
-      })}
+      <div className='sm:mx-auto sm:w-2/4'>
+        {faqs.map((faq) => {
+          return <FaqBuble key={faq.question} faq={faq} />;
+        })}
+      </div>
     </motion.div>
   );
 }

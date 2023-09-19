@@ -27,7 +27,7 @@ export default function FaqBuble({ faq }: props) {
   return (
     <motion.div onClick={(e) => e.stopPropagation()}>
       <motion.div layout className='chat chat-start' onClick={toggleAnswerVisibility}>
-        <motion.div className='chat-bubble chat-bubble-primary opacity-90'>
+        <motion.div className='chat-bubble chat-bubble-success opacity-90'>
           {faq.question}
         </motion.div>
       </motion.div>
@@ -39,13 +39,13 @@ export default function FaqBuble({ faq }: props) {
           className='chat chat-end'
         >
           {faq.answer && (
-            <motion.div className='chat-bubble chat-bubble-secondary opacity-90'>
+            <motion.div className='chat-bubble chat-bubble-info opacity-90'>
               {faq.answer}
             </motion.div>
           )}
           {faq.gif && (
             <motion.div
-              className={`answer chat-bubble chat-bubble-secondary opacity-90 ${
+              className={`answer chat-bubble chat-bubble-info opacity-90 ${
                 isAnswerVisible ? 'block' : 'hidden'
               } mt-2 leading-snug `}
             >
@@ -59,7 +59,7 @@ export default function FaqBuble({ faq }: props) {
           )}
           {faq.image && (
             <motion.div
-              className={`answer chat-bubble chat-bubble-secondary opacity-90 ${
+              className={`answer chat-bubble chat-bubble-info opacity-90 ${
                 isAnswerVisible ? 'block' : 'hidden'
               } mt-2 leading-snug `}
             >
@@ -102,7 +102,7 @@ export default function FaqBuble({ faq }: props) {
                     });
                     return (
                       <div
-                        className='chat-bubble chat-bubble-secondary mx-2 my-2 w-full opacity-90'
+                        className='chat-bubble chat-bubble-info mx-2 my-2 w-full opacity-90'
                         key={index}
                       >
                         {renderedSegments}
