@@ -13,8 +13,8 @@ export default function LoadoutBuffs({ buffs }: props) {
           {/* head */}
           <thead className='text-lg text-primary-focus'>
             <tr className='border-secondary'>
-              <th className='text-center'>Buff cost</th>
-              <th className='text-center'>Yes / No</th>
+              <th className='text-center'>Buff weight</th>
+              <th className='text-center'> ✓ / X </th>
             </tr>
           </thead>
           <tbody>
