@@ -16,7 +16,7 @@ const build1: Build = {
   isNew: true,
   bottomNotes: [
     {
-      text: 'SEQUENCE: Dodge > Charged attack x2 > WA (VV signets) > Ult > Dodge > WA > Charged > WA > Ult > Charged till ult is back > Repeat from step 3',
+      text: 'SEQUENCE: Dodge > Charged attack x2 > WA (VV signets) > Ult > Dodge > WA > Charged > WA > Ult > Charged till ult is back > Repeat from step 3; Keep VV Support item if you have trouble with damage.',
     },
   ],
   signets: [
@@ -75,7 +75,7 @@ const build1: Build = {
     ],
   ],
   notes:
-    'Starting Support Skill is based on what is +2. Deliverance = IWBW, Decimation = AOPL, Helix = FPL.',
+    'Starting Support Skill is based on what is +2 current ER cycle is in action. Deliverance = Kevins, Decimation = Kalpas, Helix = VV, currently use VV to get VV1 in order to negate -30% dmg.',
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
@@ -83,9 +83,7 @@ const build1: Build = {
   ],
   emblems: [
     [
-      EmblemsImages.Burden,
-      EmblemsImages.It_Will_Be_Written,
-      EmblemsImages.An_Old_Pals_Legacy,
+      EmblemsImages.Pseudo_Miracle,
       EmblemsImages.Falling_in_Past_Light,
     ],
     [

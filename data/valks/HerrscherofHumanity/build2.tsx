@@ -66,7 +66,7 @@ const build2: Build = {
     ],
   ],
   notes:
-    'Starting Support Skill is based on what is +2. Deliverance = IWBW, Decimation = AOPL, Helix = FPL.',
+    'Starting Support Skill is based on what is +2 current ER cycle is in action. Deliverance = Kevins, Decimation = Kalpas, Helix = VV, currently use VV to get VV1 in order to negate -30% dmg.',
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
@@ -74,14 +74,12 @@ const build2: Build = {
   ],
   emblems: [
     [
-      EmblemsImages.Burden,
-      EmblemsImages.It_Will_Be_Written,
-      EmblemsImages.An_Old_Pals_Legacy,
+      EmblemsImages.Pseudo_Miracle,
       EmblemsImages.Falling_in_Past_Light,
     ],
     [
-      EmblemsImages.Mad_Kings_Mask,
-      EmblemsImages.An_Old_Pals_Legacy,
+      EmblemsImages.Burden,
+      EmblemsImages.It_Will_Be_Written,
       EmblemsImages.Falling_in_Past_Light,
     ],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
