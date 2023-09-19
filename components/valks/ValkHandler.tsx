@@ -17,6 +17,11 @@ export default function ValkHandler() {
   const [results, setResults] = useState<Valkery[]>(valks);
   const [recResults, setRecResults] = useState<Valkery[]>(recValks);
   const [brokeResults, setBrokeResults] = useState<Valkery[]>(brokeValks);
+  if (nonPersistentStore?.selectedValk != undefined) {
+    document.body.classList.add(`overflow-hidden`);
+  } else {
+    document.body.classList.remove(`overflow-hidden`);
+  }
 
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const inputValue = event?.target?.value?.toLowerCase();
@@ -48,7 +53,7 @@ export default function ValkHandler() {
   return (
     <div
       className={`mt-2 flex flex-row flex-wrap ${
-        nonPersistentStore?.selectedValk != undefined ? 'fixed' : ''
+        nonPersistentStore?.selectedValk != undefined ? ' overscroll-contain	' : ''
       }`}
     >
       <div className=' mb-4 w-full flex-row  justify-center align-middle sm:flex'>
@@ -61,7 +66,7 @@ export default function ValkHandler() {
             className='input input-bordered w-auto'
           />
         </div>
-        <label className='tabs tabs-boxed mx-auto w-52 bg-neutral sm:mx-0 sm:w-auto '>
+        <label className='tabs-boxed tabs mx-auto w-52 bg-neutral sm:mx-0 sm:w-auto '>
           <div
             className={`tab my-auto w-full sm:w-auto ${
               store?.gamerMode ? ' text-gray-400' : 'tab-active '

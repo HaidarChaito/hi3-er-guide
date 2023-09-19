@@ -6,9 +6,11 @@ import { usePathname } from 'next/navigation';
 import Toggle from './Toggle';
 import useGlobalStore from '@/store/mode';
 import { useStore } from '@/helpers/functions';
+import useNonPersistentStore from '@/store/valk';
 
 export default function Navbar() {
   const store = useStore(useGlobalStore, (state) => state);
+  const valkStore = useStore(useNonPersistentStore, (state) => state);
 
   const pathname = usePathname();
 
@@ -22,7 +24,11 @@ export default function Navbar() {
                 onClick={store?.isFaqOpen ? store.toggleFaq : undefined}
                 className={pathname === '/' && store?.isFaqOpen === false ? 'text-primary' : ''}
               >
-                <Link className='btn btn-ghost text-lg normal-case' href='/'>
+                <Link
+                  onClick={() => valkStore?.setSelectedValk(undefined)}
+                  className='btn btn-ghost text-lg normal-case'
+                  href='/'
+                >
                   Home
                 </Link>
               </li>

@@ -31,7 +31,7 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
   if (store?.gamerMode === false) {
     return (
       <>
-        <div className='ml-2 flex w-full flex-row flex-wrap gap-4'>
+        <div className='ml-2 flex w-full flex-row flex-wrap gap-3'>
           {brokeValks.map((valk, index) => {
             return (
               <motion.div
@@ -53,7 +53,7 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
 
   return (
     <>
-      <div className='mb-3 ml-2 flex w-full flex-row flex-wrap gap-4'>
+      <div className='mb-3 ml-2 flex w-full flex-row flex-wrap gap-3'>
         {recValks.map((valk, index) => {
           return (
             <motion.div
@@ -69,7 +69,7 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
           );
         })}
       </div>
-      <div className='ml-2 flex w-full flex-row flex-wrap gap-4'>
+      <div className='ml-2 flex w-full flex-row flex-wrap gap-3'>
         {cleanValks.map((valk, index) => {
           return (
             <motion.div

@@ -2,6 +2,7 @@ import { Valkery } from '@/types/Valkery';
 import Build from './Build';
 import { AnimatePresence, motion } from 'framer-motion';
 import LoadoutBuffs from './LoadoutBuffs';
+import Link from 'next/link';
 type props = {
   selectedValk?: Valkery;
   setSelected: CallableFunction;
@@ -56,6 +57,22 @@ export default function ValkModal({ selectedValk, setSelected, isBudgetMode }: p
                   </div>
                 </div>
               ))}
+            <div className='mx-auto flex w-full justify-center align-middle sm:hidden'>
+              {selectedValk.build.map((build, index) => {
+                if (build.notBudget && isBudgetMode) return <></>;
+                return (
+                  <button
+                    className='btn btn-secondary mx-4 inline-block w-1/4'
+                    key={index}
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <Link className='inline-block' href={`#${build.label}`}>
+                      {build.label}
+                    </Link>
+                  </button>
+                );
+              })}
+            </div>
             {selectedValk.build.map((build, index) => {
               if (build.notBudget && isBudgetMode) return <></>;
               return (
