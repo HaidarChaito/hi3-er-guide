@@ -41,47 +41,62 @@ export default function Build({ build, valkery }: props) {
               </div>
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-primary`}>Early:</span>
-                {build.supports[0].map((support, i) => (
-                  <div key={i} className='inline-block object-fill'>
-                    <Image
-                      className='w-24 rounded-t-3xl p-2'
-                      width={75}
-                      height={75}
-                      src={`/${support}`}
-                      alt={support}
-                    />
-                  </div>
-                ))}
+                {build.supports[0].map((support, i) => {
+                  return (
+                    <>
+                      {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
+                      <div key={i} className='inline-block object-fill'>
+                        <Image
+                          className='w-24 rounded-t-3xl p-2'
+                          width={75}
+                          height={75}
+                          src={`/${support}`}
+                          alt={support}
+                        />
+                      </div>
+                    </>
+                  );
+                })}
               </div>
 
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-primary`}>Mid:</span>
-                {build.supports[1].map((support, i) => (
-                  <div key={i} className='inline-block object-fill'>
-                    <Image
-                      className='w-24 rounded-t-3xl p-2'
-                      width={75}
-                      height={75}
-                      src={`/${support}`}
-                      alt={support}
-                    />
-                  </div>
-                ))}
+                {build.supports[1].map((support, i) => {
+                  return (
+                    <>
+                      {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
+                      <div key={i} className='inline-block object-fill'>
+                        <Image
+                          className='w-24 rounded-t-3xl p-2'
+                          width={75}
+                          height={75}
+                          src={`/${support}`}
+                          alt={support}
+                        />
+                      </div>
+                    </>
+                  );
+                })}
               </div>
 
               <div className='flex '>
                 <span className={`my-auto w-14 border-b border-b-primary`}>Late:</span>
-                {build.supports[2].map((support, i) => (
-                  <div key={i} className='inline-block object-fill'>
-                    <Image
-                      className=' w-24 rounded-t-3xl p-2 '
-                      width={75}
-                      height={75}
-                      src={`/${support}`}
-                      alt={support}
-                    />
-                  </div>
-                ))}
+                {build.supports[2].map((support, i) => {
+                  return (
+                    <>
+                      {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
+                      <div key={i} className='inline-block object-fill'>
+                        <Image
+                          className=' w-24 rounded-t-3xl p-2 '
+                          width={75}
+                          height={75}
+                          src={`/${support}`}
+                          alt={support}
+                        />
+                      </div>
+                    </>
+                  );
+                })}
               </div>
             </section>
           )}
@@ -93,47 +108,62 @@ export default function Build({ build, valkery }: props) {
               </div>
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-primary`}>Early:</span>
-                {build.emblems[0].map((emblem, i) => (
-                  <div key={i} className='inline-block object-fill'>
-                    <Image
-                      className='w-24 rounded-t-3xl p-2'
-                      width={75}
-                      height={75}
-                      src={`/${emblem}`}
-                      alt={emblem}
-                    />
-                  </div>
-                ))}
+                {build.emblems[0].map((emblem, i) => {
+                  return (
+                    <>
+                      {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
+                      <div key={i} className='inline-block object-fill'>
+                        <Image
+                          className='w-24 rounded-t-3xl p-2'
+                          width={75}
+                          height={75}
+                          src={`/${emblem}`}
+                          alt={emblem}
+                        />
+                      </div>
+                    </>
+                  );
+                })}
               </div>
 
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-primary`}>Mid:</span>
-                {build.emblems[1].map((emblem, i) => (
-                  <div key={i} className='inline-block object-fill'>
-                    <Image
-                      className='w-24 rounded-t-3xl p-2'
-                      width={75}
-                      height={75}
-                      src={`/${emblem}`}
-                      alt={emblem}
-                    />
-                  </div>
-                ))}
+                {build.emblems[1].map((emblem, i) => {
+                  return (
+                    <>
+                      {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
+                      <div key={i} className='inline-block object-fill'>
+                        <Image
+                          className='w-24 rounded-t-3xl p-2'
+                          width={75}
+                          height={75}
+                          src={`/${emblem}`}
+                          alt={emblem}
+                        />
+                      </div>
+                    </>
+                  );
+                })}
               </div>
 
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-primary`}>Late:</span>
-                {build.emblems[2].map((emblem, i) => (
-                  <div key={i} className='inline-block object-fill'>
-                    <Image
-                      className='w-24 rounded-t-3xl p-2'
-                      width={75}
-                      height={75}
-                      src={`/${emblem}`}
-                      alt={emblem}
-                    />
-                  </div>
-                ))}
+                {build.emblems[2].map((emblem, i) => {
+                  return (
+                    <>
+                      {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
+                      <div key={i} className='inline-block object-fill'>
+                        <Image
+                          className='w-24 rounded-t-3xl p-2'
+                          width={75}
+                          height={75}
+                          src={`/${emblem}`}
+                          alt={emblem}
+                        />
+                      </div>
+                    </>
+                  );
+                })}
               </div>
             </section>
           )}
