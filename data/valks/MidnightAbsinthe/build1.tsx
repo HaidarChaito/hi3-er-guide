@@ -4,11 +4,11 @@ import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
 import MidnightAbsinthe from './valk';
 import { Midnight_Absinthe_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Deliverance_Kevin } from '@/data/signets/tsx/Signets_of_Deliverance_Kevin';
-import { Signets_of_Helix_VillV } from '@/data/signets/tsx/Signets_of_Helix_VillV';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
+import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
+import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
+import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 
 const build1: Build = {
   label: 'General Build',
@@ -31,7 +31,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_V_Spider_Web,
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral,'CORE'),
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
     ],
     [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
@@ -43,7 +43,6 @@ const build1: Build = {
       withPriority(Signets_of_Deliverance_Kevin.Flock_of_the_Deliverer, 'Optional'),
     ],
 
-    
     [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,

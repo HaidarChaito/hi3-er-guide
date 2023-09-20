@@ -159,6 +159,9 @@ export default function Build({ build, valkery }: props) {
                 {signetClass.map((signet, j) => (
                   <div key={j} className='flex'>
                     <div>{signet.label}</div>
+                    {signet.shortDescription && (
+                      <div className={`italic text-primary`}>({signet.shortDescription})</div>
+                    )}
                     {signet.priority != undefined && (
                       <div className={`text-${switchColor(valkery.type)} italic`}>
                         ({signet.priority})

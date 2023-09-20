@@ -1,9 +1,9 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Luna_Kindred_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Daybreak_Kosma } from '@/data/signets/tsx/Signets_of_Daybreak_Kosma';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
+import { Signets_of_Daybreak_Kosma } from '@/data/signets/extra/extra';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
+import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';

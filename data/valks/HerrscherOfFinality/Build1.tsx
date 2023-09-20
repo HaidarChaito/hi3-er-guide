@@ -1,10 +1,10 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Finality_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Helix_VillV } from '@/data/signets/tsx/Signets_of_Helix_VillV';
-import { Signets_of_Bodhi_Su } from '@/data/signets/tsx/Signets_of_Bodhi_Su';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
+import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
+import { Signets_of_Bodhi_Su } from '@/data/signets/extra/extra';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
+import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { Build } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';

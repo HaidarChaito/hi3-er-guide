@@ -1,11 +1,11 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_the_Void_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Deliverance_Kevin } from '@/data/signets/tsx/Signets_of_Deliverance_Kevin';
-import { Signets_of_Infinity_Mobius } from '@/data/signets/tsx/Signets_of_Infinity_Mobius';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna_Sakura';
-import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
+import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
+import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
+import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';

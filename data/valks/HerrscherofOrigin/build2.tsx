@@ -1,10 +1,10 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Origin_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Helix_VillV } from '@/data/signets/tsx/Signets_of_Helix_VillV';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna_Sakura';
-import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
+import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
+import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
@@ -29,7 +29,7 @@ const build2: Build = {
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral,'CORE'),
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
     ],
     [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
@@ -40,8 +40,6 @@ const build2: Build = {
       Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
       Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
     ],
-
-    
 
     [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,

@@ -1,12 +1,12 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Terminal_Aide_0017_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Deliverance_Kevin } from '@/data/signets/tsx/Signets_of_Deliverance_Kevin';
-import { Signets_of_Gold_Eden } from '@/data/signets/tsx/Signets_of_Gold_Eden';
-import { Signets_of_Helix_VillV } from '@/data/signets/tsx/Signets_of_Helix_VillV';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna_Sakura';
-import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
+import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
+import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
+import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
+import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
@@ -49,8 +49,6 @@ const build1: Build = {
       Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
       withPriority(Signets_of_Deliverance_Kevin.Flock_of_the_Deliverer, 'Optional'),
     ],
-
-    
 
     [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,

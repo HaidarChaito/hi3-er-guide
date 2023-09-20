@@ -1,11 +1,11 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { Signets_of_Helix_VillV } from '@/data/signets/tsx/Signets_of_Helix_VillV';
-import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna_Sakura';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Bodhi_Su } from '@/data/signets/tsx/Signets_of_Bodhi_Su';
+import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
+import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
+import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Bodhi_Su } from '@/data/signets/extra/extra';
 import { MiracleMagicGirl } from '@/data/signets/tsx/EgoAdditions';
 import { Build } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
@@ -38,16 +38,12 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Homeland_and_Friends,
     ],
 
-    
-
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
       withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
-      
-      
     ],
     [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
@@ -63,7 +59,6 @@ const build1: Build = {
     ],
 
     [
-      
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Fuji,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,

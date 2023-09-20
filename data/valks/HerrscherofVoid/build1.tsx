@@ -1,12 +1,12 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_the_Void_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Gold_Eden } from '@/data/signets/tsx/Signets_of_Gold_Eden';
-import { Signets_of_Helix_VillV } from '@/data/signets/tsx/Signets_of_Helix_VillV';
-import { Signets_of_Infinity_Mobius } from '@/data/signets/tsx/Signets_of_Infinity_Mobius';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna_Sakura';
-import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
+import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
+import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
+import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
+import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
@@ -34,7 +34,7 @@ const build1: Build = {
       Signets_of_Helix_VillV.Act_V_Spider_Web,
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
-      withPriority(Signets_of_Helix_VillV.Act_IV_Spoon,'wants Annihilation Ego'),
+      withPriority(Signets_of_Helix_VillV.Act_IV_Spoon, 'wants Annihilation Ego'),
       withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
       Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
       Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,

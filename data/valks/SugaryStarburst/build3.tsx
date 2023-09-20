@@ -2,11 +2,11 @@ import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { Build } from '@/types/Build';
 import { Sugary_Starburst_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Helix_VillV } from '@/data/signets/tsx/Signets_of_Helix_VillV';
-import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Gold_Eden } from '@/data/signets/tsx/Signets_of_Gold_Eden';
+import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
+import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 import { withPriority } from '@/helpers/functions';
 
 const build3: Build = {
@@ -37,7 +37,7 @@ const build3: Build = {
       Signets_of_Gold_Eden.Aria_of_Soil,
       Signets_of_Gold_Eden.Aria_of_Dawn,
     ],
-    
+
     [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,

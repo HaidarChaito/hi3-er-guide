@@ -1,13 +1,13 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Herrscher_of_Rebirth_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna_Sakura';
+import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Build } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
-import { Signets_of_Infinity_Mobius } from '@/data/signets/tsx/Signets_of_Infinity_Mobius';
-import { Signets_of_Discipline_Aponia } from '@/data/signets/tsx/Signets_of_Discipline_Aponia';
+import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
+import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 
 const build3: Build = {
   label: 'Decay Build',

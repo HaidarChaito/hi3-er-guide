@@ -4,12 +4,12 @@ import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
 import VermilionKnightEclipse from './valk';
 import { Vermilion_Knight_Eclipse_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
-import { Signets_of_Deliverance_Kevin } from '@/data/signets/tsx/Signets_of_Deliverance_Kevin';
-import { Signets_of_Discipline_Aponia } from '@/data/signets/tsx/Signets_of_Discipline_Aponia';
-import { Signets_of_Setsuna_Sakura } from '@/data/signets/tsx/Signets_of_Setsuna_Sakura';
+import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
+import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
+import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
+import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
+import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 
 const build2: Build = {
   label: 'Ultimate Build',
@@ -32,7 +32,7 @@ const build2: Build = {
       Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
       Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
       Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
-      withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer,'CORE'),
+      withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
       Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
       withPriority(Signets_of_Deliverance_Kevin.Flock_of_the_Deliverer, 'Optional'),
     ],
@@ -42,7 +42,7 @@ const build2: Build = {
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation,'CORE'),
+      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
       Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
       Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
     ],
@@ -51,7 +51,7 @@ const build2: Build = {
       Signets_of_Discipline_Aponia.Fourth_No_Insolence,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing,'CORE'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
     ],
 
@@ -59,7 +59,7 @@ const build2: Build = {
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy,'CORE'),
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
