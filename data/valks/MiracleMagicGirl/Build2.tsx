@@ -74,8 +74,8 @@ const build2: Build = {
   ],
   emblems: [
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy],
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Dreamful_Gold],
-    [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };
 
