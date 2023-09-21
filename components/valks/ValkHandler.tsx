@@ -9,6 +9,7 @@ import { compareValkeriesTier, useStore } from '@/helpers/functions';
 import useNonPersistentStore from '@/store/valk';
 import ValkModal from './ValkModal';
 import CardList from './CardList';
+import { patchNumber } from '@/data/patch';
 
 export default function ValkHandler() {
   const store = useStore(useGlobalStore, (state) => state);
@@ -56,7 +57,7 @@ export default function ValkHandler() {
         nonPersistentStore?.selectedValk != undefined ? ' overscroll-contain	' : ''
       }`}
     >
-      <div className=' mb-4 w-full flex-row  justify-center align-middle sm:flex'>
+      <div className=' mb-1 w-full flex-row  justify-center align-middle sm:flex'>
         <div className='form-control my-2 block text-center sm:mx-2 sm:my-0'>
           <input
             value={query}
@@ -89,6 +90,10 @@ export default function ValkHandler() {
           />
         </label>
       </div>
+      <div className='my-1 w-full text-center'>
+        Updated to patch: <span className='text-primary'>{patchNumber}</span>
+      </div>
+
       <CardList
         brokeValks={brokeResults}
         recValks={recResults}
