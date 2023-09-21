@@ -11,6 +11,20 @@ export const faqs: Faq[] = [
     ],
   },
   {
+    question: 'I see Kalpas and Blood rose being taken by a great amount of units, why is that?',
+    multiLines: [
+      'Blood rose gives the biggest buff to your damage amongst the available supports and synergize well with Kalpas signets by lowering your HPs',
+      'Generally valkyries who runs Kalpas 1 as their first choice are recommended to lower their HP before entering any floor with high HPs to benefit from Kalpas signets',
+      'You can also do it on the shop floor, as interacting with the shop reset your support(s) cooldown!',  
+     ],
+  },
+  {
+    question: 'I do not understand what all those abbreviations mean!',
+    multiLines: [
+      'TDM = Total damage; TDMT = Total damage taken; UE = Ultimate evasion; RDMT = Reduce damage taken; HC = Hitcount; HP = Health point; SP = SP points; ADMG = Adaptive damage',
+    ],
+  },
+  {
     question:
       'There is a Star based Ranking for the Valkyries build as well. What is the difference for these and what does it mean?',
     multiLines: [

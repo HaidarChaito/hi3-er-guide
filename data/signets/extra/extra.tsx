@@ -169,23 +169,6 @@ Signets_of_Reverie_Pardofelis.Improv_Magic_Zeroing.shortDescription = 'TDM';
 Signets_of_Reverie_Pardofelis.Snowy_Paw.shortDescription = 'Nexus stacks up';
 Signets_of_Reverie_Pardofelis.My_Dreams_Will_Come_True.shortDescription = 'ADMG / TDMT';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export { Signets_of_Bodhi_Su };
 export { Signets_of_Daybreak_Kosma };
 export { Signets_of_Decimation_Kalpas };
