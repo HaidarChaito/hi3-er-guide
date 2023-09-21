@@ -53,7 +53,7 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
             priority
             className='relative h-52 w-full cursor-pointer rounded-lg object-cover object-top shadow-xl'
             src={'/static/images/valks/' + valkery.image + '.png'}
-            loading='eager'
+            loading='lazy'
             alt={valkery.label}
             fill
             sizes='(max-width: 768px) 100vw, 300px'
