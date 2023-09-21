@@ -24,15 +24,15 @@ Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer.shortDescription = 'Signet
 Signets_of_Deliverance_Kevin.Echo_of_the_Deliverer.shortDescription = 'Signets duration up';
 Signets_of_Deliverance_Kevin.Dream_of_the_Deliverer.shortDescription = 'Signets enhancement';
 Signets_of_Deliverance_Kevin.Resolve_of_the_Deliverer.shortDescription = 'Burst/Ult TDM';
-Signets_of_Deliverance_Kevin.Triumph_of_the_Deliverer.shortDescription = 'TDMT';
+Signets_of_Deliverance_Kevin.Triumph_of_the_Deliverer.shortDescription = 'TDT';
 
 Signets_of_Gold_Eden.Recitatif_of_Eden.shortDescription = 'TDM';
 Signets_of_Gold_Eden.Recitatif_of_Creeks.shortDescription = 'TDM';
-Signets_of_Gold_Eden.Recitatif_of_Birds.shortDescription = 'RDMT';
+Signets_of_Gold_Eden.Recitatif_of_Birds.shortDescription = 'TDR';
 Signets_of_Gold_Eden.Recitatif_of_Fruit_Trees.shortDescription = 'SP';
 Signets_of_Gold_Eden.Recitatif_of_Good_Wine.shortDescription = 'SP';
 Signets_of_Gold_Eden.Recitatif_of_Fine_Jade.shortDescription = 'SP';
-Signets_of_Gold_Eden.Aria_of_Soil.shortDescription = 'TDMT';
+Signets_of_Gold_Eden.Aria_of_Soil.shortDescription = 'TDT';
 Signets_of_Gold_Eden.Aria_of_Life.shortDescription = 'SP';
 Signets_of_Gold_Eden.Aria_of_Dawn.shortDescription = 'ADMG / Debuff';
 Signets_of_Gold_Eden.Echo_of_Withered_Soil.shortDescription = 'SP';
@@ -41,9 +41,9 @@ Signets_of_Gold_Eden.Echo_of_Silent_Night.shortDescription = 'Physical / Element
 
 Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar.shortDescription = 'TDM';
 Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon.shortDescription = 'TDM';
-Signets_of_Decimation_Kalpas.Letter_Maniac_and_Ravings.shortDescription = 'RDMT';
+Signets_of_Decimation_Kalpas.Letter_Maniac_and_Ravings.shortDescription = 'TDR';
 Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate.shortDescription = 'Max HP';
-Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless.shortDescription = 'TDMT';
+Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless.shortDescription = 'TDT';
 Signets_of_Decimation_Kalpas.God_Me_and_the_Only.shortDescription = 'SP';
 Signets_of_Decimation_Kalpas.Inhuman_Unevil_and_Ungodly.shortDescription = 'Nexus CDR'; 
 Signets_of_Decimation_Kalpas.Man_Mask_and_Contract.shortDescription = 'TDM';
@@ -55,18 +55,18 @@ Signets_of_Decimation_Kalpas.Body_Bones_Heart_and_Soul.shortDescription = 'ADMG'
 Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu.shortDescription = 'TDMT';
 Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati.shortDescription = 'TDM';
 Signets_of_Bodhi_Su.Motto_of_CetoPariyaNana.shortDescription = 'SP';
-Signets_of_Bodhi_Su.Motto_of_DibbaSota.shortDescription = 'RDMT';
+Signets_of_Bodhi_Su.Motto_of_DibbaSota.shortDescription = 'TDR';
 Signets_of_Bodhi_Su.Motto_of_IddhiVidha.shortDescription = 'Starting HC 60';
 Signets_of_Bodhi_Su.Motto_of_Asavakkhaya.shortDescription = 'HC +25 per hit';
 Signets_of_Bodhi_Su.Maxim_of_Anitya.shortDescription = 'Breach';
-Signets_of_Bodhi_Su.Maxim_of_Anatman.shortDescription = 'TDMT';
+Signets_of_Bodhi_Su.Maxim_of_Anatman.shortDescription = 'TDT';
 Signets_of_Bodhi_Su.Maxim_of_Santam.shortDescription = 'Shieldbreak';
 Signets_of_Bodhi_Su.Dictum_of_Anitya.shortDescription = 'ADMG';
-Signets_of_Bodhi_Su.Dictum_of_Anatman.shortDescription = 'TDMT';
+Signets_of_Bodhi_Su.Dictum_of_Anatman.shortDescription = 'TDT';
 Signets_of_Bodhi_Su.Dictum_of_Santam.shortDescription = 'Debuffs';
 
 Signets_of_Setsuna_Sakura.Bountiful_Blossom_Ume.shortDescription = 'Atk/Move Speed';
-Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo.shortDescription = 'TDMT';
+Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo.shortDescription = 'TDT';
 Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan.shortDescription = 'TDM';
 Signets_of_Setsuna_Sakura.Bountiful_Blossom_Kiku.shortDescription = 'UE reset';
 Signets_of_Setsuna_Sakura.Bountiful_Blossom_Fuji.shortDescription = 'UE cap up';
@@ -79,8 +79,8 @@ Signets_of_Setsuna_Sakura.Setsuna_Blade_Mugenjigoku.shortDescription = 'UE CDR';
 Signets_of_Setsuna_Sakura.Setsuna_Blade_Mumyo.shortDescription = 'ADMG';
 
 Signets_of_Infinity_Mobius.Rodent_V.shortDescription = 'TDM';
-Signets_of_Infinity_Mobius.Entwined_P.shortDescription = 'TDMT';
-Signets_of_Infinity_Mobius.Silent_B.shortDescription = 'RDMT';
+Signets_of_Infinity_Mobius.Entwined_P.shortDescription = 'TDT';
+Signets_of_Infinity_Mobius.Silent_B.shortDescription = 'TDR';
 Signets_of_Infinity_Mobius.Lip_Poison_E.shortDescription = 'Summoned Entities TDM';
 Signets_of_Infinity_Mobius.Lodging_C.shortDescription = 'Elf/Support CDR';
 Signets_of_Infinity_Mobius.Dark_Pupil_T.shortDescription = 'Elf SP';
@@ -89,13 +89,13 @@ Signets_of_Infinity_Mobius.Unknown_X.shortDescription = 'Elf/Support CDR';
 Signets_of_Infinity_Mobius.Newborn_X.shortDescription = 'Breach';
 Signets_of_Infinity_Mobius.Sacrificial_M.shortDescription = 'Faster nexus';
 Signets_of_Infinity_Mobius.Collapsed_M.shortDescription = 'TDM';
-Signets_of_Infinity_Mobius.Immortal_M.shortDescription = 'TDMT';
+Signets_of_Infinity_Mobius.Immortal_M.shortDescription = 'TDT';
 
 Signets_of_Vicissitude_Hua.Long_Trip.shortDescription = 'TDM';
 Signets_of_Vicissitude_Hua.Days_Gone.shortDescription = 'PTDM';
 Signets_of_Vicissitude_Hua.Dark_Garb_No_More.shortDescription = 'ETDM';
 Signets_of_Vicissitude_Hua.Old_Dreams_Again.shortDescription = 'Elemental Breach';
-Signets_of_Vicissitude_Hua.Lost_and_Found.shortDescription = 'RDMT';
+Signets_of_Vicissitude_Hua.Lost_and_Found.shortDescription = 'TDR';
 Signets_of_Vicissitude_Hua.No_One_to_Share.shortDescription = 'Physical Breach';
 Signets_of_Vicissitude_Hua.Fleeting_Fantasy.shortDescription = 'Nexus starting stacks';
 Signets_of_Vicissitude_Hua.Fallen_Flowers.shortDescription = 'Signets enhancement';
@@ -105,7 +105,7 @@ Signets_of_Vicissitude_Hua.Go_with_the_Flow.shortDescription = 'Invincibility ca
 Signets_of_Vicissitude_Hua.Broken_Dream.shortDescription = 'Signets stacks cap up';
 
 Signets_of_Discipline_Aponia.First_No_Betrayal.shortDescription = 'Basic ATKs TDM';
-Signets_of_Discipline_Aponia.Second_No_Deception.shortDescription = 'RDMT';
+Signets_of_Discipline_Aponia.Second_No_Deception.shortDescription = 'TDR';
 Signets_of_Discipline_Aponia.Third_No_Brutality.shortDescription = 'SP';
 Signets_of_Discipline_Aponia.Fourth_No_Insolence.shortDescription = 'Ult/Burst TDM';
 Signets_of_Discipline_Aponia.Fifth_No_Falsehood.shortDescription = 'Starting exhortation 40 / TDMT';
@@ -115,10 +115,10 @@ Signets_of_Discipline_Aponia.You_Shall_Be_Committed_to_Thy_Life.shortDescription
 Signets_of_Discipline_Aponia.You_Shall_Be_Witnessed_by_Thy_Heart.shortDescription = 'Ult TDM';
 Signets_of_Discipline_Aponia.You_Shall_Punish_Evil.shortDescription = 'TDM / SP';
 Signets_of_Discipline_Aponia.You_Shall_Follow_Good.shortDescription = 'TDM / Breach';
-Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers.shortDescription = 'RDMT / ADMG';
+Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers.shortDescription = 'TDR / ADMG';
 
 Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'WA DMG';
-Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'TDMT';
+Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'TDT';
 Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'TDM';
 Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'CA TDM';
 Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'Ranged TDM';
@@ -127,7 +127,7 @@ Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'TDM / Physical DMG';
 Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'Nexus action Physical / Physical Breach';
 Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'Shieldbreak';
 Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'Breach';
-Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'TDMT';
+Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'TDT';
 Signets_of_Helix_VillV.Act_I_Magic.shortDescription = 'ADMG';
 
 Signets_of_Daybreak_Kosma.Talons_that_Desecrate_the_Santuary_sic.shortDescription = 'Basic ATKs/CA rend';
@@ -143,9 +143,9 @@ Signets_of_Daybreak_Kosma.Dawn_Perpetual_Wait.shortDescription = 'Breach';
 Signets_of_Daybreak_Kosma.Choice_Ensuing_Regret.shortDescription = 'ADMG';
 Signets_of_Daybreak_Kosma.Heart_Unshakable_Character.shortDescription = 'TDM';
 
-Signets_of_Stars_Griseo.Red__Hot.shortDescription = 'TDMT';
-Signets_of_Stars_Griseo.Blue__Cold.shortDescription = 'RDMT';
-Signets_of_Stars_Griseo.Yellow__Warm.shortDescription = 'TDMT';
+Signets_of_Stars_Griseo.Red__Hot.shortDescription = 'TDT';
+Signets_of_Stars_Griseo.Blue__Cold.shortDescription = 'TDR';
+Signets_of_Stars_Griseo.Yellow__Warm.shortDescription = 'TDT';
 Signets_of_Stars_Griseo.Black__Dark.shortDescription = 'TDM';
 Signets_of_Stars_Griseo.White__Bright.shortDescription = 'SP';
 Signets_of_Stars_Griseo.Grey__Empty.shortDescription = 'Paints last longer';
@@ -167,7 +167,7 @@ Signets_of_Reverie_Pardofelis.Setsuna_Paw.shortDescription = 'Ult ADMG';
 Signets_of_Reverie_Pardofelis.This_Is_Not_Where_We_Die.shortDescription = 'Breach';
 Signets_of_Reverie_Pardofelis.Improv_Magic_Zeroing.shortDescription = 'TDM';
 Signets_of_Reverie_Pardofelis.Snowy_Paw.shortDescription = 'Nexus stacks up';
-Signets_of_Reverie_Pardofelis.My_Dreams_Will_Come_True.shortDescription = 'ADMG / TDMT';
+Signets_of_Reverie_Pardofelis.My_Dreams_Will_Come_True.shortDescription = 'ADMG / TDT';
 
 export { Signets_of_Bodhi_Su };
 export { Signets_of_Daybreak_Kosma };

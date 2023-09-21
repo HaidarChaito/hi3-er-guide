@@ -21,7 +21,7 @@ export const faqs: Faq[] = [
   {
     question: 'I do not understand what all those abbreviations mean!',
     multiLines: [
-      'TDM = Total damage; TDMT = Total damage taken; UE = Ultimate evasion; RDMT = Reduce damage taken; HC = Hitcount; HP = Health point; SP = SP points; ADMG = Adaptive damage',
+      'TDM = Total damage; TDT = Total damage taken; UE = Ultimate evasion; TDR = Total damage (taken) reduced; HC = Hitcount; HP = Health point; SP = SP points; ADMG = Adaptive damage',
     ],
   },
   {
