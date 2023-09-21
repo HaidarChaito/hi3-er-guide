@@ -15,8 +15,8 @@ export const faqs: Faq[] = [
     multiLines: [
       'Blood rose gives the biggest buff to your damage amongst the available supports and synergize well with Kalpas signets by lowering your HPs',
       'Generally valkyries who runs Kalpas 1 as their first choice are recommended to lower their HP before entering any floor with high HPs to benefit from Kalpas signets',
-      'You can also do it on the shop floor, as interacting with the shop reset your support(s) cooldown!',  
-     ],
+      'You can also do it on the shop floor, as interacting with the shop reset your support(s) cooldown!',
+    ],
   },
   {
     question: 'I do not understand what all those abbreviations mean!',
@@ -126,7 +126,7 @@ export const faqs: Faq[] = [
       'Miracle Magic Girl: https://www.miyoushe.com/bh3/article/42843349',
       'Midnight Absinthe: https://www.pixiv.net/en/artworks/79351986',
       'Miss Pink Elf: https://www.pixiv.net/en/artworks/100391835',
-      'Palatinus Equinox: https://www.pixiv.net/en/artworks/96196806',
+      'Palatinus Equinox: miHoYo',
       'Prinzessin der Verurteilung: https://www.pixiv.net/en/artworks/99645485',
       'Reverist Calico: https://www.pixiv.net/en/artworks/97265063',
       'Ritual Imayoh: https://www.pixiv.net/en/artworks/79702200',
