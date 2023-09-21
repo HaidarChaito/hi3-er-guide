@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-const themes = ['night', 'winter', 'dimare', 'aftereight', 'dracula'];
+const themes = ['dimare', 'night', 'winter', 'aftereight', 'dracula'];
 
 type store = {
   gamerMode?: boolean;
