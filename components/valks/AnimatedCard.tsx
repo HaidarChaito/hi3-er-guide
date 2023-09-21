@@ -55,8 +55,8 @@ export default function AnimatedCard({ valkery, setSelected, isRecommended }: pr
             src={'/static/images/valks/' + valkery.image + '.png'}
             loading='eager'
             alt={valkery.label}
-            fill
-            sizes='(max-width: 768px) 100vw, 300px'
+            height={210}
+            width={300}
           />
         </div>
 

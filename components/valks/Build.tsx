@@ -1,5 +1,4 @@
 import { Build } from '@/types/Build';
-import styles from '@/public/static/styles/Build.module.css';
 import { LuSwords } from 'react-icons/lu';
 import Rank from './Rank';
 import { Valkery } from '@/types/Valkery';
@@ -177,13 +176,11 @@ export default function Build({ build, valkery }: props) {
                 {i == build.signets.length - 1 && (
                   <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
                     Optional signets from the Shop:
-                    <hr className={styles.hr} />
                   </div>
                 )}
                 {i != build.signets.length - 1 && (
                   <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
                     {signetClass[0].family}
-                    <hr className={styles.hr} />
                   </div>
                 )}
                 {signetClass.map((signet, j) => (
@@ -199,7 +196,6 @@ export default function Build({ build, valkery }: props) {
                     )}
                   </div>
                 ))}
-                {build.signets.length - 1 > i && <hr className={styles.hr} />}
               </div>
             ))}
           </section>
