@@ -20,7 +20,7 @@ const build2: Build = {
   ],
   isNew: true,
   notes:
-    'The Starter depends on whether Helix is +2 or not. If yes = start with Vill-V. If no = start with Kosma. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+    'The Starter depends on whether Deliverance is +2 or not. If yes = start with Kevin. If no = start with Kosma. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Whimsy, 'Start'),
