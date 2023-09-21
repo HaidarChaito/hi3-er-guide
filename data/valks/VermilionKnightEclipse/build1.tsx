@@ -15,7 +15,7 @@ const build1: Build = {
   tier: 5,
   bottomNotes: [
     {
-      text: 'SEQUENCE: Spam Charged ATK, weaving some Basics in if needed to allow Heat bar to go down; if you go to Overheat, make sure you can use Ult to clear it and to gain stacks for Uriel (Also for Griseo Yellow purposes). Use Uriel Weapon Active for Griseo Red Paint and to deal massive damage. Reposition with Evade as the way the Charged gathers can be a bit unreliable.',
+      text: 'SEQUENCE: Spam Charged ATK, weaving some Basics in if needed to allow Heat bar to go down; if you go to Overheat, make sure you can use Ult to clear it and to gain stacks for Uriel (Also for Griseo Yellow purposes). Use Uriel Weapon Active for Griseo Red Paint and to deal massive damage. Reposition with Evade as the way the Charged gathers can be a bit unreliable. With kalpas start, remember to lower your HP before next floor with blood rose or on the shops floor, interacting with the shop will reset support valkyrie CD, allowing to lower your hp quickly!',
     },
   ],
   isNew: true,

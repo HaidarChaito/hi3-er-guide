@@ -19,7 +19,7 @@ const build3: Build = {
     },
   ],
   notes:
-    'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Decay build, focusses on spamming sequence attack and dodges with Setsuna support to use the powerful combo attack as much as possible.',
+    'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Decay build, focusses on spamming sequence attack and dodges with Setsuna support to use the powerful combo attack as much as possible. With kalpas start, remember to lower your HP before next floor with blood rose or on the shops floor, interacting with the shop will reset support valkyrie CD, allowing to lower your hp quickly!',
   signets: [
     [
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Decay, 'Start'),
