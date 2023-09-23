@@ -42,12 +42,10 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
-      withPriority(Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless, 'CORE'),
-      Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation,
-      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
-      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
+      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
+      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
+      withPriority(Signets_of_Decimation_Kalpas.Homeland_and_Friends,'Optional'),
     ],
-
     [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
