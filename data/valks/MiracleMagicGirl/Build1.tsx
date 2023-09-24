@@ -25,8 +25,8 @@ const build1: Build = {
     [
       withPriority(MiracleMagicGirl.Blessing_of_Tailor, 'Start'),
       withPriority(MiracleMagicGirl.Blessing_of_Dreamstitch, 'Start'),
-      withPriority(MiracleMagicGirl.Blessing_of_Stellar_Breach, 'F2 Ego'),
-      withPriority(MiracleMagicGirl.Blessing_of_Resplendence, 'Optional'),
+      withPriority(MiracleMagicGirl.Blessing_of_Resplendence, 'F2 Ego'),
+      withPriority(MiracleMagicGirl.Blessing_of_Stellar_Breach, 'Optional'),
     ],
 
     [
@@ -36,11 +36,14 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
       withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
       Signets_of_Decimation_Kalpas.Homeland_and_Friends,
+      withPriority(Signets_of_Decimation_Kalpas.Body_Bones_Heart_and_Soul, 'After Other Cores'),
+      withPriority(Signets_of_Decimation_Kalpas.Death_Life_Oblivion_and_Existence, 'Optional'),
     ],
 
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_I_Magic,
       Signets_of_Helix_VillV.Act_IV_Spoon,
       withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,

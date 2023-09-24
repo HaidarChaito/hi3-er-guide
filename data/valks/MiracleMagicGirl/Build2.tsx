@@ -35,6 +35,8 @@ const build2: Build = {
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
       withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
       Signets_of_Decimation_Kalpas.Homeland_and_Friends,
+      withPriority(Signets_of_Decimation_Kalpas.Body_Bones_Heart_and_Soul, 'After Other Cores'),
+      withPriority(Signets_of_Decimation_Kalpas.Death_Life_Oblivion_and_Existence, 'Optional'),
     ],
 
     [
@@ -43,6 +45,7 @@ const build2: Build = {
       Signets_of_Helix_VillV.Act_IV_Spoon,
       withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
+      Signets_of_Helix_VillV.Puppetry_Interlacing_Cells,
     ],
     [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
