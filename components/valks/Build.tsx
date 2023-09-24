@@ -25,7 +25,7 @@ export default function Build({ build, valkery }: props) {
           <hr className={`border-b border-${switchColor(valkery.type)}`} />
           {/* Notes */}
           {build.notes != undefined && (
-            <section className='mt-1 w-full'>
+            <section className='my-2 w-full'>
               <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
                 Notes:
               </div>
@@ -34,7 +34,7 @@ export default function Build({ build, valkery }: props) {
           )}
           {/* Support */}
           {build.supports != undefined && (
-            <section className='mt-1 w-full'>
+            <section className='my-2 w-full'>
               <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
                 Supports:
               </div>
@@ -46,7 +46,7 @@ export default function Build({ build, valkery }: props) {
                       {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
                       <div key={i} className='inline-block object-fill'>
                         <Image
-                          className='w-24 rounded-t-3xl p-2'
+                          className='w-[18] rounded-t-3xl p-2 sm:w-24'
                           width={75}
                           height={75}
                           src={`/${support}`}
@@ -66,7 +66,7 @@ export default function Build({ build, valkery }: props) {
                       {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
                       <div key={i} className='inline-block object-fill'>
                         <Image
-                          className='w-24 rounded-t-3xl p-2'
+                          className='w-[18] rounded-t-3xl p-2 sm:w-24'
                           width={75}
                           height={75}
                           src={`/${support}`}
@@ -86,7 +86,7 @@ export default function Build({ build, valkery }: props) {
                       {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
                       <div key={i} className='inline-block object-fill'>
                         <Image
-                          className=' w-24 rounded-t-3xl p-2 '
+                          className='w-[18] rounded-t-3xl p-2 sm:w-24'
                           width={75}
                           height={75}
                           src={`/${support}`}
@@ -101,7 +101,7 @@ export default function Build({ build, valkery }: props) {
           )}
           {/* Emblem */}
           {build.emblems != undefined && (
-            <section className='mt-1 w-full'>
+            <section className='my-2 w-full'>
               <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
                 Emblems:
               </div>
@@ -113,7 +113,7 @@ export default function Build({ build, valkery }: props) {
                       {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
                       <div key={i} className='inline-block object-fill'>
                         <Image
-                          className='w-24 rounded-t-3xl p-2'
+                          className='w-[18] rounded-t-3xl p-2 sm:w-24'
                           width={75}
                           height={75}
                           src={`/${emblem}`}
@@ -133,7 +133,7 @@ export default function Build({ build, valkery }: props) {
                       {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
                       <div key={i} className='inline-block object-fill'>
                         <Image
-                          className='w-24 rounded-t-3xl p-2'
+                          className='w-[18] rounded-t-3xl p-2 sm:w-24'
                           width={75}
                           height={75}
                           src={`/${emblem}`}
@@ -153,7 +153,7 @@ export default function Build({ build, valkery }: props) {
                       {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
                       <div key={i} className='inline-block object-fill'>
                         <Image
-                          className='w-24 rounded-t-3xl p-2'
+                          className='w-[18] rounded-t-3xl p-2 sm:w-24'
                           width={75}
                           height={75}
                           src={`/${emblem}`}
@@ -167,12 +167,12 @@ export default function Build({ build, valkery }: props) {
             </section>
           )}
           {/* Signets */}
-          <section>
+          <section className='my-2 w-full'>
             <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
               Signets:
             </div>
             {build.signets.map((signetClass, i) => (
-              <div key={i}>
+              <div key={i} className='mb-4'>
                 {i == build.signets.length - 1 && (
                   <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
                     Optional signets from the Shop:
@@ -184,7 +184,7 @@ export default function Build({ build, valkery }: props) {
                   </div>
                 )}
                 {signetClass.map((signet, j) => (
-                  <div key={j} className='flex'>
+                  <div key={j} className='flex leading-7'>
                     <div>{signet.label}</div>
                     {signet.shortDescription && (
                       <div className={`italic text-primary`}>({signet.shortDescription})</div>
@@ -200,7 +200,7 @@ export default function Build({ build, valkery }: props) {
             ))}
           </section>
           {/* Bottom notes */}
-          <section>
+          <section className='my-2 w-full'>
             <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
               Additional notes:
             </div>
