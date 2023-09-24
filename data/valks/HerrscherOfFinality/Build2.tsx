@@ -11,7 +11,7 @@ import { withPriority } from '@/helpers/functions';
 
 const build2: Build = {
   label: 'Ult Build',
-  tier: 4.3,
+  tier: 4.5,
   notes: 'Strong HoFinality build for general usages, capable of dealing benchmark numbers easily',
   bottomNotes: [
     {

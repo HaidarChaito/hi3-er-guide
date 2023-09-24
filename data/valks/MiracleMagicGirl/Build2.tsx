@@ -12,7 +12,7 @@ import { withPriority } from '@/helpers/functions';
 
 const build2: Build = {
   label: 'Charged Spam Build',
-  tier: 5,
+  tier: 4.5,
   isNew: true,
   notes:
     'Swap BR for BK by F9/F10 Shop to deal with Heimdall. This build focus on using charged attacks, similiarly to the weapon active build, your absolute evasion stacks will be consumed to refresh your glitter bar for more charged attacks to deal very heavy damage.',

@@ -8,7 +8,7 @@ const HerrscherOfFinality: Valkery = {
   image: 'Herrscher of Finality',
   build: [build1, build2, build3],
   type: 4,
-  tier: 4.5,
+  tier: 5,
   minRank: 3,
   loadoutBuffs: [
     { title: 0, selected: '✓' },

@@ -11,7 +11,7 @@ import { withPriority } from '@/helpers/functions';
 
 const build1: Build = {
   label: 'Combo Build',
-  tier: 3.2,
+  tier: 3.5,
   notes:
     ' Combo build that focusses on spamming the combo actions through condescension descent stacks and weapon active to quickly gain 8 stacks and spam combo attack, has high survivability, gains massive power spike from the SS rank and Ego signet "Condescension" synergy',
   isNew: true,

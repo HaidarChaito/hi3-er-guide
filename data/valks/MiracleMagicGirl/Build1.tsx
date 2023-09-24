@@ -12,7 +12,7 @@ import { withPriority } from '@/helpers/functions';
 
 const build1: Build = {
   label: 'Weapon Spam Build',
-  tier: 5,
+  tier: 4,
   isNew: true,
   notes:
     'Swap BR for BK by F9/F10 Shop to deal with Heimdall. This build focus interely on using your weapon active as much as possible chaining it through the SEQ 5 unlocked via ego signet Blessing of the tailor for fast and consistent damage, possible by exchanging your ultimate evasions for glitter stacks.',
