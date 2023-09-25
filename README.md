@@ -13,7 +13,7 @@ the github action automatically build the website on each commit, so you should 
 
 ## Credits
 This website is built from scratch by [HaidarChaitoMena](https://github.com/HaidarChaitoMena)
-The Guide and theory crafting is maintained by [AdoriZahard](https://github.com/AdoriZahard)
+The Guide and theory crafting is maintained by [AdoriZahard](https://github.com/AdoriZahard) and [AquaHi3](https://github.com/AquaHi3)
 
 ## Discord
 feel free to contact me on **.syblue** or adori on **adoriz**
