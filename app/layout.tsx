@@ -29,8 +29,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://images-ext-2.discordapp.net/external/fXsDf50jW_ShXu1Vf7OTbqW3jslN3ZqoTp_nijtD11o/https/cdn.discordapp.com/emojis/1134456907134926931.gif',
-        width: 400,
-        height: 400,
+        width: 200,
+        height: 200,
       },
     ],
     locale: 'en_US',
