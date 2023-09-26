@@ -5,6 +5,7 @@ import { Valkery } from '@/types/Valkery';
 import { switchColor } from '@/helpers/functions';
 import Image from 'next/image';
 import GifPlayer from '../shared/GifPlayer';
+import Gear from './Gear';
 
 type props = {
   build: Build;
@@ -30,6 +31,17 @@ export default function Build({ build, valkery }: props) {
                 Notes:
               </div>
               <div className='w-fit'>{build.notes}</div>
+            </section>
+          )}
+          {/* Gear */}
+          {build.gear != undefined && (
+            <section className='my-2 w-full'>
+              <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
+                Gear options:
+              </div>
+              {build.gear.map((gear, i) => {
+                return <Gear key={i} gear={gear} />;
+              })}
             </section>
           )}
           {/* Support */}

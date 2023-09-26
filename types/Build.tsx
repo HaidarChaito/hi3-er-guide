@@ -1,4 +1,5 @@
 import { bottomNotes } from './BottomNotes';
+import { Gear } from './Gear';
 import { Signet } from './Signet';
 
 export type Build = {
@@ -11,4 +12,5 @@ export type Build = {
   notBudget?: boolean;
   notes?: string;
   bottomNotes?: bottomNotes[];
+  gear?: Gear[];
 };

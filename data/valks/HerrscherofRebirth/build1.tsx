@@ -13,6 +13,20 @@ const build1: Build = {
   label: 'Soothingness Build',
   tier: 5,
   isNew: true,
+  gear: [
+    {
+      gearInfo: 'wep1 | stig TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'wep2 | stig TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'wep3 | stig TMB',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Dodge>ULT>Swap to lifebinder form> WAx2 > COMBOx2 > Repeat; ult as necessary',

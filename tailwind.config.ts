@@ -45,21 +45,21 @@ const config: Config = {
       {
         night: {
           ...require('daisyui/src/theming/themes')['[data-theme=night]'],
-          'neutral-focus': 'white',
-          'base-300': 'white',
+          'neutral-focus': '#F4F4F2',
+          'base-300': '#F4F4F2',
         },
       },
       {
         dracula: {
           ...require('daisyui/src/theming/themes')['[data-theme=dracula]'],
-          'neutral-focus': 'white',
-          'base-300': 'white',
+          'neutral-focus': '#F4F4F2',
+          'base-300': '#F4F4F2',
         },
       },
       {
         winter: {
           ...require('daisyui/src/theming/themes')['[data-theme=winter]'],
-          'neutral-focus': 'white',
+          'neutral-focus': '#F4F4F2',
           'base-300': '#0f1729',
         },
         aftereight: {
@@ -72,7 +72,7 @@ const config: Config = {
           success: '#B9ED92',
           warning: '#f4c152',
           error: '#fb6f84',
-          'neutral-focus': 'white',
+          'neutral-focus': '#F4F4F2',
           'base-300': '#14FFEC',
         },
         dimare: {
@@ -85,7 +85,7 @@ const config: Config = {
           success: '#B9ED92',
           warning: '#f4c152',
           error: '#fb6f84',
-          'neutral-focus': 'white',
+          'neutral-focus': '#F4F4F2',
           'base-300': '#FFA1F5',
         },
       },
