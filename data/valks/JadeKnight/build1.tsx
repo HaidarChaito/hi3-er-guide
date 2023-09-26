@@ -69,7 +69,7 @@ const build1: Build = {
     ],
   ],
   supports: [
-    [AvatarImages.Lightning_Empress_Avatar AvatarImages.Blood_Rose_Avatar],
+    [AvatarImages.Lightning_Empress_Avatar, AvatarImages.Blood_Rose_Avatar],
     [
       AvatarImages.Lightning_Empress_Avatar,
       AvatarImages.Blood_Rose_Avatar,
