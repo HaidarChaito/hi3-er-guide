@@ -59,12 +59,7 @@ const build1: Build = {
       Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
       withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
     ],
-    [
-      Signets_of_Gold_Eden.Recitatif_of_Eden,
-      Signets_of_Gold_Eden.Recitatif_of_Creeks,
-      Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
-      withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
-    ],
+   
 
     [
       Signets_of_Stars_Griseo.Red__Hot,
