@@ -27,7 +27,6 @@ const brokValks: Valkery[] = [
   ChronoNavi,
   HerrscherOfFinality,
   HerrscherofTruth,
-  ReveristCalico,
   StarryImpression,
   SugaryStarburst,
   TerminalAide0017,
