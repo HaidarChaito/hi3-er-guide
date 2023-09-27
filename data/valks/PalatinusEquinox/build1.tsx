@@ -13,6 +13,16 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'Guardian Form Build',
   tier: 3.5,
+  gear: [
+    {
+      gearInfo: 'Midnight Ataegina | Bianka Theatre TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Midnight Ataegina | Ely TB Dante M',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active into Evade (collide against enemy) > Active connect into Equinox Severance > Repeat while you have UE Charges; when you do not, spam Gunlance Active to fill Bar into Equinox Severance.',
@@ -44,7 +54,7 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
       withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
-      withPriority(Signets_of_Decimation_Kalpas.Homeland_and_Friends,'Optional'),
+      withPriority(Signets_of_Decimation_Kalpas.Homeland_and_Friends, 'Optional'),
     ],
     [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,

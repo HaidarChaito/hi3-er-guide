@@ -13,6 +13,20 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 5,
+  gear: [
+    {
+      gearInfo: 'Elysian Astra | Cezanne TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Any Highest ATK Cross Statstick | Susannah Overtime T Aladdin MB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Any Highest ATK Cross Statstick | Elysia TB Dante M',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Deploy Cross > Ult > Evade (Once Cloud Valley is gotten) into gather and 3 taps of Ult. At 5 Color Markers, Hold ATK for Combo and repeat, use Cross and Ult again accordingly as they come off CD.',

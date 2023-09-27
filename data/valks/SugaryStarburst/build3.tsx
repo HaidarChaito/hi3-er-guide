@@ -12,6 +12,16 @@ import { withPriority } from '@/helpers/functions';
 const build3: Build = {
   label: 'Hybrid Build',
   tier: 4.5,
+  gear: [
+    {
+      gearInfo: 'Star Dance: Enlightenment | Cecilia Youth TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Any Highest ATK Pistol Statstick | Willows TMB',
+      isBudgetVisible: true,
+    },
+  ],
   isNew: true,
   bottomNotes: [{ text: 'SEQUENCE: Dodge > Attack > WA > Charged 2x > Repeat ' }],
   signets: [

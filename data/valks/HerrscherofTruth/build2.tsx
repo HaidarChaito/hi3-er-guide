@@ -16,6 +16,23 @@ const build1: Build = {
   label: 'Ult Nuke Build',
   tier: 5,
   isNew: true,
+  gear: [
+    {
+      gearInfo: 'Domain of Ascension | Bronya Zaychik TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Any Highest ATK Cannon Statstick | Elysia Pristine TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Any Highest ATK Cannon Statstick | Willows TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Any Highest ATK Cannon Statstick | Turgenev TB Jin Shengtan M (Or any other useable M)'
+    },
+  ],
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   bottomNotes: [
     {

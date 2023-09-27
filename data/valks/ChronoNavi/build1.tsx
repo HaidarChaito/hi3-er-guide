@@ -12,6 +12,20 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 5,
+  gear: [
+    {
+      gearInfo: 'Rudder in Dream PRI | Idol Transformation TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Any Highest ATK Chakram Statstick | Little Joys TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Any Highest ATK Chakram Statstick | Jin Shengtan TM / Any Useable B Piece',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active > Basics & Evade till full bar > Charged into Fire Ring > Ult > Repeat.',

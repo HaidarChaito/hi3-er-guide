@@ -12,6 +12,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 2.5,
+  gear: [
+    {
+      gearInfo: 'Miracle Pissy Killow | Paganini TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Charged till 3rd Stage (4th with Rupture) > Ult > Repeat. Can use Aerial Charged if need to gather or for Skyfall purposes.',

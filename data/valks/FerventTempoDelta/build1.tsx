@@ -12,6 +12,20 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 4,
+  gear: [
+    {
+      gearInfo: 'Sleepers Dream | Michelangelo TB Dante M',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Sleepers Dream | Bianka Theatre TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Sleepers Dream | Elysia TB Dante/Polo M',
+      isBudgetVisible: true,
+    }
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Weave Evades and Basics to fill Juice Meter, when full perform Charged > Sleepri Active into Ult > Spam Basics until Sleepri Active and Ult are both off CD and repeat.',

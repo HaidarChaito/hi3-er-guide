@@ -15,17 +15,21 @@ const build1: Build = {
   isNew: true,
   gear: [
     {
-      gearInfo: 'wep1 | stig TMB',
-      isBudgetVisible: true,
-    },
-    {
-      gearInfo: 'wep2 | stig TMB',
+      gearInfo: 'Life Harvester: Shared Destiny | Seele: Herrscher of Rebirth TMB',
       isBudgetVisible: false,
     },
     {
-      gearInfo: 'wep3 | stig TMB',
+      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
       isBudgetVisible: true,
     },
+    {
+      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
+      isBudgetVisible: true,
+    }
   ],
   bottomNotes: [
     {

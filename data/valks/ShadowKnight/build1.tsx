@@ -12,6 +12,16 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  gear: [
+    {
+      gearInfo: 'Nuadas Revenge | Zeno TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Nuadas Revenge | Handel TMB / Raiden Mei T Handel MB',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Evade into Hold Ult to enter Burst Mode > Wep Active > Evade into Oraora and repeat whenever Evade comes off CD. When Ult runs out, farm SP again to repeat.',

@@ -13,6 +13,16 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 4.5,
+  gear: [
+    {
+      gearInfo: 'Basilisk Image: Deathshroud | Linnaeus TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Any Highest ATK Cross Statstick / Judah | Handel TMB ',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Combo into Enhanced Basic > Wep Active > Evade and reposition (Important; when deploying Mobius Support Skill, reposition just behind the doll) into Submergence Basic > Ult > BBB, BBA, BA depending on what is needed. BBB to kill wave (recovers Genesis Seeds on kills), BBA to keep dishing out damage > BA to make sure you keep 3 Genesis Seeds before Ult runs out (Will not be needed once you get SP Regen signets), use Evade whenever it comes off CD as necessary to recover 1 Genesis Seed, and repeat. It is important to properly manage your Genesis Seeds in this way, and it is also important to make sure you are hitting every single mob with Mobius AoE Attacks.',

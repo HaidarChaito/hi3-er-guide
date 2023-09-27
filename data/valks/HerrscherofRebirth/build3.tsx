@@ -13,6 +13,24 @@ const build3: Build = {
   label: 'Decay Build',
   tier: 5,
   isNew: true,
+  gear: [
+    {
+      gearInfo: 'Life Harvester: Shared Destiny | Seele: Herrscher of Rebirth TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
+      isBudgetVisible: true,
+    }
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Dodge > Ult > Dodges(Absolute evasion stacks reliant)/Attacks till bar full > Combo attack x2 > Repeat',

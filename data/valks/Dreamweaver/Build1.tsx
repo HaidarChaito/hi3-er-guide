@@ -14,6 +14,16 @@ const build1: Build = {
   label: 'Flag Build',
   tier: 5,
   isNew: true,
+  gear: [
+    {
+      gearInfo: 'Prophetic Dreams PRI | Alexandra TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Prophetic Dreams | Elysia TB Dante M',
+      isBudgetVisible: true,
+    },
+  ],
   notes:
     'This build uses the strong synergy between Kevin signets and Thousand thoughts ego signet to deal consistent high damage through Dreamweaver ideas, this build is considered the easiest and the strongest of the two.',
   bottomNotes: [
@@ -59,7 +69,7 @@ const build1: Build = {
       Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
       withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
     ],
-   
+
 
     [
       Signets_of_Stars_Griseo.Red__Hot,

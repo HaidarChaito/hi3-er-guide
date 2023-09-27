@@ -14,6 +14,16 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 const build2: Build = {
   label: 'Ultimate Build',
   tier: 5,
+  gear: [
+    {
+      gearInfo: 'Shuhadaku of Uriel | Aslaug TB Himeko M',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Shuhadaku of Uriel / Any Highest ATK Greatsword Statstick | Leuweenhoek TB Himeko/Thales M',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Spam Ultimate, but use Basics as needed to farm SP and keep using it, as well as make use of Evade connect to Guren Flash for free 20 SP (thanks to Burning Flow) and to regain Ult Charges. Use Uriel Active, always at 4 Stacks.',

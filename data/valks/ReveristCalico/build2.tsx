@@ -12,6 +12,20 @@ import { Build } from '@/types/Build';
 const build2: Build = {
   label: 'Pardo2 Variation',
   tier: 3,
+  gear: [
+    {
+      gearInfo: 'Purana Phantasma | Bastet/Willows TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Purana Phantasma / Any Highest ATK Chakram Statstick | Ana Schariac TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Purana Phantasma / Any Highest ATK Chakram Statstick | Jin Shengtan TM Cecilia: Youth B',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Yellow Combo > Wep Active > Purple Combo > Breakdance (QTE) > Ult > Keep switching between both Combos and Breakdance till Ult comes off CD > Repeat.',

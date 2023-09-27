@@ -12,6 +12,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 2.5,
+  gear: [
+    {
+      gearInfo: '7 Thunders of Retribution | Dirac TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Use Basic ATK SEQ to gain meters, once you reach 4, connect Evade into Flurry, do this until you get SP for Ult > Ult and connect Evade into Flurry, repeat as long as you have meter, ideally always 4 and repeat until SP runs out, do whole process again.',

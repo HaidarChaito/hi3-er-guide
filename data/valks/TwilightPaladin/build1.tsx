@@ -14,6 +14,12 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 const build1: Build = {
   label: 'General Build',
   tier: 4,
+  gear: [
+    {
+      gearInfo: 'Hekate Sombre | Kafka TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Use Basic ATK SEQ until Bar is filled > Hold ATK to enter Fervent Mode > Deploy Cross > Ult > Spam ATK and Hold ATK when Hit Count reaches 300, or once Dusk is gotten, only spam ATK and Hold ATK when you have Polarized Agent Charges to deal massive damage. Keep using Ult to refresh Fervent Mode and avoid letting it end if possible.',

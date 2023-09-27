@@ -11,6 +11,16 @@ import { withPriority } from '@/helpers/functions';
 const build2: Build = {
   label: 'Astral Body Build',
   tier: 5,
+  gear: [
+    {
+      gearInfo: 'Prophetic Dreams PRI | Alexandra TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Prophetic Dreams | Elysia TB Dante M',
+      isBudgetVisible: true,
+    },
+  ],
   notes: `In Elysian realm the number of stacks to use Kaleidescope (Charged attack) are raised to 8, you will need two full sequences and weapon skill to use it! One more weapon skill or full sequence with the 2nd Ego, make adjustment as necessary.`,
   isNew: true,
   bottomNotes: [

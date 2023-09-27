@@ -13,6 +13,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'Combo Spam Build',
   tier: 4.5,
+  gear: [
+    {
+      gearInfo: 'Twirling Gaze PRI | Aladdin TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active into Combo > Repeat. Reposition as needed.',

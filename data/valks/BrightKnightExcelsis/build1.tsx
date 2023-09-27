@@ -13,6 +13,12 @@ import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 const build1: Build = {
   label: 'General Build',
   tier: 2.5,
+  gear: [
+    {
+      gearInfo: 'Abyss Flower: Liminal Spiral | Dante TMB',
+      isBudgetVisible: false,
+    },
+  ],
   isNew: true,
   bottomNotes: [
     {

@@ -13,6 +13,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'Combo Build',
   tier: 3,
+  gear: [
+    {
+      gearInfo: 'Domain of Unity | Raiden Mei TMB',
+      isBudgetVisible: false,
+    },
+  ],
   notBudget: true,
   bottomNotes: [
     {

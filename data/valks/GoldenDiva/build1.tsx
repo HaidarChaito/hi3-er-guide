@@ -13,6 +13,16 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  gear: [
+    {
+      gearInfo: 'Echo of Paradise PRI | Handel TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Domain of Incandescence / Any Highest ATK Pistol Statstick | Handel TMB',
+      isBudgetVisible: true,
+    }
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Echo Pri Active > Basics till 6 Notes into Combo > Ult > Spam Basics till Ult comes off CD > Repeat.',

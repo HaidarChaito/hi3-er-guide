@@ -13,6 +13,20 @@ import { Build } from '@/types/Build';
 const build3: Build = {
   label: 'Narukami Finisher Build',
   tier: 4,
+  gear: [
+    {
+      gearInfo: '7 Thunders of Retribution | Handel TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: '7 Thunders of Retribution | Benares: Awakening TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: '7 Thunders of Retribution | Zhenyi TB Handel/BennyA M',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Evade into 7T Active > Basic ATK and Shinzan until enough SP for Ult and make sure Hit Count is 60-80, ideally always 80+ > Ult into 7T Active and Finisher > Repeat.',

@@ -13,8 +13,17 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'SoE:W Build',
   tier: 4,
-
   isNew: true,
+  gear: [
+    {
+      gearInfo: 'Star of Eden: World | Willows TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'SoE:W | Ana Schariac TMB',
+      isBudgetVisible: true,
+    },
+  ],
   notes: 'Swap LE for BR by F6 Shop. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   bottomNotes: [
     {

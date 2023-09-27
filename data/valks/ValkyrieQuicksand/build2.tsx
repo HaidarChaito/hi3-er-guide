@@ -13,6 +13,12 @@ import { Build } from '@/types/Build';
 const build2: Build = {
   label: 'Ultimate Build',
   tier: 4.5,
+  gear: [
+    {
+      gearInfo: 'Twirling Gaze PRI | Aladdin TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active into Combo and repeat until enough SP for Ult. Repeat.',

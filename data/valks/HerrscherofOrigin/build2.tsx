@@ -12,6 +12,16 @@ import { Build } from '@/types/Build';
 const build2: Build = {
   label: 'Ult Build',
   tier: 4,
+  gear: [
+    {
+      gearInfo: 'Domain of Unity | Raiden Mei TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Domain of Unity / Any Highest ATK Blade Statstick | Handel TMB',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Evade (6s CD) into connect ATK > Active > Evade (Ultimate Evasion Skill) > 3 Twisted Origin Combo > Ult > 1st-3rd Basic SEQ into Evade cancel for 4 SEQ and fill 1 Twisted Origin > Repeat and modify as needed based on CDs (Delay the connection of WA, 6s Evade, UE Skill; you want to get 3 Twisted Origin everytime) > Repeat.',

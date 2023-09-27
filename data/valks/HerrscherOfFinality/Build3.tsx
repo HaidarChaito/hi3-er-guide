@@ -14,6 +14,20 @@ import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 const build3: Build = {
   label: 'Hybrid Build',
   tier: 5,
+  gear: [
+    {
+      gearInfo: 'Domain of Genesis | Kiana TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Domain of Genesis | Little Joys TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Domain of Genesis | Leuweenhoek TB Kiana/Broboli/Thales M',
+      isBudgetVisible: true,
+    },
+  ],
   notes:
     'Less known build for the Herrscherr of Finality, gains massive spikes at higher ranks, combines the strength of the combo build and the explosive power of the ultimate build through lower frames attacks in between combos, the gain doesnt justify the efforts and the general player will not do better with this build compared to the other two, this build is designed for people who enjoy challenges, have some ranks and have mastered HoFi mechanics.',
   isNew: true,

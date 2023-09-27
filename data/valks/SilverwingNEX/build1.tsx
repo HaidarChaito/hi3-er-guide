@@ -12,6 +12,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  gear: [
+    {
+      gearInfo: 'Falcon Flare Pri | Bronya N-EX TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Use Support and trigger QTE, deploy Scatter Barrier and spam ATK; once you have Grey Falcon, Hold ATK and spam Shotgun Combo. Use Ult when available.',

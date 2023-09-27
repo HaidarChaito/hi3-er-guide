@@ -13,6 +13,20 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 4,
+  gear: [
+    {
+      gearInfo: 'Tranquil Rhapsody | Willows TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Domain of Incandescence / Any Highest ATK Pistol Statstick | Ana Schariac TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Domain of Incandescence / Any Highest ATK Pistol Statstick | JST TM & Any Useable B Piece',
+      isBudgetVisible: true,
+    }
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Spam Basic until enough SP for Ult > Wep Active or Ultimate Evasion into Basic and spam it until Ult comes off CD and repeat.',

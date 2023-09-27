@@ -13,6 +13,16 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  gear: [
+    {
+      gearInfo: 'Lost Conviction: Damnation | Zeno TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Lost Conviction: Damnation | Handel TMB',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Evade into Wep Active > Basics and Wep Active when shining > Ult > Hold ATK for Thunderstorm > Repeat until you have enough SP for Ult again.',

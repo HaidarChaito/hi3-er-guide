@@ -13,6 +13,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  gear: [
+    {
+      gearInfo: 'Domain of Void | Elysia TMB / Elysia TB Dante M',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Evade into Basic till 3 full bars and repeat. Use Ult for Kevin & Mobius and for I-frames.',

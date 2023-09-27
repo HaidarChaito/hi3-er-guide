@@ -11,6 +11,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 1,
+  gear: [
+    {
+      gearInfo: 'Hekate Sombre / Elysian Astra | Elysia TB Dante M',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Deploy Cross > Spam Charged > Use ult on rare ocassion where you have SP for it > Repeat.',

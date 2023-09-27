@@ -13,6 +13,20 @@ const build2: Build = {
   label: 'Ego Mobius Build',
   tier: 3,
   isNew: true,
+  gear: [
+    {
+      gearInfo: 'Domain of Sentience | Shattered Swords TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Domain of Sentience | Sirin Ascendant TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Domain of Sentience | Elysia TB Dirac/Dante M',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active > Sword or Spear Combo to gather enemies > Swap to next Weapon into Combo > Repeat until enough SP for Ult > Evade into Ult > Use pillar for gather > Hold ATK, then hold ATK again until Ult Ends > Repeat (Once you have SP regen signets, you immediately ult back again upon exiting Ult)',

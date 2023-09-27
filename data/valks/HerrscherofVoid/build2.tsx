@@ -13,6 +13,16 @@ import { Build } from '@/types/Build';
 const build2: Build = {
   label: 'Ultimate Build',
   tier: 4,
+  gear: [
+    {
+      gearInfo: 'Domain of Void | Sirin Ascendant TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Domain of Void / Any Highest ATK Pistol Statstick | Elysia TMB',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Hold ATK (Enter Herrscher Form) > Wep Active into Evade > Basic and wait 1 sec for WA CD to come off, use again into Evade > Repeat and keep getting stacks to use Ult (Use based on how many you need to kill depending on your damage) > Repeat.',

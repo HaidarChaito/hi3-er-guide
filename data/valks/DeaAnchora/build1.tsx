@@ -12,6 +12,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 2,
+  gear: [
+    {
+      gearInfo: 'Saggitarius Astra | Shakespeare Adrift TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Normal DA gameplay. Spam Ultimate till full Bar > Hold ATK to enter Astral Harness > Spam Ult 2-3 times (3 times once Halo + Sheen are gotten) > Repeat.',

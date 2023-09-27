@@ -14,6 +14,12 @@ import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 const build2: Build = {
   label: 'SS2+ Build',
   tier: 4,
+  gear: [
+    {
+      gearInfo: 'Iris of Dreams PRI | Handel TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Iris Pri Active > Evade into Charged > Ult (if have enough SP, otherwise do basics till enough) > Evade into Charged anim cancels (watch out for Bird Rune being on CD; it connects into Snake Rune) > Repeat until Ult is available again, then repeat Evade into Charged',

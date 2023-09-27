@@ -16,6 +16,23 @@ const build1: Build = {
   tier: 5,
   isNew: true,
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  gear: [
+    {
+      gearInfo: 'Domain of Ascension | Bronya Zaychik TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Any Highest ATK Cannon Statstick | Elysia Pristine TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Any Highest ATK Cannon Statstick | Willows TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Any Highest ATK Cannon Statstick | Turgenev TB Jin Shengtan M (Or any other useable M)'
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: At max weapons > Transform > Combo attack > WA > Combo attack > WA Etc.. Alternate, ult when available',

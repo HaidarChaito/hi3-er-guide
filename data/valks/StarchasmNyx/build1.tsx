@@ -13,6 +13,12 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 const build1: Build = {
   label: 'General Build',
   tier: 2.5,
+  gear: [
+    {
+      gearInfo: 'Sanguine Gaze: Union | Verne TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active connect into ATK SEQ and get 6 Carmine Gash, Hold ATK, repeat until enough SP > Ult > Wep Active into Charged Spam (keep spamming Wep Active during this) > Finisher before Ult ends > Repeat.',

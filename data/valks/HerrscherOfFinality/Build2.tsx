@@ -12,6 +12,20 @@ import { withPriority } from '@/helpers/functions';
 const build2: Build = {
   label: 'Ult Build',
   tier: 4.5,
+  gear: [
+    {
+      gearInfo: 'Domain of Genesis | Kiana TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Domain of Genesis | Little Joys TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Domain of Genesis | Leuweenhoek TB Kiana/Broboli/Thales M',
+      isBudgetVisible: true,
+    },
+  ],
   notes: 'Strong HoFinality build for general usages, capable of dealing benchmark numbers easily',
   bottomNotes: [
     {

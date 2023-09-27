@@ -13,6 +13,16 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  gear: [
+    {
+      gearInfo: 'Whisper of the Past PRI | Elysia TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Whisper of the Past PRI / Any Highest ATK Bow Statstick | Kafka TM Michelangelo B',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active into Charged cancel to instant Ult > Charged and spam Basic, weave Wep Active in-between to recover meter; always make sure you are not with 2 Wep Active charges remaining. Repeat.',

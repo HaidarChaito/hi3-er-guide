@@ -13,6 +13,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 2.5,
+  gear: [
+    {
+      gearInfo: 'Astral Divide: Pisces | Ragna TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Hold ATK to create Vortex > Hold ATK again for better Vortex (Bar turns yellow) > Wep Active into whole 1-5th Basic ATK Seq for 20 Stacks (Note to Ultimate Evasion as well; grants 5 stacks to reach 20 faster), then either reposition with Evade or Hold ATK for Rapier Stab into Ult > instant Rapier Stab. Always make sure you perform enough Basic ATK SEQ so everytime your purple bar is always full (no downtime).',

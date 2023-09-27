@@ -12,6 +12,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 1,
+  gear: [
+    {
+      gearInfo: 'Saggitarius Astra | Little Joys TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active, farm SP for Ult > Charged into Wep Active > Repeat. Make sure mobs are gathered and the Throw is on top of every mob to deal damage to all.',

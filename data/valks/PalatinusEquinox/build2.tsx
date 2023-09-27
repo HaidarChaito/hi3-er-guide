@@ -12,6 +12,16 @@ import { Build } from '@/types/Build';
 const build2: Build = {
   label: 'Knight Form Build',
   tier: 4,
+  gear: [
+    {
+      gearInfo: 'Midnight Ataegina | Bianka Theatre TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Midnight Ataegina | Ely TB Dante M',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Ride Horse > Hold ATK until depleting all bar > Evade and repeat > once out of UE Charges, use Ult to refresh them. If missing SP, swap into Guardian Form for extra 12 SP to Ult and change back again, repeat whole process.',

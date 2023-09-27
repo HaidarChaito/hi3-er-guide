@@ -12,6 +12,20 @@ import { Build } from '@/types/Build';
 const build2: Build = {
   label: 'Bombard Build',
   tier: 4,
+  gear: [
+    {
+      gearInfo: '7 Thunders of Retribution | Handel TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: '7 Thunders of Retribution | Benares: Awakening TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: '7 Thunders of Retribution | Zhenyi TB Handel/BennyA M',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Evade into 7T Active > Basic ATK till Shinzan > Ult > 7T Active into Bombard > Spam Basics until Tornado to recharge Bar > Bombard till Ult Mode duration almost done > Finisher > Repeat.',

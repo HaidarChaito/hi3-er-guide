@@ -14,6 +14,16 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 5,
+  gear: [
+    {
+      gearInfo: 'Pandora Box 18th | MEI TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Any Highest ATK Fists Statstick | Ely TB Dante M',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active > Combo > Flashing Wep Active > Ult > Flashing Wep Active > Repeat.',

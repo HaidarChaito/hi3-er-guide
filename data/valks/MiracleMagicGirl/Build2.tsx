@@ -5,7 +5,6 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
-import { Signets_of_Bodhi_Su } from '@/data/signets/extra/extra';
 import { MiracleMagicGirl } from '@/data/signets/tsx/EgoAdditions';
 import { Build } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
@@ -13,6 +12,16 @@ import { withPriority } from '@/helpers/functions';
 const build2: Build = {
   label: 'Charged Spam Build',
   tier: 4.5,
+  gear: [
+    {
+      gearInfo: 'Dream Cutter: Polar Star | Little Joys TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Dream Cutter OR Any Highest ATK Chakram Statstick | Leuwenhooek TB Broboli/Himeko M',
+      isBudgetVisible: true,
+    },
+  ],
   isNew: true,
   notes:
     'Swap BR for BK by F9/F10 Shop to deal with Heimdall. This build focus on using charged attacks, similiarly to the weapon active build, your absolute evasion stacks will be consumed to refresh your glitter bar for more charged attacks to deal very heavy damage.',

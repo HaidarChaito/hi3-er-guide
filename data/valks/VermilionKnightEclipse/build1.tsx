@@ -13,6 +13,16 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'Charged Spam Build',
   tier: 5,
+  gear: [
+    {
+      gearInfo: 'Shuhadaku of Uriel | Ragna TB Himeko/Thales M',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Shuhadaku of Uriel / Any Highest ATK Greatsword Statstick | Leuweenhoek TB Himeko/Thales M',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Spam Charged ATK, weaving some Basics in if needed to allow Heat bar to go down; if you go to Overheat, make sure you can use Ult to clear it and to gain stacks for Uriel (Also for Griseo Yellow purposes). Use Uriel Weapon Active for Griseo Red Paint and to deal massive damage. Reposition with Evade as the way the Charged gathers can be a bit unreliable. With kalpas start, remember to lower your HP before next floor with blood rose or on the shops floor, interacting with the shop will reset support valkyrie CD, allowing to lower your hp quickly!',

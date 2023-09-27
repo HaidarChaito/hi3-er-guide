@@ -13,6 +13,24 @@ const build2: Build = {
   label: 'Soul Shaper Build',
   tier: 5,
   isNew: true,
+  gear: [
+    {
+      gearInfo: 'Life Harvester: Shared Destiny | Seele: Herrscher of Rebirth TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
+      isBudgetVisible: true,
+    }
+  ],
   notes:
     'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Soul Shaper (Deer Support - Long haired) Herrscher of Rebirth build, focusses on dealing consistent high damaging high hit counting damage through holding your attack button.',
   bottomNotes: [

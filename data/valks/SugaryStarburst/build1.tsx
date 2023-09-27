@@ -13,6 +13,16 @@ const build1: Build = {
   label: 'Charged Spam Build',
   tier: 4.5,
   isNew: true,
+  gear: [
+    {
+      gearInfo: 'Star Dance: Enlightenment | Cecilia Youth TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Any Highest ATK Pistol Statstick | Willows TMB',
+      isBudgetVisible: true,
+    },
+  ],
   notes:
     'Starter signet depends on whether Helix is +2 or not. If yes = Start with Vill-V. If no = Start with Aponia. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   bottomNotes: [{ text: 'SEQUENCE: WA > 2x Charged attacks > Repeat' }],

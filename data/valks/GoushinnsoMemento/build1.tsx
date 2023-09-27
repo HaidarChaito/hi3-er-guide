@@ -13,6 +13,12 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'General Build',
   tier: 2,
+  gear: [
+    {
+      gearInfo: 'Frozen Naraka | Willows/Ana Schariac TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active > Combo until SP is enough for Ult > Ult into Combo Spam > Repeat. Use Evade to reposition for the Zankeki to hit enemies properly. With kalpas start, remember to lower your HP before next floor with blood rose or on the shops floor, interacting with the shop will reset support valkyrie CD, allowing to lower your hp quickly!',

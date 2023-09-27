@@ -13,6 +13,23 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'UBW Build',
   tier: 5,
+  gear: [
+    {
+      gearInfo: 'Nocturnal Stealth: Beam | Shenzhou Remembrance TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Any Highest ATK Fists Statstick | Willows/Ana Schariac TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Any Highest ATK Fists Statstick | Jin Shengtan TM & Any useable B piece',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Any Highest ATK Fists Statstick | Scott TMB'
+    },
+  ],
   isNew: true,
   notes:
     'Starting signet is whichever is +2. Bodhi +2 = Su start. Gold +2 = Eden start, then for Mid you go with whichever of these 2 wasnt started with. You can opt for swapping BR for BK by F9/F10 Shop to have an easier time against Heimdall.',

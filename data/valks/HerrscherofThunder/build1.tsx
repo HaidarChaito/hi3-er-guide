@@ -13,6 +13,16 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: '4-5 Build',
   tier: 3,
+  gear: [
+    {
+      gearInfo: '7 Thunders of Retribution | Handel TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: '7 Thunders of Retribution | Benares: Awakening TMB',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Evade into 7T Active > Evade into Basic Atk connect Spam > Ocassional Ult into 7T and Finisher.',

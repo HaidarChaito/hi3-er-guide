@@ -14,6 +14,20 @@ import { Build } from '@/types/Build';
 const build1: Build = {
   label: 'Thanos Snap Build',
   tier: 4.5,
+  gear: [
+    {
+      gearInfo: 'Domain of Void | Sirin Ascendant TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Domain of Void | Elysia TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Domain of Void | Kafka/Michelangelo TB Elysia/SirinA M',
+      isBudgetVisible: true,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Hold ATK (Enter Herrscher Form) > KoV/DoV Active > Evade > Basic and wait 1 sec for WA CD > WA into Evade > Repeat. When needed, use Basics into Space Core for the CDs.',

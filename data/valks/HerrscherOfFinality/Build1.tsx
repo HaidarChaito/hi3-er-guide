@@ -12,6 +12,20 @@ import { withPriority } from '@/helpers/functions';
 const build1: Build = {
   label: 'Combo Build',
   tier: 3.5,
+  gear: [
+    {
+      gearInfo: 'Domain of Genesis | Kiana TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Domain of Genesis | Little Joys TMB',
+      isBudgetVisible: true,
+    },
+    {
+      gearInfo: 'Domain of Genesis | Leuweenhoek TB Kiana/Broboli/Thales M',
+      isBudgetVisible: true,
+    },
+  ],
   notes:
     ' Combo build that focusses on spamming the combo actions through condescension descent stacks and weapon active to quickly gain 8 stacks and spam combo attack, has high survivability, gains massive power spike from the SS rank and Ego signet "Condescension" synergy',
   isNew: true,

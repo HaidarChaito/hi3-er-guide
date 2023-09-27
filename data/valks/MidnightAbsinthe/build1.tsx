@@ -13,6 +13,12 @@ import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 const build1: Build = {
   label: 'General Build',
   tier: 3,
+  gear: [
+    {
+      gearInfo: 'Domain of Ego | Aslaug TMB',
+      isBudgetVisible: false,
+    },
+  ],
   bottomNotes: [
     {
       text: 'SEQUENCE: Evade into Basic, repeat until 12+ Stacks > Hold ATK and shoot 3 times, recover SP > Repeat until Ult available > Ult, then use Active against enemy inside mist > Hold ATK for Mist explosion > Farm SP again for Ult and repeat. Always use Wep Active, keeping in mind its 8s CD to recover 30 SP and reduce Ultimate CD through Arrowhead Ego Signet.',
