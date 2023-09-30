@@ -57,12 +57,12 @@ export default function ValkModal({ selectedValk, setSelected, isBudgetMode }: p
                   </div>
                 </div>
               ))}
-            <div className='mx-auto flex w-full justify-center align-middle sm:hidden'>
+            <div className='mx-auto flex w-full flex-wrap justify-center align-middle sm:hidden'>
               {selectedValk.build.map((build, index) => {
                 if (build.notBudget && isBudgetMode) return <></>;
                 return (
                   <button
-                    className='btn btn-secondary mx-4 inline-block w-1/4'
+                    className='btn btn-secondary mx-4 inline-block w-2/5 my-1' style={{overflowWrap:'anywhere'}}
                     key={index}
                     onClick={(e) => e.stopPropagation()}
                   >
