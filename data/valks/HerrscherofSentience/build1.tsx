@@ -42,6 +42,14 @@ const build1: Build = {
     ],
 
     [
+      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
+      Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
+      Signets_of_Discipline_Aponia.Third_No_Brutality,
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
+      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
+    ],
+
+    [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
       Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
       Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
@@ -53,21 +61,11 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
-      Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-      Signets_of_Discipline_Aponia.Third_No_Brutality,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
-      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
-    ],
-
-    [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
-      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
-      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
+      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
     ],
 
     [
@@ -94,8 +92,8 @@ const build1: Build = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Burden, EmblemsImages.It_Will_Be_Written, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Burden, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };

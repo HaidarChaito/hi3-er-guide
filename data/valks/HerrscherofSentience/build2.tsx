@@ -43,17 +43,6 @@ const build2: Build = {
     ],
 
     [
-      Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
-      Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
-      Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
-      withPriority(Signets_of_Deliverance_Kevin.Mask_of_the_Predator, 'Optional'),
-      withPriority(Signets_of_Deliverance_Kevin.Shadow_of_the_Deliverer, 'CORE'),
-      Signets_of_Deliverance_Kevin.Dream_of_the_Deliverer,
-      Signets_of_Deliverance_Kevin.Resolve_of_the_Deliverer,
-      withPriority(Signets_of_Deliverance_Kevin.Triumph_of_the_Deliverer, 'Optional'),
-    ],
-
-    [
       Signets_of_Infinity_Mobius.Entwined_P,
       Signets_of_Infinity_Mobius.Rodent_V,
       Signets_of_Infinity_Mobius.Lip_Poison_E,
@@ -71,13 +60,22 @@ const build2: Build = {
     ],
 
     [
+      Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
+      Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
+      Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
+      withPriority(Signets_of_Deliverance_Kevin.Mask_of_the_Predator, 'Optional'),
+      withPriority(Signets_of_Deliverance_Kevin.Shadow_of_the_Deliverer, 'CORE'),
+      Signets_of_Deliverance_Kevin.Dream_of_the_Deliverer,
+      Signets_of_Deliverance_Kevin.Resolve_of_the_Deliverer,
+      withPriority(Signets_of_Deliverance_Kevin.Triumph_of_the_Deliverer, 'Optional'),
+    ],
+
+    [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
-      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
-      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
+      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
     ],
 
     [
@@ -98,7 +96,7 @@ const build2: Build = {
   ],
   emblems: [
     [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
-    [EmblemsImages.Burden, EmblemsImages.Boundless_Logos],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],
 };
