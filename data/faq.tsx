@@ -151,6 +151,7 @@ export const faqs: Faq[] = [
     question: 'Creditors and what they did',
     multiLines: [
       'SyBlue: Creator and maintainer of the webpage',
+      'Adoriz: The main cook, writer of the guide data',
       'Aqua: Co-writer, HoFi, HRB, and Hare curator, specially for HoFi knowledge regarding anim cancels, optimization of her gameplay in all builds, giving light on HoFi Hybrid Build existence.',
       'Nana: Cutiepie who provided a lot of helpful feedback regarding color usage, visibility suggestions, ranking system, etc.',
       'Gurdil: Provided helpful feedback for the website and pointing out confusing information',
