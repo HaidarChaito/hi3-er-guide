@@ -1,1 +1,1 @@
-export const patchNumber: string = '6.9 p2';
+export const patchNumber: string = '6.9';
