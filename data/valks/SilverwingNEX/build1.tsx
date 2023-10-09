@@ -28,8 +28,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Silverwing_NEX_Ego.Blessing_of_Phantom_Plumes, 'Start'),
-      withPriority(Silverwing_NEX_Ego.Blessing_of_Grey_Falcon, 'Start'),
-      withPriority(Silverwing_NEX_Ego.Blessing_of_Pale_Feathers, 'F2 Ego'),
+      withPriority(Silverwing_NEX_Ego.Blessing_of_Grey_Falcon, 'Mandatory'),
+      withPriority(Silverwing_NEX_Ego.Blessing_of_Pale_Feathers, 'Mandatory'),
       withPriority(Silverwing_NEX_Ego.Blessing_of_Silver_Eagle, 'Optional'),
     ],
 

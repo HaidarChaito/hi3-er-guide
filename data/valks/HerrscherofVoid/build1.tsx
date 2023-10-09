@@ -35,13 +35,13 @@ const build1: Build = {
   ],
   isNew: true,
   notes:
-    'Choose between VC or BR as your 2nd staple support choice. It depends on if you like staying at low HP for Kalpas signets or not. Bring BK by F9/F10 Shop to deal with Heimdall.',
+    'Optional Ego signets are listed in priority of order! Choose between VC or BR as your 2nd staple support choice. It depends on if you like staying at low HP for Kalpas signets or not. Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Innateness, 'Start'),
-      withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Coleus, 'F2 Ego'),
-      withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Virtuality, 'Optional 1st'),
-      withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Annihilation, 'Optional 2nd'),
+      withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Coleus, 'Mandatory'),
+      withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Virtuality, 'Optional'),
+      withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Annihilation, 'Optional'),
     ],
 
     [

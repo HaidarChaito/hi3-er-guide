@@ -42,8 +42,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Genuine_Solution, 'Start'),
-      withPriority(Herrscher_of_Truth_Ego.Blessing_of_Intellect_Core, 'Start'),
-      withPriority(Herrscher_of_Truth_Ego.Blessing_of_Vector, 'F2 Ego'),
+      withPriority(Herrscher_of_Truth_Ego.Blessing_of_Intellect_Core, 'Mandatory'),
+      withPriority(Herrscher_of_Truth_Ego.Blessing_of_Vector, 'Mandatory'),
     ],
 
     [

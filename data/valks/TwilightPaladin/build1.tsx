@@ -31,8 +31,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Violet_Executer_Ego.Blessing_of_Banishment, 'Start'),
-      withPriority(Violet_Executer_Ego.Blessing_of_Penalty, 'Start'),
-      withPriority(Violet_Executer_Ego.Blessing_of_Dusk, 'F2 Ego'),
+      withPriority(Violet_Executer_Ego.Blessing_of_Penalty, 'Mandatory'),
+      withPriority(Violet_Executer_Ego.Blessing_of_Dusk, 'Mandatory'),
       withPriority(Violet_Executer_Ego.Blessing_of_Radiance, 'Optional'),
     ],
 

@@ -35,8 +35,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Terminal_Aide_0017_Ego.Blessing_of_Guilding, 'Start'),
-      withPriority(Terminal_Aide_0017_Ego.Blessing_of_Recursion, 'F2 Ego'),
-      withPriority(Terminal_Aide_0017_Ego.Blessing_of_Stimulus, 'Optional 1st'),
+      withPriority(Terminal_Aide_0017_Ego.Blessing_of_Recursion, 'Mandatory'),
+      withPriority(Terminal_Aide_0017_Ego.Blessing_of_Stimulus, 'Optional'),
     ],
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,

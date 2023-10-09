@@ -37,8 +37,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Molotov_Cherry_Ego.Blessing_of_the_Silence, 'Start'),
-      withPriority(Molotov_Cherry_Ego.Blessing_of_Mixing, 'Start'),
-      withPriority(Molotov_Cherry_Ego.Blessing_of_Thorns, 'F2 Ego'),
+      withPriority(Molotov_Cherry_Ego.Blessing_of_Mixing, 'Mandatory'),
+      withPriority(Molotov_Cherry_Ego.Blessing_of_Thorns, 'Mandatory'),
       withPriority(Molotov_Cherry_Ego.Blessing_of_Fervor, 'Optional'),
     ],
 

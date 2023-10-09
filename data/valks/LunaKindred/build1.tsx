@@ -26,8 +26,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Luna_Kindred_Ego.Blessing_of_Penumbra, 'Start'),
-      withPriority(Luna_Kindred_Ego.Blessing_of_Imprint, 'Start'),
-      withPriority(Luna_Kindred_Ego.Blessing_of_Blood_Feast, 'F2 Ego'),
+      withPriority(Luna_Kindred_Ego.Blessing_of_Imprint, 'Mandatory'),
+      withPriority(Luna_Kindred_Ego.Blessing_of_Blood_Feast, 'Mandatory'),
     ],
 
     [

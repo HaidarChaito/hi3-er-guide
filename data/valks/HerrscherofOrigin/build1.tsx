@@ -31,8 +31,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Origin_Ego.Blessing_of_Expungement, 'Start'),
-      withPriority(Herrscher_of_Origin_Ego.Blessing_of_Lethal_Smite, 'Start'),
-      withPriority(Herrscher_of_Origin_Ego.Blessing_of_Inscription, 'F2 Ego'),
+      withPriority(Herrscher_of_Origin_Ego.Blessing_of_Lethal_Smite, 'Mandatory'),
+      withPriority(Herrscher_of_Origin_Ego.Blessing_of_Inscription, 'Mandatory'),
     ],
 
     [

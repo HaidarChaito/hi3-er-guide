@@ -33,7 +33,7 @@ const build1: Build = {
     [
       withPriority(Shadow_Knight_Ego.Blessing_of_Forces, 'Start'),
       withPriority(Shadow_Knight_Ego.Blessing_of_Lunar_Eclipse, 'Start'),
-      withPriority(Shadow_Knight_Ego.Blessing_of_Mindfulness, 'F2 Ego'),
+      withPriority(Shadow_Knight_Ego.Blessing_of_Mindfulness, 'Mandatory'),
       withPriority(Shadow_Knight_Ego.Blessing_of_Six_Fists, 'Optional'),
     ],
 

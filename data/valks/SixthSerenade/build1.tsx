@@ -37,8 +37,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Sixth_Serenade_Ego.Blessing_of_Nocturnal_Tides, 'Start'),
-      withPriority(Sixth_Serenade_Ego.Blessing_of_Tragedy, 'Start'),
-      withPriority(Sixth_Serenade_Ego.Blessing_of_Finale, 'F2 Ego'),
+      withPriority(Sixth_Serenade_Ego.Blessing_of_Tragedy, 'Mandatory'),
+      withPriority(Sixth_Serenade_Ego.Blessing_of_Finale, 'Mandatory'),
     ],
 
     [

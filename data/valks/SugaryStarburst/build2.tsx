@@ -29,7 +29,7 @@ const build2: Build = {
   signets: [
     [
       withPriority(Sugary_Starburst_Ego.Blessing_of_Roller_Dance, 'Start'),
-      withPriority(Sugary_Starburst_Ego.Blessing_of_Salute, 'Start'),
+      withPriority(Sugary_Starburst_Ego.Blessing_of_Salute, 'Mandatory'),
       withPriority(Sugary_Starburst_Ego.Blessing_of_Rhythm, 'Optional'),
     ],
 

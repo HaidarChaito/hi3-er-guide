@@ -30,7 +30,7 @@ const build1: Build = {
     [
       withPriority(Goushinnso_Memento_Ego.Blessing_of_Whiteout, 'Start'),
       withPriority(Goushinnso_Memento_Ego.Blessing_of_Flourish, 'Start'),
-      withPriority(Goushinnso_Memento_Ego.Blessing_of_Haste, 'F2 Ego'),
+      withPriority(Goushinnso_Memento_Ego.Blessing_of_Haste, 'Mandatory'),
       withPriority(Goushinnso_Memento_Ego.Blessing_of_Frozen_Cloud, 'Optional'),
     ],
 

@@ -6,6 +6,7 @@ import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { MiracleMagicGirl } from '@/data/signets/tsx/EgoAdditions';
+import { Signets_of_Bodhi_Su } from '@/data/signets/extra/extra';
 import { Build } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 
@@ -33,8 +34,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(MiracleMagicGirl.Blessing_of_Tailor, 'Start'),
-      withPriority(MiracleMagicGirl.Blessing_of_Dreamstitch, 'Start'),
-      withPriority(MiracleMagicGirl.Blessing_of_Resplendence, 'F2 Ego'),
+      withPriority(MiracleMagicGirl.Blessing_of_Dreamstitch, 'Mandatory'),
+      withPriority(MiracleMagicGirl.Blessing_of_Resplendence, 'Mandatory'),
       withPriority(MiracleMagicGirl.Blessing_of_Stellar_Breach, 'Optional'),
     ],
 
@@ -63,17 +64,26 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
+
     [
-      Signets_of_Stars_Griseo.Red__Hot,
-      Signets_of_Stars_Griseo.Yellow__Warm,
-      Signets_of_Stars_Griseo.Black__Dark,
-      withPriority(Signets_of_Stars_Griseo.Faded_Stars, 'CORE'),
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Dictum_of_Santam,
+      Signets_of_Bodhi_Su.Dictum_of_Anatman,
     ],
+
+    
 
     [
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Fuji,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
+      Signets_of_Stars_Griseo.Red__Hot,
+      Signets_of_Stars_Griseo.Yellow__Warm,
+      Signets_of_Stars_Griseo.Black__Dark,
     ],
   ],
   supports: [

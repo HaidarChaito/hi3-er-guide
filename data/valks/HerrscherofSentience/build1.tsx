@@ -36,8 +36,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Victory, 'Start'),
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Dark_Plumes, 'Start'),
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Supremacy, 'F2 Ego'),
+      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Dark_Plumes, 'Mandatory'),
+      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Supremacy, 'Mandatory'),
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Legion, 'Optional'),
     ],
 

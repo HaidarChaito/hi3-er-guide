@@ -32,8 +32,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Tsukuyomi, 'Start'),
-      withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Hazy_Moon, 'Start'),
-      withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Narukami, 'Optional/F2 Ego'),
+      withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Hazy_Moon, 'Mandatory'),
+      withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Narukami, 'Optional'),
     ],
 
     [

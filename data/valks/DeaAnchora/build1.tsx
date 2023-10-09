@@ -29,10 +29,10 @@ const build1: Build = {
   signets: [
     [
       withPriority(Dea_Anchora_Ego.Blessing_of_Stars, 'Start'),
-      withPriority(Dea_Anchora_Ego.Blessing_of_Gale, 'Start'),
-      withPriority(Dea_Anchora_Ego.Blessing_of_Sheen, 'F2 Ego'),
-      withPriority(Dea_Anchora_Ego.Blessing_of_Halo, '1st'),
-      withPriority(Dea_Anchora_Ego.Blessing_of_Brilliance, '2nd'),
+      withPriority(Dea_Anchora_Ego.Blessing_of_Gale, 'Mandatory'),
+      withPriority(Dea_Anchora_Ego.Blessing_of_Sheen, 'Mandatory'),
+      withPriority(Dea_Anchora_Ego.Blessing_of_Halo, 'Mandatory'),
+      withPriority(Dea_Anchora_Ego.Blessing_of_Brilliance, 'Mandatory'),
     ],
 
     [

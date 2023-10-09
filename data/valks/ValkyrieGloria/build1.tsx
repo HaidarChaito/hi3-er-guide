@@ -28,8 +28,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Valkyrie_Gloria_Ego.Blessing_of_Battle_Song, 'Start'),
-      withPriority(Valkyrie_Gloria_Ego.Blessing_of_Gloria, 'Start'),
-      withPriority(Valkyrie_Gloria_Ego.Blessing_of_Sol, 'F2 Ego'),
+      withPriority(Valkyrie_Gloria_Ego.Blessing_of_Gloria, 'Mandatory'),
+      withPriority(Valkyrie_Gloria_Ego.Blessing_of_Sol, 'Mandatory'),
       withPriority(Valkyrie_Gloria_Ego.Blessing_of_Triumph, 'Optional'),
     ],
 

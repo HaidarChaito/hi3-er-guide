@@ -37,10 +37,10 @@ const build1: Build = {
   signets: [
     [
       withPriority(Chrono_Navi_Ego.Blessing_of_Succession, 'Start'),
-      withPriority(Chrono_Navi_Ego.Blessing_of_Time_Crystal, 'Start'),
-      withPriority(Chrono_Navi_Ego.Blessing_of_Constant, 'F2 Ego'),
-      withPriority(Chrono_Navi_Ego.Blessing_of_Final_Dream, '1st'),
-      withPriority(Chrono_Navi_Ego.Blessing_of_Bladepiece, '2nd'),
+      withPriority(Chrono_Navi_Ego.Blessing_of_Time_Crystal, 'Mandatory'),
+      withPriority(Chrono_Navi_Ego.Blessing_of_Constant, 'Mandatory'),
+      withPriority(Chrono_Navi_Ego.Blessing_of_Final_Dream, 'Mandatory'),
+      withPriority(Chrono_Navi_Ego.Blessing_of_Bladepiece, 'Mandatory'),
     ],
 
     [

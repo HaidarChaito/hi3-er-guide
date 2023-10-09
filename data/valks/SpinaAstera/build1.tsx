@@ -30,10 +30,10 @@ const build1: Build = {
   signets: [
     [
       withPriority(Spina_Astera_Ego.Wild_Flare_Blessing, 'Start'),
-      withPriority(Spina_Astera_Ego.Alrescha_Blessing, 'Start'),
-      withPriority(Spina_Astera_Ego.Radiant_Formation_Blessing, 'F2 Ego'),
-      withPriority(Spina_Astera_Ego.Holy_Flame_Blessing, '1st'),
-      withPriority(Spina_Astera_Ego.Star_Quillon_Blessing, '2nd'),
+      withPriority(Spina_Astera_Ego.Alrescha_Blessing, 'Mandatory'),
+      withPriority(Spina_Astera_Ego.Radiant_Formation_Blessing, 'Mandatory'),
+      withPriority(Spina_Astera_Ego.Holy_Flame_Blessing, 'Mandatory'),
+      withPriority(Spina_Astera_Ego.Star_Quillon_Blessing, 'Mandatory'),
     ],
 
     [

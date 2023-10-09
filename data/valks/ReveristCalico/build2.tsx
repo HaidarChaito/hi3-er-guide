@@ -33,13 +33,13 @@ const build2: Build = {
   ],
   isNew: true,
   notes:
-    'This strategy is capable of clearing Abstinence given the minimum recommended rank. For this variation, Awakening is preferred to start with and use as part of the strategy. Its not recommended to try without it otherwise as Pardofelis signets give a very weak start. Also, the way this strategy works is that you need to get 3 Pardofelis Doors through F2, F3 and F4; its expected to not be able to get F4 Double Bonus in time, which is why this is done in order to guarantee you get Pardo2 done by F4 so you can then proceed with the build. Switch BR for BK by F9/F10 Shop to deal with Heimdall.',
+    'Optionals are listed in priority of order! This strategy is capable of clearing Abstinence given the minimum recommended rank. For this variation, Awakening is preferred to start with and use as part of the strategy. Its not recommended to try without it otherwise as Pardofelis signets give a very weak start. Also, the way this strategy works is that you need to get 3 Pardofelis Doors through F2, F3 and F4; its expected to not be able to get F4 Double Bonus in time, which is why this is done in order to guarantee you get Pardo2 done by F4 so you can then proceed with the build. Switch BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Reverist_Calico_Ego.Blessing_of_Hidden_Claws, 'Start'),
-      withPriority(Reverist_Calico_Ego.Blessing_of_the_Tailpiece, 'Start'),
-      withPriority(Reverist_Calico_Ego.Blessing_of_Cats_Eyes, 'Optional 1st'),
-      withPriority(Reverist_Calico_Ego.Blessing_of_Phantasma, 'Optional 2nd'),
+      withPriority(Reverist_Calico_Ego.Blessing_of_the_Tailpiece, 'Mandatory'),
+      withPriority(Reverist_Calico_Ego.Blessing_of_Cats_Eyes, 'Optional'),
+      withPriority(Reverist_Calico_Ego.Blessing_of_Phantasma, 'Optional'),
     ],
 
     [

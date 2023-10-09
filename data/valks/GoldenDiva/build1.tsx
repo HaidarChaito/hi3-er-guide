@@ -34,7 +34,7 @@ const build1: Build = {
     [
       withPriority(Golden_Diva_Ego.Blessing_of_Fugue, 'Start'),
       withPriority(Golden_Diva_Ego.Blessing_of_Arioso, 'Start'),
-      withPriority(Golden_Diva_Ego.Blessing_of_Cadenza, 'F2 Ego'),
+      withPriority(Golden_Diva_Ego.Blessing_of_Cadenza, 'Mandatory'),
       withPriority(Golden_Diva_Ego.Blessing_of_Concerto, 'Optional'),
     ],
 

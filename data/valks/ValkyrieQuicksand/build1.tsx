@@ -30,8 +30,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Dappled_Shade, 'Start'),
-      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Luster, 'Start'),
-      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Rarities, 'F2 Ego'),
+      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Luster, 'Mandatory'),
+      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Rarities, 'Mandatory'),
     ],
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,

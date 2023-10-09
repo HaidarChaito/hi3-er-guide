@@ -29,8 +29,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Ritual_Imayoh_Ego.Blessing_of_Prosperity, 'Start'),
-      withPriority(Ritual_Imayoh_Ego.Blessing_of_Dawn, 'Start'),
-      withPriority(Ritual_Imayoh_Ego.Blessing_of_Blossom, 'F2 Ego'),
+      withPriority(Ritual_Imayoh_Ego.Blessing_of_Dawn, 'Mandatory'),
+      withPriority(Ritual_Imayoh_Ego.Blessing_of_Blossom, 'Mandatory'),
     ],
 
     [

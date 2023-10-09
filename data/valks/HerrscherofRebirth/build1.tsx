@@ -37,11 +37,11 @@ const build1: Build = {
     },
   ],
   notes:
-    'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Life binder (DPS - Short haired) build for the Herrscher of Rebirth, focusses on dealing high damage through chaining weapon active and joint combos. ',
+    'Loadout bonus info the (x) number is the specific build loadout; You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Life binder (DPS - Short haired) build for the Herrscher of Rebirth, focusses on dealing high damage through chaining weapon active and joint combos. ',
   signets: [
     [
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Soothingness, 'Start'),
-      withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Decay, 'Start'),
+      withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Decay, 'Optional'),
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Shared_Destiny, 'Optional'),
     ],
     [

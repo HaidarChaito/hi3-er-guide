@@ -35,7 +35,7 @@ const build1: Build = {
     [
       withPriority(Miss_Pink_Elf_Ego.Blessing_of_Purity, 'Start'),
       withPriority(Miss_Pink_Elf_Ego.Blessing_of_Zenith, 'Start'),
-      withPriority(Miss_Pink_Elf_Ego.Blessing_of_Beauty, 'F2 Ego'),
+      withPriority(Miss_Pink_Elf_Ego.Blessing_of_Beauty, 'Mandatory'),
     ],
 
     [

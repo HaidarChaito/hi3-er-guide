@@ -41,7 +41,7 @@ const build3: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Decay, 'Start'),
-      withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Shared_Destiny, 'Start'),
+      withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Shared_Destiny, 'Optional'),
     ],
     [
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,

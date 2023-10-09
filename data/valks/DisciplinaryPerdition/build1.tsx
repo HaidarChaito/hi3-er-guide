@@ -32,8 +32,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Disciplinary_Perdition_Ego.Blessing_of_Admonition, 'Start'),
-      withPriority(Disciplinary_Perdition_Ego.Blessing_of_Shelter, 'Start'),
-      withPriority(Disciplinary_Perdition_Ego.Blessing_of_Inclusiveness, 'F2 Ego'),
+      withPriority(Disciplinary_Perdition_Ego.Blessing_of_Shelter, 'Mandatory'),
+      withPriority(Disciplinary_Perdition_Ego.Blessing_of_Inclusiveness, 'Mandatory'),
     ],
 
     [

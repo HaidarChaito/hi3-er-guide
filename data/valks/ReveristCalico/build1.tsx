@@ -37,7 +37,7 @@ const build1: Build = {
     [
       withPriority(Reverist_Calico_Ego.Blessing_of_Hidden_Claws, 'Start'),
       withPriority(Reverist_Calico_Ego.Blessing_of_Cats_Eyes, 'Start'),
-      withPriority(Reverist_Calico_Ego.Blessing_of_the_Tailpiece, 'F2 Ego'),
+      withPriority(Reverist_Calico_Ego.Blessing_of_the_Tailpiece, 'Mandatory'),
       withPriority(Reverist_Calico_Ego.Blessing_of_Phantasma, 'Optional'),
     ],
 

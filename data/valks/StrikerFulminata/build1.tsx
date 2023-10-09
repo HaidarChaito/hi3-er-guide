@@ -28,8 +28,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Current, 'Start'),
-      withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Karma, 'Start'),
-      withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Zanshin, 'F2 Ego'),
+      withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Karma, 'Mandatory'),
+      withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Zanshin, 'Mandatory'),
       withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Idea, 'Optional'),
     ],
 

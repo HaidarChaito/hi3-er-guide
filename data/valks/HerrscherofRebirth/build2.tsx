@@ -41,7 +41,7 @@ const build2: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Spirits, 'Start'),
-      withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Rising_Sun, 'Start'),
+      withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Rising_Sun, 'Mandatory'),
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Shared_Destiny, 'Optional'),
     ],
 

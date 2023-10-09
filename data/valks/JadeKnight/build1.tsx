@@ -41,7 +41,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Jade_Knight_Ego.Blessing_of_Great_Blade, 'Start'),
-      withPriority(Jade_Knight_Ego.Blessing_of_Cloudwalker, '1st'),
+      withPriority(Jade_Knight_Ego.Blessing_of_Cloudwalker, 'Mandatory'),
     ],
 
     [

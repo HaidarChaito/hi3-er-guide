@@ -31,9 +31,9 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Heatflow, 'Start'),
-      withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Starfire, 'F2 Ego'),
-      withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Reburn, '1st'),
-      withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Tempered_Warrior, '2nd'),
+      withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Starfire, 'Mandatory'),
+      withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Reburn, 'Mandatory'),
+      withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Tempered_Warrior, 'Mandatory'),
     ],
 
     [

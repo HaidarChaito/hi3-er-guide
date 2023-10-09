@@ -38,7 +38,7 @@ const build1: Build = {
     [
       withPriority(Starry_Impression_Ego.Blessing_of_Starry_Night, 'Start'),
       withPriority(Starry_Impression_Ego.Blessing_of_River_Forest, 'Start'),
-      withPriority(Starry_Impression_Ego.Blessing_of_Cloud_Valley, 'F2 Ego'),
+      withPriority(Starry_Impression_Ego.Blessing_of_Cloud_Valley, 'Mandatory'),
       withPriority(Starry_Impression_Ego.Blessing_of_Azure_Wind, 'Optional'),
     ],
 

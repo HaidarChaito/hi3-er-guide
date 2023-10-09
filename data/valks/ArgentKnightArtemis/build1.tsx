@@ -34,9 +34,9 @@ const build1: Build = {
   signets: [
     [
       withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Frost_Scythe, 'Start'),
-      withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Stellar_Trails, 'Start'),
-      withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Winter_Harvest, '1st'),
-      withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Cold_Moon, '2nd'),
+      withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Stellar_Trails, 'Mandatory'),
+      withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Winter_Harvest, 'Mandatory'),
+      withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Cold_Moon, 'Mandatory'),
     ],
 
     [

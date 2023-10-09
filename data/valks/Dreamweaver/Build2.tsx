@@ -31,7 +31,7 @@ const build2: Build = {
   signets: [
     [
       withPriority(Dreamweaver_Ego.Blessing_of_Absoluteness, 'Start'),
-      withPriority(Dreamweaver_Ego.Blessing_of_Legacy, 'Start'),
+      withPriority(Dreamweaver_Ego.Blessing_of_Legacy, 'Mandatory'),
       withPriority(Dreamweaver_Ego.Blessing_of_Oneiromancy, 'Optional'),
     ],
     [

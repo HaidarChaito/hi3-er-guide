@@ -29,8 +29,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Bright_Knight_Excelsis_Ego.Blessing_of_Gambit, 'Start'),
-      withPriority(Bright_Knight_Excelsis_Ego.Blessing_of_Paragon, 'Start'),
-      withPriority(Bright_Knight_Excelsis_Ego.Blessing_of_Glory, 'F2 Ego'),
+      withPriority(Bright_Knight_Excelsis_Ego.Blessing_of_Paragon, 'Mandatory'),
+      withPriority(Bright_Knight_Excelsis_Ego.Blessing_of_Glory, 'Mandatory'),
     ],
 
     [

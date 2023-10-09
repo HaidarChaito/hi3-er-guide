@@ -29,8 +29,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Prinzessin_der_Verurteilung_Ego.Blessing_of_Retribution, 'Start'),
-      withPriority(Prinzessin_der_Verurteilung_Ego.Blessing_of_Fate, 'Start'),
-      withPriority(Prinzessin_der_Verurteilung_Ego.Blessing_of_Midnight, 'F2 Ego'),
+      withPriority(Prinzessin_der_Verurteilung_Ego.Blessing_of_Fate, 'Mandatory'),
+      withPriority(Prinzessin_der_Verurteilung_Ego.Blessing_of_Midnight, 'Mandatory'),
     ],
 
     [

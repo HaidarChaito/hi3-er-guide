@@ -33,8 +33,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Reason_Ego.Blessing_of_Wisdom, 'Start'),
-      withPriority(Herrscher_of_Reason_Ego.Blessing_of_Truth, 'Start'),
-      withPriority(Herrscher_of_Reason_Ego.Blessing_of_Inspiration, 'F2 Ego'),
+      withPriority(Herrscher_of_Reason_Ego.Blessing_of_Truth, 'Mandatory'),
+      withPriority(Herrscher_of_Reason_Ego.Blessing_of_Inspiration, 'Mandatory'),
     ],
 
     [

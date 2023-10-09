@@ -32,8 +32,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Blaze, 'Start'),
-      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Sharp_Flames, 'Start'),
-      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Wild_Flare, 'F2 Ego'),
+      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Sharp_Flames, 'Mandatory'),
+      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Wild_Flare, 'Mandatory'),
     ],
 
     [

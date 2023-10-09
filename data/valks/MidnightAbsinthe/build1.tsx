@@ -30,8 +30,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Midnight_Absinthe_Ego.Blessing_of_Ominous_Mist, 'Start'),
-      withPriority(Midnight_Absinthe_Ego.Blessing_of_Arrowhead, 'Start'),
-      withPriority(Midnight_Absinthe_Ego.Blessing_of_Suppression, 'F2 Ego'),
+      withPriority(Midnight_Absinthe_Ego.Blessing_of_Arrowhead, 'Mandatory'),
+      withPriority(Midnight_Absinthe_Ego.Blessing_of_Suppression, 'Mandatory'),
     ],
     [
       Signets_of_Helix_VillV.Act_V_Spider_Web,
