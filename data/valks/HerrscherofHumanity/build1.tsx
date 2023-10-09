@@ -45,7 +45,7 @@ const build1: Build = {
     [
       withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Bloom, 'Start'),
       withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Journey, 'Start'),
-      withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Awakening, 'Mandatory'),
+      withPriority(Herrscher_of_Human_Ego_Ego.Blessing_of_First_Awakening, 'Mandatory F2'),
     ],
 
     [

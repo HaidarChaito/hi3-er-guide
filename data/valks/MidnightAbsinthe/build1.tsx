@@ -2,7 +2,6 @@ import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
-import MidnightAbsinthe from './valk';
 import { Midnight_Absinthe_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
@@ -30,7 +29,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Midnight_Absinthe_Ego.Blessing_of_Ominous_Mist, 'Start'),
-      withPriority(Midnight_Absinthe_Ego.Blessing_of_Arrowhead, 'Mandatory'),
+      withPriority(Midnight_Absinthe_Ego.Blessing_of_Arrowhead, 'Mandatory F2'),
       withPriority(Midnight_Absinthe_Ego.Blessing_of_Suppression, 'Mandatory'),
     ],
     [

@@ -33,7 +33,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Palatinus_Equinox_Ego.Exodus_Blessing, 'Start'),
-      withPriority(Palatinus_Equinox_Ego.Abyssal_Chant_Blessing, 'Mandatory'),
+      withPriority(Palatinus_Equinox_Ego.Abyssal_Chant_Blessing, 'Mandatory F2'),
       withPriority(Palatinus_Equinox_Ego.Commitment_Blessing, 'Mandatory'),
       withPriority(Palatinus_Equinox_Ego.Equinox_Blessing, 'Optional'),
     ],

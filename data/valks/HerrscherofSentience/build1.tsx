@@ -1,7 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Sentience_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
-import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
+import { Signets_of_Deliverance_Kevin, Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
@@ -36,7 +35,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Victory, 'Start'),
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Dark_Plumes, 'Mandatory'),
+      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Dark_Plumes, 'Mandatory F2'),
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Supremacy, 'Mandatory'),
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Legion, 'Optional'),
     ],
@@ -61,11 +60,11 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
-      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
-      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
-      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
+      Signets_of_Gold_Eden.Recitatif_of_Eden,
+      Signets_of_Gold_Eden.Recitatif_of_Creeks,
+      Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
+      withPriority(Signets_of_Gold_Eden.Echo_of_Gold, 'CORE'),
+      withPriority(Signets_of_Gold_Eden.Echo_of_Withered_Soil, 'Optional'),
     ],
 
     [

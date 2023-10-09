@@ -34,7 +34,7 @@ const build2: Build = {
   signets: [
     [
       withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Innateness, 'Start'),
-      withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Law, 'Mandatory'),
+      withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Law, 'Mandatory F2'),
       withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Virtuality, 'Optional'),
     ],
 

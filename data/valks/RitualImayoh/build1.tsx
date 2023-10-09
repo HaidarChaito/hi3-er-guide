@@ -29,7 +29,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Ritual_Imayoh_Ego.Blessing_of_Prosperity, 'Start'),
-      withPriority(Ritual_Imayoh_Ego.Blessing_of_Dawn, 'Mandatory'),
+      withPriority(Ritual_Imayoh_Ego.Blessing_of_Dawn, 'Mandatory F2'),
       withPriority(Ritual_Imayoh_Ego.Blessing_of_Blossom, 'Mandatory'),
     ],
 
@@ -79,8 +79,8 @@ const build1: Build = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Veil_of_Tears, EmblemsImages.Dreamful_Gold],
-    [EmblemsImages.Burden, EmblemsImages.Boundless_Logos],
+    [EmblemsImages.Burden, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],
 };

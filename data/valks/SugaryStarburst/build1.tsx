@@ -29,7 +29,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Sugary_Starburst_Ego.Blessing_of_Acoustic_Spectrum, 'Start'),
-      withPriority(Sugary_Starburst_Ego.Blessing_of_Astral_Path, 'Mandatory'),
+      withPriority(Sugary_Starburst_Ego.Blessing_of_Astral_Path, 'Mandatory F2'),
       withPriority(Sugary_Starburst_Ego.Blessing_of_Rhythm, 'Optional'),
     ],
 
@@ -81,11 +81,10 @@ const build1: Build = {
   ],
   emblems: [
     [
-      EmblemsImages.Veil_of_Tears,
       EmblemsImages.Pseudo_Miracle,
       EmblemsImages.Falling_in_Past_Light,
     ],
-    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };

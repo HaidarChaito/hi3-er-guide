@@ -35,7 +35,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Terminal_Aide_0017_Ego.Blessing_of_Guilding, 'Start'),
-      withPriority(Terminal_Aide_0017_Ego.Blessing_of_Recursion, 'Mandatory'),
+      withPriority(Terminal_Aide_0017_Ego.Blessing_of_Recursion, 'Mandatory F2'),
       withPriority(Terminal_Aide_0017_Ego.Blessing_of_Stimulus, 'Optional'),
     ],
     [
@@ -45,10 +45,7 @@ const build1: Build = {
       withPriority(Signets_of_Helix_VillV.Act_IV_Spoon, 'Optional'),
       withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
       Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
-      withPriority(
-        Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
-        'Dont get if already have Kevins Breach'
-      ),
+      withPriority(Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber, 'Dont get if already have Kevins Breach'),
     ],
     [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,

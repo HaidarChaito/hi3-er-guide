@@ -29,10 +29,10 @@ const build1: Build = {
   signets: [
     [
       withPriority(Dea_Anchora_Ego.Blessing_of_Stars, 'Start'),
-      withPriority(Dea_Anchora_Ego.Blessing_of_Gale, 'Mandatory'),
+      withPriority(Dea_Anchora_Ego.Blessing_of_Gale, 'Mandatory F2'),
       withPriority(Dea_Anchora_Ego.Blessing_of_Sheen, 'Mandatory'),
       withPriority(Dea_Anchora_Ego.Blessing_of_Halo, 'Mandatory'),
-      withPriority(Dea_Anchora_Ego.Blessing_of_Brilliance, 'Mandatory'),
+      withPriority(Dea_Anchora_Ego.Blessing_of_Brilliance, 'Optional'),
     ],
 
     [
@@ -88,7 +88,6 @@ const build1: Build = {
     [
       EmblemsImages.Burden,
       EmblemsImages.Because_of_You,
-      EmblemsImages.It_Will_Be_Written,
       EmblemsImages.Dreamful_Gold,
     ],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Dreamful_Gold],

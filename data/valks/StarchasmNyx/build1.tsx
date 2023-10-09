@@ -29,7 +29,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Starchasm_Nyx_Ego.Blessing_of_Frigidity, 'Start'),
-      withPriority(Starchasm_Nyx_Ego.Blessing_of_Toxic_Bath, 'Mandatory'),
+      withPriority(Starchasm_Nyx_Ego.Blessing_of_Toxic_Bath, 'Mandatory F2'),
       withPriority(Starchasm_Nyx_Ego.Blessing_of_Abyssal_Gaze, 'Mandatory'),
       withPriority(Starchasm_Nyx_Ego.Blessing_of_Nightmare, 'Optional'),
     ],

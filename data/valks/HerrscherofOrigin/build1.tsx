@@ -45,6 +45,15 @@ const build1: Build = {
     ],
 
     [
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Maxim_of_Anatman,
+    ],
+
+    [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
@@ -59,15 +68,6 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
-    ],
-
-    [
-      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
-      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
-      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Maxim_of_Anatman,
     ],
 
     [
@@ -93,11 +93,11 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Because_of_You, EmblemsImages.Falling_in_Past_Light],
     [
       EmblemsImages.Mad_Kings_Mask,
+      EmblemsImages.Because_of_You,
       EmblemsImages.Falling_in_Past_Light,
-      EmblemsImages.An_Old_Pals_Legacy,
     ],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],

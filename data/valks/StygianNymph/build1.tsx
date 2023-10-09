@@ -28,7 +28,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Stygian_Nymph_Ego.Blessing_of_Vulnerable_Duality, 'Start'),
-      withPriority(Stygian_Nymph_Ego.Blessing_of_Intergrowth, 'Mandatory'),
+      withPriority(Stygian_Nymph_Ego.Blessing_of_Intergrowth, 'Mandatory F2'),
       withPriority(Stygian_Nymph_Ego.Blessing_of_Union, 'Mandatory'),
       withPriority(Stygian_Nymph_Ego.Blessing_of_Kindred, 'Optional'),
     ],

@@ -31,7 +31,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Violet_Executer_Ego.Blessing_of_Banishment, 'Start'),
-      withPriority(Violet_Executer_Ego.Blessing_of_Penalty, 'Mandatory'),
+      withPriority(Violet_Executer_Ego.Blessing_of_Penalty, 'Mandatory F2'),
       withPriority(Violet_Executer_Ego.Blessing_of_Dusk, 'Mandatory'),
       withPriority(Violet_Executer_Ego.Blessing_of_Radiance, 'Optional'),
     ],
@@ -41,7 +41,7 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      Signets_of_Bodhi_Su.Motto_of_Bodhi,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
       Signets_of_Bodhi_Su.Maxim_of_Anitya,
       Signets_of_Bodhi_Su.Maxim_of_Santam,
       withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
@@ -92,8 +92,8 @@ const build1: Build = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Empty_Like_Shala],
-    [EmblemsImages.Fragile_Friend, EmblemsImages.Out_of_Reach],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You, EmblemsImages.Empty_Like_Shala],
+    [EmblemsImages.Fragile_Friend, EmblemsImages.Because_of_You, EmblemsImages.Out_of_Reach],
     [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
   ],
 };

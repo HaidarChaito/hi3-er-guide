@@ -32,7 +32,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Blaze, 'Start'),
-      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Sharp_Flames, 'Mandatory'),
+      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Sharp_Flames, 'Mandatory F2'),
       withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Wild_Flare, 'Mandatory'),
     ],
 
@@ -86,7 +86,7 @@ const build1: Build = {
   ],
   emblems: [
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy],
-    [EmblemsImages.Veil_of_Tears, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };

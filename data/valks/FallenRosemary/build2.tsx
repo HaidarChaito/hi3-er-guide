@@ -29,8 +29,8 @@ const build2: Build = {
   signets: [
     [
       withPriority(Fallen_Rosemary_Ego.Blessing_of_Valfreyja, 'Start'),
-      withPriority(Fallen_Rosemary_Ego.Blessing_of_Nocturne, 'Mandatory'),
-      withPriority(Fallen_Rosemary_Ego.Blessing_of_God_Eater, 'Optional F2 Ego'),
+      withPriority(Fallen_Rosemary_Ego.Blessing_of_Nocturne, 'Mandatory F2'),
+      withPriority(Fallen_Rosemary_Ego.Blessing_of_God_Eater, 'Optional'),
     ],
 
     [

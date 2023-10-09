@@ -33,7 +33,7 @@ const build2: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Origin_Ego.Blessing_of_Ultra, 'Start'),
-      withPriority(Herrscher_of_Origin_Ego.Blessing_of_Inscription, 'Mandatory'),
+      withPriority(Herrscher_of_Origin_Ego.Blessing_of_Inscription, 'Mandatory F2'),
     ],
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,

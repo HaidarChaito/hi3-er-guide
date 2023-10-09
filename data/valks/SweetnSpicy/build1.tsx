@@ -28,7 +28,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Sweet_n_Spicy_Ego.Blessing_of_Revolution, 'Start'),
-      withPriority(Sweet_n_Spicy_Ego.Blessing_of_Brake, 'Mandatory'),
+      withPriority(Sweet_n_Spicy_Ego.Blessing_of_Brake, 'Mandatory F2'),
       withPriority(Sweet_n_Spicy_Ego.Blessing_of_Rupture, 'Mandatory'),
       withPriority(Sweet_n_Spicy_Ego.Blessing_of_Impulse, 'Optional'),
       withPriority(Sweet_n_Spicy_Ego.Blessing_of_Skyfall, 'Optional'),

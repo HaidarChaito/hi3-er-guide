@@ -38,7 +38,7 @@ const build3: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Narukami, 'Start'),
-      withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Tsukuyomi, 'Mandatory'),
+      withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Tsukuyomi, 'Mandatory F2'),
     ],
 
     [

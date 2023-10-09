@@ -30,20 +30,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Dappled_Shade, 'Start'),
-      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Luster, 'Mandatory'),
-      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Rarities, 'Mandatory'),
-    ],
-    [
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_I_Magic,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
-      Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
-      withPriority(
-        Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
-        'Interchangeable w/ Kosma Unbending Hero'
-      ),
+      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Luster, 'Mandatory F2'),
+      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Rarities, 'Optional'),
     ],
     [
       Signets_of_Daybreak_Kosma.Wings_that_Mask_the_Sanguine_Moon,
@@ -52,12 +40,17 @@ const build1: Build = {
       Signets_of_Daybreak_Kosma.Eyes_that_Overlook_the_Vicious_Abyss,
       withPriority(Signets_of_Daybreak_Kosma.Heart_that_Committed_Seven_Crimes, 'Optional'),
       withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
-      withPriority(
-        Signets_of_Daybreak_Kosma.Unbending_Hero,
-        'Interchangeable w/ V-V1s Adorned Chamber'
-      ),
       Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
       Signets_of_Daybreak_Kosma.Unwavering_Promise,
+    ],
+
+    [
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_I_Magic,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
+      Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
     ],
 
     [
@@ -95,9 +88,7 @@ const build1: Build = {
   ],
   emblems: [
     [
-      EmblemsImages.Pseudo_Miracle,
       EmblemsImages.Fragile_Friend,
-      EmblemsImages.Falling_in_Past_Light,
       EmblemsImages.Out_of_Reach,
     ],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Falling_in_Past_Light],

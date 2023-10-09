@@ -34,7 +34,7 @@ const build1: Build = {
     [
       withPriority(Infinite_Ouroboros_Ego.Blessing_of_Dark_Assault, 'Start'),
       withPriority(Infinite_Ouroboros_Ego.Blessing_of_Ill_Fortune, 'Start'),
-      withPriority(Infinite_Ouroboros_Ego.Blessing_of_Ascension, 'Mandatory'),
+      withPriority(Infinite_Ouroboros_Ego.Blessing_of_Ascension, 'Mandatory F2'),
       withPriority(Infinite_Ouroboros_Ego.Blessing_of_Ravenousness, 'Optional'),
     ],
 

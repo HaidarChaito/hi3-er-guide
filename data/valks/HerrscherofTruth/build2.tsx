@@ -42,8 +42,16 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Genuine_Solution, 'Start'),
-      withPriority(Herrscher_of_Truth_Ego.Blessing_of_Intellect_Core, 'Mandatory'),
-      withPriority(Herrscher_of_Truth_Ego.Blessing_of_Vector, 'Mandatory'),
+      withPriority(Herrscher_of_Truth_Ego.Blessing_of_Intellect_Core, 'Mandatory F2'),
+      withPriority(Herrscher_of_Truth_Ego.Blessing_of_Vector, 'Optional'),
+    ],
+
+    [
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
     ],
 
     [
@@ -53,13 +61,6 @@ const build1: Build = {
       Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
       withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
       Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
-    ],
-    [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
     ],
 
     [
@@ -106,8 +107,8 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Burden, EmblemsImages.It_Will_Be_Written, EmblemsImages.Boundless_Logos],
-    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Boundless_Logos],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light, EmblemsImages.Boundless_Logos],
+    [EmblemsImages.Burden, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],
 };

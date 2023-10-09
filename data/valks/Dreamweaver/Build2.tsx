@@ -17,6 +17,10 @@ const build2: Build = {
       isBudgetVisible: false,
     },
     {
+      gearInfo: 'Prophetic Dreams PRI | Bianka TM Ely B',
+      isBudgetVisible: false,
+    },
+    {
       gearInfo: 'Prophetic Dreams | Elysia TB Dante M',
       isBudgetVisible: true,
     },
@@ -31,7 +35,7 @@ const build2: Build = {
   signets: [
     [
       withPriority(Dreamweaver_Ego.Blessing_of_Absoluteness, 'Start'),
-      withPriority(Dreamweaver_Ego.Blessing_of_Legacy, 'Mandatory'),
+      withPriority(Dreamweaver_Ego.Blessing_of_Legacy, 'Mandatory F2'),
       withPriority(Dreamweaver_Ego.Blessing_of_Oneiromancy, 'Optional'),
     ],
     [

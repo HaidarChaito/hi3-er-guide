@@ -39,7 +39,7 @@ const build2: Build = {
 
     [
       withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Divine_Penalty, 'Start'),
-      withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Mitama, 'Mandatory'),
+      withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Mitama, 'Mandatory F2'),
       withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Tsukuyomi, 'Mandatory'),
     ],
     [

@@ -11,7 +11,7 @@ import { Build } from '@/types/Build';
 
 const build1: Build = {
   label: 'General Build',
-  tier: 3,
+  tier: 4,
   gear: [
     {
       gearInfo: 'Falcon Flare Pri | Bronya N-EX TMB',
@@ -39,10 +39,17 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
       withPriority(Signets_of_Bodhi_Su.Motto_of_CetoPariyaNana, 'Optional'),
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Maxim_of_Anitya,
-      Signets_of_Bodhi_Su.Maxim_of_Santam,
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
+      withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Dictum_of_Anatman,
+      Signets_of_Bodhi_Su.Dictum_of_Santam,
+    ],
+
+    [
+      Signets_of_Discipline_Aponia.Sixth_No_Decadence,
+      Signets_of_Discipline_Aponia.First_No_Betrayal,
+      Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
+      Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
     ],
 
     [
@@ -63,14 +70,6 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
     ],
 
-    [
-      Signets_of_Discipline_Aponia.Sixth_No_Decadence,
-      Signets_of_Discipline_Aponia.First_No_Betrayal,
-      Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
-      Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
-    ],
-
     [Signets_of_Stars_Griseo.Red__Hot, Signets_of_Stars_Griseo.Yellow__Warm],
   ],
   supports: [
@@ -83,7 +82,7 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Empty_Like_Shala],
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],

@@ -29,7 +29,7 @@ const build2: Build = {
   signets: [
     [
       withPriority(Sugary_Starburst_Ego.Blessing_of_Roller_Dance, 'Start'),
-      withPriority(Sugary_Starburst_Ego.Blessing_of_Salute, 'Mandatory'),
+      withPriority(Sugary_Starburst_Ego.Blessing_of_Salute, 'Mandatory F2'),
       withPriority(Sugary_Starburst_Ego.Blessing_of_Rhythm, 'Optional'),
     ],
 
@@ -80,7 +80,6 @@ const build2: Build = {
     [
       EmblemsImages.Veil_of_Tears,
       EmblemsImages.Burden,
-      EmblemsImages.It_Will_Be_Written,
       EmblemsImages.Dreamful_Gold,
     ],
     [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],

@@ -27,7 +27,7 @@ const build3: Build = {
   signets: [
     [
       withPriority(Sugary_Starburst_Ego.Blessing_of_Roller_Dance, 'Start'),
-      withPriority(Sugary_Starburst_Ego.Blessing_of_Acoustic_Spectrum, 'Mandatory'),
+      withPriority(Sugary_Starburst_Ego.Blessing_of_Acoustic_Spectrum, 'Mandatory F2'),
       withPriority(Sugary_Starburst_Ego.Blessing_of_Astral_Path, 'Mandatory'),
       withPriority(Sugary_Starburst_Ego.Blessing_of_Rhythm, 'Optional'),
     ],
@@ -75,9 +75,9 @@ const build3: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Gold_Goblet, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Because_of_You, EmblemsImages.Falling_in_Past_Light],
     [
-      EmblemsImages.Pseudo_Miracle,
+      EmblemsImages.Gold_Goblet,
       EmblemsImages.Because_of_You,
       EmblemsImages.Falling_in_Past_Light,
     ],

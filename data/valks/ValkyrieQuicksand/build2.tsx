@@ -30,8 +30,8 @@ const build2: Build = {
   signets: [
     [
       withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Whimsy, 'Start'),
-      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Tambourine, 'Mandatory'),
-      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Rarities, 'Mandatory'),
+      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Tambourine, 'Mandatory F2'),
+      withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Rarities, 'Optional'),
     ],
 
     [

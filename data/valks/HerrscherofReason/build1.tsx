@@ -33,8 +33,15 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Reason_Ego.Blessing_of_Wisdom, 'Start'),
-      withPriority(Herrscher_of_Reason_Ego.Blessing_of_Truth, 'Mandatory'),
+      withPriority(Herrscher_of_Reason_Ego.Blessing_of_Truth, 'Mandatory F2'),
       withPriority(Herrscher_of_Reason_Ego.Blessing_of_Inspiration, 'Mandatory'),
+    ],
+
+    [
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      Signets_of_Helix_VillV.Interlude_Reversed_Spiral,
     ],
 
     [
@@ -74,8 +81,6 @@ const build1: Build = {
     [
       withPriority(Signets_of_Stars_Griseo.Red__Hot, 'Must Get'),
       withPriority(Signets_of_Stars_Griseo.Yellow__Warm, 'Optional'),
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
     ],
   ],
   supports: [

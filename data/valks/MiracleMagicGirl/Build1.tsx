@@ -34,7 +34,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(MiracleMagicGirl.Blessing_of_Tailor, 'Start'),
-      withPriority(MiracleMagicGirl.Blessing_of_Dreamstitch, 'Mandatory'),
+      withPriority(MiracleMagicGirl.Blessing_of_Dreamstitch, 'Mandatory F2'),
       withPriority(MiracleMagicGirl.Blessing_of_Resplendence, 'Mandatory'),
       withPriority(MiracleMagicGirl.Blessing_of_Stellar_Breach, 'Optional'),
     ],
@@ -51,6 +51,16 @@ const build1: Build = {
     ],
 
     [
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Maxim_of_Santam,
+      Signets_of_Bodhi_Su.Maxim_of_Anatman,
+    ],
+
+    [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_I_Magic,
@@ -64,18 +74,6 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
-
-    [
-      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
-      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
-      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Dictum_of_Santam,
-      Signets_of_Bodhi_Su.Dictum_of_Anatman,
-    ],
-
-    
 
     [
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Fuji,
@@ -96,7 +94,7 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy, EmblemsImages.Because_of_You],
+    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Because_of_You, EmblemsImages.An_Old_Pals_Legacy],
     [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],

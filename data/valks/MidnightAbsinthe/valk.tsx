@@ -15,7 +15,7 @@ const MidnightAbsinthe: Valkery = {
     { title: 10, selected: ' ' },
     { title: 10, selected: '✓' },
     { title: 15, selected: ' ' },
-    { title: 15, selected: ' ' },
+    { title: 15, selected: '✓' },
   ],
 };
 export default MidnightAbsinthe;

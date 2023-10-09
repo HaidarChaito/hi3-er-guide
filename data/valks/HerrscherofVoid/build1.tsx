@@ -39,7 +39,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Innateness, 'Start'),
-      withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Coleus, 'Mandatory'),
+      withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Coleus, 'Mandatory F2'),
       withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Virtuality, 'Optional'),
       withPriority(Herrscher_of_the_Void_Ego.Blessing_of_Annihilation, 'Optional'),
     ],

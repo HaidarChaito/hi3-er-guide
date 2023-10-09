@@ -41,7 +41,7 @@ const build2: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Spirits, 'Start'),
-      withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Rising_Sun, 'Mandatory'),
+      withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Rising_Sun, 'Mandatory F2'),
       withPriority(Herrscher_of_Rebirth_Ego.Blessing_of_Shared_Destiny, 'Optional'),
     ],
 
@@ -54,19 +54,20 @@ const build2: Build = {
     ],
 
     [
-      Signets_of_Infinity_Mobius.Lip_Poison_E,
-      Signets_of_Infinity_Mobius.Entwined_P,
-      Signets_of_Infinity_Mobius.Rodent_V,
-      withPriority(Signets_of_Infinity_Mobius.Infinite_X, 'CORE'),
-      Signets_of_Infinity_Mobius.Dead_X,
-    ],
-
-    [
       Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
       Signets_of_Bodhi_Su.Maxim_of_Anatman,
+      Signets_of_Bodhi_Su.Maxim_of_Santam,
+    ],
+
+    [
+      Signets_of_Infinity_Mobius.Lip_Poison_E,
+      Signets_of_Infinity_Mobius.Entwined_P,
+      Signets_of_Infinity_Mobius.Rodent_V,
+      withPriority(Signets_of_Infinity_Mobius.Infinite_X, 'CORE'),
+      Signets_of_Infinity_Mobius.Dead_X,
     ],
 
     [
@@ -95,11 +96,11 @@ const build2: Build = {
   ],
   emblems: [
     [
-      EmblemsImages.Light_as_a_Bodhi_Leaf,
-      EmblemsImages.Empty_Like_Shala,
+      EmblemsImages.Mad_Kings_Mask,
+      EmblemsImages.An_Old_Pals_Legacy,
       EmblemsImages.Dreamful_Gold,
     ],
-    [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],
 };

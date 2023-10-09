@@ -27,10 +27,9 @@ const build1: Build = {
   signets: [
     [
       withPriority(Fallen_Rosemary_Ego.Blessing_of_Soul_Siphon, 'Start'),
-      withPriority(Fallen_Rosemary_Ego.Blessing_of_Valfreyja, 'Mandatory'),
+      withPriority(Fallen_Rosemary_Ego.Blessing_of_Valfreyja, 'Mandatory F2'),
       withPriority(Fallen_Rosemary_Ego.Blessing_of_Nocturne, 'Mandatory'),
-      withPriority(Fallen_Rosemary_Ego.Blessing_of_God_Eater, 'Optional 1st'),
-      withPriority(Fallen_Rosemary_Ego.Blessing_of_Spirit_Servants, 'Optional 2nd'),
+      withPriority(Fallen_Rosemary_Ego.Blessing_of_God_Eater, 'Mandatory'),
     ],
 
     [
@@ -91,7 +90,7 @@ const build1: Build = {
   ],
   emblems: [
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
-    [EmblemsImages.Gold_Goblet, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Gold_Goblet, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };

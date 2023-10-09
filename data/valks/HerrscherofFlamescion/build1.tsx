@@ -31,7 +31,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Heatflow, 'Start'),
-      withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Starfire, 'Mandatory'),
+      withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Starfire, 'Mandatory F2'),
       withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Reburn, 'Mandatory'),
       withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Tempered_Warrior, 'Mandatory'),
     ],
@@ -91,7 +91,7 @@ const build1: Build = {
   ],
   emblems: [
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Because_of_You, EmblemsImages.An_Old_Pals_Legacy],
-    [EmblemsImages.Forget_Me_Not, EmblemsImages.Tsukimi_Himiko],
+    [EmblemsImages.Forget_Me_Not, EmblemsImages.Because_of_You, EmblemsImages.Tsukimi_Himiko],
     [EmblemsImages.Tin_Flask, EmblemsImages.Tsukimi_Himiko],
   ],
 };

@@ -37,7 +37,7 @@ const build1: Build = {
     [
       withPriority(Reverist_Calico_Ego.Blessing_of_Hidden_Claws, 'Start'),
       withPriority(Reverist_Calico_Ego.Blessing_of_Cats_Eyes, 'Start'),
-      withPriority(Reverist_Calico_Ego.Blessing_of_the_Tailpiece, 'Mandatory'),
+      withPriority(Reverist_Calico_Ego.Blessing_of_the_Tailpiece, 'Mandatory F2'),
       withPriority(Reverist_Calico_Ego.Blessing_of_Phantasma, 'Optional'),
     ],
 
@@ -92,7 +92,7 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Veil_of_Tears, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Feast_of_Emptiness, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],

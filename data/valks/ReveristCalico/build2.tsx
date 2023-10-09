@@ -37,7 +37,7 @@ const build2: Build = {
   signets: [
     [
       withPriority(Reverist_Calico_Ego.Blessing_of_Hidden_Claws, 'Start'),
-      withPriority(Reverist_Calico_Ego.Blessing_of_the_Tailpiece, 'Mandatory'),
+      withPriority(Reverist_Calico_Ego.Blessing_of_the_Tailpiece, 'Mandatory F2'),
       withPriority(Reverist_Calico_Ego.Blessing_of_Cats_Eyes, 'Optional'),
       withPriority(Reverist_Calico_Ego.Blessing_of_Phantasma, 'Optional'),
     ],

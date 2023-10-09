@@ -41,14 +41,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Konstruktion, 'Start'),
-      withPriority(Herrscher_of_Truth_Ego.Blessing_of_Continuation, 'Mandatory'),
+      withPriority(Herrscher_of_Truth_Ego.Blessing_of_Continuation, 'Mandatory F2'),
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Vector, 'Optional'),
-    ],
-    [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
     ],
 
     [
@@ -56,10 +50,9 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Maxim_of_Anitya,
+      withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
       Signets_of_Bodhi_Su.Maxim_of_Santam,
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
+      Signets_of_Bodhi_Su.Maxim_of_Anatman,
     ],
 
     [
@@ -93,6 +86,9 @@ const build1: Build = {
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
     ],
   ],
   supports: [
@@ -105,7 +101,7 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Boundless_Logos],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Empty_Like_Shala, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],

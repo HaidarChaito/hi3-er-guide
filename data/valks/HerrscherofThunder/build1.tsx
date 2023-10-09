@@ -32,17 +32,8 @@ const build1: Build = {
   signets: [
     [
       withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Tsukuyomi, 'Start'),
-      withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Hazy_Moon, 'Mandatory'),
+      withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Hazy_Moon, 'Mandatory F2'),
       withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Narukami, 'Optional'),
-    ],
-
-    [
-      Signets_of_Gold_Eden.Recitatif_of_Eden,
-      Signets_of_Gold_Eden.Recitatif_of_Creeks,
-      Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
-      withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
-      Signets_of_Gold_Eden.Aria_of_Soil,
-      Signets_of_Gold_Eden.Aria_of_Dawn,
     ],
 
     [
@@ -54,6 +45,15 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Maxim_of_Anitya,
       Signets_of_Bodhi_Su.Maxim_of_Anatman,
       withPriority(Signets_of_Bodhi_Su.Maxim_of_Santam, 'Optional'),
+    ],
+
+    [
+      Signets_of_Gold_Eden.Recitatif_of_Eden,
+      Signets_of_Gold_Eden.Recitatif_of_Creeks,
+      Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
+      withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
+      Signets_of_Gold_Eden.Aria_of_Soil,
+      Signets_of_Gold_Eden.Aria_of_Dawn,
     ],
 
     [

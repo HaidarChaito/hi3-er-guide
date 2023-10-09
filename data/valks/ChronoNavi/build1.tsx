@@ -37,10 +37,10 @@ const build1: Build = {
   signets: [
     [
       withPriority(Chrono_Navi_Ego.Blessing_of_Succession, 'Start'),
-      withPriority(Chrono_Navi_Ego.Blessing_of_Time_Crystal, 'Mandatory'),
+      withPriority(Chrono_Navi_Ego.Blessing_of_Time_Crystal, 'Mandatory F2'),
       withPriority(Chrono_Navi_Ego.Blessing_of_Constant, 'Mandatory'),
       withPriority(Chrono_Navi_Ego.Blessing_of_Final_Dream, 'Mandatory'),
-      withPriority(Chrono_Navi_Ego.Blessing_of_Bladepiece, 'Mandatory'),
+      withPriority(Chrono_Navi_Ego.Blessing_of_Bladepiece, 'Optional'),
     ],
 
     [
@@ -95,7 +95,7 @@ const build1: Build = {
     [
       EmblemsImages.Light_as_a_Bodhi_Leaf,
       EmblemsImages.Because_of_You,
-      EmblemsImages.Falling_in_Past_Light,
+      EmblemsImages.Empty_Like_Shala,
     ],
     [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],

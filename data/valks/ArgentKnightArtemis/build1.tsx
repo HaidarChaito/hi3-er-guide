@@ -34,9 +34,19 @@ const build1: Build = {
   signets: [
     [
       withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Frost_Scythe, 'Start'),
-      withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Stellar_Trails, 'Mandatory'),
+      withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Stellar_Trails, 'Mandatory F2'),
       withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Winter_Harvest, 'Mandatory'),
       withPriority(Argent_Knight_Artemis_Ego.Blessing_of_Cold_Moon, 'Mandatory'),
+    ],
+
+    [
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Dictum_of_Anatman,
+      Signets_of_Bodhi_Su.Dictum_of_Santam,
     ],
 
     [
@@ -60,16 +70,6 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
-      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
-      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Maxim_of_Anatman,
-      Signets_of_Bodhi_Su.Maxim_of_Santam,
-    ],
-
-    [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
@@ -89,7 +89,7 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Haxxor_Bunny_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.Boundless_Logos],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],

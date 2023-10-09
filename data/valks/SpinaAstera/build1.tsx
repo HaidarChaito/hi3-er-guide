@@ -12,7 +12,7 @@ import { Build } from '@/types/Build';
 
 const build1: Build = {
   label: 'General Build',
-  tier: 2.5,
+  tier: 3,
   gear: [
     {
       gearInfo: 'Astral Divide: Pisces | Ragna TMB',
@@ -30,10 +30,10 @@ const build1: Build = {
   signets: [
     [
       withPriority(Spina_Astera_Ego.Wild_Flare_Blessing, 'Start'),
-      withPriority(Spina_Astera_Ego.Alrescha_Blessing, 'Mandatory'),
+      withPriority(Spina_Astera_Ego.Alrescha_Blessing, 'Mandatory F2'),
       withPriority(Spina_Astera_Ego.Radiant_Formation_Blessing, 'Mandatory'),
       withPriority(Spina_Astera_Ego.Holy_Flame_Blessing, 'Mandatory'),
-      withPriority(Spina_Astera_Ego.Star_Quillon_Blessing, 'Mandatory'),
+      withPriority(Spina_Astera_Ego.Star_Quillon_Blessing, 'Optional'),
     ],
 
     [

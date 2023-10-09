@@ -32,7 +32,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Disciplinary_Perdition_Ego.Blessing_of_Admonition, 'Start'),
-      withPriority(Disciplinary_Perdition_Ego.Blessing_of_Shelter, 'Mandatory'),
+      withPriority(Disciplinary_Perdition_Ego.Blessing_of_Shelter, 'Mandatory F2'),
       withPriority(Disciplinary_Perdition_Ego.Blessing_of_Inclusiveness, 'Mandatory'),
     ],
 

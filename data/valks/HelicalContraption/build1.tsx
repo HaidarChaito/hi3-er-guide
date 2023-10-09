@@ -35,7 +35,7 @@ const build1: Build = {
     [
       withPriority(Helical_Contraption_Ego.Blessing_of_Facade, 'Start'),
       withPriority(Helical_Contraption_Ego.Blessing_of_Reversal, 'Start'),
-      withPriority(Helical_Contraption_Ego.Blessing_of_Sleight, 'Mandatory'),
+      withPriority(Helical_Contraption_Ego.Blessing_of_Sleight, 'Mandatory F2'),
       withPriority(Helical_Contraption_Ego.Blessing_of_Assemblage, 'Optional'),
     ],
 

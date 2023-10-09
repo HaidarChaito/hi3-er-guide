@@ -28,9 +28,19 @@ const build1: Build = {
   signets: [
     [
       withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Current, 'Start'),
-      withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Karma, 'Mandatory'),
+      withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Karma, 'Mandatory F2'),
       withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Zanshin, 'Mandatory'),
       withPriority(Valkyrie_Bladestrike_Ego.Blessing_of_Idea, 'Optional'),
+    ],
+
+    [
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Maxim_of_Santam,
+      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
     ],
 
     [
@@ -42,16 +52,6 @@ const build1: Build = {
       Signets_of_Deliverance_Kevin.Dream_of_the_Deliverer,
       Signets_of_Deliverance_Kevin.Resolve_of_the_Deliverer,
       withPriority(Signets_of_Deliverance_Kevin.Triumph_of_the_Deliverer, 'Optional'),
-    ],
-
-    [
-      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
-      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
-      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Maxim_of_Santam,
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
     ],
 
     [

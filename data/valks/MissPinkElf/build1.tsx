@@ -35,7 +35,7 @@ const build1: Build = {
     [
       withPriority(Miss_Pink_Elf_Ego.Blessing_of_Purity, 'Start'),
       withPriority(Miss_Pink_Elf_Ego.Blessing_of_Zenith, 'Start'),
-      withPriority(Miss_Pink_Elf_Ego.Blessing_of_Beauty, 'Mandatory'),
+      withPriority(Miss_Pink_Elf_Ego.Blessing_of_Beauty, 'Mandatory F2'),
     ],
 
     [
@@ -94,8 +94,8 @@ const build1: Build = {
     ],
   ],
   emblems: [
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Empty_Like_Shala, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
-    [EmblemsImages.Forbidden_Seed, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Feeling],
   ],
 };

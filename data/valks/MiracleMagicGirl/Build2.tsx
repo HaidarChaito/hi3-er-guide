@@ -34,7 +34,7 @@ const build2: Build = {
   signets: [
     [
       withPriority(MiracleMagicGirl.Blessing_of_Resplendence, 'Start'),
-      withPriority(MiracleMagicGirl.Blessing_of_Inner_Blaze, 'Mandatory'),
+      withPriority(MiracleMagicGirl.Blessing_of_Inner_Blaze, 'Mandatory F2'),
       withPriority(MiracleMagicGirl.Blessing_of_Stellar_Breach, 'Mandatory'),
     ],
 
@@ -50,16 +50,6 @@ const build2: Build = {
     ],
 
     [
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
-      Signets_of_Helix_VillV.Puppetry_Interlacing_Cells,
-    ],
-   
-    
-    [
       Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
@@ -68,13 +58,23 @@ const build2: Build = {
       Signets_of_Bodhi_Su.Dictum_of_Santam,
       Signets_of_Bodhi_Su.Dictum_of_Anatman,
     ],
+
+    [
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
+      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
+      Signets_of_Helix_VillV.Puppetry_Interlacing_Cells,
+    ],
+
     [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
-    
+
 
     [
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Fuji,

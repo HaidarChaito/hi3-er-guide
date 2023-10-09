@@ -37,7 +37,7 @@ const build1: Build = {
   signets: [
     [
       withPriority(Molotov_Cherry_Ego.Blessing_of_the_Silence, 'Start'),
-      withPriority(Molotov_Cherry_Ego.Blessing_of_Mixing, 'Mandatory'),
+      withPriority(Molotov_Cherry_Ego.Blessing_of_Mixing, 'Mandatory F2'),
       withPriority(Molotov_Cherry_Ego.Blessing_of_Thorns, 'Mandatory'),
       withPriority(Molotov_Cherry_Ego.Blessing_of_Fervor, 'Optional'),
     ],
@@ -93,8 +93,8 @@ const build1: Build = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Burden, EmblemsImages.It_Will_Be_Written, EmblemsImages.Dreamful_Gold],
-    [EmblemsImages.Gold_Goblet, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.The_Lonely_Moon],
+    [EmblemsImages.Gold_Goblet, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };

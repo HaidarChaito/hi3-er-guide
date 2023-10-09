@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Sixth_Serenade_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Bodhi_Su, Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
@@ -37,8 +37,18 @@ const build1: Build = {
   signets: [
     [
       withPriority(Sixth_Serenade_Ego.Blessing_of_Nocturnal_Tides, 'Start'),
-      withPriority(Sixth_Serenade_Ego.Blessing_of_Tragedy, 'Mandatory'),
+      withPriority(Sixth_Serenade_Ego.Blessing_of_Tragedy, 'Mandatory F2'),
       withPriority(Sixth_Serenade_Ego.Blessing_of_Finale, 'Mandatory'),
+    ],
+
+    [
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Maxim_of_Anatman,
+      Signets_of_Bodhi_Su.Maxim_of_Santam,
     ],
 
     [
@@ -46,7 +56,7 @@ const build1: Build = {
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
       withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
-      Signets_of_Discipline_Aponia.You_Shall_Follow_Good,
+      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
     [
@@ -58,13 +68,10 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
-      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
-      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
-      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
-      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
-      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
+      Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
+      Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
+      Signets_of_Setsuna_Sakura.Bountiful_Blossom_Ayame,
+      withPriority(Signets_of_Setsuna_Sakura.Setsuna_Blade_Yasha, 'CORE'),
     ],
 
     [
@@ -72,13 +79,6 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
-    ],
-
-    [
-      Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
-      Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
-      Signets_of_Setsuna_Sakura.Bountiful_Blossom_Ayame,
-      withPriority(Signets_of_Setsuna_Sakura.Setsuna_Blade_Yasha, 'CORE'),
     ],
 
     [
@@ -97,9 +97,9 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Gold_Goblet, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You, EmblemsImages.Empty_Like_Shala],
     [
-      EmblemsImages.Light_as_a_Bodhi_Leaf,
+      EmblemsImages.Veil_of_Tears,
       EmblemsImages.Because_of_You,
       EmblemsImages.Dreamful_Gold,
     ],

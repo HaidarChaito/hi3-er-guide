@@ -33,18 +33,8 @@ const build2: Build = {
   signets: [
     [
       withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Fiery_Mind, 'Start'),
-      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Burning_Flow, 'Mandatory'),
+      withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Burning_Flow, 'Mandatory F2'),
       withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Wild_Flare, 'Mandatory'),
-    ],
-
-    [
-      Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
-      Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
-      Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
-      Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
-      withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
-      Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
-      withPriority(Signets_of_Deliverance_Kevin.Flock_of_the_Deliverer, 'Optional'),
     ],
 
     [
@@ -55,6 +45,16 @@ const build2: Build = {
       withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
       Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
       Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
+    ],
+
+    [
+      Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
+      Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
+      Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
+      Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
+      withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
+      Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
+      withPriority(Signets_of_Deliverance_Kevin.Flock_of_the_Deliverer, 'Optional'),
     ],
 
     [
@@ -85,8 +85,8 @@ const build2: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Burden, EmblemsImages.An_Old_Pals_Legacy],
-    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy],
+    [EmblemsImages.Burden, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };
