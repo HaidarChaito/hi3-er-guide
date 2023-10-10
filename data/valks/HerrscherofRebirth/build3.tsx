@@ -33,7 +33,7 @@ const build3: Build = {
   ],
   bottomNotes: [
     {
-      text: 'SEQUENCE: Dodge > Ult > Dodges(Absolute evasion stacks reliant)/Attacks till bar full > Combo attack x2 > Repeat',
+      text: 'SEQUENCE: Dodge > Ult > Swap to Life Binder Form > Dodges(Ultimate Evasion stacks reliant)/Attacks till bar full > Combo attack x2 > Repeat',
     },
   ],
   notes:
