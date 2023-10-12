@@ -3,7 +3,6 @@ import HandleThemeChange from '@/components/shared/HandleThemeChange';
 import Navbar from '@/components/shared/Navbar';
 import TransitionAnimation from '@/components/shared/TransitionAnimation';
 import '@/public/static/styles/globals.css';
-import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 
 import { Nunito } from 'next/font/google';
@@ -47,7 +46,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className='py-16'>{children}</div>
         </TransitionAnimation>
         <Footer />
-        <Analytics />
       </body>
     </HandleThemeChange>
   );
