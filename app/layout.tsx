@@ -3,7 +3,6 @@ import HandleThemeChange from '@/components/shared/HandleThemeChange';
 import Navbar from '@/components/shared/Navbar';
 import TransitionAnimation from '@/components/shared/TransitionAnimation';
 import '@/public/static/styles/globals.css';
-import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 
 import { Nunito } from 'next/font/google';
@@ -12,7 +11,7 @@ const nunito = Nunito({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Hi3 ER guide',
-  description: 'Honkai impact 3rd ER guide by HaidarChaitoMena, AdoriZahar & AquaHi3',
+  description: 'for feedback or issues mention .syblue in Hi3 official server',
   applicationName: 'Hi3er',
   authors: [
     { name: 'HaidarChaitoMena', url: 'https://github.com/HaidarChaitoMena' },
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
   publisher: 'HaidarChaitoMena',
   openGraph: {
     title: 'Hi3er',
-    description: 'Honkai impact 3rd ER guide by HaidarChaitoMena, AdoriZahar & AquaHi3',
+    description: 'for feedback or issues mention .syblue in Hi3 official server',
     url: 'https://hi3er.tech',
     siteName: 'Hi3er',
     images: [
@@ -47,7 +46,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className='py-16'>{children}</div>
         </TransitionAnimation>
         <Footer />
-        <Analytics />
       </body>
     </HandleThemeChange>
   );
