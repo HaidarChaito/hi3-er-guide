@@ -7,7 +7,7 @@ const MiracleMagicGirl: Valkery = {
   image: 'Miracle Magic Girl',
   build: [build1, build2],
   type: 4,
-  tier: 4,
+  tier: 4.5,
   minRank: 3,
   loadoutBuffs: [
     { title: 0, selected: '✓' },

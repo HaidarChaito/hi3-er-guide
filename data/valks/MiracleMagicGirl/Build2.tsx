@@ -12,7 +12,7 @@ import { withPriority } from '@/helpers/functions';
 
 const build2: Build = {
   label: 'Charged Spam Build',
-  tier: 4.5,
+  tier: 5,
   gear: [
     {
       gearInfo: 'Dream Cutter: Polar Star | Little Joys TMB',
@@ -54,9 +54,16 @@ const build2: Build = {
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Dictum_of_Santam,
-      Signets_of_Bodhi_Su.Dictum_of_Anatman,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Maxim_of_Anatman,
+      Signets_of_Bodhi_Su.Maxim_of_Santam,
+    ],
+
+    [
+      Signets_of_Reverie_Pardofelis.Motto_of_Meow,
+      Signets_of_Reverie_Pardofelis.BackCurled_Tail,
+      Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
+      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
     [
@@ -66,13 +73,6 @@ const build2: Build = {
       withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
       Signets_of_Helix_VillV.Puppetry_Interlacing_Cells,
-    ],
-
-    [
-      Signets_of_Reverie_Pardofelis.Motto_of_Meow,
-      Signets_of_Reverie_Pardofelis.BackCurled_Tail,
-      Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
 
 
@@ -96,7 +96,7 @@ const build2: Build = {
   ],
   emblems: [
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy],
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };
