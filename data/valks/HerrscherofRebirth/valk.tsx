@@ -12,12 +12,12 @@ const HerrscherofRebirth: Valkery = {
   minRank: 3,
   loadoutBuffs: [
     { title: 0, selected: '✓' },
-    { title: 5, selected: '✓(2)' },
+    { title: 5, selected: '✓' },
     { title: 5, selected: '' },
+    { title: 10, selected: '✓' },
     { title: 10, selected: '' },
-    { title: 10, selected: '✓(2) ' },
-    { title: 15, selected: '✓(123)' },
-    { title: 15, selected: '✓(2)' },
+    { title: 15, selected: '✓' },
+    { title: 15, selected: '✓(Soothingness Only)' },
   ],
 };
 export default HerrscherofRebirth;  
