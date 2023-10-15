@@ -11,7 +11,7 @@ const nunito = Nunito({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Hi3 ER guide',
-  description: 'Honkai impact 3rd ER guide by HaidarChaitoMena, AdoriZahar & AquaHi3',
+  description: 'for feedback or issues mention .syblue in Hi3 official server',
   applicationName: 'Hi3er',
   authors: [
     { name: 'HaidarChaitoMena', url: 'https://github.com/HaidarChaitoMena' },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   publisher: 'HaidarChaitoMena',
   openGraph: {
     title: 'Hi3er',
-    description: 'Honkai impact 3rd ER guide by HaidarChaitoMena, AdoriZahar & AquaHi3',
+    description: 'for feedback or issues mention .syblue in Hi3 official server',
     url: 'https://hi3er.tech',
     siteName: 'Hi3er',
     images: [
