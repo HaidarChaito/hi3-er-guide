@@ -51,8 +51,8 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
       withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Maxim_of_Santam,
-      Signets_of_Bodhi_Su.Maxim_of_Anatman,
+      Signets_of_Bodhi_Su.Dictum_of_Santam,
+      Signets_of_Bodhi_Su.Dictum_of_Anatman,
     ],
 
     [
