@@ -84,8 +84,7 @@ const build1: Build = {
     ],
     [
       AvatarImages.Azure_Empyrea_Avatar,
-      AvatarImages.Blood_Rose_Avatar,
-      AvatarImages.Blood_Rose_Avatar,
+      AvatarImages.Blood_Rose_Avatar
     ],
   ],
   emblems: [
