@@ -46,10 +46,12 @@ import ValkyrieGloria from './valks/ValkyrieGloria/valk';
 import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
 import { compareValkeriesTier } from '@/helpers/functions';
+import LunarVow from './valks/LunarVow/valk';
 
 // Add valkeries here
 const visibleValks: Valkery[] = [
   ArgentKnightArtemis,
+  LunarVow,
   BrightKnightExcelsis,
   ChronoNavi,
   DeaAnchora,

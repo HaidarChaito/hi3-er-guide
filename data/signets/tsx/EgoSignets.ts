@@ -316,6 +316,13 @@ interface Herrscher_of_Rebirth_Interface {
   Blessing_of_Rising_Sun: Signet;
 }
 
+interface Lunar_Vow_Crimson_Love_Interface {
+  Blessing_of_Vessel: Signet;
+  Blessing_of_Lasting_Embrace: Signet;
+  Blessing_of_Divine_Pact: Signet;
+  Blessing_of_Chase: Signet;
+  Blessing_of_Hermit: Signet;
+}
 export const Herrscher_of_Thunder_Ego: Herrscher_of_Thunder_Interface = {
   Blessing_of_Divine_Penalty: {
     label: 'Blessing of Divine Penalty',
@@ -1529,5 +1536,32 @@ export const Herrscher_of_Rebirth_Ego: Herrscher_of_Rebirth_Interface = {
     label: 'Blessing of Rising Sun',
     description:
       'When SP is above 40 in Soul Shaper Form, Soul Shaper Forms Joint Combo is unleashed by consuming 40 SP, and its Total DMG increases by 35%. While Dewy Twilight is active, every blow of the last hit of the Basic ATK sequence restores 450 HP and 50 SP, and grants 50 bonus combo hits for the character, while gathering enemies briefly (CD: 1s).Blessing of Rising Sun +:When SP is above 40 in Soul Shaper Form, Soul Shaper Forms Joint Combo is unleashed by consuming 40 SP, and its Total DMG increases by 45%. While Dewy Twilight is active, every blow of the last hit of the Basic ATK sequence restores 900 HP and 50 SP, and grants 50 bonus combo hits for the character, while gathering enemies briefly (CD: 1s).',
+  },
+};
+export const Lunar_Vow_Crimson_Love_Ego: Lunar_Vow_Crimson_Love_Interface = {
+  Blessing_of_Vessel: {
+    label: 'Blessing of Vessel',
+    description:
+      'Hold [ATK] after evasion to connect into Basic ATK SEQ 4. The characters Basic ATK SEQ 4 and Combo ATK are enhanced, with each sequence dealing current lost HP percentage x 40%/120% ATK of bonus Lightning DMG (counts as Bleed DMG). The character gains a shield that can absorb DMG equal to 100% HP. While the shield lasts, the character has Iron Body. When SEQ 4 begins to slash enemies, 30% of max shield HP is restored at the cost of 70% of current character HP.Blessing of Vessel +:Hold [ATK] after evasion to connect into Basic ATK SEQ 4. The characters Basic ATK SEQ 4 and Combo ATK are enhanced, with each sequence dealing current lost HP percentage x 50%/150% ATK of bonus Lightning DMG (counts as Bleed DMG). The character gains a shield that can absorb DMG equal to 100% HP. While the shield lasts, the character has Iron Body. When SEQ 4 begins to slash enemies, 30% of max shield HP is restored at the cost of 70% of current character HP.',
+  },
+  Blessing_of_Lasting_Embrace: {
+    label: 'Blessing of Lasting Embrace',
+    description:
+      'Basic ATK SEQ 4 slashes increase to a maximum of 32 times. Lightning DMG dealt by Basic ATK and Combo ATK increases by 50%. In the Name of Protection deals an additional 40% ATK of Lightning DMG per sequence.Blessing of Lasting Embrace +:Basic ATK SEQ 4 slashes increase to a maximum of 32 times. Lightning DMG dealt by Basic ATK and Combo ATK increases by 60%. In the Name of Protection deals an additional 50% ATK of Lightning DMG per sequence.',
+  },
+  Blessing_of_Divine_Pact: {
+    label: 'Blessing of Divine Pact',
+    description:
+      'Each slash of Hunting Time reduces Ult CD by 0.25s. Heartfelt Vow caps at 25 stacks. Ending Ult fully restores Biting Mark and grants 25 stacks of Heartfelt Vow.Blessing of Divine Pact +:Each slash of Hunting Time reduces Ult CD by 0.25s. Heartfelt Vow caps at 30 stacks. Ending Ult fully restores Biting Mark and grants 30 stacks of Heartfelt Vow.',
+  },
+  Blessing_of_Chase: {
+    label: 'Blessing of Chase',
+    description:
+      'Charging the chainsaw restores more Biting Mark per second. Hunting Time consumes less Biting Mark and increases ATK Speed. Each stack of Heartfelt Vow makes Hunting Time deal 2.5% bonus Lightning DMG. With 20 stacks of Heartfelt Vow or more, Hunting Time deals 10% bonus Lightning DMG. Ultimate deals Heartfelt Vow stacks x 10% bonus Lightning DMG and resets Heartfelt Vow stacks when it ends.Blessing of Chase +:Charging the chainsaw restores more Biting Mark per second. Hunting Time consumes less Biting Mark and increases ATK Speed. Each stack of Heartfelt Vow makes Hunting Time deal 3% bonus Lightning DMG. With 20 stacks of Heartfelt Vow or more, Hunting Time deals 10% bonus Lightning DMG. Ultimate deals Heartfelt Vow stacks x 10% bonus Lightning DMG and resets Heartfelt Vow stacks when it ends.',
+  },
+  Blessing_of_Hermit: {
+    label: 'Blessing of Hermit',
+    description:
+      'Entering Frenzy increases the characters Total DMG by 50% for 20s. Triggering it again resets the duration.Blessing of Hermit +:Entering Frenzy increases the characters Total DMG by 60% for 20s. Triggering it again resets the duration.',
   },
 };
