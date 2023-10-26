@@ -145,6 +145,7 @@ export const faqs: Faq[] = [
       'Valkyrie Gloria: https://www.pixiv.net/en/artworks/80022875',
       'Valkyrie Quicksand: https://twitter.com/HonkaiImpact3rd/status/1647902755502145536',
       'Vermillion Knight Eclipse: https://www.pixiv.net/en/artworks/82236542',
+      'Lunar Vow: https://danbooru.donmai.us/posts/6814649?q=theresa_apocalypse_(lunar_vow%3A_crimson_love)',
     ],
   },
   {
