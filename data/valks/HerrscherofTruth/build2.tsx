@@ -47,20 +47,21 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
-    ],
-
-    [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
       Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
       Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
       Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
       withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
       Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
+    ],
+
+    [
+      Signets_of_Infinity_Mobius.Entwined_P,
+      Signets_of_Infinity_Mobius.Rodent_V,
+      Signets_of_Infinity_Mobius.Lip_Poison_E,
+      withPriority(Signets_of_Infinity_Mobius.Infinite_X, 'CORE'),
+      Signets_of_Infinity_Mobius.Dead_X,
+      withPriority(Signets_of_Infinity_Mobius.Unknown_X, 'CORE'),
     ],
 
     [
@@ -74,19 +75,18 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Infinity_Mobius.Entwined_P,
-      Signets_of_Infinity_Mobius.Rodent_V,
-      Signets_of_Infinity_Mobius.Lip_Poison_E,
-      withPriority(Signets_of_Infinity_Mobius.Infinite_X, 'CORE'),
-      Signets_of_Infinity_Mobius.Dead_X,
-      withPriority(Signets_of_Infinity_Mobius.Unknown_X, 'CORE'),
-    ],
-
-    [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
+    ],
+
+    [
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
     ],
 
     [
@@ -107,8 +107,8 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Burden, EmblemsImages.Boundless_Logos],
+    [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],
 };

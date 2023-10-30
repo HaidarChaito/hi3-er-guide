@@ -1,13 +1,12 @@
 import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
-import build2 from './build2';
 
 const HerrscherofSentience: Valkery = {
   label: 'Herrscher of Sentience (HoS)',
   image: 'Herrscher of Sentience',
-  build: [build1, build2],
+  build: [build1],
   type: 1,
-  tier: 3.5,
+  tier: 4,
   minRank: 3,
   loadoutBuffs: [
     { title: 0, selected: ' ' },

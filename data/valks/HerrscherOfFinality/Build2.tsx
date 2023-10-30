@@ -39,9 +39,18 @@ const build2: Build = {
       withPriority(Herrscher_of_Finality_Ego.Blessing_of_Rift, 'Mandatory F2'),
       withPriority(Herrscher_of_Finality_Ego.Blessing_of_Clarity, 'Optional'),
     ],
+
     [
-      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
+      Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
+      Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
+      Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
+      withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
+      Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
+    ],
+
+    [
       Signets_of_Discipline_Aponia.Sixth_No_Decadence,
+      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       withPriority(
@@ -52,25 +61,23 @@ const build2: Build = {
     ],
 
     [
-      Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
-      Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
-      Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
-      withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
-      Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
-    ],
-    [
-      Signets_of_Stars_Griseo.Red__Hot,
-      Signets_of_Stars_Griseo.Yellow__Warm,
-      Signets_of_Stars_Griseo.Black__Dark,
-      withPriority(Signets_of_Stars_Griseo.Shining_Like_Stars, 'CORE'),
-    ],
-    [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
-    [Signets_of_Helix_VillV.Act_II_Pendulum, Signets_of_Helix_VillV.Act_III_Conflict],
+
+    [
+      Signets_of_Stars_Griseo.Red__Hot,
+      Signets_of_Stars_Griseo.Yellow__Warm,
+      Signets_of_Stars_Griseo.Black__Dark,
+      withPriority(Signets_of_Stars_Griseo.Faded_Stars, 'CORE'),
+    ],
+
+    [
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict
+    ],
   ],
 
   supports: [

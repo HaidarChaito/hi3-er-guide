@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Sentience_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Deliverance_Kevin, Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
+import { Signets_of_Deliverance_Kevin, Signets_of_Gold_Eden, Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
@@ -9,25 +9,29 @@ import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
 
 const build1: Build = {
-  label: 'General Build',
-  tier: 3,
+  label: 'Ego Build',
+  tier: 4,
   gear: [
     {
-      gearInfo: 'Domain of Sentience | Shattered Swords TMB',
+      gearInfo: 'Incredibly Infinite Intimidator | Pericles TMB',
       isBudgetVisible: false,
     },
     {
-      gearInfo: 'Domain of Sentience | Sirin Ascendant TMB',
+      gearInfo: 'Incredibly Infinite Intimidator | Shattered Swords TMB',
+      isBudgetVisible: false,
+    },
+    {
+      gearInfo: 'Incredibly Infinite Intimidator | Sirin Ascendant TMB',
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Domain of Sentience | Elysia TB Dirac/Dante M',
+      gearInfo: 'Incredibly Infinite Intimidator | SirinA/Dirac T Pericles MB',
       isBudgetVisible: true,
     },
   ],
   bottomNotes: [
     {
-      text: 'SEQUENCE: Wep Active > Sword or Spear Combo to gather enemies > Swap to next Weapon into Combo > Repeat until enough SP for Ult > Evade into Ult > Use pillar for gather > Hold ATK, then hold ATK again until Ult Ends > Repeat (Once you have SP regen signets, you immediately ult back again upon exiting Ult)',
+      text: 'SEQUENCE: Spear Combo (gather all mobs) > Evade into Chain Combo > Wep Active > Supports into Ult > Tap Ult for Kick > Tap ATK 10 times for whole Combo into EITHER second Kick + one Combo into Finisher or just Finisher (this latter only when damage is enough to finish off a wave).',
     },
   ],
   isNew: true,
@@ -38,6 +42,16 @@ const build1: Build = {
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Dark_Plumes, 'Mandatory F2'),
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Supremacy, 'Mandatory'),
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Legion, 'Optional'),
+    ],
+
+    [
+      Signets_of_Infinity_Mobius.Entwined_P,
+      Signets_of_Infinity_Mobius.Lip_Poison_E,
+      Signets_of_Infinity_Mobius.Rodent_V,
+      withPriority(Signets_of_Infinity_Mobius.Lodging_C, 'Optional'),
+      withPriority(Signets_of_Infinity_Mobius.Infinite_X, 'CORE'),
+      Signets_of_Infinity_Mobius.Dead_X,
+      withPriority(Signets_of_Infinity_Mobius.Unknown_X, 'Optional'),
     ],
 
     [
@@ -52,11 +66,9 @@ const build1: Build = {
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
       Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
       Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
-      withPriority(Signets_of_Deliverance_Kevin.Mask_of_the_Predator, 'From Shop'),
+      withPriority(Signets_of_Deliverance_Kevin.Mask_of_the_Predator, 'Optional, From Shop'),
       withPriority(Signets_of_Deliverance_Kevin.Shadow_of_the_Deliverer, 'CORE'),
       Signets_of_Deliverance_Kevin.Dream_of_the_Deliverer,
-      Signets_of_Deliverance_Kevin.Resolve_of_the_Deliverer,
-      withPriority(Signets_of_Deliverance_Kevin.Triumph_of_the_Deliverer, 'Optional'),
     ],
 
     [

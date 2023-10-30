@@ -37,6 +37,15 @@ const build1: Build = {
     ],
 
     [
+      Signets_of_Gold_Eden.Recitatif_of_Eden,
+      Signets_of_Gold_Eden.Recitatif_of_Creeks,
+      Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
+      withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
+      Signets_of_Gold_Eden.Aria_of_Soil,
+      Signets_of_Gold_Eden.Aria_of_Dawn,
+    ],
+
+    [
       Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
@@ -45,15 +54,6 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Maxim_of_Anitya,
       Signets_of_Bodhi_Su.Maxim_of_Anatman,
       withPriority(Signets_of_Bodhi_Su.Maxim_of_Santam, 'Optional'),
-    ],
-
-    [
-      Signets_of_Gold_Eden.Recitatif_of_Eden,
-      Signets_of_Gold_Eden.Recitatif_of_Creeks,
-      Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
-      withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
-      Signets_of_Gold_Eden.Aria_of_Soil,
-      Signets_of_Gold_Eden.Aria_of_Dawn,
     ],
 
     [

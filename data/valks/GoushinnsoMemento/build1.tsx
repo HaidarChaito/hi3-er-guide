@@ -88,8 +88,8 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Veil_of_Tears, EmblemsImages.Out_of_Reach],
-    [EmblemsImages.Fragile_Friend, EmblemsImages.Out_of_Reach],
+    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Out_of_Reach],
+    [EmblemsImages.Memory, EmblemsImages.Out_of_Reach],
     [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
   ],
 };

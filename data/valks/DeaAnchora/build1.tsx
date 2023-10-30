@@ -1,10 +1,9 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
-import { Bright_Knight_Excelsis_Ego, Dea_Anchora_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Bodhi_Su, Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
-import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
+import { Dea_Anchora_Ego } from '@/data/signets/tsx/EgoSignets';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
@@ -17,6 +16,10 @@ const build1: Build = {
       gearInfo: 'Saggitarius Astra | Shakespeare Adrift TMB',
       isBudgetVisible: false,
     },
+    {
+      gearInfo: 'Saggitarius Astra | Little Joys TMB',
+      isBudgetVisible: true,
+    }
   ],
   bottomNotes: [
     {
@@ -25,7 +28,7 @@ const build1: Build = {
   ],
   isNew: true,
   notes:
-    'BoY start is preferred, however, if you cannot clear F4 Double in time, take either IWBW or Dreamful Gold instead (Dreamful Gold has better chances at clearing), but if this is done, then you have to go Shop F5 and swap the Support Sigil for BoY to get the 2 Egos at F11. Bring BK by F9/F10 Shop to deal with Heimdall.',
+    'BoY start is preferred, however, you most likely will not be able to clear F4 Double in time without Kevin Support Skill. At F5 Shop, swap it out for Because of You to get your Egos at F11. Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Dea_Anchora_Ego.Blessing_of_Stars, 'Start'),
@@ -46,6 +49,15 @@ const build1: Build = {
     ],
 
     [
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
+      withPriority(Signets_of_Bodhi_Su.Maxim_of_Santam, 'Optional'),
+    ],
+
+    [
       Signets_of_Discipline_Aponia.Fourth_No_Insolence,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
@@ -59,15 +71,8 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
       withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
-      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
       Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
-    ],
-
-    [
-      Signets_of_Reverie_Pardofelis.Motto_of_Meow,
-      Signets_of_Reverie_Pardofelis.BackCurled_Tail,
-      Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
-      withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
+      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
     ],
 
     [
@@ -87,10 +92,9 @@ const build1: Build = {
   emblems: [
     [
       EmblemsImages.Burden,
-      EmblemsImages.Because_of_You,
-      EmblemsImages.Dreamful_Gold,
+      EmblemsImages.It_Will_Be_Written,
     ],
-    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };
