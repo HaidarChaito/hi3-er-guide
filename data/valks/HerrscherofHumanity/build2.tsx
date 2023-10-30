@@ -89,7 +89,7 @@ const build2: Build = {
     ],
   ],
   notes:
-    'Starting Support Skill is based on what is +2 current ER cycle is in action. Deliverance = Kevins, Decimation = Kalpas, Helix = VV, currently use VV to get VV1 in order to negate -30% dmg.',
+    'Once you start getting Kalpas signets, use Blood Rose Spam to lower your HP all the way down to <100 in order to start fully utilizing his DMG buffs.',
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],

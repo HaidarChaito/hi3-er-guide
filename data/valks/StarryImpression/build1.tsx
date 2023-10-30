@@ -49,7 +49,6 @@ const build1: Build = {
       Signets_of_Daybreak_Kosma.Eyes_that_Overlook_the_Vicious_Abyss,
       withPriority(Signets_of_Daybreak_Kosma.Heart_that_Committed_Seven_Crimes, 'Optional'),
       withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
-      Signets_of_Daybreak_Kosma.Unbending_Hero,
       Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
       Signets_of_Daybreak_Kosma.Unwavering_Promise,
     ],

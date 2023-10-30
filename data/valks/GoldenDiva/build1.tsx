@@ -49,21 +49,21 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Discipline_Aponia.First_No_Betrayal,
-      Signets_of_Discipline_Aponia.Third_No_Brutality,
-      Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-      withPriority(Signets_of_Discipline_Aponia.Fourth_No_Insolence, 'Optional'),
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
-      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
-    ],
-
-    [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
       withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
       Signets_of_Decimation_Kalpas.Homeland_and_Friends,
+    ],
+
+    [
+      Signets_of_Discipline_Aponia.First_No_Betrayal,
+      Signets_of_Discipline_Aponia.Third_No_Brutality,
+      Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
+      withPriority(Signets_of_Discipline_Aponia.Fourth_No_Insolence, 'Optional'),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
+      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
     [
@@ -94,7 +94,7 @@ const build1: Build = {
   ],
   emblems: [
     [EmblemsImages.Gold_Goblet, EmblemsImages.Dreamful_Gold],
-    [EmblemsImages.Veil_of_Tears, EmblemsImages.Out_of_Reach],
+    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Out_of_Reach],
     [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
   ],
 };

@@ -9,9 +9,9 @@ const TerminalAide0017: Valkery = {
   tier: 5,
   minRank: 5,
   loadoutBuffs: [
-    { title: 0, selected: '✓' },
+    { title: 0, selected: '' },
+    { title: 5, selected: '' },
     { title: 5, selected: '✓' },
-    { title: 5, selected: ' ' },
     { title: 10, selected: '✓' },
     { title: 10, selected: ' ' },
     { title: 15, selected: ' ' },

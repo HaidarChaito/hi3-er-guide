@@ -12,7 +12,7 @@ import { withPriority } from '@/helpers/functions';
 
 const build1: Build = {
   label: 'Weapon Spam Build',
-  tier: 3.5,
+  tier: 3,
   gear: [
     {
       gearInfo: 'Dream Cutter: Polar Star | Little Joys TMB',

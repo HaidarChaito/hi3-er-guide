@@ -36,6 +36,16 @@ const build1: Build = {
     ],
 
     [
+      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
+      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
+      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
+      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
+      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
+      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
+      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
+    ],
+
+    [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
@@ -51,16 +61,6 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
       withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
       Signets_of_Bodhi_Su.Maxim_of_Anatman,
-    ],
-
-    [
-      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
-      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
-      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
-      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
-      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
-      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
     ],
 
     [
@@ -93,9 +93,9 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Because_of_You, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Because_of_You, EmblemsImages.Falling_in_Past_Light],
     [
-      EmblemsImages.Mad_Kings_Mask,
+      EmblemsImages.Pseudo_Miracle,
       EmblemsImages.Because_of_You,
       EmblemsImages.Falling_in_Past_Light,
     ],

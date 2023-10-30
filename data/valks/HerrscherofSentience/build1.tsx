@@ -38,10 +38,9 @@ const build1: Build = {
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Victory, 'Start'),
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Dark_Plumes, 'Mandatory F2'),
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Supremacy, 'Mandatory'),
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Legion, 'Optional'),
+      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Ego, 'Start'),
+      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Legion, 'Mandatory F2'),
+      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Supremacy, 'Optional'),
     ],
 
     [

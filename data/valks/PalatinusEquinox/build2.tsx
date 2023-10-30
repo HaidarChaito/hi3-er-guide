@@ -52,7 +52,7 @@ const build2: Build = {
       withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
       Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
       Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
-      Signets_of_Decimation_Kalpas.Inhuman_Unevil_and_Ungodly,
+      withPriority(Signets_of_Decimation_Kalpas.Inhuman_Unevil_and_Ungodly, 'Optional'),
     ],
 
     [
