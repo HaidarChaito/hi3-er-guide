@@ -17,7 +17,8 @@ const build1: Build = {
       isBudgetVisible: false,
     },
     {
-      gearInfo: 'Bloodied Casket PRI or Any High ATK Statstick Cross | Linnaeus TM/Zeno TM Handel/Zhenyi/Aladdin B',
+      gearInfo:
+        'Bloodied Casket PRI or Any High ATK Statstick Cross | Linnaeus TM/Zeno TM Handel/Zhenyi/Aladdin B',
       isBudgetVisible: true,
     },
     {
@@ -26,14 +27,14 @@ const build1: Build = {
     },
   ],
   isNew: true,
-  notes: 'Stronger than Basic ATK Build; the only downside that this build has is that it requires F2 Ego Reset in order to unlock its full strength and work properly, otherwise it lacks the damage. It also suffers from gather. You can swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'Stronger than Basic ATK Build; the only downside that this build has is that it requires F2 Ego Reset in order to unlock its full strength and work properly, otherwise it lacks the damage. It also suffers from gather. You can swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   bottomNotes: [
     {
       text: 'SEQUENCE: Gather Mobs (with AE), then tap Flashing Wep Active > Spam Tap Wep Active until Frenzy Bar is depleted into Combo (can weave Ult in-between) > When Bar is depleted, manually charge it by Holding Wep Active OR use Ultimate for this if you have Divine Pact Ego.',
     },
   ],
   signets: [
-
     [
       withPriority(Lunar_Vow_Crimson_Love_Ego.Blessing_of_Chase, 'Start'),
       withPriority(Lunar_Vow_Crimson_Love_Ego.Blessing_of_Hermit, 'Mandatory F2'),
@@ -54,7 +55,7 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
+      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
       Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
       Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
     ],
