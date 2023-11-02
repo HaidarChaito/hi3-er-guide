@@ -55,9 +55,7 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
-      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
-      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
+      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE')
     ],
 
     [
