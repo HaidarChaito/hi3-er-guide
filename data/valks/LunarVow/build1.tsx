@@ -7,6 +7,8 @@ import { Signets_of_Helix_VillV } from '@/data/signets/tsx/Signets_of_Helix_Vill
 import { Lunar_Vow_Crimson_Love_Ego } from '@/data/signets/tsx/EgoSignets';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
+import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
+import { Signets_of_Daybreak_Kosma } from '@/data/signets/tsx/Signets_of_Daybreak_Kosma';
 
 const build1: Build = {
   label: 'WA Spam Build',
@@ -75,6 +77,13 @@ const build1: Build = {
       Signets_of_Reverie_Pardofelis.Neighborhood_Chatters,
       withPriority(Signets_of_Reverie_Pardofelis.Empty_Dreams_Self_Set_and_Joy, 'CORE'),
     ],
+
+    [
+      withPriority(Signets_of_Stars_Griseo.Red__Hot, 'Must Get'),
+      Signets_of_Stars_Griseo.Yellow__Warm,
+      Signets_of_Daybreak_Kosma.Horns_that_Rip_the_Bleak_Sky,
+      Signets_of_Daybreak_Kosma.Wings_that_Mask_the_Sanguine_Moon,
+    ]
   ],
 
   supports: [
