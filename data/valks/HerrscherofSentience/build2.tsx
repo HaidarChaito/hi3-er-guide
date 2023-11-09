@@ -1,50 +1,45 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Sentience_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Bodhi_Su, Signets_of_Deliverance_Kevin, Signets_of_Gold_Eden, Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
-import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
 import { Build } from '@/types/Build';
 
-const build1: Build = {
-  label: 'Victory Build',
-  tier: 5,
+const build2: Build = {
+  label: 'Ego Brick Build',
+  tier: 4.5,
   gear: [
-    {
-      gearInfo: 'Domain of Sentience | Pericles TMB',
-      isBudgetVisible: false,
-    },
     {
       gearInfo: 'Incredibly Infinite Intimidator | Pericles TMB',
       isBudgetVisible: false,
     },
     {
-      gearInfo: 'Domain of Sentience/Brick | Shattered Swords TMB',
+      gearInfo: 'Incredibly Infinite Intimidator | Shattered Swords TMB',
       isBudgetVisible: false,
     },
     {
-      gearInfo: 'Domain of Sentience/Brick | Sirin Ascendant TMB',
+      gearInfo: 'Incredibly Infinite Intimidator | Sirin Ascendant TMB',
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Domain of Sentience/Brick | SirinA/Dirac T Pericles MB',
+      gearInfo: 'Incredibly Infinite Intimidator | SirinA/Dirac T Pericles MB',
       isBudgetVisible: true,
     },
   ],
   bottomNotes: [
     {
-      text: 'Spear Combo > Connect Evade into Chain Combo > Sword Combo OR Ult > Tap Ult for Pillar > Spam Bonk and use Pillar if needed for gather (but preferentially do not use mid-Victory Combo otherwise you interrupt the DMG spike), once out of Ult, either instantly Ult again or farm SP for it.',
+      text: 'SEQUENCE: Spear Combo (gather all mobs) > Evade into Chain Combo > Wep Active > Supports into Ult > Tap Ult for Kick > Tap ATK 10 times for whole Combo into EITHER second Kick + one Combo into Finisher or just Finisher (this latter only when damage is enough to finish off a wave).',
     },
   ],
   isNew: true,
-  notes: 'This build strictly wants to use HoS old weapon (Domain of Sentience) over Brick, as this build is focused on the Ego Signet Victory, and Senpri is the BiS for this build over Brick. Do also note, however, that this build is better over Brick as long as you have Pericles TMB; without it, HoS lacks the perfect Crit Rate for Victory to crit at all times. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Victory, 'Start'),
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Ego, 'Mandatory F2'),
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Legion, 'Optional'),
+      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Ego, 'Start'),
+      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Legion, 'Mandatory F2'),
+      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Supremacy, 'Optional'),
     ],
 
     [
@@ -61,6 +56,7 @@ const build1: Build = {
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
       Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
       Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
+      withPriority(Signets_of_Deliverance_Kevin.Mask_of_the_Predator, 'Optional, From Shop'),
       withPriority(Signets_of_Deliverance_Kevin.Shadow_of_the_Deliverer, 'CORE'),
       Signets_of_Deliverance_Kevin.Dream_of_the_Deliverer,
     ],
@@ -80,7 +76,6 @@ const build1: Build = {
       Signets_of_Gold_Eden.Recitatif_of_Creeks,
       Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
       withPriority(Signets_of_Gold_Eden.Echo_of_Gold, 'CORE'),
-      Signets_of_Gold_Eden.Echo_of_Silent_Night,
       withPriority(Signets_of_Gold_Eden.Echo_of_Withered_Soil, 'Optional'),
     ],
 
@@ -114,4 +109,4 @@ const build1: Build = {
   ],
 };
 
-export default build1;
+export default build2;
