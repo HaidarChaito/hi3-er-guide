@@ -1,5 +1,5 @@
 import { Valkery } from '@/types/Valkery';
-import build1 from './build2';
+import build1 from './build1';
 import build2 from './build2';
 
 const HerrscherofSentience: Valkery = {
