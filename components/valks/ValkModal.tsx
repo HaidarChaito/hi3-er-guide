@@ -62,7 +62,8 @@ export default function ValkModal({ selectedValk, setSelected, isBudgetMode }: p
                 if (build.notBudget && isBudgetMode) return <></>;
                 return (
                   <button
-                    className='btn btn-secondary mx-4 inline-block w-2/5 my-1' style={{overflowWrap:'anywhere'}}
+                    className='btn btn-secondary mx-4 my-1 inline-block w-2/5'
+                    style={{ overflowWrap: 'anywhere' }}
                     key={index}
                     onClick={(e) => e.stopPropagation()}
                   >

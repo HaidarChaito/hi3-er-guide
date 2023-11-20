@@ -1,4 +1,6 @@
 'use client';
+import { AiFillCloseCircle } from 'react-icons/ai';
+
 import { IoIosColorPalette } from 'react-icons/io';
 
 import Link from 'next/link';
@@ -20,6 +22,17 @@ export default function Navbar() {
         <div className='relative mx-auto w-full'>
           <div className='flex w-full items-center justify-around py-6 sm:justify-between xl:px-12'>
             <ul className='flex w-full justify-around space-x-1 font-semibold text-neutral-content sm:justify-center sm:space-x-4'>
+              {valkStore?.selectedValk && (
+                <li onClick={() => valkStore?.setSelectedValk(undefined)}>
+                  <Link
+                    onClick={() => valkStore?.setSelectedValk(undefined)}
+                    className='btn btn-ghost text-lg normal-case'
+                    href='/'
+                  >
+                    <AiFillCloseCircle />
+                  </Link>
+                </li>
+              )}
               <li
                 onClick={store?.isFaqOpen ? store.toggleFaq : undefined}
                 className={pathname === '/' && store?.isFaqOpen === false ? 'text-primary' : ''}

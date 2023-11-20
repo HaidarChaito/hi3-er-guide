@@ -15,7 +15,7 @@ type props = {
 export default function Build({ build, valkery }: props) {
   return (
     <>
-      <div id={build.label} className='mx-2 my-1 flex-1'>
+      <div id={build.label} className='mx-2 my-1 flex-1' onClick={(e) => e.stopPropagation()}>
         <div className='mx-auto '>
           <Rank tier={build.tier ?? 1} />
           <div className='font-bold '>
