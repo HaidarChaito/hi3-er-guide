@@ -16,6 +16,7 @@ import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
 import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import InfiniteOuroboros from './valks/InfiniteOuroboros/valk';
 import SugaryStarburst from './valks/SugaryStarburst/valk';
+import TerminalAide0017 from './valks/TerminalAide0017/valk';
 
 // Add Recommended here
 const recommendedValks: Valkery[] = [
@@ -35,6 +36,7 @@ const recommendedValks: Valkery[] = [
   ValkyrieQuicksand,
   InfiniteOuroboros,
   SugaryStarburst,
+  TerminalAide0017
 ];
 
 recommendedValks.sort(compareValkeriesTier);
