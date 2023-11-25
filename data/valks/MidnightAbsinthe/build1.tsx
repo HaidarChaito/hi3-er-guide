@@ -82,8 +82,8 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Burden, EmblemsImages.It_Will_Be_Written, EmblemsImages.Falling_in_Past_Light],
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.It_Will_Be_Written, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Burden, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };

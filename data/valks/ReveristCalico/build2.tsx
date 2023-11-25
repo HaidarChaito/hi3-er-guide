@@ -98,7 +98,7 @@ const build2: Build = {
   ],
   emblems: [
     [EmblemsImages.Feast_of_Emptiness, EmblemsImages.Awakening],
-    [EmblemsImages.Veil_of_Tears, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };

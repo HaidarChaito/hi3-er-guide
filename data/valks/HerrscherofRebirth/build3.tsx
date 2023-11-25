@@ -11,7 +11,7 @@ import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 
 const build3: Build = {
   label: 'Decay Build',
-  tier: 4,
+  tier: 3.5,
   isNew: true,
   gear: [
     {

@@ -12,7 +12,7 @@ import { Build } from '@/types/Build';
 
 const build1: Build = {
   label: 'Combo Spam Build',
-  tier: 4.5,
+  tier: 5,
   gear: [
     {
       gearInfo: 'Twirling Gaze PRI | Aladdin TMB',
@@ -33,6 +33,17 @@ const build1: Build = {
       withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Luster, 'Mandatory F2'),
       withPriority(Valkyrie_Quicksand_Ego.Blessing_of_Rarities, 'Optional'),
     ],
+
+    [
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_I_Magic,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
+      Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
+      Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
+    ],
+
     [
       Signets_of_Daybreak_Kosma.Wings_that_Mask_the_Sanguine_Moon,
       Signets_of_Daybreak_Kosma.Talons_that_Desecrate_the_Santuary_sic,
@@ -42,15 +53,6 @@ const build1: Build = {
       withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
       Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
       Signets_of_Daybreak_Kosma.Unwavering_Promise,
-    ],
-
-    [
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_I_Magic,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
-      Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
     ],
 
     [
@@ -88,10 +90,10 @@ const build1: Build = {
   ],
   emblems: [
     [
-      EmblemsImages.Fragile_Friend,
-      EmblemsImages.Out_of_Reach,
+      EmblemsImages.Pseudo_Miracle,
+      EmblemsImages.Falling_in_Past_Light,
     ],
-    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Fragile_Friend, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };

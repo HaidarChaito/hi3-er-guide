@@ -38,6 +38,13 @@ const build1: Build = {
     ],
 
     [
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
+    ],
+
+    [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
       Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
       Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
@@ -45,7 +52,6 @@ const build1: Build = {
       withPriority(Signets_of_Deliverance_Kevin.Shadow_of_the_Deliverer, 'CORE'),
       Signets_of_Deliverance_Kevin.Dream_of_the_Deliverer,
       Signets_of_Deliverance_Kevin.Resolve_of_the_Deliverer,
-      withPriority(Signets_of_Deliverance_Kevin.Triumph_of_the_Deliverer, 'Optional'),
     ],
 
     [
@@ -74,9 +80,6 @@ const build1: Build = {
     [
       withPriority(Signets_of_Stars_Griseo.Red__Hot, 'Must Get'),
       withPriority(Signets_of_Stars_Griseo.Yellow__Warm, 'Optional'),
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
     ],
   ],
   supports: [
@@ -89,9 +92,9 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Burden, EmblemsImages.Because_of_You],
-    [EmblemsImages.Forget_Me_Not, EmblemsImages.Tsukimi_Himiko],
-    [EmblemsImages.Tin_Flask, EmblemsImages.Tsukimi_Himiko],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Because_of_You],
+    [EmblemsImages.Burden, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };
 

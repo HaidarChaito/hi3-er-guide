@@ -46,20 +46,20 @@ const build2: Build = {
     ],
 
     [
-      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
-      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
-      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
-      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
-    ],
-
-    [
       Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
       Signets_of_Bodhi_Su.Maxim_of_Anatman,
       Signets_of_Bodhi_Su.Maxim_of_Santam,
+    ],
+
+    [
+      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
+      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
+      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
+      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
+      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
     ],
 
     [
@@ -96,11 +96,10 @@ const build2: Build = {
   ],
   emblems: [
     [
-      EmblemsImages.Mad_Kings_Mask,
-      EmblemsImages.An_Old_Pals_Legacy,
-      EmblemsImages.Dreamful_Gold,
+      EmblemsImages.Light_as_a_Bodhi_Leaf,
+      EmblemsImages.Empty_Like_Shala,
     ],
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Boundless_Logos],
+    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],
 };

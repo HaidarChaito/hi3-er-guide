@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Sentience_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Bodhi_Su, Signets_of_Deliverance_Kevin, Signets_of_Gold_Eden, Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
+import { Signets_of_Deliverance_Kevin, Signets_of_Discipline_Aponia, Signets_of_Gold_Eden, Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
@@ -34,11 +34,11 @@ const build2: Build = {
     },
   ],
   isNew: true,
-  notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes: 'Assuming full Pericles, Brick is weaker than Domain of Sentience & Victory combo. Also, this build is capable of functioning with just 1 Ego only if you want. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Ego, 'Start'),
-      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Legion, 'Mandatory F2'),
+      withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Legion, 'Optional Mandatory F2'),
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Supremacy, 'Optional'),
     ],
 
@@ -62,13 +62,11 @@ const build2: Build = {
     ],
 
     [
-      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
-      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
-      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Santam, 'Optional'),
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
+      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
+      Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
+      Signets_of_Discipline_Aponia.Third_No_Brutality,
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
+      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
     [

@@ -39,6 +39,16 @@ const build1: Build = {
     ],
 
     [
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
+      Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
+      Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
+    ],
+
+    [
       Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
@@ -47,16 +57,6 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Maxim_of_Anitya,
       Signets_of_Bodhi_Su.Maxim_of_Santam,
       withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
-    ],
-
-    [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
-      Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
-      Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
     ],
 
     [
@@ -94,8 +94,8 @@ const build1: Build = {
     ],
   ],
   emblems: [
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Empty_Like_Shala, EmblemsImages.Falling_in_Past_Light],
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Empty_Like_Shala, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Feeling],
   ],
 };

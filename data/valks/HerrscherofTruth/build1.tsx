@@ -15,7 +15,7 @@ const build1: Build = {
   label: 'Gundam Build',
   tier: 5,
   isNew: true,
-  notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes: 'This build is far stronger than Ult Build and thus naturally recommended over it. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   gear: [
     {
       gearInfo: 'Domain of Ascension | Bronya Zaychik TMB',
@@ -50,10 +50,9 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Maxim_of_Anitya,
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Santam, 'Optional'),
+      withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Dictum_of_Santam,
+      Signets_of_Bodhi_Su.Dictum_of_Anatman,
     ],
 
     [

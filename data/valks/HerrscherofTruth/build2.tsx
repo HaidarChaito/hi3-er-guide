@@ -33,7 +33,7 @@ const build1: Build = {
       gearInfo: 'Any Highest ATK Cannon Statstick | Turgenev TB Jin Shengtan M (Or any other useable M)'
     },
   ],
-  notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes: 'This build is weaker than Gundam Build, and has much more severe downscalability problems especially in the early game. Not recommended if your HTR has low ATK even if 4/4, and especially if weather and load buffs are not the most favorable for her. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active connect into ATK and instant cancel for entering Mecha Form > Evade into Combo + Wep Active (Red Paint, V-V Buffs, CD on Ult yet), use Ult once the CD is off > Repeat',
@@ -44,6 +44,14 @@ const build1: Build = {
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Genuine_Solution, 'Start'),
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Intellect_Core, 'Mandatory F2'),
       withPriority(Herrscher_of_Truth_Ego.Blessing_of_Vector, 'Optional'),
+    ],
+
+    [
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
     ],
 
     [
@@ -82,14 +90,6 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-    ],
-
-    [
       Signets_of_Stars_Griseo.Red__Hot,
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
@@ -107,8 +107,8 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Burden, EmblemsImages.Boundless_Logos],
-    [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],
 };

@@ -33,16 +33,6 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
-      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
-      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
-      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
-      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
-      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
-    ],
-
-    [
       Signets_of_Discipline_Aponia.First_No_Betrayal,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
@@ -59,6 +49,16 @@ const build1: Build = {
       withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
       Signets_of_Gold_Eden.Aria_of_Soil,
       Signets_of_Gold_Eden.Aria_of_Dawn,
+    ],
+
+    [
+      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
+      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
+      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
+      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
+      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
+      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
+      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
     ],
 
     [
@@ -88,8 +88,8 @@ const build1: Build = {
     ],
   ],
   emblems: [
-    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };

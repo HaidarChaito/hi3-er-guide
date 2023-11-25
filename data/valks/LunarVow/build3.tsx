@@ -10,8 +10,8 @@ import { AvatarImages } from "@/data/supports/AvatarImages.g";
 import { withPriority } from "@/helpers/functions";
 import { Build } from "@/types/Build";
 
-const build2: Build = {
-    label: 'Basic ATK Build',
+const build3: Build = {
+    label: '1 Ego Variation Basic ATK Build',
     tier: 5,
     gear: [
         {
@@ -28,18 +28,16 @@ const build2: Build = {
         },
     ],
     isNew: true,
-    notes: 'This build is stronger than Weapon Active Build, and it upholds the advantage of being a 1 Ego Start build that uses Because of You to get 2 more Egos and make it whole. It is strong enough to work with just 1 Ego, but still recommended to go with BoY and turn it into a 3 Ego build regardless. The SEQ for this build is a bit tricky to get around, but easy to understand once you do it. You can swap BR for BK by F9/F10 Shop to deal with Heimdall if you need to.',
+    notes: 'Requiring 1 Ego only, with this limitation, this build is realistically at same strength level as WA Build. By obvious reasons, the difference in strength is noticeable compared to the recommended 3 Ego Build. But if you do not want to bother resetting for F2 Ego or using Because of You, then this is the perfect build for you. Swap BR for BK by F9/F10 Shop if you are not confident against Heimdall.',
     bottomNotes: [
         {
-            text: 'SEQUENCE: Gather mobs (with AE), tap Flashing Wep Active to enter Frenzy > Hold Wep Active to perform Combo OR save it for a new wave (with Lasting Embrace Ego the Combo actually deals insane amounts of damage, so it becomes your other half of damage)> Spam Evade connect into 4th Basic Hold, do this a 2nd time until Bar is refilled again and repeat whole sequence and weaving Ultimate in-between; once you get Divine Pact Ego signet, Ultimate is used to skip the refilling as it will immediately fill it and can perform the Frenzy into Hold for Combo and repeat.',
+            text: 'SEQUENCE: Gather mobs (with AE), tap Flashing Wep Active to enter Frenzy > Hold Wep Active to perform Combo > Spam Evade and connect into 4th Basic Hold until full duration and tap Flashing ATK Button; repeat this. Weave Ultimate in-between as Finisher. Enter Frenzy and use Combo when necessary (mainly for the Gather in this 1 Ego variation)',
         },
     ],
     signets: [
 
         [
             withPriority(Lunar_Vow_Crimson_Love_Ego.Blessing_of_Vessel, 'Start'),
-            withPriority(Lunar_Vow_Crimson_Love_Ego.Blessing_of_Lasting_Embrace, 'Mandatory F2 Ego OR BoY'),
-            withPriority(Lunar_Vow_Crimson_Love_Ego.Blessing_of_Divine_Pact, 'Optional'),
         ],
 
         [
@@ -106,4 +104,4 @@ const build2: Build = {
     ],
 };
 
-export default build2;
+export default build3;

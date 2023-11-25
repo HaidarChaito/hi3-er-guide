@@ -55,20 +55,20 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
-      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
-      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
-      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
-    ],
-
-    [
       Signets_of_Helix_VillV.Act_I_Magic,
       Signets_of_Helix_VillV.Act_V_Spider_Web,
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
+    ],
+
+    [
+      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
+      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
+      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
+      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
+      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
     ],
 
     [

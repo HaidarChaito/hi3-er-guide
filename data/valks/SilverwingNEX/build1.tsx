@@ -11,12 +11,16 @@ import { Build } from '@/types/Build';
 
 const build1: Build = {
   label: 'General Build',
-  tier: 4,
+  tier: 4.5,
   gear: [
     {
-      gearInfo: 'Falcon Flare Pri | Bronya N-EX TMB',
+      gearInfo: 'Falcon Flare PRI | Bronya N-EX TMB',
       isBudgetVisible: false,
     },
+    {
+      gearInfo: 'Falcon Flare PRI | Bronya N-EX TB Zaychik M',
+      isBudgetVisible: false,
+    }
   ],
   bottomNotes: [
     {

@@ -103,8 +103,8 @@ const build1: Build = {
   ],
   emblems: [
     [EmblemsImages.Fragile_Friend, EmblemsImages.Out_of_Reach],
-    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Out_of_Reach],
-    [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
+    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy],
+    [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],
 };
 

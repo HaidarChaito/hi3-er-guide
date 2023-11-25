@@ -6,7 +6,7 @@ const SilverwingNEX: Valkery = {
   image: 'Silverwing NEX',
   build: [build1],
   type: 2,
-  tier: 3.5,
+  tier: 4,
   minRank: 3,
   loadoutBuffs: [
     { title: 0, selected: '✓ ' },

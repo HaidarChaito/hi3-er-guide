@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Bodhi_Su, Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Herrscher_of_Rebirth_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Vicissitude_Hua } from '@/data/signets/extra/extra';
@@ -63,11 +63,13 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Vicissitude_Hua.Long_Trip,
-      Signets_of_Vicissitude_Hua.Days_Gone,
-      Signets_of_Vicissitude_Hua.No_One_to_Share,
-      withPriority(Signets_of_Vicissitude_Hua.Suffering_Mass, 'CORE'),
-      withPriority(Signets_of_Vicissitude_Hua.Broken_Dream, 'Optional'),
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Maxim_of_Anatman,
+      Signets_of_Bodhi_Su.Maxim_of_Santam,
     ],
 
     [

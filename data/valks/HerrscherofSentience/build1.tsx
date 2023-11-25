@@ -1,7 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Sentience_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Bodhi_Su, Signets_of_Deliverance_Kevin, Signets_of_Gold_Eden, Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
-import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
+import { Signets_of_Bodhi_Su, Signets_of_Deliverance_Kevin, Signets_of_Discipline_Aponia, Signets_of_Gold_Eden, Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
@@ -66,13 +65,11 @@ const build1: Build = {
     ],
 
     [
-      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
-      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
-      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Santam, 'Optional'),
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
+      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
+      Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
+      Signets_of_Discipline_Aponia.Third_No_Brutality,
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
+      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
     [

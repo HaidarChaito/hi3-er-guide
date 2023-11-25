@@ -24,7 +24,7 @@ const build1: Build = {
     },
   ],
   notes:
-    'Loadout bonus info the (x) number is the specific build loadout;  Starter signet depends on whether Helix is +2 or not. If yes = Start with Vill-V. If no = Start with Aponia. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+    'This build is stronger than Ult Build. Hybrid Build is also same strength, and either of these are recommended to use for this cycle.;  Starter signet depends on whether Helix is +2 or not. If yes = Start with Vill-V. If no = Start with Aponia. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   bottomNotes: [{ text: 'SEQUENCE: WA > 2x Charged attacks > Repeat' }],
   signets: [
     [

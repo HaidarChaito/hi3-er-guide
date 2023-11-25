@@ -14,6 +14,7 @@ import StarryImpression from './valks/StarryImpression/valk';
 import SugaryStarburst from './valks/SugaryStarburst/valk';
 import TerminalAide0017 from './valks/TerminalAide0017/valk';
 import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
+import LunarVow from './valks/LunarVow/valk';
 
 // Add Broke mode valks here
 const brokValks: Valkery[] = [
@@ -31,6 +32,7 @@ const brokValks: Valkery[] = [
   SugaryStarburst,
   TerminalAide0017,
   VermilionKnightEclipse,
+  LunarVow,
 ];
 
 brokValks.sort(compareValkeriesTier);
