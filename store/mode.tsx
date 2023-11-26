@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-const themes = ['night', 'dimare', 'winter', 'aftereight', 'dracula'];
+export const availableThemes = ['night', 'dimare', 'winter', 'aftereight', 'dracula'];
 
 type store = {
   gamerMode?: boolean;
@@ -11,15 +11,15 @@ type store = {
 type actions = {
   toggleMode: () => void;
   toggleFaq: () => void;
-  toggleTheme: () => void;
+  selectTheme: (theme: string) => void;
 };
 const useGlobalStore = create<store & actions>()(
   persist(
     (set) => ({
       gamerMode: true,
       isFaqOpen: false,
-      theme: themes[0],
-      toggleTheme: () => set((state) => ({ theme: swapThemes(state.theme) })),
+      theme: availableThemes[0],
+      selectTheme: (theme: string) => set({ theme: theme }),
       toggleFaq: () => set((state) => ({ isFaqOpen: !state.isFaqOpen })),
       toggleMode: () => set((state) => ({ gamerMode: !state.gamerMode })),
     }),
@@ -28,11 +28,6 @@ const useGlobalStore = create<store & actions>()(
     }
   )
 );
-function swapThemes(theme: string) {
-  const currentIndex = themes.indexOf(theme);
-  if (themes.length <= currentIndex + 1) return themes[0];
-  return themes[currentIndex + 1];
-}
 
 export default useGlobalStore;
 
