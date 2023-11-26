@@ -3,6 +3,10 @@ import { Faq } from '@/types/Faq';
 // Add FAQs here
 export const faqs: Faq[] = [
   {
+    question: 'Do you love cats? press here, totally legit cat pics!',
+    gif: 'xdd.mp4',
+  },
+  {
     question:
       'What does the Ranking at the top and the Stars at the bottom in the Valkyries cards mean, and what is the difference?',
     multiLines: [
@@ -35,7 +39,6 @@ export const faqs: Faq[] = [
   },
   {
     question: 'I did follow X build but I lost or having trouble. What do I do?',
-    gif: 'monkey-skill-issue.mp4',
     multiLines: [
       'There are many variables. It can be Skill issue (Having what has been proven and tested to be enough and yet failing in this)',
       'Gameplay issue (not following the given Sequence for the Valkyrie and build or doing it badly)',
@@ -161,5 +164,9 @@ export const faqs: Faq[] = [
       'Sly: Provided feedback',
       'Anony: Provided feedback',
     ],
+  },
+  {
+    question: 'Tried all that and ER still hard ?',
+    gif: 'monkey-skill-issue.mp4',
   },
 ];

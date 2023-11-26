@@ -58,10 +58,7 @@ const build3: Build = {
       Signets_of_Discipline_Aponia.Sixth_No_Decadence,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-      withPriority(
-        Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Numerous_Disciplines,
-        'CORE'
-      ),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Disciplines, 'CORE'),
       withPriority(Signets_of_Discipline_Aponia.You_Shall_Be_Witnessed_by_Thy_Heart, 'Optional'),
     ],
 

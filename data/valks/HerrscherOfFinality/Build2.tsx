@@ -45,10 +45,7 @@ const build2: Build = {
       Signets_of_Discipline_Aponia.Fourth_No_Insolence,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-      withPriority(
-        Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Numerous_Disciplines,
-        'CORE'
-      ),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Disciplines, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Be_Witnessed_by_Thy_Heart,
     ],
 
@@ -74,10 +71,7 @@ const build2: Build = {
       withPriority(Signets_of_Stars_Griseo.Faded_Stars, 'CORE'),
     ],
 
-    [
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict
-    ],
+    [Signets_of_Helix_VillV.Act_II_Pendulum, Signets_of_Helix_VillV.Act_III_Conflict],
   ],
 
   supports: [

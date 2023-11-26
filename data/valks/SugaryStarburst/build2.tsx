@@ -45,10 +45,7 @@ const build2: Build = {
       Signets_of_Discipline_Aponia.Sixth_No_Decadence,
       Signets_of_Discipline_Aponia.Third_No_Brutality,
       Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-      withPriority(
-        Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Numerous_Disciplines,
-        'CORE'
-      ),
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Be_Subject_to_Disciplines, 'CORE'),
       Signets_of_Discipline_Aponia.You_Shall_Be_Witnessed_by_Thy_Heart,
     ],
 
@@ -77,11 +74,7 @@ const build2: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [
-      EmblemsImages.Veil_of_Tears,
-      EmblemsImages.Burden,
-      EmblemsImages.Dreamful_Gold,
-    ],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Burden, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],

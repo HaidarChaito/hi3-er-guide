@@ -1,4 +1,6 @@
 'use client';
+import { BsFillArrowUpCircleFill } from 'react-icons/bs';
+import { BsFillArrowDownCircleFill } from 'react-icons/bs';
 import { Faq } from '@/types/Faq';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
@@ -27,8 +29,18 @@ export default function FaqBuble({ faq }: props) {
   return (
     <motion.div onClick={(e) => e.stopPropagation()}>
       <motion.div layout className='chat chat-start' onClick={toggleAnswerVisibility}>
-        <motion.div className='chat-bubble chat-bubble-success opacity-90'>
+        <motion.div className='chat-bubble chat-bubble-success cursor-pointer opacity-90'>
           {faq.question}
+          {isAnswerVisible && (
+            <span className='mx-2 my-auto inline-flex cursor-pointer justify-center align-middle'>
+              <BsFillArrowUpCircleFill />
+            </span>
+          )}
+          {!isAnswerVisible && (
+            <span className='mx-2 my-auto inline-flex cursor-pointer justify-center align-middle'>
+              <BsFillArrowDownCircleFill />
+            </span>
+          )}
         </motion.div>
       </motion.div>
       {isAnswerVisible && (
@@ -44,25 +56,19 @@ export default function FaqBuble({ faq }: props) {
             </motion.div>
           )}
           {faq.gif && (
-            <motion.div
-              className={`answer chat-bubble chat-bubble-info opacity-90 ${
-                isAnswerVisible ? 'block' : 'hidden'
-              } mt-2 leading-snug `}
-            >
+            <motion.div className='chat-bubble chat-bubble-info opacity-90'>
               <video
                 loop
                 autoPlay
+                width={200}
+                height={200}
                 src={`/static/gifs/${faq.gif}`}
-                ref={videoRef} // Set the ref to the video element
+                ref={videoRef}
               />
             </motion.div>
           )}
           {faq.image && (
-            <motion.div
-              className={`answer chat-bubble chat-bubble-info opacity-90 ${
-                isAnswerVisible ? 'block' : 'hidden'
-              } mt-2 leading-snug `}
-            >
+            <motion.div className='chat-bubble chat-bubble-info opacity-90'>
               <Image
                 priority
                 className='block'
