@@ -1,4 +1,3 @@
-import Footer from '@/components/shared/Footer';
 import HandleThemeChange from '@/components/shared/HandleThemeChange';
 import Navbar from '@/components/shared/Navbar';
 import TransitionAnimation from '@/components/shared/TransitionAnimation';
@@ -45,7 +44,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <TransitionAnimation>
           <div className='py-16'>{children}</div>
         </TransitionAnimation>
-        <Footer />
       </body>
     </HandleThemeChange>
   );
