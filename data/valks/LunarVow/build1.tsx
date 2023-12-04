@@ -30,7 +30,7 @@ const build1: Build = {
   ],
   isNew: true,
   notes:
-    'Stronger than Basic ATK Build; the only downside that this build has is that it requires F2 Ego Reset in order to unlock its full strength and work properly, otherwise it lacks the damage. It also suffers from gather. You can swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+    'Strong build for Lunar Vow; the only downside that this build has is that it requires F2 Ego Reset in order to unlock its full strength and rotate fluidly, otherwise it lacks the damage. It also suffers from lack of gather. You can swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   bottomNotes: [
     {
       text: 'SEQUENCE: Gather Mobs (with AE), then tap Flashing Wep Active > Spam Tap Wep Active until Frenzy Bar is depleted into Combo (can weave Ult in-between) > When Bar is depleted, manually charge it by Holding Wep Active OR use Ultimate for this if you have Divine Pact Ego.',

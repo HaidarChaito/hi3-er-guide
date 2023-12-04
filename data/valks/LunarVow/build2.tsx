@@ -28,7 +28,7 @@ const build2: Build = {
         },
     ],
     isNew: true,
-    notes: 'This build is stronger than Weapon Active Build, and it upholds the advantage of being a 1 Ego Start build that uses Because of You to get 2 more Egos and make it whole. It is strong enough to work with just 1 Ego, but still recommended to go with BoY and turn it into a 3 Ego build regardless. The SEQ for this build is a bit tricky to get around, but easy to understand once you do it. You can swap BR for BK by F9/F10 Shop to deal with Heimdall if you need to.',
+    notes: ' This build is slightly ahead in strength and it upholds the advantage of being a 1 Ego Start build that uses Because of You to get 2 more Egos and make it whole. It is strong enough to work with just 1 Ego, but still recommended to go with BoY and turn it into a 3 Ego build regardless. The SEQ for this build is a bit tricky to get around, but easy to understand once you do it. You can swap BR for BK by F9/F10 Shop to deal with Heimdall if you need to.',
     bottomNotes: [
         {
             text: 'SEQUENCE: Gather mobs (with AE), tap Flashing Wep Active to enter Frenzy > Hold Wep Active to perform Combo OR save it for a new wave (with Lasting Embrace Ego the Combo actually deals insane amounts of damage, so it becomes your other half of damage)> Spam Evade connect into 4th Basic Hold, do this a 2nd time until Bar is refilled again and repeat whole sequence and weaving Ultimate in-between; once you get Divine Pact Ego signet, Ultimate is used to skip the refilling as it will immediately fill it and can perform the Frenzy into Hold for Combo and repeat.',
