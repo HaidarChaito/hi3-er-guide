@@ -94,7 +94,7 @@ const build1: Build = {
   ],
   emblems: [
     [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.It_Will_Be_Written],
-    [EmblemsImages.Gold_Goblet, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.An_Old_Pals_Legacy],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };
