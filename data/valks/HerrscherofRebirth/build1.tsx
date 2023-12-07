@@ -5,11 +5,11 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Herrscher_of_Rebirth_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Vicissitude_Hua } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { withPriority } from '@/helpers/functions';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'Soothingness Build',
   tier: 5,
   isNew: true,
@@ -19,17 +19,20 @@ const build1: Build = {
       isBudgetVisible: false,
     },
     {
-      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
+      gearInfo:
+        'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
+      gearInfo:
+        'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
+      gearInfo:
+        'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
       isBudgetVisible: true,
-    }
+    },
   ],
   bottomNotes: [
     {

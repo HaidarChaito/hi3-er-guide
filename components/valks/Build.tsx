@@ -1,4 +1,4 @@
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import { LuSwords } from 'react-icons/lu';
 import Rank from './Rank';
 import { Valkery } from '@/types/Valkery';
@@ -8,7 +8,7 @@ import GifPlayer from '../shared/GifPlayer';
 import Gear from './Gear';
 
 type props = {
-  build: Build;
+  build: BuildType;
   valkery: Valkery;
 };
 
@@ -119,7 +119,7 @@ export default function Build({ build, valkery }: props) {
               </div>
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-primary`}>Early:</span>
-                {build.emblems[0].map((emblem, i) => {
+                {build.emblems[0]?.map((emblem, i) => {
                   return (
                     <>
                       {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
@@ -139,7 +139,7 @@ export default function Build({ build, valkery }: props) {
 
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-primary`}>Mid:</span>
-                {build.emblems[1].map((emblem, i) => {
+                {build.emblems[1]?.map((emblem, i) => {
                   return (
                     <>
                       {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}
@@ -159,7 +159,7 @@ export default function Build({ build, valkery }: props) {
 
               <div className='flex'>
                 <span className={`my-auto w-14 border-b border-b-primary`}>Late:</span>
-                {build.emblems[2].map((emblem, i) => {
+                {build.emblems[2]?.map((emblem, i) => {
                   return (
                     <>
                       {i % 2 == 0 && i !== 0 && <div className='divider my-auto h-full '>OR</div>}

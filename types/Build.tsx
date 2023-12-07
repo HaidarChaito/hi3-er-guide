@@ -2,7 +2,7 @@ import { bottomNotes } from './BottomNotes';
 import { Gear } from './Gear';
 import { Signet } from './Signet';
 
-export type Build = {
+export type BuildType = {
   label: string;
   tier?: number;
   isNew: boolean;

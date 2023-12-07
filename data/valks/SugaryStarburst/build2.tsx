@@ -7,9 +7,9 @@ import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build2: Build = {
+const build2: BuildType = {
   label: 'Ultimate Build',
   tier: 4,
   gear: [

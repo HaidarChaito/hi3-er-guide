@@ -7,9 +7,9 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: '<SS2 Build',
   tier: 4,
   gear: [
@@ -82,10 +82,7 @@ const build1: Build = {
       AvatarImages.Blood_Rose_Avatar,
       AvatarImages.Bright_Knight_Excelsis_Avatar,
     ],
-    [
-      AvatarImages.Azure_Empyrea_Avatar,
-      AvatarImages.Blood_Rose_Avatar
-    ],
+    [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],

@@ -1,12 +1,12 @@
 import { Buff } from './Buff';
-import { Build } from './Build';
+import { BuildType } from './Build';
 
 export type Valkery = {
   label: string;
   image: string;
   type?: number;
   tier?: number;
-  build: Build[];
+  build: BuildType[];
   loadoutBuffs?: Buff[];
   minRank?: number;
 };

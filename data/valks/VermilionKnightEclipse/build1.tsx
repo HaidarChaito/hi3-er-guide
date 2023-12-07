@@ -8,9 +8,9 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'Charged Spam Build',
   tier: 5,
   gear: [
@@ -19,7 +19,8 @@ const build1: Build = {
       isBudgetVisible: false,
     },
     {
-      gearInfo: 'Shuhadaku of Uriel / Any Highest ATK Greatsword Statstick | Leuweenhoek TB Himeko/Thales M',
+      gearInfo:
+        'Shuhadaku of Uriel / Any Highest ATK Greatsword Statstick | Leuweenhoek TB Himeko/Thales M',
       isBudgetVisible: true,
     },
   ],

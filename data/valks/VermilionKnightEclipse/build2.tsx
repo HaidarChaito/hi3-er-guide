@@ -1,7 +1,7 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import VermilionKnightEclipse from './valk';
 import { Vermilion_Knight_Eclipse_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
@@ -11,7 +11,7 @@ import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 
-const build2: Build = {
+const build2: BuildType = {
   label: 'Ultimate Build',
   tier: 5,
   gear: [
@@ -20,7 +20,8 @@ const build2: Build = {
       isBudgetVisible: false,
     },
     {
-      gearInfo: 'Shuhadaku of Uriel / Any Highest ATK Greatsword Statstick | Leuweenhoek TB Himeko/Thales M',
+      gearInfo:
+        'Shuhadaku of Uriel / Any Highest ATK Greatsword Statstick | Leuweenhoek TB Himeko/Thales M',
       isBudgetVisible: true,
     },
   ],

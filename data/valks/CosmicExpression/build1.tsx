@@ -1,7 +1,7 @@
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'General Build',
   tier: 5,
   gear: [],

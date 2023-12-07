@@ -1,6 +1,6 @@
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: '',
   tier: 1,
   isNew: true,

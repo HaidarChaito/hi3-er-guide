@@ -1,13 +1,19 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Sentience_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Bodhi_Su, Signets_of_Deliverance_Kevin, Signets_of_Discipline_Aponia, Signets_of_Gold_Eden, Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
+import {
+  Signets_of_Bodhi_Su,
+  Signets_of_Deliverance_Kevin,
+  Signets_of_Discipline_Aponia,
+  Signets_of_Gold_Eden,
+  Signets_of_Infinity_Mobius,
+} from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'Victory Build',
   tier: 5,
   gear: [
@@ -38,7 +44,8 @@ const build1: Build = {
     },
   ],
   isNew: true,
-  notes: 'This build strictly wants to use HoS old weapon (Domain of Sentience) over Brick, as this build is focused on the Ego Signet Victory, and Senpri is the BiS for this build over Brick. Do also note, however, that this build is better over Brick as long as you have Pericles TMB; without it, HoS lacks the perfect Crit Rate for Victory to crit at all times. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'This build strictly wants to use HoS old weapon (Domain of Sentience) over Brick, as this build is focused on the Ego Signet Victory, and Senpri is the BiS for this build over Brick. Do also note, however, that this build is better over Brick as long as you have Pericles TMB; without it, HoS lacks the perfect Crit Rate for Victory to crit at all times. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Victory, 'Start'),

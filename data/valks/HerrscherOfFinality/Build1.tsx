@@ -6,10 +6,10 @@ import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'Combo Build',
   tier: 3.5,
   gear: [
@@ -90,7 +90,11 @@ const build1: Build = {
       EmblemsImages.Because_of_You,
       EmblemsImages.Falling_in_Past_Light,
     ],
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You, EmblemsImages.Falling_in_Past_Light],
+    [
+      EmblemsImages.Light_as_a_Bodhi_Leaf,
+      EmblemsImages.Because_of_You,
+      EmblemsImages.Falling_in_Past_Light,
+    ],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };

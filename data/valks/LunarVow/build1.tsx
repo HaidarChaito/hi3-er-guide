@@ -1,4 +1,4 @@
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import { Signets_of_Bodhi_Su } from '@/data/signets/tsx/Signets_of_Bodhi_Su';
 import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
@@ -10,7 +10,7 @@ import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
 import { Signets_of_Daybreak_Kosma } from '@/data/signets/tsx/Signets_of_Daybreak_Kosma';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'WA Spam Build',
   tier: 5,
   gear: [
@@ -57,7 +57,7 @@ const build1: Build = {
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
       Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
       Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
-      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE')
+      withPriority(Signets_of_Decimation_Kalpas.Soldiers_Scissors_Spoils_and_Slaughter, 'CORE'),
     ],
 
     [
@@ -83,7 +83,7 @@ const build1: Build = {
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Daybreak_Kosma.Horns_that_Rip_the_Bleak_Sky,
       Signets_of_Daybreak_Kosma.Wings_that_Mask_the_Sanguine_Moon,
-    ]
+    ],
   ],
 
   supports: [

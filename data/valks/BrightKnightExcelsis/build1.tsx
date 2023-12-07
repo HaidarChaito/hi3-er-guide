@@ -1,7 +1,7 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import { Bright_Knight_Excelsis_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
@@ -10,7 +10,7 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'General Build',
   tier: 2.5,
   gear: [

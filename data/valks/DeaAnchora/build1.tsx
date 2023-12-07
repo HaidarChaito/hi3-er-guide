@@ -6,9 +6,9 @@ import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Dea_Anchora_Ego } from '@/data/signets/tsx/EgoSignets';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'General Build',
   tier: 2,
   gear: [
@@ -19,7 +19,7 @@ const build1: Build = {
     {
       gearInfo: 'Saggitarius Astra | Little Joys TMB',
       isBudgetVisible: true,
-    }
+    },
   ],
   bottomNotes: [
     {
@@ -90,10 +90,7 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Midnight_Absinthe_Avatar],
   ],
   emblems: [
-    [
-      EmblemsImages.Burden,
-      EmblemsImages.It_Will_Be_Written,
-    ],
+    [EmblemsImages.Burden, EmblemsImages.It_Will_Be_Written],
     [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],

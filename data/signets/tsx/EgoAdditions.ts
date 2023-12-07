@@ -1,5 +1,35 @@
 import { Signet } from '@/types/Signet';
 
+interface CosmicEmpression_Interface {
+  Blessing_of_Tailor: Signet;
+  Blessing_of_Dreamstitch: Signet;
+  Blessing_of_Stellar_Breach: Signet;
+  Blessing_of_Resplendence: Signet;
+  Blessing_of_Inner_Blaze: Signet;
+}
+export const CosmicEmpression_Ego: CosmicEmpression_Interface = {
+  Blessing_of_Tailor: {
+    label: 'Blessing of Divine Penalty',
+    description: '',
+  },
+  Blessing_of_Dreamstitch: {
+    label: 'Blessing of Tsukuyomi',
+    description: '',
+  },
+  Blessing_of_Stellar_Breach: {
+    label: 'Blessing of Hazy Moon',
+    description: '',
+  },
+  Blessing_of_Resplendence: {
+    label: '',
+    description: '',
+  },
+  Blessing_of_Inner_Blaze: {
+    label: 'Blessing of Narukami',
+    description: '',
+  },
+};
+
 interface TwilightPaladin_Interface {
   Blessing_of_Tailor: Signet;
   Blessing_of_Dreamstitch: Signet;

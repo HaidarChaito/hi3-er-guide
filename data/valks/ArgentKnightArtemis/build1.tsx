@@ -8,9 +8,9 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'General Build',
   tier: 3,
   isNew: true,
@@ -22,7 +22,7 @@ const build1: Build = {
     {
       gearInfo: 'Skadi of Trynheim | Ana Schariac TMB',
       isBudgetVisible: true,
-    }
+    },
   ],
   bottomNotes: [
     {
@@ -89,7 +89,11 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Haxxor_Bunny_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You, EmblemsImages.Boundless_Logos],
+    [
+      EmblemsImages.Light_as_a_Bodhi_Leaf,
+      EmblemsImages.Because_of_You,
+      EmblemsImages.Boundless_Logos,
+    ],
     [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],

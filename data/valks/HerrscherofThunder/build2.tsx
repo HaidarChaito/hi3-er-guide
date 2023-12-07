@@ -8,9 +8,9 @@ import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Herrscher_of_Thunder_Ego } from '@/data/signets/tsx/EgoSignets';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build2: Build = {
+const build2: BuildType = {
   label: 'Bombard Build',
   tier: 4,
   gear: [
@@ -36,7 +36,6 @@ const build2: Build = {
   notes:
     'Needs SS0 Rank, otherwise it doesnt work. On Decimation +2 weathers, Kalpas start is better. If you cannot clear F4 Double with IWBW, go with Dreamful Gold instead.',
   signets: [
-
     [
       withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Divine_Penalty, 'Start'),
       withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Mitama, 'Mandatory F2'),

@@ -1,7 +1,7 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import FallenRosemary from './valk';
 import { Fallen_Rosemary_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
@@ -11,7 +11,7 @@ import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 
-const build2: Build = {
+const build2: BuildType = {
   label: 'SS2+ Build',
   tier: 4,
   gear: [

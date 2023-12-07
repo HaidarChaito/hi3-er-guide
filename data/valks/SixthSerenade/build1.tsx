@@ -8,9 +8,9 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'General Build',
   tier: 4,
   gear: [
@@ -23,9 +23,10 @@ const build1: Build = {
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Domain of Incandescence / Any Highest ATK Pistol Statstick | JST TM & Any Useable B Piece',
+      gearInfo:
+        'Domain of Incandescence / Any Highest ATK Pistol Statstick | JST TM & Any Useable B Piece',
       isBudgetVisible: true,
-    }
+    },
   ],
   bottomNotes: [
     {
@@ -97,12 +98,12 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You, EmblemsImages.Empty_Like_Shala],
     [
-      EmblemsImages.Veil_of_Tears,
+      EmblemsImages.Light_as_a_Bodhi_Leaf,
       EmblemsImages.Because_of_You,
-      EmblemsImages.Dreamful_Gold,
+      EmblemsImages.Empty_Like_Shala,
     ],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };

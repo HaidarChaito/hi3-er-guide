@@ -7,9 +7,9 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'General Build',
   tier: 2.5,
   gear: [
@@ -86,11 +86,7 @@ const build1: Build = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [
-      EmblemsImages.Burden,
-      EmblemsImages.Because_of_You,
-      EmblemsImages.Dreamful_Gold,
-    ],
+    [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],

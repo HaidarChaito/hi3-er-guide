@@ -1,13 +1,18 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Sentience_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Deliverance_Kevin, Signets_of_Discipline_Aponia, Signets_of_Gold_Eden, Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
+import {
+  Signets_of_Deliverance_Kevin,
+  Signets_of_Discipline_Aponia,
+  Signets_of_Gold_Eden,
+  Signets_of_Infinity_Mobius,
+} from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build2: Build = {
+const build2: BuildType = {
   label: 'Ego Brick Build',
   tier: 4.5,
   gear: [
@@ -34,7 +39,8 @@ const build2: Build = {
     },
   ],
   isNew: true,
-  notes: 'Assuming full Pericles, Brick is weaker than Domain of Sentience & Victory combo. Also, this build is capable of functioning with just 1 Ego only if you want. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'Assuming full Pericles, Brick is weaker than Domain of Sentience & Victory combo. Also, this build is capable of functioning with just 1 Ego only if you want. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Herrscher_of_Sentience_Ego.Blessing_of_Ego, 'Start'),

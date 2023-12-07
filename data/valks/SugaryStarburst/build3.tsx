@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import { Sugary_Starburst_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
@@ -9,7 +9,7 @@ import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 import { withPriority } from '@/helpers/functions';
 
-const build3: Build = {
+const build3: BuildType = {
   label: 'Hybrid Build',
   tier: 4.5,
   gear: [
@@ -75,12 +75,12 @@ const build3: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Because_of_You, EmblemsImages.Falling_in_Past_Light],
     [
-      EmblemsImages.Gold_Goblet,
+      EmblemsImages.Pseudo_Miracle,
       EmblemsImages.Because_of_You,
       EmblemsImages.Falling_in_Past_Light,
     ],
+    [EmblemsImages.Gold_Goblet, EmblemsImages.Because_of_You, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };

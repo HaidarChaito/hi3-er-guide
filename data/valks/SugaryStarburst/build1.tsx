@@ -5,11 +5,11 @@ import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 import { Sugary_Starburst_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
-const build1: Build = {
+const build1: BuildType = {
   label: 'Charged Spam Build',
   tier: 4.5,
   isNew: true,
@@ -80,10 +80,7 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [
-      EmblemsImages.Pseudo_Miracle,
-      EmblemsImages.Falling_in_Past_Light,
-    ],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],

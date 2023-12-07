@@ -1,7 +1,7 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import TwilightPaladin from './valk';
 import { Violet_Executer_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Daybreak_Kosma } from '@/data/signets/extra/extra';
@@ -11,7 +11,7 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'General Build',
   tier: 4,
   gear: [
@@ -43,7 +43,7 @@ const build1: Build = {
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
       withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
       Signets_of_Bodhi_Su.Maxim_of_Santam,
-      Signets_of_Bodhi_Su.Maxim_of_Anatman
+      Signets_of_Bodhi_Su.Maxim_of_Anatman,
     ],
 
     [
@@ -91,7 +91,11 @@ const build1: Build = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You, EmblemsImages.Empty_Like_Shala],
+    [
+      EmblemsImages.Light_as_a_Bodhi_Leaf,
+      EmblemsImages.Because_of_You,
+      EmblemsImages.Empty_Like_Shala,
+    ],
     [EmblemsImages.Fragile_Friend, EmblemsImages.Because_of_You, EmblemsImages.Out_of_Reach],
     [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
   ],

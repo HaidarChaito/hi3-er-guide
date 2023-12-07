@@ -7,9 +7,9 @@ import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Signets_of_Vicissitude_Hua } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build2: Build = {
+const build2: BuildType = {
   label: 'Knight Form Build',
   tier: 4,
   gear: [

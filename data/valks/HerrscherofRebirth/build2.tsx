@@ -5,11 +5,11 @@ import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Herrscher_of_Rebirth_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 
-const build2: Build = {
+const build2: BuildType = {
   label: 'Soul Shaper Build',
   tier: 5,
   isNew: true,
@@ -19,17 +19,20 @@ const build2: Build = {
       isBudgetVisible: false,
     },
     {
-      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
+      gearInfo:
+        'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
+      gearInfo:
+        'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
+      gearInfo:
+        'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
       isBudgetVisible: true,
-    }
+    },
   ],
   notes:
     'You can swap BR for BK by F9/F10 Shop to have an easier time dealing with Heimdall. Soul Shaper (Deer Support - Long haired) Herrscher of Rebirth build, focusses on dealing consistent high damaging high hit counting damage through holding your attack button.',
@@ -95,10 +98,7 @@ const build2: Build = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [
-      EmblemsImages.Light_as_a_Bodhi_Leaf,
-      EmblemsImages.Empty_Like_Shala,
-    ],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Empty_Like_Shala],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.An_Old_Pals_Legacy],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],

@@ -9,13 +9,14 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'Gundam Build',
   tier: 5,
   isNew: true,
-  notes: 'This build is far stronger than Ult Build and thus naturally recommended over it. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'This build is far stronger than Ult Build and thus naturally recommended over it. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   gear: [
     {
       gearInfo: 'Domain of Ascension | Bronya Zaychik TMB',
@@ -30,7 +31,8 @@ const build1: Build = {
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Any Highest ATK Cannon Statstick | Turgenev TB Jin Shengtan M (Or any other useable M)'
+      gearInfo:
+        'Any Highest ATK Cannon Statstick | Turgenev TB Jin Shengtan M (Or any other useable M)',
     },
   ],
   bottomNotes: [
@@ -101,7 +103,11 @@ const build1: Build = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Empty_Like_Shala, EmblemsImages.Boundless_Logos],
+    [
+      EmblemsImages.Light_as_a_Bodhi_Leaf,
+      EmblemsImages.Empty_Like_Shala,
+      EmblemsImages.Boundless_Logos,
+    ],
     [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],

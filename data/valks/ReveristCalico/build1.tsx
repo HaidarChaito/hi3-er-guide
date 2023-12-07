@@ -7,9 +7,9 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'Pardo1 Variation',
   tier: 3,
   gear: [
@@ -22,7 +22,8 @@ const build1: Build = {
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Purana Phantasma / Any Highest ATK Chakram Statstick | Jin Shengtan TM Cecilia: Youth B',
+      gearInfo:
+        'Purana Phantasma / Any Highest ATK Chakram Statstick | Jin Shengtan TM Cecilia: Youth B',
       isBudgetVisible: true,
     },
   ],

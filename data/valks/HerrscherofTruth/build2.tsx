@@ -10,9 +10,9 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'Ult Nuke Build',
   tier: 5,
   isNew: true,
@@ -30,10 +30,12 @@ const build1: Build = {
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Any Highest ATK Cannon Statstick | Turgenev TB Jin Shengtan M (Or any other useable M)'
+      gearInfo:
+        'Any Highest ATK Cannon Statstick | Turgenev TB Jin Shengtan M (Or any other useable M)',
     },
   ],
-  notes: 'This build is weaker than Gundam Build, and has much more severe downscalability problems especially in the early game. Not recommended if your HTR has low ATK even if 4/4, and especially if weather and load buffs are not the most favorable for her. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes:
+    'This build is weaker than Gundam Build, and has much more severe downscalability problems especially in the early game. Not recommended if your HTR has low ATK even if 4/4, and especially if weather and load buffs are not the most favorable for her. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   bottomNotes: [
     {
       text: 'SEQUENCE: Wep Active connect into ATK and instant cancel for entering Mecha Form > Evade into Combo + Wep Active (Red Paint, V-V Buffs, CD on Ult yet), use Ult once the CD is off > Repeat',

@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { Signets_of_Bodhi_Su } from '@/data/signets/extra/extra';
@@ -8,7 +8,7 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 import { Dreamweaver_Ego } from '@/data/signets/tsx/EgoSignets';
 import { withPriority } from '@/helpers/functions';
-const build2: Build = {
+const build2: BuildType = {
   label: 'Astral Body Build',
   tier: 5,
   gear: [

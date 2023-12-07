@@ -4,12 +4,12 @@ import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Herrscher_of_Rebirth_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 
-const build3: Build = {
+const build3: BuildType = {
   label: 'Decay Build',
   tier: 3.5,
   isNew: true,
@@ -19,17 +19,20 @@ const build3: Build = {
       isBudgetVisible: false,
     },
     {
-      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
+      gearInfo:
+        'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
+      gearInfo:
+        'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
       isBudgetVisible: true,
     },
     {
-      gearInfo: 'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
+      gearInfo:
+        'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
       isBudgetVisible: true,
-    }
+    },
   ],
   bottomNotes: [
     {

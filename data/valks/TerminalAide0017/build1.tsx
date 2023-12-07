@@ -9,9 +9,9 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { Build } from '@/types/Build';
+import { BuildType } from '@/types/Build';
 
-const build1: Build = {
+const build1: BuildType = {
   label: 'General Build',
   tier: 5,
   gear: [
@@ -45,7 +45,10 @@ const build1: Build = {
       withPriority(Signets_of_Helix_VillV.Act_IV_Spoon, 'Optional'),
       withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
       Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
-      withPriority(Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber, 'Dont get if already have Kevins Breach'),
+      withPriority(
+        Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
+        'Dont get if already have Kevins Breach'
+      ),
     ],
     [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
