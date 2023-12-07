@@ -413,7 +413,7 @@ export const Stygian_Nymph_Ego: Stygian_Nymph_Interface = {
   Blessing_of_Vulnerable_Duality: {
     label: 'Blessing of Vulnerable Duality',
     description:
-      'Triggering Ultimate Evasion Skill reduces Ultimate CD by 40%.Blessing of Vulnerable Duality +:Triggering Ultimate Evasion Skill reduces Ultimate CD by 40%. At full Veilian Id or Saulian Ego, Charged ATK reduces Ultimate Evasion CD Skill [sic] by 20%.',
+      'Triggering Ultimate Evasion Skill reduces Ultimate CD by 40%.Blessing of Vulnerable Duality +:Triggering Ultimate Evasion Skill reduces Ultimate CD by 40%. At full Veilian Id or Saulian Ego, Charged ATK reduces Ultimate Evasion CD Skill by 20%.',
   },
   Blessing_of_Union: {
     label: 'Blessing of Union',
@@ -1385,7 +1385,7 @@ export const Shadow_Knight_Ego: Shadow_Knight_Interface = {
   Blessing_of_Lunar_Eclipse: {
     label: 'Blessing of Lunar Eclipse',
     description:
-      'Combo ATK Shi-Ki Onslaught deals an additional 5 x 25% ATK of Lightning DMG per flurry as Combo ATK DMG and Ultimate DMG. In Lunar Eclipse mode, can actively trigger Ultimate Evasion Skill Dark Sparrow after evasion, and Shi-Ki Onslaught reduces Dark Sparrows CD by 1s on hit (CD: 0.6 [sic] (expected: 0.6s)).Blessing of Lunar Eclipse +:Combo ATK Shi-Ki Onslaught deals an additional 5 x 40% ATK of Lightning DMG per flurry as Combo ATK DMG and Ultimate DMG. In Lunar Eclipse mode, can actively trigger Ultimate Evasion Skill Dark Sparrow after evasion, and Shi-Ki Onslaught reduces Dark Sparrows CD by 1s on hit (CD: 0.6 [sic] (expected: 0.6s)).',
+      'Combo ATK Shi-Ki Onslaught deals an additional 5 x 25% ATK of Lightning DMG per flurry as Combo ATK DMG and Ultimate DMG. In Lunar Eclipse mode, can actively trigger Ultimate Evasion Skill Dark Sparrow after evasion, and Shi-Ki Onslaught reduces Dark Sparrows CD by 1s on hit (CD: 0.6 (expected: 0.6s)).Blessing of Lunar Eclipse +:Combo ATK Shi-Ki Onslaught deals an additional 5 x 40% ATK of Lightning DMG per flurry as Combo ATK DMG and Ultimate DMG. In Lunar Eclipse mode, can actively trigger Ultimate Evasion Skill Dark Sparrow after evasion, and Shi-Ki Onslaught reduces Dark Sparrows CD by 1s on hit (CD: 0.6 (expected: 0.6s)).',
   },
   Blessing_of_Forces: {
     label: 'Blessing of Forces',
@@ -1395,7 +1395,7 @@ export const Shadow_Knight_Ego: Shadow_Knight_Interface = {
   Blessing_of_Mindfulness: {
     label: 'Blessing of Mindfulness',
     description:
-      'In Lunar Eclipse mode with sufficient SP, can trigger Ultimate Raging Dragon [sic] (expected: Tiger) again, meanwhile Ultimate and attacks in this mode deal 40% more Lightning DMG.Blessing of Mindfulness +:In Lunar Eclipse mode with sufficient SP, can trigger Ultimate Raging Dragon [sic] (expected: Tiger) again, meanwhile Ultimate and attacks in this mode deal 60% more Lightning DMG.',
+      'In Lunar Eclipse mode with sufficient SP, can trigger Ultimate Raging Dragon (expected: Tiger) again, meanwhile Ultimate and attacks in this mode deal 40% more Lightning DMG.Blessing of Mindfulness +:In Lunar Eclipse mode with sufficient SP, can trigger Ultimate Raging Dragon (expected: Tiger) again, meanwhile Ultimate and attacks in this mode deal 60% more Lightning DMG.',
   },
   Blessing_of_Form__Spirit: {
     label: 'Blessing of Form & Spirit',
