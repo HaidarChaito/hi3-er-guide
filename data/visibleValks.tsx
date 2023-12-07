@@ -47,6 +47,7 @@ import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
 import { compareValkeriesTier } from '@/helpers/functions';
 import LunarVow from './valks/LunarVow/valk';
+import CosmicExpression from './valks/CosmicExpression/valk';
 
 // Add valkeries here
 const visibleValks: Valkery[] = [
@@ -58,6 +59,7 @@ const visibleValks: Valkery[] = [
   DisciplinaryPerdition,
   Dreamweaver,
   FallenRosemary,
+  CosmicExpression,
   FerventTempoDeltaValkery,
   GoldenDiva,
   GoushinnsoMemento,

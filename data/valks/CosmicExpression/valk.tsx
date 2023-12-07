@@ -1,7 +1,7 @@
 import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
 
-const ChronoNavi: Valkery = {
+const CosmicExpression: Valkery = {
   label: 'Cosmic Expression (CE)',
   image: 'Cosmic Expression',
   build: [build1],
@@ -18,4 +18,4 @@ const ChronoNavi: Valkery = {
     { title: 15, selected: '' },
   ],
 };
-export default ChronoNavi;
+export default CosmicExpression;
