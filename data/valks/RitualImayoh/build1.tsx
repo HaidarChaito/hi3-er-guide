@@ -1,6 +1,5 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Ritual_Imayoh_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';

@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Sixth_Serenade_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Bodhi_Su, Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
+import { Signets_of_Bodhi_Su } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
