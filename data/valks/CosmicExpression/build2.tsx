@@ -1,7 +1,7 @@
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { BuildType } from '@/types/Build';
 
-const build1: BuildType = {
+const build2: BuildType = {
   label: 'General Build',
   tier: 5,
   gear: [],
@@ -21,4 +21,4 @@ const build1: BuildType = {
   emblems: [],
 };
 
-export default build1;
+export default build2;
