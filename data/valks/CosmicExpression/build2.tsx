@@ -21,4 +21,4 @@ const build1: BuildType = {
   emblems: [],
 };
 
-export default build2;
+export default build1;
