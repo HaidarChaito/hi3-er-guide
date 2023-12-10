@@ -1,32 +1,32 @@
 import { Signet } from '@/types/Signet';
 
 interface CosmicEmpression_Interface {
-  Blessing_of_Tailor: Signet;
-  Blessing_of_Dreamstitch: Signet;
-  Blessing_of_Stellar_Breach: Signet;
-  Blessing_of_Resplendence: Signet;
-  Blessing_of_Inner_Blaze: Signet;
+  Blessing_of_Starlight: Signet;
+  Blessing_of_Dazzle: Signet;
+  Blessing_of_Anchor: Signet;
+  Blessing_of_Shining_Blade: Signet;
+  Blessing_of_Meteorite: Signet;
 }
 export const CosmicEmpression_Ego: CosmicEmpression_Interface = {
-  Blessing_of_Tailor: {
-    label: 'Blessing of Divine Penalty',
-    description: '',
+  Blessing_of_Starlight: {
+    label: 'Blessing of Starlight',
+    description: 'In Parry stance, if in the AoE of the meteor released by Traveler looking into the distance of the mteor shower released by Blessing of meteorite, deflect meteor shards. Deflecting the meteor shower deals 30% ATK of Physical DMG per hit and reduces Ultimate CD by 0.6; Deflecting the meteor deals 150% ATK of physical DMG and reduces ultimate CD by 7s. They both count as weapon active and Bleed DMG. Deflecting a meteor shard restores 4 SP.',
   },
-  Blessing_of_Dreamstitch: {
-    label: 'Blessing of Tsukuyomi',
-    description: '',
+  Blessing_of_Dazzle: {
+    label: 'Blessing of Dazzle',
+    description: 'Basic ATK and Combo ATK deal 25% more Total DMG. Combo ATK has a greater radius, deals an additional 500% + 500% ATK of Physical DMG, and reduces Ultimate CD by 2s on use. Non-Ultimate Evasion can also trigger Ultimate Evasion Skill.',
   },
-  Blessing_of_Stellar_Breach: {
-    label: 'Blessing of Hazy Moon',
-    description: '',
+  Blessing_of_Anchor: {
+    label: 'Blessing of Anchor',
+    description: 'When using Combo ATK, if a beacon is present and her Internal Energy is full, consumes all Internal Energy to release 3 meteors and deploy the cross (disregards cross CD and does not consume SP) simultaneously. Each meteor deals 380% ATK of Physical DMG, which counts as Combo ATK, weapon active, and Bleed DMG. Releasing meteors counts as using weapon active. Can use Ultimate during meteor fall.',
   },
-  Blessing_of_Resplendence: {
-    label: '',
-    description: '',
+  Blessing_of_Shining_Blade: {
+    label: 'Blessing of Shining Blade',
+    description: 'After unleashing Ultimate, all laser sabers deal 15% more Physical DMG for 20s; retriggering refreshes duration. All enemies take 20% more Total DMG from the meteor (independent).',
   },
-  Blessing_of_Inner_Blaze: {
-    label: 'Blessing of Narukami',
-    description: '',
+  Blessing_of_Meteorite: {
+    label: 'Blessing of Meteorite',
+    description: 'When using special weapon skill Traveler Looking into the Distance, the meteor is preceded by a meteor shower. During this, continue losing Internal Energy to deal 21 x 40% ATK of Physical DMG (counts as weapon active and Bleed DMG) and deploy the cross (disregards cross CD and does not consume SP). Cannot gain Internal Energy during the special weapon skill. The use of special weapon skill triggers Ultimate-related effects and the crash of meteorite triggers Ultimate evasion skill. Using Combo ATK restores an additional 300 Internal Energy. Bleeding inflicted by the host deals 50% more Total DMG',
   },
 };
 

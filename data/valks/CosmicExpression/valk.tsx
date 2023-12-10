@@ -1,5 +1,6 @@
 import { Valkery } from '@/types/Valkery';
 import build1 from './build1';
+import build2 from './Build2';
 
 const CosmicExpression: Valkery = {
   label: 'Cosmic Expression (CE)',
