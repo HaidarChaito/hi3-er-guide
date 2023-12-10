@@ -72,7 +72,7 @@ const build2: BuildType = {
   
   supports: [
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
-    [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
+    [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: 
