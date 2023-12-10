@@ -5,8 +5,7 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
-
-
+import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { BuildType } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 import { CosmicEmpression_Ego } from '@/data/signets/tsx/EgoAdditions';
@@ -77,7 +76,12 @@ const build1: BuildType = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
-  emblems: [],
+  emblems: [
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Fragile_Friend, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
+  ],
+  
 };
 
 export default build1;

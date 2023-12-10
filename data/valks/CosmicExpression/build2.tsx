@@ -8,6 +8,7 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { BuildType } from '@/types/Build';
 import { CosmicEmpression_Ego } from '@/data/signets/tsx/EgoAdditions';
 import { withPriority } from '@/helpers/functions';
+import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 
 const build2: BuildType = {
   label: 'Parry Build',
@@ -74,7 +75,14 @@ const build2: BuildType = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
-  emblems: [],
+  emblems: 
+    [
+      [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
+      [EmblemsImages.Burden, EmblemsImages.Falling_in_Past_Light],
+      [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
+    ],
+
+  
 };
 
 export default build2;
