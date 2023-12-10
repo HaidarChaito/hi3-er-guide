@@ -5,7 +5,7 @@ import build2 from './build2';
 const CosmicExpression: Valkery = {
   label: 'Cosmic Expression (CE)',
   image: 'Cosmic Expression',
-  build: [build1],
+  build: [build1, build2],
   minRank: 3,
   type: 4,
   tier: 5,
