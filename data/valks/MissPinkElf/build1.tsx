@@ -39,6 +39,16 @@ const build1: BuildType = {
     ],
 
     [
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Dictum_of_Santam,
+      Signets_of_Bodhi_Su.Dictum_of_Anatman,
+    ],
+
+    [
       Signets_of_Helix_VillV.Act_V_Spider_Web,
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
@@ -46,17 +56,6 @@ const build1: BuildType = {
       withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
       Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
       Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
-    ],
-
-    [
-      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
-      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
-      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Maxim_of_Anitya,
-      Signets_of_Bodhi_Su.Maxim_of_Santam,
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
     ],
 
     [
