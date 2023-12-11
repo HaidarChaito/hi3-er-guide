@@ -38,8 +38,8 @@ const build2: BuildType = {
 ],
 [
   Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
-  Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
-  Signets_of_Deliverance_Kevin.Brand_of_the_Undead,
+  Signets_of_Deliverance_Kevin.Mask_of_the_Predator,
+  Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
   withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
   Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
 ],
