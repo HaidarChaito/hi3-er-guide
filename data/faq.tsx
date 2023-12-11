@@ -25,7 +25,15 @@ export const faqs: Faq[] = [
   {
     question: 'I do not understand what all those abbreviations mean!',
     multiLines: [
-      'TDM = Total damage multiplier; TDT = Total damage taken; UE = Ultimate evasion; TDR = Total damage (taken) reduced; HC = Hitcount; HP = Health point; SP = SP points; ADMG = Adaptive damage',
+      'BoY = Because of You (Elysia Remembrance ability); TDM = Total damage multiplier; TDT = Total damage taken; UE = Ultimate evasion; TDR = Total damage (taken) reduced; HC = Hitcount; HP = Health point; SP = SP points; ADMG = Adaptive damage',
+    ],
+  },
+  {
+    question:
+      'What does the Build 1 or 2 means?',
+    multiLines: [
+      'Build 1 means only the first build to the left takes that specific load out, if it is listed as 1/2 means both build 1 AND build 2 takes and so on.',
+      
     ],
   },
   {
