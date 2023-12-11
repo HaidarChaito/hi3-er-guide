@@ -94,11 +94,11 @@ const build1: BuildType = {
   ],
   emblems: [
     [
-      EmblemsImages.Pseudo_Miracle,
+      EmblemsImages.Light_as_a_Bodhi_Leaf,
       EmblemsImages.Empty_Like_Shala,
       EmblemsImages.Falling_in_Past_Light,
     ],
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Feeling],
   ],
 };

@@ -56,10 +56,20 @@ const build2: BuildType = {
     ],
 
     [
+      Signets_of_Discipline_Aponia.Sixth_No_Decadence,
+      Signets_of_Discipline_Aponia.First_No_Betrayal,
+      Signets_of_Discipline_Aponia.Third_No_Brutality,
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
+      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
+    ],
+
+    [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
+      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
+      Signets_of_Helix_VillV.Puppetry_Interlacing_Cells,
     ],
 
     [
@@ -70,14 +80,6 @@ const build2: BuildType = {
       withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
       Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
       Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
-    ],
-
-    [
-      Signets_of_Discipline_Aponia.Sixth_No_Decadence,
-      Signets_of_Discipline_Aponia.First_No_Betrayal,
-      Signets_of_Discipline_Aponia.Third_No_Brutality,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
-      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
     [
@@ -99,7 +101,7 @@ const build2: BuildType = {
   ],
   emblems: [
     [EmblemsImages.Feast_of_Emptiness, EmblemsImages.Awakening],
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };

@@ -17,6 +17,8 @@ import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import InfiniteOuroboros from './valks/InfiniteOuroboros/valk';
 import SugaryStarburst from './valks/SugaryStarburst/valk';
 import TerminalAide0017 from './valks/TerminalAide0017/valk';
+import CosmicExpression from './valks/CosmicExpression/valk';
+import FerventTempoDelta from './valks/FerventTempoDelta/valk';
 
 // Add Recommended here
 const recommendedValks: Valkery[] = [
@@ -24,19 +26,15 @@ const recommendedValks: Valkery[] = [
   HerrscherOfFinality,
   HerrscherofRebirth,
   TwilightPaladin,
-  HerrscherofSentience,
   Dreamweaver,
-  HelicalContraption,
   HerrscherofHumanity,
-  HerrscherofTruth,
   JadeKnight,
   LunarVow,
   StarryImpression,
   VermilionKnightEclipse,
   ValkyrieQuicksand,
-  InfiniteOuroboros,
-  SugaryStarburst,
-  TerminalAide0017
+  CosmicExpression,
+  FerventTempoDelta,
 ];
 
 recommendedValks.sort(compareValkeriesTier);

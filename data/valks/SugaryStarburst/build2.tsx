@@ -74,8 +74,8 @@ const build2: BuildType = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Veil_of_Tears, EmblemsImages.Burden, EmblemsImages.Dreamful_Gold],
-    [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Burden, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };

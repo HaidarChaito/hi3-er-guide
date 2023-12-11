@@ -43,10 +43,20 @@ const build1: BuildType = {
     ],
 
     [
+      Signets_of_Discipline_Aponia.Sixth_No_Decadence,
+      Signets_of_Discipline_Aponia.First_No_Betrayal,
+      Signets_of_Discipline_Aponia.Third_No_Brutality,
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
+      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
+    ],
+
+    [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
       Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
+      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
+      Signets_of_Helix_VillV.Puppetry_Interlacing_Cells,
     ],
 
     [
@@ -68,14 +78,6 @@ const build1: BuildType = {
     ],
 
     [
-      Signets_of_Discipline_Aponia.Sixth_No_Decadence,
-      Signets_of_Discipline_Aponia.First_No_Betrayal,
-      Signets_of_Discipline_Aponia.Third_No_Brutality,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
-      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
-    ],
-
-    [
       withPriority(Signets_of_Stars_Griseo.Red__Hot, 'Must Get'),
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
@@ -93,8 +95,8 @@ const build1: BuildType = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
-    [EmblemsImages.Feast_of_Emptiness, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };

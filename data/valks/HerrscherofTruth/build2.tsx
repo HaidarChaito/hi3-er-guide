@@ -49,11 +49,12 @@ const build1: BuildType = {
     ],
 
     [
-      Signets_of_Helix_VillV.Act_V_Spider_Web,
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
+      Signets_of_Infinity_Mobius.Entwined_P,
+      Signets_of_Infinity_Mobius.Rodent_V,
+      Signets_of_Infinity_Mobius.Lip_Poison_E,
+      withPriority(Signets_of_Infinity_Mobius.Infinite_X, 'CORE'),
+      Signets_of_Infinity_Mobius.Dead_X,
+      withPriority(Signets_of_Infinity_Mobius.Unknown_X, 'CORE'),
     ],
 
     [
@@ -63,15 +64,6 @@ const build1: BuildType = {
       Signets_of_Deliverance_Kevin.Artifact_of_the_Inhibitor,
       withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
       Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
-    ],
-
-    [
-      Signets_of_Infinity_Mobius.Entwined_P,
-      Signets_of_Infinity_Mobius.Rodent_V,
-      Signets_of_Infinity_Mobius.Lip_Poison_E,
-      withPriority(Signets_of_Infinity_Mobius.Infinite_X, 'CORE'),
-      Signets_of_Infinity_Mobius.Dead_X,
-      withPriority(Signets_of_Infinity_Mobius.Unknown_X, 'CORE'),
     ],
 
     [
@@ -92,10 +84,13 @@ const build1: BuildType = {
     ],
 
     [
-      Signets_of_Stars_Griseo.Red__Hot,
+      withPriority(Signets_of_Stars_Griseo.Red__Hot, 'Must Get'),
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_V_Spider_Web,
       Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
     ],
   ],
@@ -109,7 +104,7 @@ const build1: BuildType = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Boundless_Logos],
+    [EmblemsImages.Forbidden_Seed, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Burden, EmblemsImages.Boundless_Logos],
     [EmblemsImages.Tin_Flask, EmblemsImages.Boundless_Logos],
   ],
