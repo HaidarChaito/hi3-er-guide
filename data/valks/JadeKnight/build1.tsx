@@ -35,7 +35,7 @@ const build1: BuildType = {
     'Starting signet is whichever is +2. Bodhi +2 = Su start. Gold +2 = Eden start, then for Mid you go with whichever of these 2 wasnt started with. You can opt for swapping BR for BK by F9/F10 Shop to have an easier time against Heimdall.',
   bottomNotes: [
     {
-      text: 'SEQUENCE: Ult > Combo attack > Spam attacks till your bar is almost empty > Combo attack > Repeat',
+      text: 'SEQUENCE: Do a meele base attack for the loadout > Ult > Combo attack > Spam attacks till your bar is almost empty > Combo attack > Repeat',
     },
   ],
   signets: [

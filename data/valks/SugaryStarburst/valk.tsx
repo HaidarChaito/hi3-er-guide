@@ -11,7 +11,7 @@ const SugaryStarburst: Valkery = {
   tier: 4.5,
   minRank: 4,
   loadoutBuffs: [
-    { title: 0, selected: '' },
+    { title: 0, selected: '✓' },
     { title: 5, selected: '✓' },
     { title: 5, selected: '✓ ' },
     { title: 10, selected: '✓' },
