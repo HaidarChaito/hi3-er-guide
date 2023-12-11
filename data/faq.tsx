@@ -29,11 +29,9 @@ export const faqs: Faq[] = [
     ],
   },
   {
-    question:
-      'What does the Build 1 or 2 means?',
+    question: 'What does the Build 1 or 2 means?',
     multiLines: [
       'Build 1 means only the first build to the left takes that specific load out, if it is listed as 1/2 means both build 1 AND build 2 takes and so on.',
-      
     ],
   },
   {
@@ -157,6 +155,7 @@ export const faqs: Faq[] = [
       'Valkyrie Quicksand: https://twitter.com/HonkaiImpact3rd/status/1647902755502145536',
       'Vermillion Knight Eclipse: https://www.pixiv.net/en/artworks/82236542',
       'Lunar Vow: https://danbooru.donmai.us/posts/6814649?q=theresa_apocalypse_(lunar_vow%3A_crimson_love)',
+      'Cosmic Empression: https://www.pixiv.net/en/artworks/113367333',
     ],
   },
   {
