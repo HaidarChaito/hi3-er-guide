@@ -70,7 +70,7 @@ export default function CardList({
         {recValks.map((valk, index) => {
           return (
             <motion.div
-              className='flex w-full sm:w-[19rem] '
+              className='flex w-full sm:w-[20rem] '
               key={valk.label}
               variants={variants}
               custom={index}

@@ -57,14 +57,14 @@ export default function AnimatedCard({
           )}
           <Image
             priority
-            className='relative h-72 w-full rounded-lg object-cover object-top shadow-xl'
+            className='relative h-80 w-full rounded-lg object-cover object-top shadow-xl'
             src={'/static/images/valks/' + valkery.image + '.png'}
             loading='eager'
             alt={valkery.label}
-            height={310}
-            width={300}
+            height={410}
+            width={400}
           />
-          <div className='parent absolute top-9 hidden w-full px-3 group-hover:block'>
+          <div className='parent absolute top-14 hidden w-full px-3 group-hover:block'>
             {valkery.build.map((build, index) => (
               <button
                 key={index}
@@ -72,7 +72,7 @@ export default function AnimatedCard({
                   setSelected(valkery);
                   setSelectedBuild(build);
                 }}
-                className='btn btn-primary mb-2 w-full overflow-hidden text-center opacity-90 hover:opacity-100'
+                className='btn btn-primary m-0 mb-2 w-full overflow-hidden text-center opacity-90 hover:opacity-100'
               >
                 <span>{build.label}</span>
                 <span className='flex w-full justify-center'>
