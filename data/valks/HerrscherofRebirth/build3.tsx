@@ -4,12 +4,12 @@ import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Herrscher_of_Rebirth_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 
-const build3: BuildType = {
+const build3: buildType = {
   label: 'Decay Build',
   tier: 3.5,
   isNew: true,

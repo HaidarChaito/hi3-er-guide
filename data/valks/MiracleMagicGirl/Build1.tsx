@@ -7,10 +7,10 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { MiracleMagicGirl } from '@/data/signets/tsx/EgoAdditions';
 import { Signets_of_Bodhi_Su } from '@/data/signets/extra/extra';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 
-const build1: BuildType = {
+const build1: buildType = {
   label: 'Weapon Spam Build',
   tier: 3,
   gear: [

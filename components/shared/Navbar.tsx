@@ -66,13 +66,13 @@ export default function Navbar() {
                       availableThemes.map((theme, index) => (
                         <li key={index}>
                           <input
-                            onChange={(val) => store?.selectTheme(val.target.value)}
+                            onClick={() => store?.theme !== theme && store?.selectTheme(theme)}
                             type='radio'
-                            checked={store?.theme == theme}
+                            checked={store?.theme === theme}
                             name='theme-dropdown'
-                            className='theme-controller btn btn-ghost btn-sm w-full justify-start text-center'
-                            aria-label={theme}
+                            className='btn btn-ghost btn-sm w-full justify-start text-center'
                             value={theme}
+                            aria-label={theme}
                           />
                         </li>
                       ))}

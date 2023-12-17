@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const SweetnSpicy: Valkery = {
+const SweetnSpicy: valkeryType = {
   label: 'Sweet n Spicy (SnS)',
   image: 'Sweet n Spicy',
   build: [build1],
@@ -17,6 +17,5 @@ const SweetnSpicy: Valkery = {
     { title: 15, selected: '✓' },
     { title: 15, selected: '✓' },
   ],
-
 };
 export default SweetnSpicy;

@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const DeaAnchora: Valkery = {
+const DeaAnchora: valkeryType = {
   label: 'Dea Anchora (DA)',
   image: 'Dea Anchora',
   build: [build1],

@@ -1,16 +1,16 @@
-import { bottomNotes } from './BottomNotes';
-import { Gear } from './Gear';
-import { Signet } from './Signet';
+import { bottomNotesType } from './BottomNotes';
+import { gearType } from './Gear';
+import { signetType } from './Signet';
 
-export type BuildType = {
+export type buildType = {
   label: string;
   tier?: number;
   isNew: boolean;
-  signets: Signet[][];
+  signets: signetType[][];
   supports?: string[][];
   emblems?: string[][];
   notBudget?: boolean;
   notes?: string;
-  bottomNotes?: bottomNotes[];
-  gear?: Gear[];
+  bottomNotes?: bottomNotesType[];
+  gear?: gearType[];
 };

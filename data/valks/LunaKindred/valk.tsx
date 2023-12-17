@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const LunaKindred: Valkery = {
+const LunaKindred: valkeryType = {
   label: 'Luna Kindred (LK)',
   image: 'Luna Kindred',
   build: [build1],

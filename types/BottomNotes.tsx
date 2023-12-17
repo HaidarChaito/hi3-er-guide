@@ -1,4 +1,4 @@
-export type bottomNotes = {
+export type bottomNotesType = {
   text?: string;
   gif?: string;
 };

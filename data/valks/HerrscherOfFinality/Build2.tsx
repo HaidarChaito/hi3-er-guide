@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
@@ -9,7 +9,7 @@ import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { Herrscher_of_Finality_Ego } from '@/data/signets/tsx/EgoSignets';
 import { withPriority } from '@/helpers/functions';
 
-const build2: BuildType = {
+const build2: buildType = {
   label: 'Ult Build',
   tier: 4.5,
   gear: [

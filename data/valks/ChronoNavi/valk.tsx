@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const ChronoNavi: Valkery = {
+const ChronoNavi: valkeryType = {
   label: 'Chrono Navi (CN)',
   image: 'Chrono Navi',
   build: [build1],

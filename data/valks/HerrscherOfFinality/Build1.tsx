@@ -6,10 +6,10 @@ import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 
-const build1: BuildType = {
+const build1: buildType = {
   label: 'Combo Build',
   tier: 3.5,
   gear: [

@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const FerventTempoDelta: Valkery = {
+const FerventTempoDelta: valkeryType = {
   label: 'Fervent Tempo Delta (FT)',
   image: 'Fervent Tempo Delta',
   build: [build1],
@@ -17,6 +17,5 @@ const FerventTempoDelta: Valkery = {
     { title: 15, selected: '✓ ' },
     { title: 15, selected: '' },
   ],
-
 };
 export default FerventTempoDelta;

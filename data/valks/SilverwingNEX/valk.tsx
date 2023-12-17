@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const SilverwingNEX: Valkery = {
+const SilverwingNEX: valkeryType = {
   label: 'Silverwing NEX (SW)',
   image: 'Silverwing NEX',
   build: [build1],

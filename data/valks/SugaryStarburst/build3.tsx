@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 import { Sugary_Starburst_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
@@ -9,7 +9,7 @@ import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 import { withPriority } from '@/helpers/functions';
 
-const build3: BuildType = {
+const build3: buildType = {
   label: 'Hybrid Build',
   tier: 4.5,
   gear: [

@@ -1,8 +1,8 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 import build2 from './build2';
 
-const VermilionKnightEclipse: Valkery = {
+const VermilionKnightEclipse: valkeryType = {
   label: 'Vermilion Knight Eclipse (VKE)',
   image: 'Vermilion Knight Eclipse',
   build: [build1, build2],

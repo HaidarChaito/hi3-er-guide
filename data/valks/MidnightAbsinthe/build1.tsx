@@ -1,7 +1,7 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 import { Midnight_Absinthe_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
@@ -9,7 +9,7 @@ import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 
-const build1: BuildType = {
+const build1: buildType = {
   label: 'General Build',
   tier: 3,
   gear: [

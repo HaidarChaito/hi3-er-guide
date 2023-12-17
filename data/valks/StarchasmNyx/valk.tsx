@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const StarchasmNyx: Valkery = {
+const StarchasmNyx: valkeryType = {
   label: 'Starchasm Nyx (Nyx)',
   image: 'Starchasm Nyx',
   build: [build1],

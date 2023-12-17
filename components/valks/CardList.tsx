@@ -1,18 +1,26 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import AnimatedCard from './AnimatedCard';
 import { motion } from 'framer-motion';
 import useGlobalStore from '@/store/mode';
 import { useStore } from '@/helpers/functions';
+import { buildType } from '@/types/Build';
 type props = {
-  valkeries: Valkery[];
-  recValks: Valkery[];
-  brokeValks: Valkery[];
-  setSelected: (valk: Valkery | undefined) => void;
+  valkeries: valkeryType[];
+  recValks: valkeryType[];
+  brokeValks: valkeryType[];
+  setSelected: (valk: valkeryType | undefined) => void;
+  setSelectedBuild: (valk: buildType | undefined) => void;
 };
 
-export default function CardList({ valkeries, recValks, setSelected, brokeValks }: props) {
+export default function CardList({
+  valkeries,
+  recValks,
+  setSelected,
+  setSelectedBuild,
+  brokeValks,
+}: props) {
   const store = useStore(useGlobalStore, (state) => state);
-  const cleanValks: Valkery[] = [];
+  const cleanValks: valkeryType[] = [];
   valkeries.map((valk) => {
     if (!recValks.includes(valk)) {
       cleanValks.push(valk);
@@ -31,7 +39,7 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
   if (store?.gamerMode === false) {
     return (
       <>
-        <div className='ml-2 flex w-full flex-row flex-wrap gap-3'>
+        <div className='ml-2 flex w-full flex-row flex-wrap justify-center gap-3'>
           {brokeValks.map((valk, index) => {
             return (
               <motion.div
@@ -42,7 +50,12 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
                 animate='visible'
                 initial='hidden'
               >
-                <AnimatedCard isRecommended={false} setSelected={setSelected} valkery={valk} />
+                <AnimatedCard
+                  isRecommended={false}
+                  setSelected={setSelected}
+                  setSelectedBuild={setSelectedBuild}
+                  valkery={valk}
+                />
               </motion.div>
             );
           })}
@@ -53,7 +66,7 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
 
   return (
     <>
-      <div className='mb-3 ml-2 flex w-full flex-row flex-wrap gap-3'>
+      <div className='mb-3 ml-2 flex w-full flex-row flex-wrap justify-center gap-3'>
         {recValks.map((valk, index) => {
           return (
             <motion.div
@@ -64,12 +77,17 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
               animate='visible'
               initial='hidden'
             >
-              <AnimatedCard isRecommended={true} setSelected={setSelected} valkery={valk} />
+              <AnimatedCard
+                isRecommended={true}
+                setSelected={setSelected}
+                setSelectedBuild={setSelectedBuild}
+                valkery={valk}
+              />
             </motion.div>
           );
         })}
       </div>
-      <div className='ml-2 flex w-full flex-row flex-wrap gap-3'>
+      <div className='ml-2 flex w-full flex-row flex-wrap justify-center gap-3'>
         {cleanValks.map((valk, index) => {
           return (
             <motion.div
@@ -80,7 +98,12 @@ export default function CardList({ valkeries, recValks, setSelected, brokeValks 
               animate='visible'
               initial='hidden'
             >
-              <AnimatedCard isRecommended={false} setSelected={setSelected} valkery={valk} />{' '}
+              <AnimatedCard
+                isRecommended={false}
+                setSelected={setSelected}
+                setSelectedBuild={setSelectedBuild}
+                valkery={valk}
+              />{' '}
             </motion.div>
           );
         })}

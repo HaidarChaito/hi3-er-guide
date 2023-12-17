@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const StrikerFulminata: Valkery = {
+const StrikerFulminata: valkeryType = {
   label: 'Striker Fulminata (StFu)',
   image: 'Striker Fulminata',
   build: [build1],

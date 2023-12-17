@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const InfiniteOuroboros: Valkery = {
+const InfiniteOuroboros: valkeryType = {
   label: 'Infinite Ouroboros (Mobius)',
   image: 'Infinite Ouroboros',
   build: [build1],

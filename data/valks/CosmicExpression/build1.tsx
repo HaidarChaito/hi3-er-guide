@@ -6,11 +6,11 @@ import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 import { CosmicEmpression_Ego } from '@/data/signets/tsx/EgoAdditions';
 
-const build1: BuildType = {
+const build1: buildType = {
   label: 'Griseo Skywalker - Jedi Build',
   tier: 4.5,
   gear: [],
@@ -20,12 +20,13 @@ const build1: BuildType = {
     },
   ],
   isNew: true,
-  notes: 'Ultimate Evasion connects to SEQ 4 as does parry stance, "Blessing of Kiku" from Sakura smoothens the rotation loop massively. DO NOTE - DO NOT PRESS WA, OTHERWISE YOU WILL LOSE OUT ON DPS. IT WILL SELF ACTIVATE!',
+  notes:
+    'Ultimate Evasion connects to SEQ 4 as does parry stance, "Blessing of Kiku" from Sakura smoothens the rotation loop massively. DO NOTE - DO NOT PRESS WA, OTHERWISE YOU WILL LOSE OUT ON DPS. IT WILL SELF ACTIVATE!',
   signets: [
     [
-      withPriority(CosmicEmpression_Ego.Blessing_of_Anchor,'Start'),
-      withPriority(CosmicEmpression_Ego.Blessing_of_Dazzle,'Start'),
-      withPriority(CosmicEmpression_Ego.Blessing_of_Shining_Blade,'F2 Optional')
+      withPriority(CosmicEmpression_Ego.Blessing_of_Anchor, 'Start'),
+      withPriority(CosmicEmpression_Ego.Blessing_of_Dazzle, 'Start'),
+      withPriority(CosmicEmpression_Ego.Blessing_of_Shining_Blade, 'F2 Optional'),
     ],
 
     [
@@ -69,11 +70,14 @@ const build1: BuildType = {
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Koyo,
       Signets_of_Setsuna_Sakura.Bountiful_Blossom_Botan,
     ],
-
   ],
   supports: [
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
-    [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar, AvatarImages.Bright_Knight_Excelsis_Avatar],
+    [
+      AvatarImages.Starlit_Astrologos_Avatar,
+      AvatarImages.Blood_Rose_Avatar,
+      AvatarImages.Bright_Knight_Excelsis_Avatar,
+    ],
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
@@ -81,7 +85,6 @@ const build1: BuildType = {
     [EmblemsImages.Fragile_Friend, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
-  
 };
 
 export default build1;

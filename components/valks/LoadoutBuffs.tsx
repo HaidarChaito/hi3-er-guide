@@ -1,7 +1,7 @@
-import { Buff } from '@/types/Buff';
+import { buffType } from '@/types/Buff';
 
 type props = {
-  buffs: Buff[];
+  buffs: buffType[];
 };
 export default function LoadoutBuffs({ buffs }: props) {
   return (

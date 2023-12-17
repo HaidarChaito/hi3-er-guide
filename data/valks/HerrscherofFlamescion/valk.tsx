@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const HerrscherofFlamescion: Valkery = {
+const HerrscherofFlamescion: valkeryType = {
   label: 'Herrscher of Flamescion (HoFs)',
   image: 'Herrscher of Flamescion',
   build: [build1],

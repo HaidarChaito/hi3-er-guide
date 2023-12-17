@@ -1,4 +1,4 @@
-export type Signet = {
+export type signetType = {
   label: string;
   description: string;
   shortDescription?: string;

@@ -1,8 +1,8 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './Build1';
 import build2 from './Build2';
 
-const MiracleMagicGirl: Valkery = {
+const MiracleMagicGirl: valkeryType = {
   label: 'Miracle Magic Girl (Sirin)',
   image: 'Miracle Magic Girl',
   build: [build1, build2],

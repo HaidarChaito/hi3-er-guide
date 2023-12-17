@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const GoushinnsoMemento: Valkery = {
+const GoushinnsoMemento: valkeryType = {
   label: 'Goushinnso Memento (Meme)',
   image: 'Goushinnso Memento',
   build: [build1],

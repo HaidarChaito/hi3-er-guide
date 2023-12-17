@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const RitualImayoh: Valkery = {
+const RitualImayoh: valkeryType = {
   label: 'Ritual Imayoh (RI)',
   image: 'Ritual Imayoh',
   build: [build1],
@@ -17,6 +17,5 @@ const RitualImayoh: Valkery = {
     { title: 15, selected: '' },
     { title: 15, selected: '' },
   ],
-
 };
 export default RitualImayoh;

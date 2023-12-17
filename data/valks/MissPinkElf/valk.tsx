@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const MissPinkElf: Valkery = {
+const MissPinkElf: valkeryType = {
   label: 'Miss Pink Elf (MPE)',
   image: 'Miss Pink Elf',
   build: [build1],

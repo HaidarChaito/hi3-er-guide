@@ -1,4 +1,4 @@
-export type Buff = {
+export type buffType = {
   title: number;
   selected?: string;
 };

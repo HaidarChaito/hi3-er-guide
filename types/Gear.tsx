@@ -1,4 +1,4 @@
-export type Gear = {
+export type gearType = {
   gearInfo: string;
   isBudgetVisible?: boolean;
 };

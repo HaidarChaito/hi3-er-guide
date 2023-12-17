@@ -10,9 +10,9 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 
-const build2: BuildType = {
+const build2: buildType = {
   label: 'Ego Brick Build',
   tier: 4.5,
   gear: [

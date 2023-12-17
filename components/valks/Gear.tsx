@@ -1,9 +1,9 @@
 'use client';
 import useGlobalStore from '@/store/mode';
 import { useStore } from '@/helpers/functions';
-import { Gear } from '@/types/Gear';
+import { gearType } from '@/types/Gear';
 type props = {
-  gear: Gear;
+  gear: gearType;
 };
 
 export default function Gear({ gear }: props) {

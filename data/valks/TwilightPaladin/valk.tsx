@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const TwilightPaladin: Valkery = {
+const TwilightPaladin: valkeryType = {
   label: 'Twilight Paladin (TP)',
   image: 'Twilight Paladin',
   build: [build1],

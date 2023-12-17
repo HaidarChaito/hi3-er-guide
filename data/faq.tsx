@@ -1,7 +1,7 @@
-import { Faq } from '@/types/Faq';
+import { faqType } from '@/types/Faq';
 
 // Add FAQs here
-export const faqs: Faq[] = [
+export const faqs: faqType[] = [
   {
     question: 'Do you love cats? press here, totally legit cat pics!',
     gif: 'xdd.mp4',

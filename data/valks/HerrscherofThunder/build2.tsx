@@ -8,9 +8,9 @@ import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Herrscher_of_Thunder_Ego } from '@/data/signets/tsx/EgoSignets';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 
-const build2: BuildType = {
+const build2: buildType = {
   label: 'Bombard Build',
   tier: 4,
   gear: [

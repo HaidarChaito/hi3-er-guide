@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const ValkyrieGloria: Valkery = {
+const ValkyrieGloria: valkeryType = {
   label: 'Valkyrie Gloria (VG)',
   image: 'Valkyrie Gloria',
   build: [build1],

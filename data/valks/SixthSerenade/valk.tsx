@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const SixthSerenade: Valkery = {
+const SixthSerenade: valkeryType = {
   label: 'Sixth Serenade (6S)',
   image: 'Sixth Serenade',
   build: [build1],

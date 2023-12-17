@@ -1,8 +1,8 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 import build2 from './build2';
 
-const HerrscherofTruth: Valkery = {
+const HerrscherofTruth: valkeryType = {
   label: 'Herrscher of Truth (HoTr)',
   image: 'Herrscher of Truth',
   build: [build1, build2],

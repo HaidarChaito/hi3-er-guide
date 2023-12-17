@@ -1,8 +1,8 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './Build1';
 import build2 from './Build2';
 
-const Dreamweaver: Valkery = {
+const Dreamweaver: valkeryType = {
   label: 'Dreamweaver (Hare)',
   image: 'Dreamweaver',
   build: [build1, build2],

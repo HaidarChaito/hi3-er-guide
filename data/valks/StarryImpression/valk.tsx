@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const StarryImpression: Valkery = {
+const StarryImpression: valkeryType = {
   label: 'Starry Impression (Griseo)',
   image: 'Starry Impression',
   build: [build1],

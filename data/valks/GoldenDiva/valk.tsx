@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const GoldenDiva: Valkery = {
+const GoldenDiva: valkeryType = {
   label: 'Golden Diva (GD)',
   image: 'Golden Diva',
   build: [build1],

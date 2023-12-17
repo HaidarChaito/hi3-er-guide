@@ -8,9 +8,9 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Rev
 import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 
-const build2: BuildType = {
+const build2: buildType = {
   label: 'Basic ATK Build',
   tier: 5,
   gear: [

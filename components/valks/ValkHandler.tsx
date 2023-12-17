@@ -3,21 +3,22 @@ import { recValks } from '@/data/recommendedValks';
 import { valks } from '@/data/visibleValks';
 import { brokeValks } from '@/data/brokeModeValks';
 import { useState } from 'react';
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import useGlobalStore from '@/store/mode';
 import { compareValkeriesTier, useStore } from '@/helpers/functions';
 import useNonPersistentStore from '@/store/valk';
 import ValkModal from './ValkModal';
 import CardList from './CardList';
 import { patchNumber } from '@/data/patch';
+import { buildType } from '@/types/Build';
 
 export default function ValkHandler() {
   const store = useStore(useGlobalStore, (state) => state);
   const nonPersistentStore = useStore(useNonPersistentStore, (state) => state);
   const [query, setQuery] = useState<string | undefined>(undefined);
-  const [results, setResults] = useState<Valkery[]>(valks);
-  const [recResults, setRecResults] = useState<Valkery[]>(recValks);
-  const [brokeResults, setBrokeResults] = useState<Valkery[]>(brokeValks);
+  const [results, setResults] = useState<valkeryType[]>(valks);
+  const [recResults, setRecResults] = useState<valkeryType[]>(recValks);
+  const [brokeResults, setBrokeResults] = useState<valkeryType[]>(brokeValks);
   if (nonPersistentStore?.selectedValk != undefined) {
     document.body.classList.add(`overflow-hidden`);
   } else {
@@ -98,12 +99,16 @@ export default function ValkHandler() {
         brokeValks={brokeResults}
         recValks={recResults}
         valkeries={results}
-        setSelected={(valk: Valkery | undefined) => nonPersistentStore?.setSelectedValk(valk)}
+        setSelected={(valk: valkeryType | undefined) => nonPersistentStore?.setSelectedValk(valk)}
+        setSelectedBuild={(build: buildType | undefined) =>
+          nonPersistentStore?.setSelectedBuild(build)
+        }
       />
       <ValkModal
         isBudgetMode={!store?.gamerMode}
         selectedValk={nonPersistentStore?.selectedValk}
-        setSelected={(valk: Valkery | undefined) => nonPersistentStore?.setSelectedValk(valk)}
+        selectedBuild={nonPersistentStore?.selectedBuild}
+        setSelected={(valk: valkeryType | undefined) => nonPersistentStore?.setSelectedValk(valk)}
       />
     </div>
   );

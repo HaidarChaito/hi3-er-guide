@@ -1,12 +1,12 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 import build2 from './build2';
 import build3 from './build3';
 
-const HerrscherofRebirth: Valkery = {
+const HerrscherofRebirth: valkeryType = {
   label: 'Herrscher of Rebirth (HoRb)',
   image: 'Herrscher of Rebirth',
-  build: [build1, build2, build3,],
+  build: [build1, build2, build3],
   type: 1,
   tier: 5,
   minRank: 3,
@@ -20,4 +20,4 @@ const HerrscherofRebirth: Valkery = {
     { title: 15, selected: '✓ ' },
   ],
 };
-export default HerrscherofRebirth;  
+export default HerrscherofRebirth;

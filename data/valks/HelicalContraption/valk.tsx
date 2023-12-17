@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const HelicalContraption: Valkery = {
+const HelicalContraption: valkeryType = {
   label: 'Helical Contraption (VV)',
   image: 'Helical Contraption',
   build: [build1],

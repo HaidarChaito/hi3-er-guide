@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const ArgentKnightArtemis: Valkery = {
+const ArgentKnightArtemis: valkeryType = {
   label: 'Argent Knight Artemis (AKA)',
   image: 'Argent Knight Artemis',
   build: [build1],

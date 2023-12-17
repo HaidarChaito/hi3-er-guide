@@ -5,11 +5,11 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Herrscher_of_Rebirth_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Vicissitude_Hua } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { withPriority } from '@/helpers/functions';
 
-const build1: BuildType = {
+const build1: buildType = {
   label: 'Soothingness Build',
   tier: 5,
   isNew: true,

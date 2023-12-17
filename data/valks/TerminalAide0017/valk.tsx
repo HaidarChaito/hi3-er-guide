@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const TerminalAide0017: Valkery = {
+const TerminalAide0017: valkeryType = {
   label: 'Terminal Aide 0017 (Prom)',
   image: 'Terminal Aide 0017',
   build: [build1],

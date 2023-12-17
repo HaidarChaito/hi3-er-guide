@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const StygianNymph: Valkery = {
+const StygianNymph: valkeryType = {
   label: 'Stygian Nymph (SN)',
   image: 'Stygian Nymph',
   build: [build1],

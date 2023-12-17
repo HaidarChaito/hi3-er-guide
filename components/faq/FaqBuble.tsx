@@ -1,14 +1,14 @@
 'use client';
 import { BsFillArrowUpCircleFill } from 'react-icons/bs';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
-import { Faq } from '@/types/Faq';
+import { faqType } from '@/types/Faq';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect, useRef } from 'react';
 
 type props = {
-  faq: Faq;
+  faq: faqType;
 };
 
 export default function FaqBuble({ faq }: props) {

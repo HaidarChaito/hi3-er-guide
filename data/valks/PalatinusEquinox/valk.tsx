@@ -1,8 +1,8 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 import build2 from './build2';
 
-const PalatinusEquinox: Valkery = {
+const PalatinusEquinox: valkeryType = {
   label: 'Palatinus Equinox (PE)',
   image: 'Palatinus Equinox',
   build: [build1, build2],

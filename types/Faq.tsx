@@ -1,4 +1,4 @@
-export type Faq = {
+export type faqType = {
   question: string;
   answer?: string;
   multiLines?: string[];

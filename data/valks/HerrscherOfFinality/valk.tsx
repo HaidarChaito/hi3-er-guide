@@ -1,9 +1,9 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './Build1';
 import build2 from './Build2';
 import build3 from './Build3';
 
-const HerrscherOfFinality: Valkery = {
+const HerrscherOfFinality: valkeryType = {
   label: 'Herrscher of Finality (HoFi)',
   image: 'Herrscher of Finality',
   build: [build1, build2, build3],

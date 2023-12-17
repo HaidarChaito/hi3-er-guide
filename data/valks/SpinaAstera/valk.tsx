@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const SpinaAstera: Valkery = {
+const SpinaAstera: valkeryType = {
   label: 'Spina Astera (SpA)',
   image: 'Spina Astera',
   build: [build1],

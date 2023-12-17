@@ -1,7 +1,7 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
 
-const DisciplinaryPerdition: Valkery = {
+const DisciplinaryPerdition: valkeryType = {
   label: 'Disciplinary Perdition (Aponia)',
   image: 'Disciplinary Perdition',
   build: [build1],

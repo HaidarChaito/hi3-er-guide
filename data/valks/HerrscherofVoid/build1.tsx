@@ -9,9 +9,9 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { withPriority } from '@/helpers/functions';
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 
-const build1: BuildType = {
+const build1: buildType = {
   label: 'Thanos Snap Build',
   tier: 4.5,
   gear: [

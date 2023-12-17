@@ -1,4 +1,4 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import ArgentKnightArtemis from './valks/ArgentKnightArtemis/valk';
 import BrightKnightExcelsis from './valks/BrightKnightExcelsis/valk';
 import ChronoNavi from './valks/ChronoNavi/valk';
@@ -45,12 +45,12 @@ import TwilightPaladin from './valks/TwilightPaladin/valk';
 import ValkyrieGloria from './valks/ValkyrieGloria/valk';
 import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
-import { compareValkeriesTier } from '@/helpers/functions';
+import { compareBuildsTier, compareValkeriesTier } from '@/helpers/functions';
 import LunarVow from './valks/LunarVow/valk';
 import CosmicExpression from './valks/CosmicExpression/valk';
 
 // Add valkeries here
-const visibleValks: Valkery[] = [
+const visibleValks: valkeryType[] = [
   ArgentKnightArtemis,
   LunarVow,
   BrightKnightExcelsis,
@@ -102,4 +102,5 @@ const visibleValks: Valkery[] = [
 ];
 
 visibleValks.sort(compareValkeriesTier);
-export const valks: Valkery[] = visibleValks;
+visibleValks.forEach((valk) => valk.build.sort(compareBuildsTier));
+export const valks: valkeryType[] = visibleValks;

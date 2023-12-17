@@ -1,4 +1,4 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import Dreamweaver from './valks/Dreamweaver/valk';
 import HerrscherofHumanity from './valks/HerrscherofHumanity/valk';
 import HerrscherofOrigin from './valks/HerrscherofOrigin/valk';
@@ -18,7 +18,7 @@ import LunarVow from './valks/LunarVow/valk';
 import CosmicExpression from './valks/CosmicExpression/valk';
 
 // Add Broke mode valks here
-const brokValks: Valkery[] = [
+const brokValks: valkeryType[] = [
   Dreamweaver,
   HerrscherofHumanity,
   HerrscherofOrigin,

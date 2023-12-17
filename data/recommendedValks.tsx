@@ -1,4 +1,4 @@
-import { Valkery } from '@/types/Valkery';
+import { valkeryType } from '@/types/Valkery';
 import ChronoNavi from './valks/ChronoNavi/valk';
 import HerrscherOfFinality from './valks/HerrscherOfFinality/valk';
 import HerrscherofRebirth from './valks/HerrscherofRebirth/valk';
@@ -21,7 +21,7 @@ import CosmicExpression from './valks/CosmicExpression/valk';
 import FerventTempoDelta from './valks/FerventTempoDelta/valk';
 
 // Add Recommended here
-const recommendedValks: Valkery[] = [
+const recommendedValks: valkeryType[] = [
   ChronoNavi,
   HerrscherOfFinality,
   HerrscherofRebirth,

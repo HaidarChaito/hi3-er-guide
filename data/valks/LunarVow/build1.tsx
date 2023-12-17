@@ -1,4 +1,4 @@
-import { BuildType } from '@/types/Build';
+import { buildType } from '@/types/Build';
 import { Signets_of_Bodhi_Su } from '@/data/signets/tsx/Signets_of_Bodhi_Su';
 import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
@@ -10,7 +10,7 @@ import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Signets_of_Stars_Griseo } from '@/data/signets/tsx/Signets_of_Stars_Griseo';
 import { Signets_of_Daybreak_Kosma } from '@/data/signets/tsx/Signets_of_Daybreak_Kosma';
 
-const build1: BuildType = {
+const build1: buildType = {
   label: 'WA Spam Build',
   tier: 5,
   gear: [
