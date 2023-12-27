@@ -64,7 +64,7 @@ export default function AnimatedCard({
             height={410}
             width={400}
           />
-          <div className='parent absolute top-14 hidden w-full px-3 group-hover:block'>
+          <div className='parent absolute top-14 block w-full px-3 group-hover:block md:hidden'>
             {valkery.build.map((build, index) => (
               <button
                 key={index}
