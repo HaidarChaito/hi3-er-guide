@@ -23,7 +23,7 @@ export default function AnimatedCard({
   }
 
   return (
-    <div className='group w-full'>
+    <div className='group mx-auto w-3/4 md:w-full'>
       <motion.div
         layoutRoot
         className='relative'
@@ -57,7 +57,7 @@ export default function AnimatedCard({
           )}
           <Image
             priority
-            className='relative h-80 w-full rounded-lg object-cover object-top shadow-xl'
+            className='relative h-80 w-full rounded-lg object-fill object-top  shadow-xl md:object-cover'
             src={'/static/images/valks/' + valkery.image + '.png'}
             loading='eager'
             alt={valkery.label}
