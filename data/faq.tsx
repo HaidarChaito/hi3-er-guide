@@ -128,7 +128,7 @@ export const faqs: faqType[] = [
       'Herrscher of Sentience: https://www.pixiv.net/en/artworks/87340819',
       'Herrscher of Thunder: https://www.pixiv.net/en/artworks/101565228',
       'Herrscher of Truth:https://www.pixiv.net/en/artworks/103540549',
-      'Herrscher of Void: https://www.pixiv.net/en/artworks/113539364',
+      'Herrscher of Void: https://www.pixiv.net/en/artworks/108052876',
       'Infinite Ouroboros: https://www.pixiv.net/en/artworks/93655752',
       'Jade Knight: https://www.pixiv.net/en/artworks/101403624',
       'Luna Kindred: https://www.pixiv.net/en/artworks/71883141',
