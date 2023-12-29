@@ -133,7 +133,7 @@ export const faqs: faqType[] = [
       'Jade Knight: https://www.pixiv.net/en/artworks/101403624',
       'Luna Kindred: https://www.pixiv.net/en/artworks/71883141',
       'Miracle Magic Girl: https://www.pixiv.net/en/artworks/95440301',
-      'Midnight Absinthe: https://www.pixiv.net/en/artworks/79351986',
+      'Midnight Absinthe: https://www.pixiv.net/en/artworks/89966610',
       'Miss Pink Elf: https://www.pixiv.net/en/artworks/111832508',
       'Palatinus Equinox: https://www.pixiv.net/en/artworks/101726269',
       'Prinzessin der Verurteilung: https://www.pixiv.net/en/artworks/111903760',
