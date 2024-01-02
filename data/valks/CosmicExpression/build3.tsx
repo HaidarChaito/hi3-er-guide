@@ -12,7 +12,7 @@ import { CosmicEmpression_Ego } from '@/data/signets/tsx/EgoAdditions';
 import CosmicExpression from './valk';
 
 const build3: buildType = {
-  label: 'Griseo Skywalker - Meteorites enhanced version',
+  label: 'Jediseo with Meteorites',
   tier: 5,
   gear: [],
   bottomNotes: [
