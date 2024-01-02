@@ -28,7 +28,7 @@ const build1: buildType = {
     },
   ],
   isNew: true,
-  notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+  notes: 'Note for 7.1 P2: Despite not having in-built ignite or bleeding, SU2 will offer these debuffs randomly through attacking. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Silverwing_NEX_Ego.Blessing_of_Phantom_Plumes, 'Start'),

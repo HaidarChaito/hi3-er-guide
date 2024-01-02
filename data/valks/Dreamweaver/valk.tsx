@@ -11,11 +11,11 @@ const Dreamweaver: valkeryType = {
   minRank: 3,
   loadoutBuffs: [
     { title: 0, selected: '✓' },
-    { title: 5, selected: '✓ Build 1' },
-    { title: 5, selected: '✓ Build 1/2' },
-    { title: 10, selected: '✓ Build 1' },
-    { title: 10, selected: '✓ Build 1/2' },
-    { title: 15, selected: '✓ Build 2 ' },
+    { title: 5, selected: '✓ ' },
+    { title: 5, selected: '✓'  },
+    { title: 10, selected: '✓ ' },
+    { title: 10, selected: '✓ ' },
+    { title: 15, selected: ' ' },
     { title: 15, selected: '' },
   ],
 };
