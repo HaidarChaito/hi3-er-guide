@@ -16,18 +16,18 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: 'Dream Cutter: Polar Star | Little Joys TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo:
         'Dream Cutter OR Any Highest ATK Chakram Statstick | Leuwenhooek TB Broboli/Himeko M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  isNew: true,
+
   notes:
     'Swap BR for BK by F9/F10 Shop to deal with Heimdall. This build focus on using charged attacks, similiarly to the weapon active build, your absolute evasion stacks will be consumed to refresh your glitter bar for more charged attacks to deal very heavy damage.',
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Charged attack > WA > Charged attack > WA > Repeat; Build makes uses of glitter stacks to spam its attacks and ultimate evasions to refresh glitter stacks, ult to refresh resources',
     },

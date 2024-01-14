@@ -7,8 +7,8 @@ const ShadowKnight: valkeryType = {
   build: [build1],
   type: 3,
   tier: 3.5,
-  minRank: 4,
-  loadoutBuffs: [
+  min_rank: 4,
+  loadout_buffs: [
     { title: 0, selected: '✓' },
     { title: 5, selected: ' ' },
     { title: 5, selected: '' },

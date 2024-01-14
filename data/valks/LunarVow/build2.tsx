@@ -16,22 +16,22 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: 'Bloodied Casket PRI | Sweet Dreams TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo:
         'Bloodied Casket PRI or Any High ATK Statstick Cross | Linnaeus TM/Zeno TM Handel/Zhenyi/Aladdin B',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Bloodied Casket PRI or Any High ATK Statstick Cross | Zhenyi TB Linn M ',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  isNew: true,
+
   notes:
     ' This build is slightly ahead in strength and it upholds the advantage of being a 1 Ego Start build that uses Because of You to get 2 more Egos and make it whole. It is strong enough to work with just 1 Ego, but still recommended to go with BoY and turn it into a 3 Ego build regardless. The SEQ for this build is a bit tricky to get around, but easy to understand once you do it. You can swap BR for BK by F9/F10 Shop to deal with Heimdall if you need to.',
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Gather mobs (with AE), tap Flashing Wep Active to enter Frenzy > Hold Wep Active to perform Combo OR save it for a new wave (with Lasting Embrace Ego the Combo actually deals insane amounts of damage, so it becomes your other half of damage)> Spam Evade connect into 4th Basic Hold, do this a 2nd time until Bar is refilled again and repeat whole sequence and weaving Ultimate in-between; once you get Divine Pact Ego signet, Ultimate is used to skip the refilling as it will immediately fill it and can perform the Frenzy into Hold for Combo and repeat.',
     },

@@ -12,29 +12,29 @@ import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 const build3: buildType = {
   label: 'Decay Build',
   tier: 3.5,
-  isNew: true,
+
   gear: [
     {
       gearInfo: 'Life Harvester: Shared Destiny | Seele: Herrscher of Rebirth TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo:
         'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo:
         'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo:
         'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Dodge > Ult > Swap to Life Binder Form > Dodges(Ultimate Evasion stacks reliant)/Attacks till bar full > Combo attack x2 > Repeat',
     },

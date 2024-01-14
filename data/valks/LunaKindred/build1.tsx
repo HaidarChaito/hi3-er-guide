@@ -14,15 +14,15 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Hekate Sombre / Elysian Astra | Elysia TB Dante M',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Deploy Cross > Spam Charged > Use ult on rare ocassion where you have SP for it > Repeat.',
     },
   ],
-  isNew: true,
+
   signets: [
     [
       withPriority(Luna_Kindred_Ego.Blessing_of_Penumbra, 'Start'),

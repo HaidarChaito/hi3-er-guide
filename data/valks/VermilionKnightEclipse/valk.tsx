@@ -8,8 +8,8 @@ const VermilionKnightEclipse: valkeryType = {
   build: [build1, build2],
   type: 4,
   tier: 5,
-  minRank: 3.2,
-  loadoutBuffs: [
+  min_rank: 3.2,
+  loadout_buffs: [
     { title: 0, selected: '✓' },
     { title: 5, selected: '' },
     { title: 5, selected: '✓' },

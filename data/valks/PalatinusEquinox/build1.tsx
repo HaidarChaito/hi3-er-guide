@@ -16,19 +16,19 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Midnight Ataegina | Bianka Theatre TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Midnight Ataegina | Ely TB Dante M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Wep Active into Evade (collide against enemy) > Active connect into Equinox Severance > Repeat while you have UE Charges; when you do not, spam Gunlance Active to fill Bar into Equinox Severance.',
     },
   ],
-  isNew: true,
+
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [

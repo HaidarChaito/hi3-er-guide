@@ -16,15 +16,15 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Path of Acheron PRI | Allan Poe TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Charged ATK connect into Evade through enemy (refill respective bar based on Saule or Veliona), do this twice (no UE Charges left) > Ult > Repeat.',
     },
   ],
-  isNew: true,
+
   signets: [
     [
       withPriority(Stygian_Nymph_Ego.Blessing_of_Vulnerable_Duality, 'Start'),

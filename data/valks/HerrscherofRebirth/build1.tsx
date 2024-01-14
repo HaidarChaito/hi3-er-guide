@@ -12,29 +12,29 @@ import { withPriority } from '@/helpers/functions';
 const build1: buildType = {
   label: 'Soothingness Build',
   tier: 5,
-  isNew: true,
+
   gear: [
     {
       gearInfo: 'Life Harvester: Shared Destiny | Seele: Herrscher of Rebirth TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo:
         'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Sirin Ascendant TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo:
         'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Shattered Swords TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo:
         'Life Harvester: Shared Destiny / Highest ATK Scythe Statstick | Elysia TB Dante M / Other Variants',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Dodge>ULT>Swap to lifebinder form> WAx2 > COMBOx2 > Repeat; ult as necessary',
     },

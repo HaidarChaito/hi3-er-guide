@@ -7,7 +7,7 @@ const BrightKnightExcelsis: valkeryType = {
   build: [build1],
   type: 1,
   tier: 2.5,
-  loadoutBuffs: [
+  loadout_buffs: [
     { title: 0, selected: '✓' },
     { title: 5, selected: '✓' },
     { title: 5, selected: '✓' },
@@ -16,6 +16,6 @@ const BrightKnightExcelsis: valkeryType = {
     { title: 15, selected: ' ' },
     { title: 15, selected: '' },
   ],
-  minRank: 3.2,
+  min_rank: 3.2,
 };
 export default BrightKnightExcelsis;

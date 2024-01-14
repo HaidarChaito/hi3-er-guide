@@ -16,19 +16,19 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: '7 Thunders of Retribution | Handel TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: '7 Thunders of Retribution | Benares: Awakening TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Evade into 7T Active > Evade into Basic Atk connect Spam > Ocassional Ult into 7T and Finisher.',
     },
   ],
-  isNew: true,
+
   signets: [
     [
       withPriority(Herrscher_of_Thunder_Ego.Blessing_of_Tsukuyomi, 'Start'),

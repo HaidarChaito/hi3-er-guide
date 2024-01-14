@@ -43,18 +43,18 @@ export default function ValkModal({
           className='fixed inset-0 z-30 cursor-pointer overflow-hidden overflow-y-scroll bg-black/75  py-28 text-neutral-focus backdrop-blur-md'
         >
           <section className={`mx-auto mt-2 flex-1 flex-wrap sm:flex sm:w-3/4`}>
-            {selectedValk.loadoutBuffs != undefined &&
+            {selectedValk.loadout_buffs != undefined &&
               (selectedBuild != undefined ? (
                 <div className='flex justify-center align-middle sm:w-full md:w-fit'>
-                  <LoadoutBuffs buffs={selectedValk.loadoutBuffs} />
+                  <LoadoutBuffs buffs={selectedValk.loadout_buffs} />
                 </div>
               ) : (
                 <div className='w-full'>
-                  <LoadoutBuffs buffs={selectedValk.loadoutBuffs} />
+                  <LoadoutBuffs buffs={selectedValk.loadout_buffs} />
                 </div>
               ))}
             {selectedValk.build.map((build, index) => {
-              if (build.notBudget && isBudgetMode) return <></>;
+              if (build.not_budget && isBudgetMode) return <></>;
               if (build != selectedBuild && selectedBuild != undefined) return <></>;
               return (
                 <>

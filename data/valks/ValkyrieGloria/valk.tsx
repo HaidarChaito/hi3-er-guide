@@ -7,8 +7,8 @@ const ValkyrieGloria: valkeryType = {
   build: [build1],
   type: 4,
   tier: 1,
-  minRank: 5,
-  loadoutBuffs: [
+  min_rank: 5,
+  loadout_buffs: [
     { title: 0, selected: '✓' },
     { title: 5, selected: '✓' },
     { title: 5, selected: '' },

@@ -15,23 +15,23 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Sleepers Dream | Michelangelo TB Dante M',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Sleepers Dream | Bianka Theatre TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Sleepers Dream | Elysia TB Dante/Polo M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Weave Evades and Basics to fill Juice Meter, when full perform Charged > Sleepri Active into Ult > Spam Basics until Sleepri Active and Ult are both off CD and repeat.',
     },
   ],
-  isNew: true,
+
   notes:
     'LE is used in order to help with FTs SP problems during the first 4 floors. If you cannot clear F4 Double in time with IWBW, use Dreamful Gold instead. If a 4th Elysia door appears during your run, grab it for Fervor. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

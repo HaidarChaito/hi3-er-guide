@@ -14,28 +14,28 @@ import { buildType } from '@/types/Build';
 const build1: buildType = {
   label: 'Gundam Build',
   tier: 5,
-  isNew: true,
+
   notes:
     'This build is far stronger than Ult Build and thus naturally recommended over it. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   gear: [
     {
       gearInfo: 'Domain of Ascension | Bronya Zaychik TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Any Highest ATK Cannon Statstick | Elysia Pristine TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Cannon Statstick | Willows TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo:
         'Any Highest ATK Cannon Statstick | Turgenev TB Jin Shengtan M (Or any other useable M)',
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: At max weapons > Transform > Combo attack > WA > Combo attack > WA Etc.. Alternate, ult when available',
     },

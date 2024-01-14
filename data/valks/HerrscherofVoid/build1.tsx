@@ -17,23 +17,23 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Domain of Void | Sirin Ascendant TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Domain of Void | Elysia TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Domain of Void | Kafka/Michelangelo TB Elysia/SirinA M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Hold ATK (Enter Herrscher Form) > KoV/DoV Active > Evade > Basic and wait 1 sec for WA CD > WA into Evade > Repeat. When needed, use Basics into Space Core for the CDs.',
     },
   ],
-  isNew: true,
+
   notes:
     'Optional Ego signets are listed in priority of order! Choose between VC or BR as your 2nd staple support choice. It depends on if you like staying at low HP for Kalpas signets or not. Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

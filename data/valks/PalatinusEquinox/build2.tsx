@@ -15,19 +15,19 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: 'Midnight Ataegina | Bianka Theatre TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Midnight Ataegina | Ely TB Dante M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Ride Horse > Hold ATK until depleting all bar > Evade and repeat > once out of UE Charges, use Ult to refresh them. If missing SP, swap into Guardian Form for extra 12 SP to Ult and change back again, repeat whole process.',
     },
   ],
-  isNew: true,
+
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [

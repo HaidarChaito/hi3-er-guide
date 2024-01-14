@@ -13,30 +13,30 @@ import { buildType } from '@/types/Build';
 const build1: buildType = {
   label: 'Ult Build',
   tier: 5,
-  isNew: true,
+
   gear: [
     {
       gearInfo: 'Domain of Ego | Elysia Pristine TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Any Highest ATK Bow Statstick | Willows TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Bow Statstick | Ana Schariac TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Bow Statstick | Jin Shengtan TM Ely Pristine/Other B Pieces',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Bow Statstick | Scott TM Rasputin B',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Dodge > Charged attack x2 > WA (VV signets) > Ult > Dodge > WA > Charged > WA > Ult > Charged till ult is back > Repeat from step 3; Keep VV Support item if you have trouble with damage.',
     },

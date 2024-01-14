@@ -14,23 +14,23 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Rudder in Dream PRI | Idol Transformation TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Any Highest ATK Chakram Statstick | Little Joys TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Chakram Statstick | Jin Shengtan TM / Any Useable B Piece',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Wep Active > Basics & Evade till full bar > Charged into Fire Ring > Ult > Repeat.',
     },
   ],
-  isNew: true,
+
   notes:
     'Swap BR for BK by F9/F10 Shop for Heimdall. CN has a hard time against Heimdall without her.',
   signets: [

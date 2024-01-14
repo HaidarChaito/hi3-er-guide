@@ -15,24 +15,24 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: 'Domain of Genesis | Kiana TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Domain of Genesis | Little Joys TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Domain of Genesis | Leuweenhoek TB Kiana/Broboli/Thales M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
   notes: 'Strong HoFinality build for general usages, capable of dealing benchmark numbers easily',
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: SEQ attacks/Combo/WA till 12 rift stacks then ult, no clear sequence in mind, you can make use of animations skip to speed up the stacking part',
     },
   ],
-  isNew: true,
+
   signets: [
     [
       withPriority(Herrscher_of_Finality_Ego.Blessing_of_Final_Moon, 'Start'),

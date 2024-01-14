@@ -1,4 +1,4 @@
 export type gearType = {
   gearInfo: string;
-  isBudgetVisible?: boolean;
+  is_budget_visible?: boolean;
 };

@@ -16,24 +16,24 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Nocturnal Stealth: Beam | Shenzhou Remembrance TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Any Highest ATK Fists Statstick | Willows/Ana Schariac TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Fists Statstick | Jin Shengtan TM & Any useable B piece',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Fists Statstick | Scott TMB',
     },
   ],
-  isNew: true,
+
   notes:
     'Starting signet is whichever is +2. Bodhi +2 = Su start. Gold +2 = Eden start, then for Mid you go with whichever of these 2 wasnt started with. You can opt for swapping BR for BK by F9/F10 Shop to have an easier time against Heimdall.',
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Do a meele base attack for the loadout > Ult > Combo attack > Spam attacks till your bar is almost empty > Combo attack > Repeat',
     },

@@ -16,15 +16,15 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Astral Divide: Pisces | Ragna TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Hold ATK to create Vortex > Hold ATK again for better Vortex (Bar turns yellow) > Wep Active into whole 1-5th Basic ATK Seq for 20 Stacks (Note to Ultimate Evasion as well; grants 5 stacks to reach 20 faster), then either reposition with Evade or Hold ATK for Rapier Stab into Ult > instant Rapier Stab. Always make sure you perform enough Basic ATK SEQ so everytime your purple bar is always full (no downtime).',
     },
   ],
-  isNew: true,
+
   notes:
     'BoY start is preferred, if you cannot clear F4 Double in time, use Dreamful Gold instead and go shop F5 to swap BoY in. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

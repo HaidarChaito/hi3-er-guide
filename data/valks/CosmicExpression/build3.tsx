@@ -15,14 +15,13 @@ const build3: buildType = {
   label: 'Jediseo with Meteorites',
   tier: 5,
   gear: [],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Dodge > WA + Ult > Dodge SEQ 4 Connect > WA - Repeat - Read notes. This build takes the best of both worlds between Parry and Jedi standard build - being the best build available for Griseo.',
     },
   ],
-  isNew: true,
-  notes:
-    'DO NOTE - DO NOT PRESS WA, OTHERWISE YOU WILL LOSE OUT ON DPS. IT WILL SELF ACTIVATE!',
+
+  notes: 'DO NOTE - DO NOT PRESS WA, OTHERWISE YOU WILL LOSE OUT ON DPS. IT WILL SELF ACTIVATE!',
   signets: [
     [
       withPriority(CosmicEmpression_Ego.Blessing_of_Anchor, 'Start'),
@@ -32,15 +31,15 @@ const build3: buildType = {
     ],
 
     [
-        Signets_of_Daybreak_Kosma.Wings_that_Mask_the_Sanguine_Moon,
-        Signets_of_Daybreak_Kosma.Talons_that_Desecrate_the_Santuary_sic,
-        Signets_of_Daybreak_Kosma.Horns_that_Rip_the_Bleak_Sky,
-        Signets_of_Daybreak_Kosma.Eyes_that_Overlook_the_Vicious_Abyss,
-        withPriority(Signets_of_Daybreak_Kosma.Heart_that_Committed_Seven_Crimes, 'Optional'),
-        withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
-        Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
-        Signets_of_Daybreak_Kosma.Unwavering_Promise,
-      ],
+      Signets_of_Daybreak_Kosma.Wings_that_Mask_the_Sanguine_Moon,
+      Signets_of_Daybreak_Kosma.Talons_that_Desecrate_the_Santuary_sic,
+      Signets_of_Daybreak_Kosma.Horns_that_Rip_the_Bleak_Sky,
+      Signets_of_Daybreak_Kosma.Eyes_that_Overlook_the_Vicious_Abyss,
+      withPriority(Signets_of_Daybreak_Kosma.Heart_that_Committed_Seven_Crimes, 'Optional'),
+      withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
+      Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
+      Signets_of_Daybreak_Kosma.Unwavering_Promise,
+    ],
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
@@ -51,7 +50,6 @@ const build3: buildType = {
       Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
     ],
 
-    
     [
       Signets_of_Infinity_Mobius.Entwined_P,
       Signets_of_Infinity_Mobius.Lip_Poison_E,

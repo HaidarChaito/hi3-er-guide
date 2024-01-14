@@ -7,8 +7,8 @@ const GoldenDiva: valkeryType = {
   build: [build1],
   type: 3,
   tier: 2.5,
-  minRank: 5,
-  loadoutBuffs: [
+  min_rank: 5,
+  loadout_buffs: [
     { title: 0, selected: '' },
     { title: 5, selected: '✓' },
     { title: 5, selected: '✓' },

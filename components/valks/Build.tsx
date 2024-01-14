@@ -40,7 +40,7 @@ export default function Build({ build, valkery }: props) {
               <div className={`w-fit border-b font-bold border-b-${switchColor(valkery.type)}`}>
                 Gameplay notes:
               </div>
-              {build.bottomNotes?.map((note, j) => (
+              {build.extra_notes?.map((note, j) => (
                 <div key={j}>
                   {note.text && <div className='block w-full'>{note.text}</div>}
                   {note.gif && <GifPlayer video={note.gif} />}
@@ -217,9 +217,9 @@ export default function Build({ build, valkery }: props) {
                     <div key={j} className='flex leading-7'>
                       <div>
                         {signet.label}
-                        {signet.shortDescription != undefined && (
+                        {signet.short_description != undefined && (
                           <span className='mx-1 italic text-primary'>
-                            ({signet.shortDescription})
+                            ({signet.short_description})
                           </span>
                         )}
                         {signet.priority != undefined && (

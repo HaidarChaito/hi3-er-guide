@@ -9,8 +9,8 @@ const HerrscherofThunder: valkeryType = {
   build: [build1, build2, build3],
   type: 3,
   tier: 3,
-  minRank: 3.2,
-  loadoutBuffs: [
+  min_rank: 3.2,
+  loadout_buffs: [
     { title: 0, selected: '✓' },
     { title: 5, selected: '✓' },
     { title: 5, selected: '✓' },

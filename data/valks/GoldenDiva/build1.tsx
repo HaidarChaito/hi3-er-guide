@@ -16,19 +16,19 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Echo of Paradise PRI | Handel TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Domain of Incandescence / Any Highest ATK Pistol Statstick | Handel TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Echo Pri Active > Basics till 6 Notes into Combo > Ult > Spam Basics till Ult comes off CD > Repeat.',
     },
   ],
-  isNew: true,
+
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [

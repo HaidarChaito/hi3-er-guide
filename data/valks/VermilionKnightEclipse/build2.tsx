@@ -17,20 +17,20 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: 'Shuhadaku of Uriel | Aslaug TB Himeko M',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo:
         'Shuhadaku of Uriel / Any Highest ATK Greatsword Statstick | Leuweenhoek TB Himeko/Thales M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Spam Ultimate, but use Basics as needed to farm SP and keep using it, as well as make use of Evade connect to Guren Flash for free 20 SP (thanks to Burning Flow) and to regain Ult Charges. Use Uriel Active, always at 4 Stacks.',
     },
   ],
-  isNew: true,
+
   signets: [
     [
       withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Fiery_Mind, 'Start'),

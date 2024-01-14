@@ -17,15 +17,15 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: 'Iris of Dreams PRI | Handel TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Iris Pri Active > Evade into Charged > Ult (if have enough SP, otherwise do basics till enough) > Evade into Charged anim cancels (watch out for Bird Rune being on CD; it connects into Snake Rune) > Repeat until Ult is available again, then repeat Evade into Charged',
     },
   ],
-  isNew: true,
+
   signets: [
     [
       withPriority(Fallen_Rosemary_Ego.Blessing_of_Valfreyja, 'Start'),

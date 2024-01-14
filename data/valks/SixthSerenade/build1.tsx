@@ -16,24 +16,24 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Tranquil Rhapsody | Willows TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Domain of Incandescence / Any Highest ATK Pistol Statstick | Ana Schariac TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo:
         'Domain of Incandescence / Any Highest ATK Pistol Statstick | JST TM & Any Useable B Piece',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Spam Basic until enough SP for Ult > Wep Active or Ultimate Evasion into Basic and spam it until Ult comes off CD and repeat.',
     },
   ],
-  isNew: true,
+
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [

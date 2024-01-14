@@ -16,22 +16,22 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Bloodied Casket PRI | Sweet Dreams TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo:
         'Bloodied Casket PRI or Any High ATK Statstick Cross | Linnaeus TM/Zeno TM Handel/Zhenyi/Aladdin B',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Bloodied Casket PRI or Any High ATK Statstick Cross | Zhenyi TB Linn M ',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  isNew: true,
+
   notes:
     'Strong build for Lunar Vow; the only downside that this build has is that it requires F2 Ego Reset in order to unlock its full strength and rotate fluidly, otherwise it lacks the damage. It also suffers from lack of gather. You can swap BR for BK by F9/F10 Shop to deal with Heimdall.',
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Gather Mobs (with AE), then tap Flashing Wep Active > Spam Tap Wep Active until Frenzy Bar is depleted into Combo (can weave Ult in-between) > When Bar is depleted, manually charge it by Holding Wep Active OR use Ultimate for this if you have Divine Pact Ego.',
     },

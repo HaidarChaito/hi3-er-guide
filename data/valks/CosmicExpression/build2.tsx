@@ -14,12 +14,12 @@ const build2: buildType = {
   label: 'Parry Build',
   tier: 2,
   gear: [],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: WA > Hold your parry button > While holding down the parry button, press attack for Combo 4 when the timefracture begins > Repeat',
     },
   ],
-  isNew: true,
+
   notes:
     'Disclaimer this build feels janky is extremely weaker than the other, although looking braindead, this build needs to pay attention to the time fracture as it can be easily mistimed, ruining the SEQ 4 connect; Take BKE if you find yourself struggling with Heimdal',
   signets: [

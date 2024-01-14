@@ -17,19 +17,19 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Pandora Box 18th | MEI TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Any Highest ATK Fists Statstick | Ely TB Dante M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Wep Active > Combo > Flashing Wep Active > Ult > Flashing Wep Active > Repeat.',
     },
   ],
-  isNew: true,
+
   notes:
     'Starter Signet changes based on whether Helix is +2 or not. If yes = Vill-V start. If not = Deliverance Start. Kalpas is also skippable by choice, shifting the focus to Kevin, Vill-V, Pardo and going with Eden2 instead. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

@@ -13,24 +13,24 @@ import { withPriority } from '@/helpers/functions';
 const build1: buildType = {
   label: 'Flag Build',
   tier: 5,
-  isNew: true,
+
   gear: [
     {
       gearInfo: 'Prophetic Dreams PRI | Alexandra TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Prophetic Dreams PRI | Bianka TM Ely B',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Prophetic Dreams | Elysia TB Dante M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
   notes:
     'This build uses the strong synergy between Kevin signets and Thousand thoughts ego signet to deal consistent high damage through Dreamweaver ideas, this build is considered the easiest and the strongest of the two.',
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: SEQ 4 or WA Sequence, they both produce similar results, make sure to never miss your SEQ 4',
     },

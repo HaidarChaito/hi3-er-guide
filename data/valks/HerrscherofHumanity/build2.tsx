@@ -13,30 +13,30 @@ import { buildType } from '@/types/Build';
 const build2: buildType = {
   label: 'Ballista Build',
   tier: 4.5,
-  isNew: true,
+
   gear: [
     {
       gearInfo: 'Domain of Ego | Elysia Pristine TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Any Highest ATK Bow Statstick | Willows TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Bow Statstick | Ana Schariac TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Bow Statstick | Jin Shengtan TM Ely Pristine/Other B Pieces',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Bow Statstick | Scott TM Rasputin B',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Dodge > Charged > When stack 3/3 > WA > repeat (Dodge when the Ultimate Evasion is up); Keep VVs active support if you struggle with damage',
     },

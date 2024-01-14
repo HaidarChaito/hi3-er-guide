@@ -16,15 +16,15 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: 'Twirling Gaze PRI | Aladdin TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Wep Active into Combo and repeat until enough SP for Ult. Repeat.',
     },
   ],
-  isNew: true,
+
   notes:
     'The Starter depends on whether Deliverance is +2 or not. If yes = start with Kevin. If no = start with Kosma. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

@@ -16,15 +16,15 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Sanguine Gaze: Union | Verne TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Wep Active connect into ATK SEQ and get 6 Carmine Gash, Hold ATK, repeat until enough SP > Ult > Wep Active into Charged Spam (keep spamming Wep Active during this) > Finisher before Ult ends > Repeat.',
     },
   ],
-  isNew: true,
+
   notes: 'Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [

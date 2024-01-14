@@ -15,15 +15,15 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Iris of Dreams PRI | Handel TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Iris Pri Active into Evade > Charged > Ultimate (If have enough SP) > Weave Basic ATKs into 1+ bar Charged and combine with Evade for anim cancel or for Bird Rune (important to watch out for its CD) > Repeat.',
     },
   ],
-  isNew: true,
+
   signets: [
     [
       withPriority(Fallen_Rosemary_Ego.Blessing_of_Soul_Siphon, 'Start'),

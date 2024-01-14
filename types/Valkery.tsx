@@ -7,6 +7,6 @@ export type valkeryType = {
   type?: number;
   tier?: number;
   build: buildType[];
-  loadoutBuffs?: buffType[];
-  minRank?: number;
+  loadout_buffs?: buffType[];
+  min_rank?: number;
 };

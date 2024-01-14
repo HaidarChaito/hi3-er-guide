@@ -16,19 +16,19 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Whisper of the Past PRI | Elysia TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Whisper of the Past PRI / Any Highest ATK Bow Statstick | Kafka TM Michelangelo B',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Wep Active into Charged cancel to instant Ult > Charged and spam Basic, weave Wep Active in-between to recover meter; always make sure you are not with 2 Wep Active charges remaining. Repeat.',
     },
   ],
-  isNew: true,
+
   notes:
     'You only swap LE out when you get Edens Initial/Max SP signet. Swap LE/SA for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

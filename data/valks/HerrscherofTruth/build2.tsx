@@ -15,19 +15,19 @@ import { buildType } from '@/types/Build';
 const build1: buildType = {
   label: 'Ult Nuke Build',
   tier: 5,
-  isNew: true,
+
   gear: [
     {
       gearInfo: 'Domain of Ascension | Bronya Zaychik TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Any Highest ATK Cannon Statstick | Elysia Pristine TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Cannon Statstick | Willows TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo:
@@ -36,7 +36,7 @@ const build1: buildType = {
   ],
   notes:
     'This build is weaker than Gundam Build, and has much more severe downscalability problems especially in the early game. Not recommended if your HTR has low ATK even if 4/4, and especially if weather and load buffs are not the most favorable for her. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Wep Active connect into ATK and instant cancel for entering Mecha Form > Evade into Combo + Wep Active (Red Paint, V-V Buffs, CD on Ult yet), use Ult once the CD is off > Repeat',
     },

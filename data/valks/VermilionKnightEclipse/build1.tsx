@@ -16,20 +16,20 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Shuhadaku of Uriel | Ragna TB Himeko/Thales M',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo:
         'Shuhadaku of Uriel / Any Highest ATK Greatsword Statstick | Leuweenhoek TB Himeko/Thales M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Spam Charged ATK, weaving some Basics in if needed to allow Heat bar to go down; if you go to Overheat, make sure you can use Ult to clear it and to gain stacks for Uriel (Also for Griseo Yellow purposes). Use Uriel Weapon Active for Griseo Red Paint and to deal massive damage. Reposition with Evade as the way the Charged gathers can be a bit unreliable. With kalpas start, remember to lower your HP before next floor with blood rose or on the shops floor, interacting with the shop will reset support valkyrie CD, allowing to lower your hp quickly!',
     },
   ],
-  isNew: true,
+
   signets: [
     [
       withPriority(Vermilion_Knight_Eclipse_Ego.Blessing_of_Blaze, 'Start'),

@@ -9,7 +9,7 @@ type props = {
 export default function Gear({ gear }: props) {
   const store = useStore(useGlobalStore, (state) => state);
 
-  if (store?.gamerMode === false && gear.isBudgetVisible) {
+  if (store?.gamerMode === false && gear.is_budget_visible) {
     return <div className='w-full'>{gear.gearInfo}</div>;
   }
   if (store?.gamerMode === true) return <div className='w-full'>{gear.gearInfo}</div>;

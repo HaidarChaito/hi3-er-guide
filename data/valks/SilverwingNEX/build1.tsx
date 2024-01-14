@@ -15,20 +15,21 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Falcon Flare PRI | Bronya N-EX TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Falcon Flare PRI | Bronya N-EX TB Zaychik M',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Use Support and trigger QTE, deploy Scatter Barrier and spam ATK; once you have Grey Falcon, Hold ATK and spam Shotgun Combo. Use Ult when available.',
     },
   ],
-  isNew: true,
-  notes: 'Note for 7.1 P2: Despite not having in-built ignite or bleeding, SU2 will offer these debuffs randomly through attacking. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
+
+  notes:
+    'Note for 7.1 P2: Despite not having in-built ignite or bleeding, SU2 will offer these debuffs randomly through attacking. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [
       withPriority(Silverwing_NEX_Ego.Blessing_of_Phantom_Plumes, 'Start'),

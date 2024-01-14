@@ -8,8 +8,8 @@ const ValkyrieQuicksand: valkeryType = {
   build: [build1, build2],
   type: 1,
   tier: 4.5,
-  minRank: 5,
-  loadoutBuffs: [
+  min_rank: 5,
+  loadout_buffs: [
     { title: 0, selected: '✓' },
     { title: 5, selected: '' },
     { title: 5, selected: ' ' },

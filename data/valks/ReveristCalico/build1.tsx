@@ -15,24 +15,24 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Purana Phantasma | Bastet/Willows TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Purana Phantasma / Any Highest ATK Chakram Statstick | Ana Schariac TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo:
         'Purana Phantasma / Any Highest ATK Chakram Statstick | Jin Shengtan TM Cecilia: Youth B',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Yellow Combo > Wep Active > Purple Combo > Breakdance (QTE) > Ult > Keep switching between both Combos and Breakdance till Ult comes off CD > Repeat.',
     },
   ],
-  isNew: true,
+
   notes: 'Switch BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [

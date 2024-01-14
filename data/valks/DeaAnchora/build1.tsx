@@ -14,19 +14,19 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Saggitarius Astra | Shakespeare Adrift TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Saggitarius Astra | Little Joys TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Normal DA gameplay. Spam Ultimate till full Bar > Hold ATK to enter Astral Harness > Spam Ult 2-3 times (3 times once Halo + Sheen are gotten) > Repeat.',
     },
   ],
-  isNew: true,
+
   notes:
     'BoY start is preferred, however, you most likely will not be able to clear F4 Double in time without Kevin Support Skill. At F5 Shop, swap it out for Because of You to get your Egos at F11. Bring BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

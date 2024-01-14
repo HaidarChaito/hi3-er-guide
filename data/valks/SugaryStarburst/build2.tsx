@@ -15,17 +15,17 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: 'Star Dance: Enlightenment | Cecilia Youth TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Any Highest ATK Pistol Statstick | Willows TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  isNew: true,
+
   notes:
     'Needs SS Rank minimum. Starter Signet depends on if Deliverance is +2 or not. If yes = Start with Kevin. If no = Start with Aponia. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
-  bottomNotes: [{ text: 'SEQUENCE: Dodge > Attack > Repeat; Ultimate when up' }],
+  extra_notes: [{ text: 'SEQUENCE: Dodge > Attack > Repeat; Ultimate when up' }],
   signets: [
     [
       withPriority(Sugary_Starburst_Ego.Blessing_of_Roller_Dance, 'Start'),

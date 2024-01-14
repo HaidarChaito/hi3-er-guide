@@ -16,16 +16,16 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Domain of Unity | Raiden Mei TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  notBudget: true,
-  bottomNotes: [
+  not_budget: true,
+  extra_notes: [
     {
       text: 'SEQUENCE: Evade (enters 6s CD) into connect ATK > Active > Evade (Ultimate Evasion Skill) > 3 Twisted Origin Combo > 1st-3rd Basic SEQ into Evade cancel for 4 SEQ and fill 1 Twisted Origin > Repeat and modify as needed based on CDs (Delay the connection of WA, 6s Evade, UE Skill; you want to get 3 Twisted Origin everytime) > Repeat.',
     },
   ],
-  isNew: true,
+
   notes:
     'An Old Pals Legacy for the +1 on Kalpas Signets. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

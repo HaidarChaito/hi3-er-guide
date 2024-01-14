@@ -15,19 +15,19 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Domain of Incandescence | Himeko TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Domain of Incandescence | Little Joys TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Tap Ult (Airborne Cleave) > Enter Herrscher Mode > Basics until Heat is gone > Evade into Wep Active (cancel Evade anim) > Blackhole > Spam Basics until Heat is gone again > Blackhole > Basics till Ult right before Herrscher Mode ends. Once Reburn is gotten, you add another Blackhole after the first one and save an UE Charge once you go into Overheat. With Tempered Warrior, 2 Blackholes used; a total of 4 can be done, always saving one UE Charge to clear Overheat and eliminate downtime.',
     },
   ],
-  isNew: true,
+
   signets: [
     [
       withPriority(Herrscher_of_Flamescion_Ego.Blessing_of_Heatflow, 'Start'),

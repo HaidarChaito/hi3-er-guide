@@ -9,8 +9,8 @@ const SugaryStarburst: valkeryType = {
   build: [build1, build2, build3],
   type: 2,
   tier: 4.5,
-  minRank: 4,
-  loadoutBuffs: [
+  min_rank: 4,
+  loadout_buffs: [
     { title: 0, selected: '✓' },
     { title: 5, selected: '✓' },
     { title: 5, selected: '✓ ' },

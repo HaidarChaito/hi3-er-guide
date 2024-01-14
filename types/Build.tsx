@@ -1,16 +1,15 @@
-import { bottomNotesType } from './BottomNotes';
+import { notesType } from './Notes';
 import { gearType } from './Gear';
 import { signetType } from './Signet';
 
 export type buildType = {
   label: string;
   tier?: number;
-  isNew: boolean;
   signets: signetType[][];
   supports?: string[][];
   emblems?: string[][];
-  notBudget?: boolean;
+  not_budget?: boolean;
   notes?: string;
-  bottomNotes?: bottomNotesType[];
+  extra_notes?: notesType[];
   gear?: gearType[];
 };

@@ -16,23 +16,23 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Elysian Astra | Cezanne TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Any Highest ATK Cross Statstick | Susannah Overtime T Aladdin MB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Any Highest ATK Cross Statstick | Elysia TB Dante M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Deploy Cross > Ult > Evade (Once Cloud Valley is gotten) into gather and 3 taps of Ult. At 5 Color Markers, Hold ATK for Combo and repeat, use Cross and Ult again accordingly as they come off CD.',
     },
   ],
-  isNew: true,
+
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [

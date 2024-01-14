@@ -15,21 +15,21 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Domain of Genesis | Kiana TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Domain of Genesis | Little Joys TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Domain of Genesis | Leuweenhoek TB Kiana/Broboli/Thales M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
   notes:
     ' Combo build that focusses on spamming the combo actions through condescension descent stacks and weapon active to quickly gain 8 stacks and spam combo attack, has high survivability, gains massive power spike from the SS rank and Ego signet "Condescension" synergy',
-  isNew: true,
-  bottomNotes: [
+
+  extra_notes: [
     {
       text: 'SEQUENCE: ATF (Do not use your WA inside)> x5 attacks > WA > Combo > Wa Combo > Repeat when ATF up ',
     },

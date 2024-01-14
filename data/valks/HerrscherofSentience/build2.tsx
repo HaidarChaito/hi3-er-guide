@@ -18,27 +18,27 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: 'Incredibly Infinite Intimidator | Pericles TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Incredibly Infinite Intimidator | Shattered Swords TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Incredibly Infinite Intimidator | Sirin Ascendant TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Incredibly Infinite Intimidator | SirinA/Dirac T Pericles MB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Spear Combo (gather all mobs) > Evade into Chain Combo > Wep Active > Supports into Ult > Tap Ult for Kick > Tap ATK 10 times for whole Combo into EITHER second Kick + one Combo into Finisher or just Finisher (this latter only when damage is enough to finish off a wave).',
     },
   ],
-  isNew: true,
+
   notes:
     'Assuming full Pericles, Brick is weaker than Domain of Sentience & Victory combo. Also, this build is capable of functioning with just 1 Ego only if you want. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

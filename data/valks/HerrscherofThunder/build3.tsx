@@ -16,23 +16,23 @@ const build3: buildType = {
   gear: [
     {
       gearInfo: '7 Thunders of Retribution | Handel TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: '7 Thunders of Retribution | Benares: Awakening TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: '7 Thunders of Retribution | Zhenyi TB Handel/BennyA M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Evade into 7T Active > Basic ATK and Shinzan until enough SP for Ult and make sure Hit Count is 60-80, ideally always 80+ > Ult into 7T Active and Finisher > Repeat.',
     },
   ],
-  isNew: true,
+
   notes:
     'On Decimation +2 weathers, Kalpas start is better. If you cannot clear F4 Double with IWBW, go with TLM instead.',
   signets: [

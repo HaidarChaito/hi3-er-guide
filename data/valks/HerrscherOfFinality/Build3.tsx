@@ -17,21 +17,21 @@ const build3: buildType = {
   gear: [
     {
       gearInfo: 'Domain of Genesis | Kiana TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Domain of Genesis | Little Joys TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Domain of Genesis | Leuweenhoek TB Kiana/Broboli/Thales M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
   notes:
     'Less known build for the Herrscherr of Finality, gains massive spikes at higher ranks, combines the strength of the combo build and the explosive power of the ultimate build through lower frames attacks in between combos, the gain doesnt justify the efforts and the general player will not do better with this build compared to the other two, this build is designed for people who enjoy challenges, have some ranks and have mastered HoFi mechanics.',
-  isNew: true,
-  bottomNotes: [
+
+  extra_notes: [
     {
       text: 'SEQUENCE: ATF > QTE 1 x2 SEQ (SEQ3/4 connect) > QTE 2 x2 (SEQ3/4 connect) > ATF end > SEQ1 > WA > SEQ 1 > Combo > Repeat from SEQ 1 till ATF is back up, ult when 9~12 stacks',
     },

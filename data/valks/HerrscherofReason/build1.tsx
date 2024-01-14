@@ -13,19 +13,19 @@ import { buildType } from '@/types/Build';
 const build1: buildType = {
   label: 'SoE:W Build',
   tier: 4,
-  isNew: true,
+
   gear: [
     {
       gearInfo: 'Star of Eden: World | Willows TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'SoE:W | Ana Schariac TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
   notes: 'Swap LE for BR by F6 Shop. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: SoE Active > Basics & Charged Farm till Ult > Quick Tap Active (Applies Red Paint & V-V Buffs) > Bike Slam > Evade (Truth + Sakura) > Bike Slam > Evade (Truth w/ 2 UE Charges from Sakuras Fuji) > Bike Slam > Active > Bike Slam > Ult ends > Repeat',
     },

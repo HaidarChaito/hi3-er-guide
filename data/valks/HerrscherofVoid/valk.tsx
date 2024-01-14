@@ -8,8 +8,8 @@ const HerrscherofVoid: valkeryType = {
   build: [build1, build2],
   type: 1,
   tier: 4,
-  minRank: 4.1,
-  loadoutBuffs: [
+  min_rank: 4.1,
+  loadout_buffs: [
     { title: 0, selected: '✓' },
     { title: 5, selected: '✓' },
     { title: 5, selected: '✓' },

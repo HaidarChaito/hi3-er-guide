@@ -35,14 +35,14 @@ export default function AnimatedCard({
             isRecommended ? 'rounded-lg  border-2 border-primary' : valkBorderTier
           }`}
         >
-          {valkery.minRank != undefined && (
+          {valkery.min_rank != undefined && (
             <Image
               className='absolute left-1/2 top-0 z-20 h-auto w-auto -translate-x-1/2  transform'
               width={60}
               height={60}
               loading='eager'
-              alt={`${valkery.minRank}`}
-              src={'/static/images/ranks/' + valkery.minRank + '.png'}
+              alt={`${valkery.min_rank}`}
+              src={'/static/images/ranks/' + valkery.min_rank + '.png'}
             />
           )}
           {isRecommended && (

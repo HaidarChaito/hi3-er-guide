@@ -7,10 +7,10 @@ const CosmicExpression: valkeryType = {
   label: 'Cosmic Expression (CE)',
   image: 'Cosmic Expression',
   build: [build1, build2, build3],
-  minRank: 3,
+  min_rank: 3,
   type: 4,
   tier: 5,
-  loadoutBuffs: [
+  loadout_buffs: [
     { title: 0, selected: '✓' },
     { title: 5, selected: ' ' },
     { title: 5, selected: ' ' },

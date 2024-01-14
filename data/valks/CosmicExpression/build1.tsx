@@ -14,12 +14,12 @@ const build1: buildType = {
   label: 'Griseo Skywalker - Jedi Build',
   tier: 4.5,
   gear: [],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Dodge > WA + Ult > Dodge SEQ 4 Connect > WA - Repeat - Read notes.',
     },
   ],
-  isNew: true,
+
   notes:
     'Ultimate Evasion connects to SEQ 4 as does parry stance, "Blessing of Kiku" from Sakura smoothens the rotation loop massively. DO NOTE - DO NOT PRESS WA, OTHERWISE YOU WILL LOSE OUT ON DPS. IT WILL SELF ACTIVATE!',
   signets: [

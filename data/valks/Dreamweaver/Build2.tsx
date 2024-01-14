@@ -14,20 +14,20 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: 'Prophetic Dreams PRI | Alexandra TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Prophetic Dreams PRI | Bianka TM Ely B',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Prophetic Dreams | Elysia TB Dante M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
   notes: `In Elysian realm the number of stacks to use Kaleidescope (Charged attack) are raised to 8, you will need two full sequences and weapon skill to use it! One more weapon skill or full sequence with the 2nd Ego, make adjustment as necessary.`,
-  isNew: true,
-  bottomNotes: [
+
+  extra_notes: [
     {
       text: 'SEQUENCE: WA > SEQ attacks priority to reach the Kaleidescope stacks, playstyle revolves about being understanding how fast you can stack the kaleidescope stacks',
     },

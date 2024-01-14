@@ -16,15 +16,15 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Frozen Naraka | Willows/Ana Schariac TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Wep Active > Combo until SP is enough for Ult > Ult into Combo Spam > Repeat. Use Evade to reposition for the Zankeki to hit enemies properly. With kalpas start, remember to lower your HP before next floor with blood rose or on the shops floor, interacting with the shop will reset support valkyrie CD, allowing to lower your hp quickly!',
     },
   ],
-  isNew: true,
+
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [

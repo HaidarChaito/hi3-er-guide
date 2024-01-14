@@ -16,18 +16,18 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Dream Cutter: Polar Star | Little Joys TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo:
         'Dream Cutter OR Any Highest ATK Chakram Statstick | Leuwenhooek TB Broboli/Himeko M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  isNew: true,
+
   notes:
     'Swap BR for BK by F9/F10 Shop to deal with Heimdall. This build focus interely on using your weapon active as much as possible chaining it through the SEQ 5 unlocked via ego signet Blessing of the tailor for fast and consistent damage, possible by exchanging your ultimate evasions for glitter stacks.',
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: WA > WA > ATK > Repeat; Ult when available - Build makes uses of glitter stacks to spam its attacks and absolute evasions to refresh glitter stacks, ult to refresh resources',
     },

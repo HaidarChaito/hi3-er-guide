@@ -7,7 +7,7 @@ const ArgentKnightArtemis: valkeryType = {
   build: [build1],
   type: 2,
   tier: 3,
-  loadoutBuffs: [
+  loadout_buffs: [
     { title: 0, selected: '✓ ' },
     { title: 5, selected: '✓ ' },
     { title: 5, selected: '' },
@@ -16,6 +16,6 @@ const ArgentKnightArtemis: valkeryType = {
     { title: 15, selected: '✓' },
     { title: 15, selected: '  ' },
   ],
-  minRank: 4,
+  min_rank: 4,
 };
 export default ArgentKnightArtemis;

@@ -13,18 +13,18 @@ import { buildType } from '@/types/Build';
 const build1: buildType = {
   label: 'General Build',
   tier: 3,
-  isNew: true,
+
   gear: [
     {
       gearInfo: 'Skadi of Trynheim | Willows TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Skadi of Trynheim | Ana Schariac TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Spam basic > Farm SP for ult and Watch out for Ice Orb indicator in enemies to use Charged and inflict Ice Cell > During Ult, spam Basics and Charged for Ice Cell whenever they have the indicator, weave Wep Actives in-between (Red Paint, V-V signets, never let it be at full charges), manual end Ult when SP consumption gets too high',
     },

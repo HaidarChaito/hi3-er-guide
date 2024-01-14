@@ -19,31 +19,31 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Domain of Sentience | Pericles TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Incredibly Infinite Intimidator | Pericles TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Domain of Sentience/Brick | Shattered Swords TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Domain of Sentience/Brick | Sirin Ascendant TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Domain of Sentience/Brick | SirinA/Dirac T Pericles MB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'Spear Combo > Connect Evade into Chain Combo > Sword Combo OR Ult > Tap Ult for Pillar > Spam Bonk and use Pillar if needed for gather (but preferentially do not use mid-Victory Combo otherwise you interrupt the DMG spike), once out of Ult, either instantly Ult again or farm SP for it.',
     },
   ],
-  isNew: true,
+
   notes:
     'This build strictly wants to use HoS old weapon (Domain of Sentience) over Brick, as this build is focused on the Ego Signet Victory, and Senpri is the BiS for this build over Brick. Do also note, however, that this build is better over Brick as long as you have Pericles TMB; without it, HoS lacks the perfect Crit Rate for Victory to crit at all times. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

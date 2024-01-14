@@ -15,15 +15,15 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: '7 Thunders of Retribution | Dirac TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Use Basic ATK SEQ to gain meters, once you reach 4, connect Evade into Flurry, do this until you get SP for Ult > Ult and connect Evade into Flurry, repeat as long as you have meter, ideally always 4 and repeat until SP runs out, do whole process again.',
     },
   ],
-  isNew: true,
+
   notes: 'Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [
     [

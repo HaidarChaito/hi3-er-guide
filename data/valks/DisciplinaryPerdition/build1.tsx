@@ -16,19 +16,19 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Lost Conviction: Damnation | Zeno TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Lost Conviction: Damnation | Handel TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Evade into Wep Active > Basics and Wep Active when shining > Ult > Hold ATK for Thunderstorm > Repeat until you have enough SP for Ult again.',
     },
   ],
-  isNew: true,
+
   signets: [
     [
       withPriority(Disciplinary_Perdition_Ego.Blessing_of_Admonition, 'Start'),

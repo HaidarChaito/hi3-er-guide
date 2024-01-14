@@ -79,15 +79,15 @@ export default function FaqBuble({ faq }: props) {
               />
             </motion.div>
           )}
-          {faq.multiLines && (
+          {faq.multi_lines && (
             <motion.div
               className={`answer  ${isAnswerVisible ? 'block' : 'hidden'} mt-2 leading-snug `}
             >
-              {faq.multiLines && (
+              {faq.multi_lines && (
                 <div
                   className={`answer ${isAnswerVisible ? 'block' : 'hidden'} mt-2 leading-snug `}
                 >
-                  {faq.multiLines.map((line, index) => {
+                  {faq.multi_lines.map((line, index) => {
                     const urlRegex = /(https?:\/\/[^\s]+)/g;
                     const segments = line.split(urlRegex);
                     const renderedSegments = segments.map((segment, segmentIndex) => {

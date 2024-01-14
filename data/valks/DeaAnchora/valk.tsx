@@ -7,7 +7,7 @@ const DeaAnchora: valkeryType = {
   build: [build1],
   type: 4,
   tier: 2,
-  loadoutBuffs: [
+  loadout_buffs: [
     { title: 0, selected: '✓' },
     { title: 5, selected: '✓' },
     { title: 5, selected: '' },
@@ -16,6 +16,6 @@ const DeaAnchora: valkeryType = {
     { title: 15, selected: '' },
     { title: 15, selected: '✓' },
   ],
-  minRank: 3,
+  min_rank: 3,
 };
 export default DeaAnchora;

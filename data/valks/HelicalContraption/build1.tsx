@@ -16,19 +16,19 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Tower of the Past PRI | Carlo Collodi TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Tower of the Past PRI | Leuweenhoek TB Collodi/Himeko/Thales M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Wep Active > Shoot Machine Gun for two secs, swap to Cannon and fire > Use Ult > Hold ATK for Charged > Spam ATK until bar is full again > Use Ult to finalize Burst Mode whenever SP is running out low > Repeat.',
     },
   ],
-  isNew: true,
+
   notes:
     'Watch out for Vill-V having almost no I-frames to use. Rely on using Turrets shield block to avoid attacks when low on HP and Evading in Burst Mode, finishing Burst as necessary when you need the I-frames from the Turret shields. Swap BR for BK by F9/F10 Shop to deal with Heimdall.',
   signets: [

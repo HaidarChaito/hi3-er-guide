@@ -16,22 +16,22 @@ const build3: buildType = {
   gear: [
     {
       gearInfo: 'Bloodied Casket PRI | Sweet Dreams TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo:
         'Bloodied Casket PRI or Any High ATK Statstick Cross | Linnaeus TM/Zeno TM Handel/Zhenyi/Aladdin B',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: 'Bloodied Casket PRI or Any High ATK Statstick Cross | Zhenyi TB Linn M ',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  isNew: true,
+
   notes:
     'Requiring 1 Ego only, with this limitation, this build is realistically at same strength level as WA Build. By obvious reasons, the difference in strength is noticeable compared to the recommended 3 Ego Build. But if you do not want to bother resetting for F2 Ego or using Because of You, then this is the perfect build for you. Swap BR for BK by F9/F10 Shop if you are not confident against Heimdall.',
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Gather mobs (with AE), tap Flashing Wep Active to enter Frenzy > Hold Wep Active to perform Combo > Spam Evade and connect into 4th Basic Hold until full duration and tap Flashing ATK Button; repeat this. Weave Ultimate in-between as Finisher. Enter Frenzy and use Combo when necessary (mainly for the Gather in this 1 Ego variation)',
     },

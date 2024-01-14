@@ -16,23 +16,23 @@ const build2: buildType = {
   gear: [
     {
       gearInfo: '7 Thunders of Retribution | Handel TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: '7 Thunders of Retribution | Benares: Awakening TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
     {
       gearInfo: '7 Thunders of Retribution | Zhenyi TB Handel/BennyA M',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Evade into 7T Active > Basic ATK till Shinzan > Ult > 7T Active into Bombard > Spam Basics until Tornado to recharge Bar > Bombard till Ult Mode duration almost done > Finisher > Repeat.',
     },
   ],
-  isNew: true,
+
   notes:
     'Needs SS0 Rank, otherwise it doesnt work. On Decimation +2 weathers, Kalpas start is better. If you cannot clear F4 Double with IWBW, go with Dreamful Gold instead.',
   signets: [

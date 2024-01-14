@@ -15,15 +15,15 @@ const build1: buildType = {
   gear: [
     {
       gearInfo: 'Domain of Void | Elysia TMB / Elysia TB Dante M',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
   ],
-  bottomNotes: [
+  extra_notes: [
     {
       text: 'SEQUENCE: Evade into Basic till 3 full bars and repeat. Use Ult for Kevin & Mobius and for I-frames.',
     },
   ],
-  isNew: true,
+
   notes: 'BK is a MUST by F9/F10 Shop, otherwise RI cannot deal with Heimdall.',
   signets: [
     [

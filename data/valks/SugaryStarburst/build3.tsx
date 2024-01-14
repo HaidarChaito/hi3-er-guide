@@ -15,15 +15,15 @@ const build3: buildType = {
   gear: [
     {
       gearInfo: 'Star Dance: Enlightenment | Cecilia Youth TMB',
-      isBudgetVisible: false,
+      is_budget_visible: false,
     },
     {
       gearInfo: 'Any Highest ATK Pistol Statstick | Willows TMB',
-      isBudgetVisible: true,
+      is_budget_visible: true,
     },
   ],
-  isNew: true,
-  bottomNotes: [{ text: 'SEQUENCE: Dodge > Attack > WA > Charged 2x > Repeat ' }],
+
+  extra_notes: [{ text: 'SEQUENCE: Dodge > Attack > WA > Charged 2x > Repeat ' }],
   signets: [
     [
       withPriority(Sugary_Starburst_Ego.Blessing_of_Roller_Dance, 'Start'),
