@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-export const availableThemes = ['night', 'dimare', 'winter', 'aftereight', 'dracula'];
+export const availableThemes = ['dimare', 'aftereight'];
 
 type store = {
   gamerMode?: boolean;
@@ -24,7 +24,7 @@ const useGlobalStore = create<store & actions>()(
       toggleMode: () => set((state) => ({ gamerMode: !state.gamerMode })),
     }),
     {
-      name: 'globals',
+      name: 'globalsv2',
     }
   )
 );

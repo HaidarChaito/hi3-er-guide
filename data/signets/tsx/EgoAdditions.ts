@@ -1,32 +1,37 @@
 import { signetType } from '@/types/Signet';
 
 interface FenghuangofVicissitude_Interface {
-  Blessing_of_Starlight: signetType;
-  Blessing_of_Dazzle: signetType;
-  Blessing_of_Anchor: signetType;
-  Blessing_of_Shining_Blade: signetType;
-  Blessing_of_Meteorite: signetType;
+  Blessing_of_Attainment: signetType;
+  Blessing_of_Vermillion_Fire: signetType;
+  Blessing_of_Arcane_Traces: signetType;
+  Blessing_of_Observation: signetType;
+  Blessing_of_Unbroken_Rampart: signetType;
 }
 export const FenghuangofVicissitude_Ego: FenghuangofVicissitude_Interface = {
-  Blessing_of_Starlight: {
-    label: 'Blessing of Starlight',
-    description: '',
+  Blessing_of_Attainment: {
+    label: 'Blessing of Attainment',
+    description:
+      'Basic ATK, Fiery Cloud Impact, and Rampant Blades in two Stances are integrated into a single move set of Basic ATK. Their DMG multipliers stay the same and their DMG source is Basic ATK. Basic ATK deals 50% bonus Total DMG, during which the Valkyrie has improved Ignore Interrupt and takes 60% less Total DMG.',
   },
-  Blessing_of_Dazzle: {
-    label: 'Blessing of Dazzle',
-    description: '',
+  Blessing_of_Arcane_Traces: {
+    label: 'Blessing of Arcane Traces',
+    description:
+      'Basic ATK comes with a shadow which moves much faster and deals 85% x 2 ATK of bonus Fire DMG on hit (DMG source: Basic ATK).',
   },
-  Blessing_of_Anchor: {
-    label: 'Blessing of Anchor',
-    description: '.',
+  Blessing_of_Vermillion_Fire: {
+    label: 'Blessing of Vermillion Fire',
+    description:
+      "Casting skills doesn't restore Heart Flame anymore. When HP is at 16% or above, Heart Flame will be fully stacked. Casting enhanced Joint ATK drops HP to 5%. After casting Joint ATK and when the character is flashing, tap [ATK] to trigger either Fiery Cloud Impact or Rampant Blades based on current Stance and boost the character's Fire DMG by 40% for 10s. Retriggering refreshes duration. The character's HP is restored to 18% if below. This effect can be triggered once per 0.5s in 2s.",
   },
-  Blessing_of_Shining_Blade: {
-    label: 'Blessing of Shining Blade',
-    description: '',
+  Blessing_of_Observation: {
+    label: 'Blessing of Observation',
+    description:
+      "After casting Ultimate, Basic and Combo ATKs deal 20% bonus DMG (in the form of HP loss) for 17s. Retriggering refreshes duration. On each floor, the first Ultimate cast deals bonus DMG equal to 10% of the target's max HP (in the form of HP loss).",
   },
-  Blessing_of_Meteorite: {
-    label: 'Blessing of Meteorite',
-    description: '',
+  Blessing_of_Unbroken_Rampart: {
+    label: 'Blessing of Unbroken Rampart',
+    description:
+      'Switching Stance fully restores both Qi. After casting enhanced Joint ATK and when the character is flashing, tap [ATK] to trigger either Fiery Cloud Impact or Rampant Blades based on current Stance, fully restore Qi, and make the next two Joint ATKs and enhanced Joint ATKs deal 120% bonus Total DMG.',
   },
 };
 
