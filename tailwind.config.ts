@@ -43,24 +43,38 @@ const config: Config = {
   daisyui: {
     themes: [
       {
+        cupcake: {
+          ...require('daisyui/src/theming/themes')['cupcake'],
+          'neutral-content': '#EEEEEE',
+          'base-300': '#291334',
+        },
+      },
+      {
+        sunset: {
+          ...require('daisyui/src/theming/themes')['sunset'],
+          'neutral-content': '#F4F4F2',
+          'base-300': '#FF865B',
+        },
+      },
+      {
         night: {
-          ...require('daisyui/src/theming/themes')['[data-theme=night]'],
-          'neutral-focus': '#F4F4F2',
-          'base-300': '#F4F4F2',
+          ...require('daisyui/src/theming/themes')['night'],
+          'neutral-content': '#F4F4F2',
+          'base-300': '#08D9D6',
         },
       },
       {
-        dracula: {
-          ...require('daisyui/src/theming/themes')['[data-theme=dracula]'],
-          'neutral-focus': '#F4F4F2',
-          'base-300': '#F4F4F2',
+        coffee: {
+          ...require('daisyui/src/theming/themes')['coffee'],
+          'neutral-content': '#F4F4F2',
+          'base-300': '#DB924B',
         },
       },
       {
-        winter: {
-          ...require('daisyui/src/theming/themes')['[data-theme=winter]'],
-          'neutral-focus': '#F4F4F2',
-          'base-300': '#0f1729',
+        forest: {
+          ...require('daisyui/src/theming/themes')['forest'],
+          'neutral-content': '#F4F4F2',
+          'base-300': '#1EB854',
         },
         aftereight: {
           primary: '#5AEDBC',
@@ -72,7 +86,7 @@ const config: Config = {
           success: '#B9ED92',
           warning: '#f4c152',
           error: '#fb6f84',
-          'neutral-focus': '#F4F4F2',
+          'neutral-content': '#F4F4F2',
           'base-300': '#14FFEC',
         },
         dimare: {
@@ -85,7 +99,7 @@ const config: Config = {
           success: '#B9ED92',
           warning: '#f4c152',
           error: '#fb6f84',
-          'neutral-focus': '#F4F4F2',
+          'neutral-content': '#F4F4F2',
           'base-300': '#FFA1F5',
         },
       },

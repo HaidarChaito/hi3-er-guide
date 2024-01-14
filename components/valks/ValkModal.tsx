@@ -40,7 +40,7 @@ export default function ValkModal({
             ease: [0.33, 1, 0.44, 1],
           }}
           onClick={() => setSelected(null)}
-          className='fixed inset-0 z-30 cursor-pointer overflow-hidden overflow-y-scroll bg-black/75  py-28 text-neutral-focus backdrop-blur-md'
+          className='fixed inset-0 z-30 cursor-pointer overflow-hidden overflow-y-scroll bg-black/75  py-28 text-neutral-content  backdrop-blur-md'
         >
           <section className={`mx-auto mt-2 flex-1 flex-wrap sm:flex sm:w-3/4`}>
             {selectedValk.loadout_buffs != undefined &&
