@@ -141,6 +141,7 @@ export const faqs: faqType[] = [
       'Ritual Imayoh: https://www.pixiv.net/en/artworks/79702200',
       'Silverwing N-EX: https://www.pixiv.net/en/artworks/94945638',
       'Sixth Serenade: https://www.pixiv.net/en/artworks/68909144',
+      'Fenghuang of Vicissitude: https://www.pixiv.net/en/artworks/114912895',
       'Spina Astera: https://www.pixiv.net/en/artworks/96396047',
       'Shadow Knight: https://www.pixiv.net/en/artworks/98388875',
       'Starchasm Nyx: https://www.pixiv.net/en/artworks/111039318',

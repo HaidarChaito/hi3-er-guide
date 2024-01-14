@@ -1,5 +1,35 @@
 import { signetType } from '@/types/Signet';
 
+interface FenghuangofVicissitude_Interface {
+  Blessing_of_Starlight: signetType;
+  Blessing_of_Dazzle: signetType;
+  Blessing_of_Anchor: signetType;
+  Blessing_of_Shining_Blade: signetType;
+  Blessing_of_Meteorite: signetType;
+}
+export const FenghuangofVicissitude_Ego: FenghuangofVicissitude_Interface = {
+  Blessing_of_Starlight: {
+    label: 'Blessing of Starlight',
+    description: '',
+  },
+  Blessing_of_Dazzle: {
+    label: 'Blessing of Dazzle',
+    description: '',
+  },
+  Blessing_of_Anchor: {
+    label: 'Blessing of Anchor',
+    description: '.',
+  },
+  Blessing_of_Shining_Blade: {
+    label: 'Blessing of Shining Blade',
+    description: '',
+  },
+  Blessing_of_Meteorite: {
+    label: 'Blessing of Meteorite',
+    description: '',
+  },
+};
+
 interface CosmicEmpression_Interface {
   Blessing_of_Starlight: signetType;
   Blessing_of_Dazzle: signetType;

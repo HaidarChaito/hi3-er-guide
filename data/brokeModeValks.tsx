@@ -8,7 +8,7 @@ import InfiniteOuroboros from './valks/InfiniteOuroboros/valk';
 import ReveristCalico from './valks/ReveristCalico/valk';
 import { compareValkeriesTier } from '@/helpers/functions';
 import ChronoNavi from './valks/ChronoNavi/valk';
-import HerrscherOfFinality from './valks/HerrscherOfFinality/valk';
+import HerrscherofFinality from './valks/HerrscherofFinality/valk';
 import HerrscherofTruth from './valks/HerrscherofTruth/valk';
 import StarryImpression from './valks/StarryImpression/valk';
 import SugaryStarburst from './valks/SugaryStarburst/valk';
@@ -28,7 +28,7 @@ const brokValks: valkeryType[] = [
   ReveristCalico,
   CosmicExpression,
   ChronoNavi,
-  HerrscherOfFinality,
+  HerrscherofFinality,
   HerrscherofTruth,
   StarryImpression,
   SugaryStarburst,

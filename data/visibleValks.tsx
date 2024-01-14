@@ -1,7 +1,9 @@
+import { compareBuildsTier, compareValkeriesTier } from '@/helpers/functions';
 import { valkeryType } from '@/types/Valkery';
 import ArgentKnightArtemis from './valks/ArgentKnightArtemis/valk';
 import BrightKnightExcelsis from './valks/BrightKnightExcelsis/valk';
 import ChronoNavi from './valks/ChronoNavi/valk';
+import CosmicExpression from './valks/CosmicExpression/valk';
 import DeaAnchora from './valks/DeaAnchora/valk';
 import DisciplinaryPerdition from './valks/DisciplinaryPerdition/valk';
 import Dreamweaver from './valks/Dreamweaver/valk';
@@ -10,7 +12,7 @@ import FerventTempoDeltaValkery from './valks/FerventTempoDelta/valk';
 import GoldenDiva from './valks/GoldenDiva/valk';
 import GoushinnsoMemento from './valks/GoushinnsoMemento/valk';
 import HelicalContraption from './valks/HelicalContraption/valk';
-import HerrscherOfFinality from './valks/HerrscherOfFinality/valk';
+import HerrscherofFinality from './valks/HerrscherofFinality/valk';
 import HerrscherofFlamescion from './valks/HerrscherofFlamescion/valk';
 import HerrscherofHumanity from './valks/HerrscherofHumanity/valk';
 import HerrscherofOrigin from './valks/HerrscherofOrigin/valk';
@@ -23,6 +25,7 @@ import HerrscherofVoid from './valks/HerrscherofVoid/valk';
 import InfiniteOuroboros from './valks/InfiniteOuroboros/valk';
 import JadeKnight from './valks/JadeKnight/valk';
 import LunaKindred from './valks/LunaKindred/valk';
+import LunarVow from './valks/LunarVow/valk';
 import MidnightAbsinthe from './valks/MidnightAbsinthe/valk';
 import MiracleMagicGirl from './valks/MiracleMagicGirl/valk';
 import MissPinkElf from './valks/MissPinkElf/valk';
@@ -45,9 +48,6 @@ import TwilightPaladin from './valks/TwilightPaladin/valk';
 import ValkyrieGloria from './valks/ValkyrieGloria/valk';
 import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
-import { compareBuildsTier, compareValkeriesTier } from '@/helpers/functions';
-import LunarVow from './valks/LunarVow/valk';
-import CosmicExpression from './valks/CosmicExpression/valk';
 
 // Add valkeries here
 const visibleValks: valkeryType[] = [
@@ -64,7 +64,7 @@ const visibleValks: valkeryType[] = [
   GoldenDiva,
   GoushinnsoMemento,
   HelicalContraption,
-  HerrscherOfFinality,
+  HerrscherofFinality,
   HerrscherofFlamescion,
   HerrscherofHumanity,
   HerrscherofOrigin,

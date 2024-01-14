@@ -9,7 +9,6 @@ import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { buildType } from '@/types/Build';
 import { withPriority } from '@/helpers/functions';
 import { CosmicEmpression_Ego } from '@/data/signets/tsx/EgoAdditions';
-import CosmicExpression from './valk';
 
 const build3: buildType = {
   label: 'Jediseo with Meteorites',
