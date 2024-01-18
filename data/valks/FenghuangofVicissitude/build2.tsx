@@ -1,6 +1,5 @@
 import { buildType } from '@/types/Build';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
-import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
@@ -11,15 +10,15 @@ import { FenghuangofVicissitude_Ego } from '@/data/signets/tsx/EgoAdditions';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 
 
-const build1: buildType = {
-  label: 'ORA ORA ORA ORA but kicks',
+const build2: buildType = {
+  label: 'Combo build FoV - Stay Stronk little bird',
   tier: 5,
   gear: [],
-  notes: 'Basic build for FoV, build is straightforward, swap to kick at begin of the room to activate all the signets that activates on WA and spam kick the flurry from sequence. Ult when necessary. Kicks have highest dps between punch and kicks. This build starts off really weak and becomes much stronger later on. (Yes, you are not allucinating, they use the same build)',
+  notes: 'Combo build for FoV, starts sligthly stronger but has lower ceiling than basic attacks, overall what the latter gets on this build later on makes no difference on total clear time,leaving both builds at similar levels. (Yes, you are not allucinating, they use the same build)',
   signets: [
 [
-  withPriority(FenghuangofVicissitude_Ego.Blessing_of_Arcane_Traces, 'Start'),
-  withPriority(FenghuangofVicissitude_Ego.Blessing_of_Attainment, 'Start'),
+  withPriority(FenghuangofVicissitude_Ego.Blessing_of_Vermillion_Fire, 'Start'),
+  withPriority(FenghuangofVicissitude_Ego.Blessing_of_Unbroken_Rampart, 'Start'),
   withPriority(FenghuangofVicissitude_Ego.Blessing_of_Observation, '2nd Floor (Optional)'),
 ],
 [
@@ -58,7 +57,7 @@ const build1: buildType = {
       Signets_of_Stars_Griseo.Red__Hot,
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
-      Signets_of_Discipline_Aponia.First_No_Betrayal,
+      
 
 ],
   ],
@@ -81,4 +80,4 @@ const build1: buildType = {
 
 };
 
-export default build1;
+export default build2;
