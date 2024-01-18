@@ -11,7 +11,7 @@ import { AvatarImages } from '@/data/supports/AvatarImages.g';
 
 
 const build2: buildType = {
-  label: 'Combo build FoV - Stay Stronk little bird',
+  label: 'Combo - Stay Stronk little bird',
   tier: 5,
   gear: [],
   notes: 'Combo build for FoV, starts sligthly stronger but has lower ceiling than basic attacks, overall what the latter gets on this build later on makes no difference on total clear time,leaving both builds at similar levels. (Yes, you are not allucinating, they use the same build)',
