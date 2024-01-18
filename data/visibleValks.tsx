@@ -48,6 +48,7 @@ import TwilightPaladin from './valks/TwilightPaladin/valk';
 import ValkyrieGloria from './valks/ValkyrieGloria/valk';
 import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
+import FenghuangofVicissitude from './valks/FenghuangofVicissitude/valk';
 
 // Add valkeries here
 const visibleValks: valkeryType[] = [
@@ -60,6 +61,7 @@ const visibleValks: valkeryType[] = [
   Dreamweaver,
   FallenRosemary,
   CosmicExpression,
+  FenghuangofVicissitude,
   FerventTempoDeltaValkery,
   GoldenDiva,
   GoushinnsoMemento,
@@ -99,6 +101,7 @@ const visibleValks: valkeryType[] = [
   ValkyrieGloria,
   ValkyrieQuicksand,
   VermilionKnightEclipse,
+  
 ];
 
 visibleValks.sort(compareValkeriesTier);
