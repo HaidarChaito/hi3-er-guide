@@ -13,6 +13,12 @@ import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
 import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import CosmicExpression from './valks/CosmicExpression/valk';
 import FerventTempoDelta from './valks/FerventTempoDelta/valk';
+import FenghuangofVicissitude from './valks/FenghuangofVicissitude/valk';
+import TerminalAide0017 from './valks/TerminalAide0017/valk';
+import HerrscherofSentience from './valks/HerrscherofSentience/valk';
+import PalatinusEquinox from './valks/PalatinusEquinox/valk';
+import ShadowKnight from './valks/ShadowKnight/valk';
+import MiracleMagicGirl from './valks/MiracleMagicGirl/valk';
 
 // Add Recommended here
 const recommendedValks: valkeryType[] = [
@@ -29,6 +35,12 @@ const recommendedValks: valkeryType[] = [
   ValkyrieQuicksand,
   CosmicExpression,
   FerventTempoDelta,
+  FenghuangofVicissitude,
+  TerminalAide0017,
+  HerrscherofSentience,
+  PalatinusEquinox,
+  ShadowKnight,
+  MiracleMagicGirl,
 ];
 
 recommendedValks.sort(compareValkeriesTier);

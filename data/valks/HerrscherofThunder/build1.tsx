@@ -37,15 +37,6 @@ const build1: buildType = {
     ],
 
     [
-      Signets_of_Gold_Eden.Recitatif_of_Eden,
-      Signets_of_Gold_Eden.Recitatif_of_Creeks,
-      Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
-      withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
-      Signets_of_Gold_Eden.Aria_of_Soil,
-      Signets_of_Gold_Eden.Aria_of_Dawn,
-    ],
-
-    [
       Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
@@ -56,6 +47,15 @@ const build1: buildType = {
       withPriority(Signets_of_Bodhi_Su.Maxim_of_Santam, 'Optional'),
     ],
 
+
+    [
+      Signets_of_Gold_Eden.Recitatif_of_Eden,
+      Signets_of_Gold_Eden.Recitatif_of_Creeks,
+      Signets_of_Gold_Eden.Recitatif_of_Fine_Jade,
+      withPriority(Signets_of_Gold_Eden.Aria_of_Gold, 'CORE'),
+      Signets_of_Gold_Eden.Aria_of_Soil,
+      Signets_of_Gold_Eden.Aria_of_Dawn,
+    ],
     [
       Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
       Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
@@ -92,8 +92,8 @@ const build1: buildType = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Empty_Like_Shala],
     [EmblemsImages.Gold_Goblet, EmblemsImages.Dreamful_Gold],
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };

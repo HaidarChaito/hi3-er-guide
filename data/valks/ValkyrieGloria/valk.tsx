@@ -12,10 +12,10 @@ const ValkyrieGloria: valkeryType = {
     { title: 0, selected: '✓' },
     { title: 5, selected: '✓' },
     { title: 5, selected: '' },
-    { title: 10, selected: '' },
     { title: 10, selected: '✓' },
-    { title: 15, selected: '' },
+    { title: 10, selected: '' },
     { title: 15, selected: '✓' },
+    { title: 15, selected: '' },
   ],
 };
 export default ValkyrieGloria;

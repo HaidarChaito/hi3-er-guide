@@ -1,5 +1,5 @@
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { Signets_of_Daybreak_Kosma } from '@/data/signets/extra/extra';
+import { Signets_of_Daybreak_Kosma, Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
@@ -16,7 +16,7 @@ const build3: buildType = {
   gear: [],
   extra_notes: [
     {
-      text: 'SEQUENCE: Dodge > WA + Ult > Dodge SEQ 4 Connect > WA - Repeat - Read notes. This build takes the best of both worlds between Parry and Jedi standard build - being the best build available for Griseo.',
+      text: 'SEQUENCE: Start of Floor > Dodge into SEQ 4 Connect > Automatic WA (Do not press it) into Ult when it isnt on CD and is flashing > Repeat. Do not worry about Combo actually hitting, Meteorite Signet will automatically fill the meter for you. - Repeat - Read notes. This build takes the best of both worlds between Parry and Jedi standard build - being the best build available for Griseo.',
     },
   ],
 
@@ -36,8 +36,8 @@ const build3: buildType = {
       Signets_of_Daybreak_Kosma.Eyes_that_Overlook_the_Vicious_Abyss,
       withPriority(Signets_of_Daybreak_Kosma.Heart_that_Committed_Seven_Crimes, 'Optional'),
       withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
-      Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
-      Signets_of_Daybreak_Kosma.Unwavering_Promise,
+      withPriority(Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic, 'Optional'),
+      withPriority(Signets_of_Daybreak_Kosma.Unwavering_Promise, 'Optional'),
     ],
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,
@@ -57,6 +57,15 @@ const build3: buildType = {
       Signets_of_Infinity_Mobius.Dead_X,
     ],
 
+    [
+      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
+      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
+      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
+      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
+      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
+      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
+      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
+    ],
     [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,
@@ -81,9 +90,9 @@ const build3: buildType = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
-    [EmblemsImages.Fragile_Friend, EmblemsImages.Falling_in_Past_Light],
-    [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Fragile_Friend, EmblemsImages.Out_of_Reach],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Out_of_Reach],
+    [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
   ],
 };
 

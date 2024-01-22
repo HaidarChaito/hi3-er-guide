@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Herrscher_of_Finality_Ego } from '@/data/signets/tsx/EgoSignets';
-import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
+import { Signets_of_Discipline_Aponia, Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { Signets_of_Bodhi_Su } from '@/data/signets/extra/extra';
 import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
@@ -43,11 +43,11 @@ const build1: buildType = {
     ],
 
     [
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
-      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
+      Signets_of_Discipline_Aponia.Sixth_No_Decadence,
+      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
+      Signets_of_Discipline_Aponia.Third_No_Brutality,
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
+      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
     [
@@ -56,6 +56,14 @@ const build1: buildType = {
       Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
       withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
       Signets_of_Bodhi_Su.Maxim_of_Anatman,
+    ],
+
+    [
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
+      Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
     ],
 
     [
@@ -86,7 +94,7 @@ const build1: buildType = {
   ],
   emblems: [
     [
-      EmblemsImages.Pseudo_Miracle,
+      EmblemsImages.Veil_of_Tears,
       EmblemsImages.Because_of_You,
       EmblemsImages.Falling_in_Past_Light,
     ],

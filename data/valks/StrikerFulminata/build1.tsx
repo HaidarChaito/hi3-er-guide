@@ -34,6 +34,16 @@ const build1: buildType = {
     ],
 
     [
+      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
+      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
+      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
+      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Maxim_of_Santam,
+      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
+    ],
+
+    [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
       Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
       Signets_of_Deliverance_Kevin.Rochet_of_the_Pilgrim,
@@ -42,16 +52,6 @@ const build1: buildType = {
       Signets_of_Deliverance_Kevin.Dream_of_the_Deliverer,
       Signets_of_Deliverance_Kevin.Resolve_of_the_Deliverer,
       withPriority(Signets_of_Deliverance_Kevin.Triumph_of_the_Deliverer, 'Optional'),
-    ],
-
-    [
-      Signets_of_Bodhi_Su.Motto_of_DibbaCakkhu,
-      Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
-      Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
-      Signets_of_Bodhi_Su.Motto_of_Asavakkhaya,
-      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Maxim_of_Santam,
-      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
     ],
 
     [
@@ -86,8 +86,8 @@ const build1: buildType = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
-    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Light_as_a_Bodhi_Leaf, EmblemsImages.Because_of_You, EmblemsImages.Empty_Like_Shala],
+    [EmblemsImages.Burden, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };

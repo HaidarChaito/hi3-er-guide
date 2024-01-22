@@ -35,6 +35,14 @@ const build1: buildType = {
     ],
 
     [
+      Signets_of_Discipline_Aponia.First_No_Betrayal,
+      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
+      Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
+      Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
+    ],
+
+    [
       Signets_of_Deliverance_Kevin.Goblet_of_the_Giver,
       Signets_of_Deliverance_Kevin.Pendant_of_the_Watcher,
       Signets_of_Deliverance_Kevin.Mask_of_the_Predator,
@@ -42,14 +50,6 @@ const build1: buildType = {
       withPriority(Signets_of_Deliverance_Kevin.Blade_of_the_Deliverer, 'CORE'),
       Signets_of_Deliverance_Kevin.Crusade_of_the_Deliverer,
       withPriority(Signets_of_Deliverance_Kevin.Flock_of_the_Deliverer, 'Optional'),
-    ],
-
-    [
-      Signets_of_Discipline_Aponia.First_No_Betrayal,
-      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
-      Signets_of_Discipline_Aponia.Fifth_No_Falsehood,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
-      Signets_of_Discipline_Aponia.You_Shall_Answer_Prayers,
     ],
 
     [
@@ -88,8 +88,8 @@ const build1: buildType = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Burden, EmblemsImages.Because_of_You, EmblemsImages.It_Will_Be_Written],
-    [EmblemsImages.Mad_Kings_Mask, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Veil_of_Tears, EmblemsImages.Because_of_You, EmblemsImages.Dreamful_Gold],
+    [EmblemsImages.Burden, EmblemsImages.Dreamful_Gold],
     [EmblemsImages.Tin_Flask, EmblemsImages.Dreamful_Gold],
   ],
 };

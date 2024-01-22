@@ -44,9 +44,10 @@ const build1: buildType = {
       Signets_of_Bodhi_Su.Motto_of_PubbeNivasanussati,
       Signets_of_Bodhi_Su.Motto_of_IddhiVidha,
       withPriority(Signets_of_Bodhi_Su.Motto_of_CetoPariyaNana, 'Optional'),
-      withPriority(Signets_of_Bodhi_Su.Dictum_of_Bodhi, 'CORE'),
-      Signets_of_Bodhi_Su.Dictum_of_Anatman,
-      Signets_of_Bodhi_Su.Dictum_of_Santam,
+      withPriority(Signets_of_Bodhi_Su.Motto_of_Bodhi, 'CORE'),
+      Signets_of_Bodhi_Su.Maxim_of_Anitya,
+      withPriority(Signets_of_Bodhi_Su.Maxim_of_Anatman, 'Optional'),
+      withPriority(Signets_of_Bodhi_Su.Maxim_of_Santam, 'Optional'),
     ],
 
     [

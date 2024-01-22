@@ -16,7 +16,7 @@ const build1: buildType = {
   gear: [],
   extra_notes: [
     {
-      text: 'SEQUENCE: Dodge > WA + Ult > Dodge SEQ 4 Connect > WA - Repeat - Read notes.',
+      text: 'SEQUENCE: Start of Floor (wait for enemies to spawn) > Dodge into SEQ 4 Connect > Automatic WA (Do not use it, the Ego signet automatically does it for you) > Ult whenever its flashing > Repeat - Read notes.',
     },
   ],
 
@@ -30,16 +30,6 @@ const build1: buildType = {
     ],
 
     [
-      Signets_of_Helix_VillV.Act_II_Pendulum,
-      Signets_of_Helix_VillV.Act_III_Conflict,
-      Signets_of_Helix_VillV.Act_I_Magic,
-      Signets_of_Helix_VillV.Act_IV_Spoon,
-      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
-      Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
-      Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
-    ],
-
-    [
       Signets_of_Daybreak_Kosma.Wings_that_Mask_the_Sanguine_Moon,
       Signets_of_Daybreak_Kosma.Talons_that_Desecrate_the_Santuary_sic,
       Signets_of_Daybreak_Kosma.Horns_that_Rip_the_Bleak_Sky,
@@ -48,6 +38,16 @@ const build1: buildType = {
       withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
       Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
       Signets_of_Daybreak_Kosma.Unwavering_Promise,
+    ],
+
+    [
+      Signets_of_Helix_VillV.Act_II_Pendulum,
+      Signets_of_Helix_VillV.Act_III_Conflict,
+      Signets_of_Helix_VillV.Act_I_Magic,
+      Signets_of_Helix_VillV.Act_IV_Spoon,
+      withPriority(Signets_of_Helix_VillV.Interlude_Reversed_Spiral, 'CORE'),
+      Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
+      Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
     ],
     [
       Signets_of_Infinity_Mobius.Entwined_P,
@@ -81,9 +81,9 @@ const build1: buildType = {
     [AvatarImages.Starlit_Astrologos_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
-    [EmblemsImages.Fragile_Friend, EmblemsImages.Falling_in_Past_Light],
-    [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Fragile_Friend, EmblemsImages.Out_of_Reach],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Out_of_Reach],
+    [EmblemsImages.Tin_Flask, EmblemsImages.Out_of_Reach],
   ],
 };
 

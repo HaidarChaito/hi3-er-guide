@@ -34,6 +34,14 @@ const build1: buildType = {
     ],
 
     [
+      Signets_of_Discipline_Aponia.Sixth_No_Decadence,
+      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
+      Signets_of_Discipline_Aponia.First_No_Betrayal,
+      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
+      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
+    ],
+
+    [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_V_Spider_Web,
       Signets_of_Helix_VillV.Act_IV_Spoon,
@@ -41,14 +49,6 @@ const build1: buildType = {
       withPriority(Signets_of_Helix_VillV.Intermezzo_Holistic_Helix, 'CORE'),
       Signets_of_Helix_VillV.Drama_Origin_of_Slumber,
       Signets_of_Helix_VillV.Puppetry_Interlacing_Cells,
-    ],
-
-    [
-      Signets_of_Discipline_Aponia.Sixth_No_Decadence,
-      Signets_of_Discipline_Aponia.Fourth_No_Insolence,
-      Signets_of_Discipline_Aponia.First_No_Betrayal,
-      withPriority(Signets_of_Discipline_Aponia.You_Shall_Receive_Disciplines_Blessing, 'CORE'),
-      Signets_of_Discipline_Aponia.You_Shall_Punish_Evil,
     ],
 
     [
@@ -82,8 +82,8 @@ const build1: buildType = {
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
-    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Veil_of_Tears, EmblemsImages.Falling_in_Past_Light],
+    [EmblemsImages.Pseudo_Miracle, EmblemsImages.Falling_in_Past_Light],
     [EmblemsImages.Tin_Flask, EmblemsImages.Falling_in_Past_Light],
   ],
 };

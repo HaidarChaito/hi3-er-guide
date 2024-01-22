@@ -14,8 +14,8 @@ const FerventTempoDelta: valkeryType = {
     { title: 5, selected: '' },
     { title: 10, selected: '' },
     { title: 10, selected: '✓' },
-    { title: 15, selected: ' ' },
     { title: 15, selected: '✓' },
+    { title: 15, selected: '' },
   ],
 };
 export default FerventTempoDelta;
