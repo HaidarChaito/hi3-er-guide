@@ -9,7 +9,7 @@ const SixthSerenade: valkeryType = {
   tier: 4,
   min_rank: 4,
   loadout_buffs: [
-    { title: 0, selected: '✓' },
+    { title: 0, selected: '' },
     { title: 5, selected: '✓' },
     { title: 5, selected: '' },
     { title: 10, selected: '✓' },
