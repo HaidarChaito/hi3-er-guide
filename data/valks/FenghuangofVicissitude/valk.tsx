@@ -17,6 +17,6 @@ const FenghuangofVicissitude: valkeryType = {
     { title: 15, selected: '✓' },
     { title: 15, selected: '✓' },
   ],
-  min_rank: 4,
+  min_rank: 3,
 };
 export default FenghuangofVicissitude;
