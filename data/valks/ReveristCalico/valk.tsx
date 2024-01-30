@@ -7,7 +7,7 @@ const ReveristCalico: valkeryType = {
   image: 'Reverist Calico',
   build: [build1, build2],
   type: 2,
-  tier: 3.5,
+  tier: 4.5,
   min_rank: 5,
   loadout_buffs: [
     { title: 0, selected: '' },
