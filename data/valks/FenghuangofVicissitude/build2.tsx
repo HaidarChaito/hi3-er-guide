@@ -9,12 +9,18 @@ import { withPriority } from '@/helpers/functions';
 import { FenghuangofVicissitude_Ego } from '@/data/signets/tsx/EgoAdditions';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 
+
 const build2: buildType = {
   label: 'Combo - Stay Stronk little bird',
   tier: 5,
   gear: [],
-  notes:
-    'Combo build for FoV, starts sligthly stronger but has lower ceiling than basic attacks, overall what the latter gets on this build later on makes no difference on total clear time,leaving both builds at similar levels. (Yes, you are not hallucinating, they use the same build)',
+  notes: 'Combo build for FoV, starts sligthly stronger but has lower ceiling than basic attacks, overall what the latter gets on this build later on makes no difference on total clear time,leaving both builds at similar levels. (Yes, you are not allucinating, they use the same build)',
+  extra_notes: [
+    {
+      text: 'SEQUENCE: Start with Combo > Weapon Active (Swap to Kick) > Kick Combo Attack > Repeat.',
+    },
+
+  ],
   signets: [
     [
       withPriority(FenghuangofVicissitude_Ego.Blessing_of_Vermillion_Fire, 'Start'),
@@ -56,12 +62,19 @@ const build2: buildType = {
       Signets_of_Stars_Griseo.Red__Hot,
       Signets_of_Stars_Griseo.Yellow__Warm,
       Signets_of_Stars_Griseo.Black__Dark,
+
+
     ],
   ],
 
+
   supports: [
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
-    [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
+    [
+      AvatarImages.Azure_Empyrea_Avatar,
+      AvatarImages.Blood_Rose_Avatar,
+
+    ],
     [AvatarImages.Azure_Empyrea_Avatar, AvatarImages.Blood_Rose_Avatar],
   ],
   emblems: [
@@ -69,6 +82,7 @@ const build2: buildType = {
     [EmblemsImages.Pseudo_Miracle, EmblemsImages.An_Old_Pals_Legacy],
     [EmblemsImages.Tin_Flask, EmblemsImages.An_Old_Pals_Legacy],
   ],
+
 };
 
 export default build2;

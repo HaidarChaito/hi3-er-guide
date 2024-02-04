@@ -14,8 +14,12 @@ const build1: buildType = {
   label: 'ORA ORA ORA ORA but kicks',
   tier: 5,
   gear: [],
-  notes:
-    'Basic build for FoV, build is straightforward, swap to kick at begin of the room to activate all the signets that activates on WA and spam kick the flurry from sequence. Ult when necessary. Kicks have highest dps between punch and kicks. This build starts off really weak and becomes much stronger later on. (Yes, you are not hallucinating, they use the same build)',
+  notes: 'Basic ATK Build for FoV, this build is straightforward. Kicks have highest dps between punch and kicks. This build starts off really weak and becomes much stronger later on. (Yes, you are not allucinating, they use the same build)',
+  extra_notes: [
+    {
+      text: 'SEQUENCE: Floor Start > Swap to Kick > Spam A into Kick Flurry Sequence. Ult when necessary, then repeat.',
+    },
+  ],
   signets: [
     [
       withPriority(FenghuangofVicissitude_Ego.Blessing_of_Arcane_Traces, 'Start'),
