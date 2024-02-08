@@ -3,10 +3,6 @@ import { faqType } from '@/types/Faq';
 // Add FAQs here
 export const faqs: faqType[] = [
   {
-    question: 'Do you love cats? press here, totally legit cat pics!',
-    gif: 'xdd.mp4',
-  },
-  {
     question:
       'What does the Ranking at the top and the Stars at the bottom in the Valkyries cards mean, and what is the difference?',
     multi_lines: [
@@ -172,9 +168,5 @@ export const faqs: faqType[] = [
       'Sly: Provided feedback',
       'Anony: Provided feedback',
     ],
-  },
-  {
-    question: 'Tried all that and ER still hard ?',
-    gif: 'monkey-skill-issue.mp4',
-  },
+  }
 ];
