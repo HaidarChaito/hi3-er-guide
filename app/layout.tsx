@@ -1,6 +1,7 @@
 import HandleThemeChange from '@/components/shared/HandleThemeChange';
 import Navbar from '@/components/shared/Navbar';
 import TransitionAnimation from '@/components/shared/TransitionAnimation';
+import { Analytics } from '@vercel/analytics/react';
 import '@/public/static/styles/globals.css';
 import type { Metadata } from 'next';
 
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <TransitionAnimation>
           <div className='py-16'>{children}</div>
         </TransitionAnimation>
+        <Analytics />
       </body>
     </HandleThemeChange>
   );
