@@ -1,7 +1,6 @@
 import { valkeryType } from '@/types/Valkery';
 import Build from './Build';
 import { AnimatePresence, motion } from 'framer-motion';
-import LoadoutBuffs from './LoadoutBuffs';
 import { buildType } from '@/types/Build';
 type props = {
   selectedValk?: valkeryType;
@@ -43,7 +42,8 @@ export default function ValkModal({
           className='fixed inset-0 z-30 cursor-pointer overflow-hidden overflow-y-scroll bg-black/75  py-28 text-neutral-content  backdrop-blur-md'
         >
           <section className={`mx-auto mt-2 flex-1 flex-wrap sm:flex sm:w-3/4`}>
-            {selectedValk.loadout_buffs != undefined &&
+            {/* loadout buffs removed currently */}
+            {/* {selectedValk.loadout_buffs != undefined &&
               (selectedBuild != undefined ? (
                 <div className='flex justify-center align-middle sm:w-full md:w-fit'>
                   <LoadoutBuffs buffs={selectedValk.loadout_buffs} />
@@ -52,7 +52,7 @@ export default function ValkModal({
                 <div className='w-full'>
                   <LoadoutBuffs buffs={selectedValk.loadout_buffs} />
                 </div>
-              ))}
+              ))} */}
             {selectedValk.build.map((build, index) => {
               if (build.not_budget && isBudgetMode) return <></>;
               if (build != selectedBuild && selectedBuild != undefined) return <></>;
