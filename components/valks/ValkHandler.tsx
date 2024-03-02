@@ -9,7 +9,6 @@ import { compareValkeriesTier, useStore } from '@/helpers/functions';
 import useNonPersistentStore from '@/store/valk';
 import ValkModal from './ValkModal';
 import CardList from './CardList';
-import { patchNumber } from '@/data/patch';
 import { buildType } from '@/types/Build';
 
 export default function ValkHandler() {
