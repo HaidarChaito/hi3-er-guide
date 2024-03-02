@@ -92,9 +92,11 @@ export default function ValkHandler() {
         </label>
       </div>
       <div className='my-1 w-full text-center'>
-        Updated to patch: <span className='text-primary'>{patchNumber}</span>
+        <span className='text-primary'>Site is now out of support, Last update 7.2</span>
       </div>
-
+      <div className='my-1 w-full text-center'>
+        <span className='text-primary'>Thank you for your support Captains</span>
+      </div>
       <CardList
         brokeValks={brokeResults}
         recValks={recResults}
