@@ -22,12 +22,12 @@ export const metadata: Metadata = {
   publisher: 'HaidarChaitoMena',
   openGraph: {
     title: 'Hi3er',
-    description: 'for feedback or issues mention .syblue in Hi3 official server',
+    description: 'No longer supported with updates, builds before 7.3 still work fine',
     url: 'https://hi3er.tech',
     siteName: 'Hi3er',
     images: [
       {
-        url: 'https://images-ext-2.discordapp.net/external/fXsDf50jW_ShXu1Vf7OTbqW3jslN3ZqoTp_nijtD11o/https/cdn.discordapp.com/emojis/1134456907134926931.gif',
+        url: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemU2aGN5Y3U0djd4dnZiNGdoNjcwa202aG8xNnk2aXl4b3J2OGNsdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZH0RnfhNnqRiEZqq0b/giphy.gif',
         width: 200,
         height: 200,
       },
