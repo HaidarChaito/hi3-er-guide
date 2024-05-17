@@ -35,6 +35,7 @@ export default function ValkeryHandler() {
     >
       <div className=' mt-2 w-full flex-row  justify-center align-middle sm:flex'>
         <div className='form-control my-2 block text-center sm:mx-2 sm:my-0'>
+          <div className='text-2xl text-red-500'>WORK UNDER PROGRESS</div>
           <input
             value={query}
             onChange={handleSearch}

@@ -16,7 +16,7 @@ export default function Page({ params }: { params: { valkLabel: string } }) {
       <figure>
         <Image
           className='pt-10 opacity-5 brightness-90'
-          objectPosition='top'
+          objectFit='cover'
           fill
           src={`/static/images/valks/${valk?.image}.png`}
           alt='Shoes'
