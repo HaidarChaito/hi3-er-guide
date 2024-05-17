@@ -1,12 +1,10 @@
 import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
-import build2 from './build2';
-import build3 from './build3';
 
 const SugaryStarburst: valkeryType = {
   label: 'Sugary Starburst (Kira)',
   image: 'Sugary Starburst',
-  build: [build1, build2, build3],
+  build: build1,
   type: 2,
   tier: 4.5,
   min_rank: 4,

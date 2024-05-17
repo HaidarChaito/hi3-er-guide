@@ -4,7 +4,7 @@ import build1 from './build1';
 const StrikerFulminata: valkeryType = {
   label: 'Striker Fulminata (StFu)',
   image: 'Striker Fulminata',
-  build: [build1],
+  build: build1,
   type: 1,
   tier: 2.5,
   min_rank: 5,

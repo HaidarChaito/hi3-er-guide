@@ -4,7 +4,7 @@ import build1 from './build1';
 const GoushinnsoMemento: valkeryType = {
   label: 'Goushinnso Memento (Meme)',
   image: 'Goushinnso Memento',
-  build: [build1],
+  build: build1,
   type: 2,
   tier: 1.5,
   min_rank: 4,

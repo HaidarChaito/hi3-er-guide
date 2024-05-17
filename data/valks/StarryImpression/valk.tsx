@@ -4,7 +4,7 @@ import build1 from './build1';
 const StarryImpression: valkeryType = {
   label: 'Starry Impression (Griseo)',
   image: 'Starry Impression',
-  build: [build1],
+  build: build1,
   type: 1,
   tier: 5,
   min_rank: 5,

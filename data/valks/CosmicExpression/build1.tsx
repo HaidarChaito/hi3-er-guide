@@ -1,5 +1,8 @@
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { Signets_of_Daybreak_Kosma } from '@/data/signets/extra/extra';
+import {
+  Signets_of_Daybreak_Kosma,
+  Signets_of_Decimation_Kalpas,
+} from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
@@ -11,22 +14,22 @@ import { withPriority } from '@/helpers/functions';
 import { CosmicEmpression_Ego } from '@/data/signets/tsx/EgoAdditions';
 
 const build1: buildType = {
-  label: 'Griseo Skywalker - Jedi Build',
-  tier: 4.5,
+  label: 'Jediseo with Meteorites',
+  tier: 5,
   gear: [],
   extra_notes: [
     {
-      text: 'SEQUENCE: Start of Floor (wait for enemies to spawn) > Dodge into SEQ 4 Connect > Automatic WA (Do not use it, the Ego signet automatically does it for you) > Ult whenever its flashing > Repeat - Read notes.',
+      text: 'SEQUENCE: Start of Floor > Dodge into SEQ 4 Connect > Automatic WA (Do not press it) into Ult when it isnt on CD and is flashing > Repeat. Do not worry about Combo actually hitting, Meteorite Signet will automatically fill the meter for you. - Repeat - Read notes. This build takes the best of both worlds between Parry and Jedi standard build - being the best build available for Griseo.',
     },
   ],
 
-  notes:
-    'Ultimate Evasion connects to SEQ 4 as does parry stance, "Blessing of Kiku" from Sakura smoothens the rotation loop massively. DO NOTE - DO NOT PRESS WA, OTHERWISE YOU WILL LOSE OUT ON DPS. IT WILL SELF ACTIVATE!',
+  notes: 'DO NOTE - DO NOT PRESS WA, OTHERWISE YOU WILL LOSE OUT ON DPS. IT WILL SELF ACTIVATE!',
   signets: [
     [
       withPriority(CosmicEmpression_Ego.Blessing_of_Anchor, 'Start'),
       withPriority(CosmicEmpression_Ego.Blessing_of_Dazzle, 'Start'),
-      withPriority(CosmicEmpression_Ego.Blessing_of_Shining_Blade, 'F2 Optional'),
+      withPriority(CosmicEmpression_Ego.Blessing_of_Meteorite, 'F2 Mandatory'),
+      withPriority(CosmicEmpression_Ego.Blessing_of_Shining_Blade, 'Optional'),
     ],
 
     [
@@ -36,10 +39,9 @@ const build1: buildType = {
       Signets_of_Daybreak_Kosma.Eyes_that_Overlook_the_Vicious_Abyss,
       withPriority(Signets_of_Daybreak_Kosma.Heart_that_Committed_Seven_Crimes, 'Optional'),
       withPriority(Signets_of_Daybreak_Kosma.Daybreak_an_Undying_Light, 'CORE'),
-      Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic,
-      Signets_of_Daybreak_Kosma.Unwavering_Promise,
+      withPriority(Signets_of_Daybreak_Kosma.Undetermined_Judgement_sic, 'Optional'),
+      withPriority(Signets_of_Daybreak_Kosma.Unwavering_Promise, 'Optional'),
     ],
-
     [
       Signets_of_Helix_VillV.Act_II_Pendulum,
       Signets_of_Helix_VillV.Act_III_Conflict,
@@ -49,6 +51,7 @@ const build1: buildType = {
       Signets_of_Helix_VillV.Act_VII_HalfClosed_Door,
       Signets_of_Helix_VillV.Act_VIII_Adorned_Chamber,
     ],
+
     [
       Signets_of_Infinity_Mobius.Entwined_P,
       Signets_of_Infinity_Mobius.Lip_Poison_E,
@@ -57,6 +60,15 @@ const build1: buildType = {
       Signets_of_Infinity_Mobius.Dead_X,
     ],
 
+    [
+      Signets_of_Decimation_Kalpas.Blade_Grave_and_Scar,
+      Signets_of_Decimation_Kalpas.Bone_Blood_and_Ribbon,
+      Signets_of_Decimation_Kalpas.Path_Misfortune_and_Written_Fate,
+      Signets_of_Decimation_Kalpas.Desireless_Mindless_and_Homeless,
+      withPriority(Signets_of_Decimation_Kalpas.Fight_Struggle_and_Decimation, 'CORE'),
+      Signets_of_Decimation_Kalpas.Man_Mask_and_Contract,
+      Signets_of_Decimation_Kalpas.Burden_Difficulty_and_Calamity,
+    ],
     [
       Signets_of_Reverie_Pardofelis.Motto_of_Meow,
       Signets_of_Reverie_Pardofelis.BackCurled_Tail,

@@ -4,7 +4,7 @@ import build1 from './build1';
 const ShadowKnight: valkeryType = {
   label: 'Shadow Knight (SK)',
   image: 'Shadow Knight',
-  build: [build1],
+  build: build1,
   type: 3,
   tier: 3.5,
   min_rank: 4,

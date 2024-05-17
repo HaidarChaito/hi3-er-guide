@@ -11,25 +11,23 @@ const nunito = Nunito({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Hi3 ER guide',
-  description: 'for feedback or issues mention .syblue in Hi3 official server',
+  description: 'for feedback or issues message syblue081 on Discord',
   applicationName: 'Hi3er',
   authors: [
     { name: 'HaidarChaitoMena', url: 'https://github.com/HaidarChaitoMena' },
-    { name: 'AdoriZahar', url: 'https://github.com/AdoriZahar' },
-    { name: 'AquaHi3', url: 'https://github.com/AquaHi3' },
   ],
   creator: 'HaidarChaitoMena',
   publisher: 'HaidarChaitoMena',
   openGraph: {
     title: 'Hi3er',
-    description: 'No longer supported with updates, builds before 7.3 still work fine',
+    description: 'for feedback or issues message syblue081 on Discord, Special thanks to Kithicide.',
     url: 'https://hi3er.tech',
     siteName: 'Hi3er',
     images: [
       {
-        url: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemU2aGN5Y3U0djd4dnZiNGdoNjcwa202aG8xNnk2aXl4b3J2OGNsdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZH0RnfhNnqRiEZqq0b/giphy.gif',
-        width: 200,
-        height: 200,
+        url: 'https://images-ext-2.discordapp.net/external/fXsDf50jW_ShXu1Vf7OTbqW3jslN3ZqoTp_nijtD11o/https/cdn.discordapp.com/emojis/1134456907134926931.gif',
+        width: 100,
+        height: 100,
       },
     ],
     locale: 'en_US',

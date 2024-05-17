@@ -4,7 +4,7 @@ import build1 from './build1';
 const InfiniteOuroboros: valkeryType = {
   label: 'Infinite Ouroboros (Mobius)',
   image: 'Infinite Ouroboros',
-  build: [build1],
+  build: build1,
   type: 3,
   tier: 4.5,
   min_rank: 3,

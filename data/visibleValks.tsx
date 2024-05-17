@@ -1,4 +1,3 @@
-import { compareBuildsTier, compareValkeriesTier } from '@/helpers/functions';
 import { valkeryType } from '@/types/Valkery';
 import ArgentKnightArtemis from './valks/ArgentKnightArtemis/valk';
 import BrightKnightExcelsis from './valks/BrightKnightExcelsis/valk';
@@ -101,9 +100,6 @@ const visibleValks: valkeryType[] = [
   ValkyrieGloria,
   ValkyrieQuicksand,
   VermilionKnightEclipse,
-  
 ];
 
-visibleValks.sort(compareValkeriesTier);
-visibleValks.forEach((valk) => valk.build.sort(compareBuildsTier));
 export const valks: valkeryType[] = visibleValks;

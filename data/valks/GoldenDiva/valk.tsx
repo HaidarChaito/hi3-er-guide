@@ -4,7 +4,7 @@ import build1 from './build1';
 const GoldenDiva: valkeryType = {
   label: 'Golden Diva (GD)',
   image: 'Golden Diva',
-  build: [build1],
+  build: build1,
   type: 3,
   tier: 2.5,
   min_rank: 5,

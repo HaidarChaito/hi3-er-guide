@@ -4,7 +4,7 @@ import build1 from './build1';
 const SixthSerenade: valkeryType = {
   label: 'Sixth Serenade (6S)',
   image: 'Sixth Serenade',
-  build: [build1],
+  build: build1,
   type: 2,
   tier: 4,
   min_rank: 4,

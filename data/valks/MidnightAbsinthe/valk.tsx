@@ -4,7 +4,7 @@ import build1 from './build1';
 const MidnightAbsinthe: valkeryType = {
   label: 'Midnight Absinthe (Raven)',
   image: 'Midnight Absinthe',
-  build: [build1],
+  build: build1,
   type: 4,
   tier: 2,
   min_rank: 5,

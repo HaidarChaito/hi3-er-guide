@@ -4,7 +4,7 @@ import build1 from './build1';
 const HerrscherofReason: valkeryType = {
   label: 'Herrscher of Reason (HoR)',
   image: 'Herrscher of Reason',
-  build: [build1],
+  build: build1,
   type: 2,
   tier: 4,
   min_rank: 3,
