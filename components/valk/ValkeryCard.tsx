@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function ValkeryCard({ valk }: { valk: valkeryType }) {
   return (
     <div className='card image-full my-2 w-72 shadow-2xl backdrop-blur-lg'>
-      <figure className='bg-red-500'>
+      <figure>
         <Image
           className='rounded-2xl'
           objectPosition='top'
