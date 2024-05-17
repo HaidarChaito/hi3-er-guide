@@ -1,15 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
-export const availableThemes = [
-  'night',
-  'cupcake',
-  'dimare',
-  'sunset',
-  'forest',
-  'coffee',
-  'aftereight',
-];
+export const availableThemes = ['night', 'cupcake', 'dimare', 'forest', 'coffee', 'aftereight'];
 
 type store = {
   gamerMode?: boolean;

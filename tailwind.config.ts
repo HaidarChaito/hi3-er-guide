@@ -50,13 +50,6 @@ const config: Config = {
         },
       },
       {
-        sunset: {
-          ...require('daisyui/src/theming/themes')['sunset'],
-          'neutral-content': '#F4F4F2',
-          'base-300': '#FF865B',
-        },
-      },
-      {
         night: {
           ...require('daisyui/src/theming/themes')['night'],
           'neutral-content': '#F4F4F2',
