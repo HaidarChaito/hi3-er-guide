@@ -4,7 +4,7 @@ import build1 from './build1';
 const StygianNymph: valkeryType = {
   label: 'Stygian Nymph (SN)',
   image: 'Stygian Nymph',
-  build: build1,
+  build: [build1],
   type: 1,
   tier: 1,
   min_rank: 4,

@@ -5,7 +5,6 @@ import ValkeryHandler from '@/components/valk/ValkeryHandler';
 export default function Home() {
   return (
     <>
-      <FaqModal />
       <ValkeryHandler />
     </>
   );

@@ -4,7 +4,7 @@ import build1 from './build1';
 const BrightKnightExcelsis: valkeryType = {
   label: 'Bright Knight Excelsis (BKE)',
   image: 'Bright Knight Excelsis',
-  build: build1,
+  build: [build1],
   type: 1,
   tier: 2.5,
   loadout_buffs: [

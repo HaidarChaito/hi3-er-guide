@@ -4,7 +4,7 @@ import build1 from './build1';
 const ValkyrieGloria: valkeryType = {
   label: 'Valkyrie Gloria (VG)',
   image: 'Valkyrie Gloria',
-  build: build1,
+  build: [build1],
   type: 4,
   tier: 1,
   min_rank: 5,

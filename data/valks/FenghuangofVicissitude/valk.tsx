@@ -1,10 +1,11 @@
 import { valkeryType } from '@/types/Valkery';
 import build1 from './build1';
+import build2 from './build2';
 
 const FenghuangofVicissitude: valkeryType = {
   label: 'Fenghuang of Vicissitude (FoV)',
   image: 'Fenghuang of Vicissitude',
-  build: build1,
+  build: [build1, build2],
   type: 2,
   tier: 5,
   loadout_buffs: [

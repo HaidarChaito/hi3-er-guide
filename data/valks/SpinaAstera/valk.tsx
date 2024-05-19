@@ -4,7 +4,7 @@ import build1 from './build1';
 const SpinaAstera: valkeryType = {
   label: 'Spina Astera (SpA)',
   image: 'Spina Astera',
-  build: build1,
+  build: [build1],
   type: 4,
   tier: 2.5,
   min_rank: 3.2,

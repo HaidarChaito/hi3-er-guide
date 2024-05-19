@@ -4,7 +4,7 @@ import build1 from './build1';
 const TerminalAide0017: valkeryType = {
   label: 'Terminal Aide 0017 (Prom)',
   image: 'Terminal Aide 0017',
-  build: build1,
+  build: [build1],
   type: 1,
   tier: 5,
   min_rank: 5,

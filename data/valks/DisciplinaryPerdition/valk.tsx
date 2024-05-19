@@ -4,7 +4,7 @@ import build1 from './build1';
 const DisciplinaryPerdition: valkeryType = {
   label: 'Disciplinary Perdition (Aponia)',
   image: 'Disciplinary Perdition',
-  build: build1,
+  build: [build1],
   type: 3,
   tier: 3,
   min_rank: 3,

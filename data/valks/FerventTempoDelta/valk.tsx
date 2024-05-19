@@ -4,7 +4,7 @@ import build1 from './build1';
 const FerventTempoDelta: valkeryType = {
   label: 'Fervent Tempo Delta (FT)',
   image: 'Fervent Tempo Delta',
-  build: build1,
+  build: [build1],
   type: 1,
   tier: 4,
   min_rank: 5,

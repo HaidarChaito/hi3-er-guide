@@ -4,7 +4,7 @@ import build1 from './build1';
 const MissPinkElf: valkeryType = {
   label: 'Miss Pink Elf (MPE)',
   image: 'Miss Pink Elf',
-  build: build1,
+  build: [build1],
   type: 1,
   tier: 3,
   min_rank: 5,

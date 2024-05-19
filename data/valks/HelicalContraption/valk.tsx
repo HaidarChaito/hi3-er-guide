@@ -4,7 +4,7 @@ import build1 from './build1';
 const HelicalContraption: valkeryType = {
   label: 'Helical Contraption (VV)',
   image: 'Helical Contraption',
-  build: build1,
+  build: [build1],
   type: 4,
   tier: 4.5,
   min_rank: 3,

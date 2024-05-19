@@ -4,7 +4,7 @@ import build1 from './build1';
 const StarchasmNyx: valkeryType = {
   label: 'Starchasm Nyx (Nyx)',
   image: 'Starchasm Nyx',
-  build: build1,
+  build: [build1],
   type: 2,
   tier: 2.5,
   min_rank: 3,

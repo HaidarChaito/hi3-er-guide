@@ -4,7 +4,7 @@ import build1 from './build1';
 const JadeKnight: valkeryType = {
   label: 'Jade Knight (JK)',
   image: 'Jade Knight',
-  build: build1,
+  build: [build1],
   type: 2,
   tier: 5,
   min_rank: 3,

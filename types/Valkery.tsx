@@ -6,7 +6,7 @@ export type valkeryType = {
   image: string;
   type?: number;
   tier?: number;
-  build: buildType;
+  build: buildType[];
   loadout_buffs?: buffType[];
   min_rank?: number;
 };

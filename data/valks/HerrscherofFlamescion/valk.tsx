@@ -4,7 +4,7 @@ import build1 from './build1';
 const HerrscherofFlamescion: valkeryType = {
   label: 'Herrscher of Flamescion (HoFs)',
   image: 'Herrscher of Flamescion',
-  build: build1,
+  build: [build1],
   type: 4,
   tier: 3.5,
   min_rank: 3,

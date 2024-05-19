@@ -4,7 +4,7 @@ import build1 from './build1';
 const RitualImayoh: valkeryType = {
   label: 'Ritual Imayoh (RI)',
   image: 'Ritual Imayoh',
-  build: build1,
+  build: [build1],
   type: 1,
   tier: 2.5,
   min_rank: 5,

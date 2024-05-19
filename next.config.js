@@ -2,7 +2,23 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: '',
   images: {
-    domains: ["hi3er.tech","www.hi3er.tech","images-ext-2.discordapp.net"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'hi3er.tech',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.hi3er.tech',
+        port: '',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images-ext-2.discordapp.net',
+        port: '',
+      },
+    ],
   },
 };
 

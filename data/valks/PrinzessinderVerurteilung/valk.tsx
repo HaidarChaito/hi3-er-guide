@@ -4,7 +4,7 @@ import build1 from './build1';
 const PrinzessinderVerurteilung: valkeryType = {
   label: 'Prinzessin der Verurteilung (PV)',
   image: 'Prinzessin der Verurteilung',
-  build: build1,
+  build: [build1],
   type: 3,
   tier: 2.5,
   min_rank: 5,

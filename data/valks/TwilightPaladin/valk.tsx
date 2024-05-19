@@ -4,7 +4,7 @@ import build1 from './build1';
 const TwilightPaladin: valkeryType = {
   label: 'Twilight Paladin (TP)',
   image: 'Twilight Paladin',
-  build: build1,
+  build: [build1],
   type: 1,
   tier: 4,
   min_rank: 5,

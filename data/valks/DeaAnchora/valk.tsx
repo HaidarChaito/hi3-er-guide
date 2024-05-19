@@ -4,7 +4,7 @@ import build1 from './build1';
 const DeaAnchora: valkeryType = {
   label: 'Dea Anchora (DA)',
   image: 'Dea Anchora',
-  build: build1,
+  build: [build1],
   type: 4,
   tier: 2,
   loadout_buffs: [

@@ -4,7 +4,7 @@ import build1 from './build1';
 const ArgentKnightArtemis: valkeryType = {
   label: 'Argent Knight Artemis (AKA)',
   image: 'Argent Knight Artemis',
-  build: build1,
+  build: [build1],
   type: 2,
   tier: 3,
   loadout_buffs: [

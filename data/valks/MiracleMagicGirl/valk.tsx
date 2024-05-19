@@ -1,10 +1,11 @@
 import { valkeryType } from '@/types/Valkery';
 import build1 from './Build1';
+import build2 from './Build2';
 
 const MiracleMagicGirl: valkeryType = {
   label: 'Miracle Magic Girl (Sirin)',
   image: 'Miracle Magic Girl',
-  build: build1,
+  build: [build1, build2],
   type: 4,
   tier: 3.5,
   min_rank: 3,

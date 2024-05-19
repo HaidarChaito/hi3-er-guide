@@ -1,0 +1,107 @@
+'use client';
+import { valks } from '@/data/visibleValks';
+import Image from 'next/image';
+
+export default function Page({ params }: { params: { valkLabel: string; buildLabel: string } }) {
+  let valk;
+  let build;
+  let stages = ['Start', 'Second shop', 'Floor 16'];
+  const decodedString = decodeURIComponent(params.valkLabel);
+  for (let index = 0; index < valks.length; index++) {
+    if (valks.at(index)?.label.replaceAll(' ', '_') == decodedString) {
+      valk = valks.at(index);
+    }
+  }
+  const decodedBuildString = decodeURIComponent(params.buildLabel);
+  if (valk?.build != undefined)
+    for (let index = 0; index < valk!.build.length; index++) {
+      if (valk?.build.at(index)?.label.replaceAll(' ', '_') == decodedBuildString) {
+        build = valk.build.at(index);
+      }
+    }
+  return (
+    <div className='mx-2 mt-2'>
+      <div className='text-center text-primary'>
+        {valk?.label} | {build?.label}
+      </div>
+      <figure>
+        <Image
+          className='pt-10 opacity-5 brightness-90'
+          objectFit='cover'
+          fill
+          src={`/static/images/valks/${valk?.image}.png`}
+          alt='Shoes'
+        />
+      </figure>
+      <div className='grid gap-2 sm:grid-cols-2 md:grid-cols-3 '>
+        <div className='my-auto'>
+          {build?.notes != undefined && (
+            <div className='overflow-x-auto'>
+              <table className='table border-separate border-[1px] border-primary'>
+                <tbody>
+                  <tr className='rounded-lg bg-base-100'>
+                    <td className='rounded-lg'>{build.notes}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+        <div className='my-auto'>
+          {build?.emblems != undefined && (
+            <div className='mt-2 overflow-x-auto'>
+              <table className='table border-separate border-[1px] border-primary'>
+                <tbody>
+                  {build?.emblems?.map((emblemArr, index) => (
+                    <tr className='rounded-lg bg-base-100'>
+                      <th className='rounded-lg'>{stages.at(index)}</th>
+                      {emblemArr.map((emblem, index) => (
+                        <td className='rounded-lg'>
+                          <Image alt='Emblem' width={48} height={48} src={`/${emblem}`} />
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+        <div className='my-auto'>
+          {build?.gear != undefined && (
+            <div className='mt-2 overflow-x-auto'>
+              <table className='table border-separate border-[1px] border-primary'>
+                <tbody>
+                  {build?.gear?.map((gear, index) => (
+                    <tr className='rounded-lg bg-base-100'>
+                      <td className='rounded-lg'>{gear.gearInfo}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      </div>
+      {build?.signets != undefined && (
+        <div className='mt-2 overflow-x-auto'>
+          <table className='table border-separate border-[1px] border-primary'>
+            <tbody>
+              {build?.signets?.map((signetArr, index) => (
+                <tr>
+                  <th className='rounded-lg text-primary'>{signetArr.at(0)?.family ?? 'Ego'}</th>
+                  {signetArr.map((signet, index) => (
+                    <td className='rounded-lg'>
+                      {signet.label}
+                      {signet.priority && <div className='text-red-400'>{signet.priority}</div>}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  );
+}

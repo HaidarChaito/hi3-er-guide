@@ -4,7 +4,7 @@ import build1 from './build1';
 const LunaKindred: valkeryType = {
   label: 'Luna Kindred (LK)',
   image: 'Luna Kindred',
-  build: build1,
+  build: [build1],
   type: 1,
   tier: 1,
   min_rank: 5,
