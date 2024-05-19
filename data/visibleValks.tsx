@@ -48,9 +48,18 @@ import ValkyrieGloria from './valks/ValkyrieGloria/valk';
 import ValkyrieQuicksand from './valks/ValkyrieQuicksand/valk';
 import VermilionKnightEclipse from './valks/VermilionKnightEclipse/valk';
 import FenghuangofVicissitude from './valks/FenghuangofVicissitude/valk';
+import Thelema from './valksP2/Thelema/valk';
+import Senadina from './valksP2/Senadina/valk';
+import Helia from './valksP2/Helia/valk';
+import Coralie from './valksP2/Coralie/valk';
 
 // Add valkeries here
 const visibleValks: valkeryType[] = [
+  Thelema,
+  Senadina,
+  Helia,
+  Coralie,
+  FenghuangofVicissitude,
   ArgentKnightArtemis,
   LunarVow,
   BrightKnightExcelsis,
@@ -60,7 +69,6 @@ const visibleValks: valkeryType[] = [
   Dreamweaver,
   FallenRosemary,
   CosmicExpression,
-  FenghuangofVicissitude,
   FerventTempoDeltaValkery,
   GoldenDiva,
   GoushinnsoMemento,

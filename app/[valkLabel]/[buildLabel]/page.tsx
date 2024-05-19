@@ -24,22 +24,14 @@ export default function Page({ params }: { params: { valkLabel: string; buildLab
       <div className='text-center text-primary'>
         {valk?.label} | {build?.label}
       </div>
-      <figure>
-        <Image
-          className='pt-10 opacity-5 brightness-90'
-          objectFit='cover'
-          fill
-          src={`/static/images/valks/${valk?.image}.png`}
-          alt='Shoes'
-        />
-      </figure>
+
       <div className='grid gap-2 sm:grid-cols-2 md:grid-cols-3 '>
         <div className='my-auto'>
           {build?.notes != undefined && (
             <div className='overflow-x-auto'>
               <table className='table border-separate border-[1px] border-primary'>
                 <tbody>
-                  <tr className='rounded-lg bg-base-100'>
+                  <tr className='rounded-lg bg-base-200'>
                     <td className='rounded-lg'>{build.notes}</td>
                   </tr>
                 </tbody>
@@ -53,7 +45,7 @@ export default function Page({ params }: { params: { valkLabel: string; buildLab
               <table className='table border-separate border-[1px] border-primary'>
                 <tbody>
                   {build?.emblems?.map((emblemArr, index) => (
-                    <tr className='rounded-lg bg-base-100'>
+                    <tr className='rounded-lg bg-base-200'>
                       <th className='rounded-lg'>{stages.at(index)}</th>
                       {emblemArr.map((emblem, index) => (
                         <td className='rounded-lg'>
@@ -73,7 +65,7 @@ export default function Page({ params }: { params: { valkLabel: string; buildLab
               <table className='table border-separate border-[1px] border-primary'>
                 <tbody>
                   {build?.gear?.map((gear, index) => (
-                    <tr className='rounded-lg bg-base-100'>
+                    <tr className='rounded-lg bg-base-200'>
                       <td className='rounded-lg'>{gear.gearInfo}</td>
                     </tr>
                   ))}
@@ -89,7 +81,9 @@ export default function Page({ params }: { params: { valkLabel: string; buildLab
             <tbody>
               {build?.signets?.map((signetArr, index) => (
                 <tr>
-                  <th className='rounded-lg text-primary'>{signetArr.at(0)?.family ?? 'Ego'}</th>
+                  <th className='rounded-lg bg-base-200 text-primary'>
+                    {signetArr.at(0)?.family ?? 'Ego'}
+                  </th>
                   {signetArr.map((signet, index) => (
                     <td className='rounded-lg'>
                       {signet.label}
