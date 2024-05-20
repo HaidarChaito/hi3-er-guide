@@ -1,6 +1,51 @@
 'use client';
 import { valks } from '@/data/visibleValks';
+import type { Metadata, ResolvingMetadata } from 'next';
 import Image from 'next/image';
+
+type Props = {
+  params: { valkLabel: string; buildLabel: string };
+};
+
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  let valk;
+  const decodedString = decodeURIComponent(params.valkLabel);
+  for (let index = 0; index < valks.length; index++) {
+    if (valks.at(index)?.label.replaceAll(' ', '_') == decodedString) {
+      valk = valks.at(index);
+    }
+  }
+  return {
+    title: 'Hi3 ER guide',
+    description: 'for feedback or issues message syblue081 on Discord',
+    applicationName: 'Hi3er',
+    authors: [{ name: 'HaidarChaitoMena', url: 'https://github.com/HaidarChaitoMena' }],
+    creator: 'HaidarChaitoMena',
+    publisher: 'HaidarChaitoMena',
+    openGraph: {
+      title: 'Hi3er',
+      description:
+        'for feedback or issues message syblue081 on Discord, Special thanks to Kithicide.',
+      url: 'https://hi3er.tech',
+      siteName: 'Hi3er',
+      images: [
+        {
+          url:
+            valk?.image != undefined
+              ? `/static/images/valks/${valk?.image}.png`
+              : 'https://images-ext-2.discordapp.net/external/fXsDf50jW_ShXu1Vf7OTbqW3jslN3ZqoTp_nijtD11o/https/cdn.discordapp.com/emojis/1134456907134926931.gif',
+          width: 100,
+          height: 100,
+        },
+      ],
+      locale: 'en_US',
+      type: 'website',
+    },
+  };
+}
 
 export default function Page({ params }: { params: { valkLabel: string; buildLabel: string } }) {
   let valk;
