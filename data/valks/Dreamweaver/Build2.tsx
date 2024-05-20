@@ -7,7 +7,7 @@ import { Signets_of_Bodhi_Su } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 import { Dreamweaver_Ego } from '@/data/signets/tsx/EgoSignets';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 const build2: buildType = {
   label: 'Astral Body Build',
   tier: 5,

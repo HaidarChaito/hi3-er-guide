@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { Sugary_Starburst_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';

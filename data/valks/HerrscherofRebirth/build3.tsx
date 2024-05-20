@@ -5,7 +5,7 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Herrscher_of_Rebirth_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { buildType } from '@/types/Build';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 

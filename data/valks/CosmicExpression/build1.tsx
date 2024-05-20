@@ -7,7 +7,7 @@ import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { buildType } from '@/types/Build';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { CosmicEmpression_Ego } from '@/data/signets/tsx/EgoAdditions';
 
 const build1: buildType = {

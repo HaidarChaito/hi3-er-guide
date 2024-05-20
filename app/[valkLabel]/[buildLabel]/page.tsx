@@ -1,7 +1,7 @@
-'use client';
 import { valks } from '@/data/visibleValks';
 import type { Metadata, ResolvingMetadata } from 'next';
 import Image from 'next/image';
+import { headers } from 'next/headers';
 
 type Props = {
   params: { valkLabel: string; buildLabel: string };
@@ -11,6 +11,8 @@ export async function generateMetadata(
   { params }: Props,
   parent: ResolvingMetadata
 ): Promise<Metadata> {
+  const headersList = headers();
+  const domain = headersList.get('host') || '';
   let valk;
   const decodedString = decodeURIComponent(params.valkLabel);
   for (let index = 0; index < valks.length; index++) {
@@ -35,7 +37,7 @@ export async function generateMetadata(
         {
           url:
             valk?.image != undefined
-              ? `/static/images/valks/${valk?.image}.png`
+              ? `${domain}/_next/image?url=${valk?.image}.png&w=640&q=60`
               : 'https://images-ext-2.discordapp.net/external/fXsDf50jW_ShXu1Vf7OTbqW3jslN3ZqoTp_nijtD11o/https/cdn.discordapp.com/emojis/1134456907134926931.gif',
           width: 100,
           height: 100,

@@ -8,7 +8,7 @@ import { Signets_of_Discipline_Aponia } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { Signets_of_Deliverance_Kevin } from '@/data/signets/extra/extra';
 
 const build3: buildType = {

@@ -6,7 +6,7 @@ import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Signets_of_Vicissitude_Hua } from '@/data/signets/extra/extra';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { FenghuangofVicissitude_Ego } from '@/data/signets/tsx/EgoAdditions';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 
@@ -14,7 +14,8 @@ const build1: buildType = {
   label: 'ORA ORA ORA ORA but kicks',
   tier: 5,
   gear: [],
-  notes: 'Basic ATK Build for FoV, this build is straightforward. Kicks have highest dps between punch and kicks. This build starts off really weak and becomes much stronger later on. (Yes, you are not allucinating, they use the same build)',
+  notes:
+    'Basic ATK Build for FoV, this build is straightforward. Kicks have highest dps between punch and kicks. This build starts off really weak and becomes much stronger later on. (Yes, you are not allucinating, they use the same build)',
   extra_notes: [
     {
       text: 'SEQUENCE: Floor Start > Swap to Kick > Spam A into Kick Flurry Sequence. Ult when necessary, then repeat.',

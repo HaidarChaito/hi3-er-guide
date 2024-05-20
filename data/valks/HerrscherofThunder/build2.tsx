@@ -7,7 +7,7 @@ import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Herrscher_of_Thunder_Ego } from '@/data/signets/tsx/EgoSignets';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { buildType } from '@/types/Build';
 
 const build2: buildType = {

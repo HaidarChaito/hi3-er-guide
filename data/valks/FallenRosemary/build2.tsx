@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { buildType } from '@/types/Build';
 import FallenRosemary from './valk';
 import { Fallen_Rosemary_Ego } from '@/data/signets/tsx/EgoSignets';

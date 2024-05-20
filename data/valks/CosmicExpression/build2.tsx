@@ -7,7 +7,7 @@ import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { Signets_of_Setsuna_Sakura } from '@/data/signets/extra/extra';
 import { buildType } from '@/types/Build';
 import { CosmicEmpression_Ego } from '@/data/signets/tsx/EgoAdditions';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 
 const build2: buildType = {

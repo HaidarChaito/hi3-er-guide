@@ -2,7 +2,7 @@ import { buildType } from '@/types/Build';
 import { Signets_of_Bodhi_Su } from '@/data/signets/tsx/Signets_of_Bodhi_Su';
 import { Signets_of_Decimation_Kalpas } from '@/data/signets/tsx/Signets_of_Decimation_Kalpas';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/tsx/Signets_of_Reverie_Pardofelis';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { Signets_of_Helix_VillV } from '@/data/signets/tsx/Signets_of_Helix_VillV';
 import { Lunar_Vow_Crimson_Love_Ego } from '@/data/signets/tsx/EgoSignets';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';

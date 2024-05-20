@@ -6,7 +6,7 @@ import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { buildType } from '@/types/Build';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { Sugary_Starburst_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Gold_Eden } from '@/data/signets/extra/extra';
 const build1: buildType = {

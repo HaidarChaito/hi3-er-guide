@@ -7,7 +7,7 @@ import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Helix_VillV } from '@/data/signets/extra/extra';
 import { Herrscher_of_Finality_Ego } from '@/data/signets/tsx/EgoSignets';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 
 const build2: buildType = {
   label: 'Ult Build',

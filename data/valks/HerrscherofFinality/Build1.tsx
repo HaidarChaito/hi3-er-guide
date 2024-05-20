@@ -7,7 +7,7 @@ import { Signets_of_Reverie_Pardofelis } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
 import { buildType } from '@/types/Build';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 
 const build1: buildType = {
   label: 'Combo Build',

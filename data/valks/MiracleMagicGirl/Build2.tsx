@@ -8,7 +8,7 @@ import { Signets_of_Decimation_Kalpas } from '@/data/signets/extra/extra';
 import { MiracleMagicGirl } from '@/data/signets/tsx/EgoAdditions';
 import { Signets_of_Bodhi_Su } from '@/data/signets/extra/extra';
 import { buildType } from '@/types/Build';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 
 const build2: buildType = {
   label: 'Charged Spam Build',

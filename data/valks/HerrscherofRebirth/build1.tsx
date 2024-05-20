@@ -7,7 +7,7 @@ import { Signets_of_Vicissitude_Hua } from '@/data/signets/extra/extra';
 import { Signets_of_Stars_Griseo } from '@/data/signets/extra/extra';
 import { buildType } from '@/types/Build';
 import { Signets_of_Infinity_Mobius } from '@/data/signets/extra/extra';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 
 const build1: buildType = {
   label: 'Soothingness Build',

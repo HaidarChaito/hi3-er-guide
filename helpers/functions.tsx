@@ -16,11 +16,6 @@ export function switchColor(element?: number) {
   }
 }
 
-export function withPriority(signet: signetType, priority?: string) {
-  const cln = structuredClone(signet);
-  cln.priority = priority ?? 'Optional';
-  return cln;
-}
 export const toBase64 = (str: string) =>
   typeof window === 'undefined' ? Buffer.from(str).toString('base64') : window.btoa(str);
 
@@ -42,8 +37,6 @@ export const shimmerElement = (
     <rect id="r" width="${w}" height="${h}" fill="url(#g)" />
     <animate xlink:href="#r" attributeName="x" from="-${w}" to="${w}" dur="1s" repeatCount="indefinite" />
   </svg>`;
-
-
 
 export const useStore = <T, F>(
   store: (callback: (state: T) => unknown) => unknown,

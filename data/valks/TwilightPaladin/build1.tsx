@@ -1,6 +1,6 @@
 import { EmblemsImages } from '@/data/emblems/EmblemsImages.g';
 import { AvatarImages } from '@/data/supports/AvatarImages.g';
-import { withPriority } from '@/helpers/functions';
+import { withPriority } from '@/helpers/priority';
 import { buildType } from '@/types/Build';
 import { Violet_Executer_Ego } from '@/data/signets/tsx/EgoSignets';
 import { Signets_of_Daybreak_Kosma } from '@/data/signets/extra/extra';
