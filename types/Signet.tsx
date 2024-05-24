@@ -1,6 +1,6 @@
 export type signetType = {
   label: string;
-  description: string;
+  description?: string;
   short_description?: string;
   priority?: string;
   tier?: number;

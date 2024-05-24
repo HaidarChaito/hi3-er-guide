@@ -52,9 +52,11 @@ import Thelema from './valksP2/Thelema/valk';
 import Senadina from './valksP2/Senadina/valk';
 import Helia from './valksP2/Helia/valk';
 import Coralie from './valksP2/Coralie/valk';
+import Lantern from './valksP2/Lantern/valk';
 
 // Add valkeries here
 const visibleValks: valkeryType[] = [
+  Lantern,
   Thelema,
   Senadina,
   Helia,

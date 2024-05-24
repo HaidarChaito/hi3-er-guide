@@ -1,5 +1,30 @@
 import { signetType } from '@/types/Signet';
 
+interface Lantern_Interface {
+  Blessing_of_illuminated_night: signetType;
+  Blessing_of_scorching_flames: signetType;
+  Blessing_of_raging_fire: signetType;
+  Blessing_of_luminance: signetType;
+  Blessing_of_lazing_torch: signetType;
+}
+export const Lantern_Ego: Lantern_Interface = {
+  Blessing_of_illuminated_night: {
+    label: 'Blessing of Illuminated Night',
+  },
+  Blessing_of_scorching_flames: {
+    label: 'Blessing of Scorching Flames',
+  },
+  Blessing_of_raging_fire: {
+    label: 'Blessing of Raging Fire',
+  },
+  Blessing_of_luminance: {
+    label: 'Blessing of Luminance',
+  },
+  Blessing_of_lazing_torch: {
+    label: 'Blessing of Blazing Torch',
+  },
+};
+
 interface FenghuangofVicissitude_Interface {
   Blessing_of_Attainment: signetType;
   Blessing_of_Vermillion_Fire: signetType;

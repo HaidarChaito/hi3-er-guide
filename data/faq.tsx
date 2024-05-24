@@ -69,7 +69,10 @@ export const faqs: faqType[] = [
   {
     question: 'Images credits',
     multi_lines: [
-      'Argent Knight Artemis: https://www.pixiv.net/en/artworks/95830786',
+      'Thelema: https://www.pixiv.net/en/artworks/117934625',
+      'Lantern: https://www.pixiv.net/en/artworks/118458507',
+      'Senadina: https://www.pixiv.net/en/artworks/116491370',
+      'Coralie: https://www.pixiv.net/en/artworks/115456131',
       'Bright Knight Excelsis: https://www.pixiv.net/en/artworks/96360935',
       'Chrono Navi: https://www.pixiv.net/en/artworks/79491688',
       'Dea Anchora: https://www.pixiv.net/en/artworks/104123253',
